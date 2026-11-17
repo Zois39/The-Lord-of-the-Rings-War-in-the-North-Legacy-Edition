@@ -28,7 +28,7 @@ const ctx=vm.createContext({document:documentStub,localStorage:localStorageStub,
 const T={pass:0,fail:0};const ok=(n,c)=>{c?T.pass++:(T.fail++,console.error('FAIL:',n))};
 
 (async()=>{
- vm.runInContext(code+';globalThis.DB=DB;globalThis.build=build;globalThis.tab=tab;globalThis.render=render;',ctx);
+ vm.runInContext(code+';globalThis.DB=DB;globalThis.build=build;globalThis.tab=tab;globalThis.render=render;globalThis.computeStats=computeStats;globalThis.reqsOk=reqsOk;globalThis.findItem=findItem;',ctx);
  await new Promise(r=>setTimeout(r,200));
 
  ok('3 героя',Object.keys(ctx.DB.heroes).length===3);
@@ -56,17 +56,43 @@ const T={pass:0,fail:0};const ok=(n,c)=>{c?T.pass++:(T.fail++,console.error('FAI
  const spent=Object.values(ctx.build.skills).reduce((a,s)=>a+(s.rank||0),0);
  ok('очки посчитаны',spent===2);
 
- // снаряжение: выбор карточки
+ // снаряжение: выбор карточки -> слот mainhand
  ctx.tab.cur='gear';ctx.render();
- const card=ctx.DB.items.weapons.find(w=>!(w.type||'').includes('Bow'));
- ctx.build.gear.weapon=card.name;ctx.render();
- ok('выбор оружия',byId['content']._html.includes('sel'));
+ const card=ctx.DB.items.weapons.find(w=>!(w.type||'').match(/bow|crossbow/i));
+ ctx.build.gear.slots.mainhand=card.name;ctx.render();
+ ok('выбор оружия (sel на карточке)',byId['content']._html.includes('sel'));
+ ok('оружие в слоте mainhand',ctx.build.gear.slots.mainhand===card.name);
  ctx.tab.cur='build';ctx.render();
  ok('билд содержит оружие',byId['content']._html.includes(card.name));
 
  // типы оружия без мусора
  const types=new Set(ctx.DB.items.weapons.map(w=>w.type));
  ok('нет мусора Nothing',[...types].every(t=>!t.includes('Nothing')));
+
+ // --- слоты и характеристики ---
+ ctx.build.gear.slots.mainhand = ctx.DB.items.weapons.find(w=>!(w.type||'').match(/bow|crossbow/i)).name;
+ const st1 = ctx.computeStats();
+ ok('урон ближний появился', /\d+ – \d+/.test(st1.melee));
+ ok('броня >= 0', st1.armor >= 0);
+ ok('стрелы базовые', st1.arrows === 20);
+ const ring = ctx.DB.items.armor.find(a=>/ring/i.test(a.slot||'') && /Will/i.test(a.effect||'')) || ctx.DB.items.armor.find(a=>/ring/i.test(a.slot||''));
+ if (ring) {
+   const wil0 = st1.power;
+   ctx.build.gear.slots.ring1 = ring.name;
+   const st2 = ctx.computeStats();
+   ok('кольцо влияет (мощь/атрибуты)', st2.power !== wil0 || JSON.stringify(st2.attrs) !== JSON.stringify(st1.attrs));
+   ok('кольцо в слоте ring1', ctx.build.gear.slots.ring1 === ring.name);
+ }
+ // клик-путь: вкладка gear, выбор в слот mainhand через findItem/карточку
+ ctx.tab.cur='gear'; ctx.render();
+ ok('панель слотов рендерится', byId['side']._html.includes('Слоты'));
+ // требования: reqsOk отвечает объектом
+ const reqRes = ctx.reqsOk(ctx.DB.items.weapons[0]);
+ ok('reqsOk структура', reqRes && typeof reqRes.ok === 'boolean');
+ // стрелы с Broad Quiver
+ ctx.build.skills['Broad Quiver'] = {rank: 2};
+ ok('стрелы с колчаном', ctx.computeStats().arrows === 40);
+ ctx.build.skills['Broad Quiver'] = {rank: 0};
 
  console.log(`PASS ${T.pass} FAIL ${T.fail}`);
  process.exit(T.fail?1:0);

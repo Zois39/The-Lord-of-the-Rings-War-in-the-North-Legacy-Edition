@@ -79,6 +79,12 @@ footer{padding:10px 16px;color:var(--dim);font-size:11.5px;border-top:1px solid 
 .gear-slot{border:1px dashed var(--line);border-radius:5px;padding:6px 9px;margin:5px 0;font-size:12.5px;cursor:pointer}
 .gear-slot:hover{border-color:var(--acc)}
 .gear-slot b{color:var(--acc2)}
+.stats{margin:6px 0}
+.st-row{display:flex;justify-content:space-between;padding:3px 0;font-size:13px}
+.st-row span{color:var(--dim)}
+.st-row.hp b{color:var(--good)}.st-row.pw b{color:var(--magic)}
+.st-attrs{margin-top:6px;padding-top:6px;border-top:1px dashed var(--line);color:var(--dim);font-size:12px}
+.rq.warn{color:var(--bad)}
 </style>
 </head>
 <body>
@@ -99,7 +105,12 @@ footer{padding:10px 16px;color:var(--dim);font-size:11.5px;border-top:1px solid 
 <script>
 /* ================= МОДЕЛЬ ================= */
 const DB={heroes:{},items:{sets:[],weapons:[],armor:[],potions:[],ingredients:[],boss_loot:[],elf_stones:[],best_gear:[]}};
-const build={hero:"Eradan",level:20,attrs:{str:0,wil:0,dex:0,sta:0},skills:{},gear:{weapon:null,ranged:null,armor:{head:null,shoulders:null,body:null,gloves:null,leggings:null,boots:null,ring1:null,ring2:null}}};
+const build={hero:"Eradan",level:20,attrs:{str:0,wil:0,dex:0,sta:0},skills:{},gear:{slots:{mainhand:null,ranged:null,head:null,shoulders:null,body:null,gloves:null,legs:null,boots:null,amulet:null,ring1:null,ring2:null}}};
+const SLOTORDER=["mainhand","ranged","head","shoulders","body","gloves","legs","boots","amulet","ring1","ring2"];
+const SLOTNAMES={mainhand:"Оружие",ranged:"Дальний бой",head:"Голова",shoulders:"Плечи",body:"Тело",gloves:"Перчатки",legs:"Поножи",boots:"Сапоги",amulet:"Амулет",ring1:"Кольцо 1",ring2:"Кольцо 2"};
+const ARMORSLOTMAP={headpiece:"head",shoulders:"shoulders",body:"body",gloves:"gloves",leggings:"legs",boots:"boots",amulets:"amulet",amulet:"amulet",rings:null,ring:null};
+const COEF={hpPerSta:5,powerPerWil:2,melPerStr:2,rngPerDex:2,baseHp:100,basePower:50,baseArrows:20,arrowsPerQuiver:10};
+const ATTRKEY={strength:"str",will:"wil",dexterity:"dex",stamina:"sta"};
 const ATTRS=["str","wil","dex","sta"];
 const ATTRNAMES={str:"Strength",wil:"Will",dex:"Dexterity",sta:"Stamina"};
 const SLONAMES={head:"Голова",shoulders:"Плечи",body:"Тело",gloves:"Перчатки",leggings:"Поножи",boots:"Сапоги",ring1:"Кольцо 1",ring2:"Кольцо 2"};
@@ -115,7 +126,11 @@ async function load(){
  render();
 }
 function save(){localStorage.setItem("witn-build",JSON.stringify(build))}
-function restore(){try{const s=localStorage.getItem("witn-build");if(s)Object.assign(build,JSON.parse(s))}catch(e){}}
+function restore(){try{const s=localStorage.getItem("witn-build");if(!s)return;const d=JSON.parse(s);
+ if(d.gear&&d.gear.armor){ // миграция v1 -> v2
+  d.gear.slots={mainhand:d.gear.weapon||null,ranged:d.gear.ranged||null,head:null,shoulders:d.gear.armor.shoulders||null,body:d.gear.armor.body||null,gloves:d.gear.armor.gloves||null,legs:d.gear.armor.leggings||null,boots:d.gear.armor.boots||null,amulet:null,ring1:d.gear.armor.ring1||null,ring2:d.gear.armor.ring2||null};
+  delete d.gear.armor;delete d.gear.weapon;delete d.gear.ranged;}
+ Object.assign(build,d);}catch(e){}}
 function esc(s){return (s??"").toString().replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]))}
 const el=id=>document.getElementById(id);
 function icon(rec,glyph){
@@ -125,6 +140,63 @@ function icon(rec,glyph){
 function skillPoints(){return Object.values(build.skills).reduce((a,s)=>a+(s.rank||0),0)}
 function attrPoints(){return ATTRS.reduce((a,k)=>a+build.attrs[k],0)}
 
+
+/* ================= ХАРАКТЕРИСТИКИ ================= */
+function findItem(name){
+ if(!name)return null;
+ for(const f of["weapons","armor","best_gear","boss_loot"])
+  {const r=(DB.items[f]||[]).find(x=>x.name===name);if(r)return r;}
+ return null;}
+function parseEffects(rec){
+ const out={str:0,wil:0,dex:0,sta:0,melee:0,ranged:0,armor:0,power:0,arrows:0,elem:{},other:[]};
+ const texts=[];
+ if(rec){if(rec.effect&&rec.effect!=="-")texts.push(rec.effect);
+  if(rec.bonuses){if(Array.isArray(rec.bonuses))texts.push(...rec.bonuses);else texts.push(...Object.values(rec.bonuses));}}
+ for(const t of texts){
+  for(const m of t.matchAll(/\+(\d+)\s*(Strength|Will|Dexterity|Stamina|Willpower)/gi))
+   out[ATTRKEY[m[2].toLowerCase().replace("power","")==="wil"?"will":m[2].toLowerCase()]||ATTRKEY[m[2].toLowerCase()]]=(out[ATTRKEY[m[2].toLowerCase()]]||0)+ +m[1];
+  for(const m of t.matchAll(/\+(\d+)\s*(Fire|Ice|Shock|Poison|Light|Shadow)?\s*Damage/gi)){
+   if(m[2])out.elem[m[2].toLowerCase()]=(out.elem[m[2].toLowerCase()]||0)+ +m[1];
+   else out.melee+=+m[1];}
+  for(const m of t.matchAll(/\+(\d+)\s*Armor/gi))out.armor+=+m[1];
+  for(const m of t.matchAll(/\+(\d+)\s*Power/gi))out.power+=+m[1];
+  for(const m of t.matchAll(/\+(\d+)\s*(Health|HP)\b/gi))out.hp=(out.hp||0)+ +m[1];
+ }
+ return out;}
+function dmgRange(s){if(!s)return null;const m=String(s).match(/(\d+)\s*-\s*(\d+)/);
+ if(!m)return null;return[ +m[1],+m[2] ];}
+function computeStats(){
+ const g=build.gear.slots;
+ const eff={str:10+build.attrs.str,wil:10+build.attrs.wil,dex:10+build.attrs.dex,sta:10+build.attrs.sta};
+ const acc={melee:0,ranged:0,armor:0,power:0,arrows:0,hp:0,elem:{}};
+ for(const k of SLOTORDER){const it=findItem(g[k]);if(!it)continue;
+  const e=parseEffects(it);
+  for(const a of["str","wil","dex","sta"])eff[a]+=e[a];
+  acc.melee+=e.melee;acc.ranged+=e.ranged;acc.armor+=e.armor;acc.power+=e.power;acc.arrows+=e.arrows;acc.hp+=e.hp||0;
+  for(const el in e.elem)acc.elem[el]=(acc.elem[el]||0)+e.elem[el];
+  if(typeof it.armor==="number")acc.armor+=it.armor;}
+ const q=(build.skills["Broad Quiver"]||{}).rank||0;
+ acc.arrows+=q*COEF.arrowsPerQuiver;
+ const mw=findItem(g.mainhand),rw=findItem(g.ranged);
+ const md=mw?dmgRange(mw.damage):null,rd=rw?dmgRange(rw.damage):null;
+ return{
+  attrs:eff,
+  hp:COEF.baseHp+eff.sta*COEF.hpPerSta+acc.hp,
+  power:COEF.basePower+eff.wil*COEF.powerPerWil+acc.power,
+  melee:md?Math.round(md[0]+eff.str*COEF.melPerStr+acc.melee)+" – "+Math.round(md[1]+eff.str*COEF.melPerStr+acc.melee):"—",
+  ranged:rd?Math.round(rd[0]+eff.dex*COEF.rngPerDex+acc.ranged)+" – "+Math.round(rd[1]+eff.dex*COEF.rngPerDex+acc.ranged):"—",
+  armor:acc.armor,
+  arrows:COEF.baseArrows+acc.arrows,
+  elem:acc.elem,
+  weapon:mw?mw.name:null,rweapon:rw?rw.name:null};
+}
+function reqsOk(rec){
+ if(!rec)return true;const st=computeStats();let ok=true,msg=[];
+ if(rec.level_req&&st.attrs&&(build.level<+rec.level_req)){ok=false;msg.push("ур."+rec.level_req);}
+ const R={str_req:"str",wil_req:"wil",dex_req:"dex",sta_req:"sta"};
+ for(const k in R){if(rec[k]&&st.attrs[R[k]]<+rec[k]){ok=false;msg.push(R[k].toUpperCase()+" "+rec[k]);}}
+ return{ok,msg:msg.join(" ")};}
+
 /* ================= РЕНДЕР ================= */
 function render(){renderSide();const c=el("content");
  if(tab.cur==="skills")c.innerHTML=viewSkills();
@@ -133,9 +205,21 @@ function render(){renderSide();const c=el("content");
  else c.innerHTML=viewBuild();
  bind();}
 function renderSide(){
+ const st=computeStats();
  const himg=DB.heroes[build.hero]&&DB.heroes[build.hero].local_image;
- let h=`<h2>${build.hero} · ${DB.heroes[build.hero]?DB.heroes[build.hero].archetype:""}</h2>`;
- if(himg)h=`<img src="${esc(himg)}" style="width:54px;height:54px;object-fit:cover;border-radius:6px;border:1px solid var(--acc);display:block;margin-bottom:8px" alt="">`+h;
+ const elemLine=Object.keys(st.elem).length?`<div class="st-row"><span>Стихии</span><b>${Object.entries(st.elem).map(([k,v])=>v+" "+k).join(", ")}</b></div>`:"";
+ let h=(himg?`<img src="${esc(himg)}" style="width:54px;height:54px;object-fit:cover;border-radius:6px;border:1px solid var(--acc);display:block;margin-bottom:8px" alt="">`:"")+
+ `<h2>${build.hero} · ${DB.heroes[build.hero]?DB.heroes[build.hero].archetype:""}</h2>
+ <div class="stats">
+  <div class="st-row hp"><span>❤ Здоровье</span><b>${st.hp}</b></div>
+  <div class="st-row pw"><span>⚡ Мощь</span><b>${st.power}</b></div>
+  <div class="st-row"><span>🛡 Броня</span><b>${st.armor}</b></div>
+  <div class="st-row"><span>⚔ Урон ближний</span><b title="оружие + бонус силы">${st.melee}</b></div>
+  <div class="st-row"><span>🏹 Урон дальний</span><b title="оружие + бонус ловкости">${st.ranged}</b></div>
+  <div class="st-row"><span>➶ Стрелы</span><b>${st.arrows}</b></div>
+  ${elemLine}
+  <div class="st-attrs">СИЛ ${st.attrs.str} · ВОЛ ${st.attrs.wil} · ЛОВ ${st.attrs.dex} · ВЫН ${st.attrs.sta}</div>
+ </div><hr style="border-color:var(--line)">`;
  if(tab.cur==="skills"){
   const hero=DB.heroes[build.hero];const spent=skillPoints();
   h+=`<div class="row"><label>Очки навыков: <b class="${spent>build.level?"warn":"ok"}">${spent}</b> / ${build.level}</label></div><hr style="border-color:var(--line)">`;
@@ -144,29 +228,17 @@ function renderSide(){
   const chosen=[];hero.trees.forEach(t=>t.skills.forEach(s=>{const r=(build.skills[s.name]||{}).rank||0;if(r)chosen.push({t:t.name,...s,rank:r})}));
   if(chosen.length){h+=`<hr style="border-color:var(--line)">`+chosen.map(c=>
    `<div class="row" style="margin:3px 0"><span style="flex:1">${esc(c.name)}</span><span class="badge s">${c.rank}${c.max_rank?"/"+c.max_rank:""}</span></div>`).join("");}
- }else if(tab.cur==="gear"){
-  const g=build.gear;
-  h+=`<h2>Экипировка</h2>`;
-  if(g.weapon)h+=`<div class="gear-slot" data-un="weapon"><b>⚔</b> ${esc(g.weapon)} <span style="float:right">×</span></div>`;
-  if(g.ranged)h+=`<div class="gear-slot" data-un="ranged"><b>🏹</b> ${esc(g.ranged)} <span style="float:right">×</span></div>`;
-  for(const k of["head","shoulders","body","gloves","leggings","boots","ring1","ring2"]){
-   h+=`<div class="gear-slot" data-un="armor.${k}"><b>${SLONAMES[k]}:</b> ${g.armor[k]?esc(g.armor[k]):"<span style='color:var(--dim)'>—</span>"} ${g.armor[k]?'<span style="float:right">×</span>':""}</div>`;}
- }else if(tab.cur==="squad"){
-  h+=`<h2>Ресурсы</h2><div class="summary">`+
-   `<li>Уровень: <b>${build.level}</b></li>`+
-   `<li>Очки навыков: <b class="${skillPoints()>build.level?"warn":"ok"}">${skillPoints()} / ${build.level}</b></li>`+
-   `<li>Очки атрибутов: <b class="${attrPoints()>build.level*3?"warn":"ok"}">${attrPoints()} / ${build.level*3}</b></li></div>`;
- }else{
-  h+=`<h2>Экспорт</h2><button class="sm" id="expBtn">Скопировать JSON</button><textarea id="ioBox" placeholder="JSON билда…"></textarea>`;
+
+ }else if(tab.cur!=="build"){
+  h+=`<h2>Слоты</h2>`+SLOTORDER.map(sl=>{
+   const it=findItem(build.gear.slots[sl]);
+   return `<div class="gear-slot" data-un="${sl}"><b>${SLOTNAMES[sl]}:</b> ${it?esc(it.name):"<span style='color:var(--dim)'>—</span>"} ${it?'<span style="float:right">×</span>':""}</div>`;}).join("");
  }
  el("side").innerHTML=h;
  if(tab.cur==="build"){const e=el("expBtn");if(e)e.onclick=()=>{el("ioBox").value=JSON.stringify(build);el("ioBox").select();document.execCommand("copy")};}
 
  document.querySelectorAll("[data-un]").forEach(x=>x.onclick=()=>{
-  const p=x.dataset.un;
-  if(p==="weapon")build.gear.weapon=null;else if(p==="ranged")build.gear.ranged=null;
-  else build.gear.armor[p.split(".")[1]]=null;
-  save();render();});
+  build.gear.slots[x.dataset.un]=null;save();render();});
 }
 function viewSkills(){
  const hero=DB.heroes[build.hero];
@@ -201,12 +273,12 @@ function viewGear(){
  }
  h+=`<div class="grid">`+rows.map(r=>{
   const nm=r.set||r.name;
-  const isSel=Object.values(build.gear.armor).includes(nm)||build.gear.weapon===nm||build.gear.ranged===nm;
+  const isSel=SLOTORDER.some(s=>build.gear.slots[s]===nm);
   let main="",eff="",req="";
   if(r.damage)main=`Урон ${esc(r.damage)}`;
   else if(r.armor)main=`Броня ${esc(r.armor)}`;
   else if(r.values)main=`Норм ${esc(r.values.normal??"-")} · Сияющ ${esc(r.values.glowing??"-")} · Легенд ${esc(r.values.legendary??"-")}`;
-  else if(r.bonuses)main=`Бонусы: ${Object.keys(r.bonuses).join("/")} предм.`;
+  else if(r.bonuses)main=Array.isArray(r.bonuses)?`${r.bonuses.length} бонусов`:`Бонусы: ${Object.keys(r.bonuses).join("/")} предм.`;
   else if(r.value!==undefined&&r.value!=="")main=`Цена ${esc(r.value)}`;
   eff=(r.effect&&r.name!==r.effect?esc(r.effect):"")||r.description||(Array.isArray(r.bonuses)?r.bonuses.map(esc).join(" · "):"")||Object.values(r.bonuses||{}).join(" · ")||"";
   if(r.level_req||r.str_req||r.dex_req||r.wil_req||r.sta_req||r.reqs){
@@ -221,7 +293,7 @@ function viewGear(){
    ${r.source?`<div class="rq" title="${esc(r.source)}">${esc(r.source.slice(0,60))}${r.source.length>60?"…":""}</div>`:""}
    <div class="st">${main}</div>
    ${eff?`<div class="ef">${esc(eff)}</div>`:""}
-   ${req?`<div class="rq">${req}</div>`:""}
+   ${(()=>{const r0=reqsOk(r);return req?`<div class="rq ${r0.ok?"":"warn"}">${req}${r0.ok?"":" ⚠ "+r0.msg}</div>`:"";})()}
   </div>`}).join("")+`</div>`;
  return h;
 }
@@ -242,18 +314,27 @@ function viewSquad(){
 function viewBuild(){
  const hero=DB.heroes[build.hero];const chosen=[];
  hero.trees.forEach(t=>t.skills.forEach(s=>{const r=(build.skills[s.name]||{}).rank||0;if(r)chosen.push({t:t.name,...s,rank:r})}));
- const g=build.gear;
+ const st=computeStats();
  return `<h2>Билд: ${build.hero}, уровень ${build.level}</h2>
  <p style="color:var(--dim)">Навыки: ${skillPoints()}/${build.level} · Атрибуты: ${ATTRS.map(k=>ATTRNAMES[k]+" "+build.attrs[k]).join(", ")}</p>
+ <h2>Характеристики</h2>
+ <div class="stats">
+  <div class="st-row hp"><span>❤ Здоровье</span><b>${st.hp}</b></div>
+  <div class="st-row pw"><span>⚡ Мощь</span><b>${st.power}</b></div>
+  <div class="st-row"><span>🛡 Броня</span><b>${st.armor}</b></div>
+  <div class="st-row"><span>⚔ Ближний бой</span><b>${st.melee}</b></div>
+  <div class="st-row"><span>🏹 Дальний бой</span><b>${st.ranged}</b></div>
+  <div class="st-row"><span>➶ Стрелы</span><b>${st.arrows}</b></div>
+  <div class="st-attrs">СИЛ ${st.attrs.str} · ВОЛ ${st.attrs.wil} · ЛОВ ${st.attrs.dex} · ВЫН ${st.attrs.sta}</div>
+ </div>
  <h2>Навыки (${chosen.length})</h2>
  ${chosen.map(c=>`<div class="skill"><div class="ic">${c.type==="active"?"⚡":"◈"}</div>
   <div style="flex:1"><div class="nm">${esc(c.name)} <span class="badge">${esc(c.t)}</span>
   ${c.max_rank?`<span class="badge s">ранг ${c.rank}/${c.max_rank}</span>`:""}</div>
   <div class="ds">${esc(c.description)}</div></div></div>`).join("")||"<p style='color:var(--dim)'>Навыки не выбраны.</p>"}
  <h2>Экипировка</h2>
- ${[g.weapon&&("⚔ "+g.weapon),g.ranged&&("🏹 "+g.ranged),...Object.values(g.armor)].filter(Boolean).map(x=>`<span class="badge b">${esc(x)}</span>`).join(" ")||"<span style='color:var(--dim)'>пусто</span>"}`;
+ ${SLOTORDER.map(k=>build.gear.slots[k]&&`<span class="badge b">${SLOTNAMES[k]}: ${esc(build.gear.slots[k])}</span>`).filter(Boolean).join(" ")||"<span style='color:var(--dim)'>пусто</span>"}`;
 }
-
 /* ================= СОБЫТИЯ ================= */
 function bind(){
  document.querySelectorAll("#tabs button").forEach(x=>x.onclick=()=>{tab.cur=x.dataset.t;
@@ -273,14 +354,21 @@ function bind(){
   s2.focus();s2.setSelectionRange(s2.value.length,s2.value.length)}}
  document.querySelectorAll(".card[data-nm]").forEach(cd=>cd.onclick=()=>{
   const nm=cd.dataset.nm;
-  if(tab.eqType==="weapons"){const r=DB.items.weapons.find(x=>x.name===nm);
-   if(r&&(r.type||"").includes("Bow")||(r&&(r.type||"").includes("Crossbow"))){build.gear.ranged=build.gear.ranged===nm?null:nm;}
-   else build.gear.weapon=build.gear.weapon===nm?null:nm;}
-  else if(tab.eqType==="boss_loot"){build.gear.weapon=build.gear.weapon===nm?null:nm;}
-  else{const slots=["head","shoulders","body","gloves","leggings","boots","ring1","ring2"];
-   const used=slots.find(s=>build.gear.armor[s]===nm);
-   if(used)build.gear.armor[used]=null;
-   else{const free=slots.find(s=>!build.gear.armor[s]);if(free)build.gear.armor[free]=nm;}}
+  const rec=findItem(nm);let slot=null;
+  if(tab.eqType==="weapons"||tab.eqType==="boss_loot"){
+   slot=(rec&&(rec.type||"").match(/bow|crossbow/i))?"ranged":"mainhand";}
+  else if(tab.eqType==="armor"){
+   const s=(rec&&rec.slot||"").toLowerCase();
+   if(s==="rings"||s==="ring")slot=build.gear.slots.ring1?(build.gear.slots.ring1===nm?"ring1":"ring2"):"ring1";
+   else if(s in ARMORSLOTMAP)slot=ARMORSLOTMAP[s];}
+  else if(tab.eqType==="best_gear"){
+   const s=(rec&&rec.slot||"").toLowerCase();
+   if(/bow|crossbow/.test(s))slot="ranged";
+   else if(/one handed|sword|axe|hammer|mace|dagger/.test(s)&&!/two/.test(s))slot="mainhand";
+   else if(s in ARMORSLOTMAP)slot=ARMORSLOTMAP[s];
+   else if(s==="rings"||s==="ring")slot=build.gear.slots.ring1?(build.gear.slots.ring1===nm?"ring1":"ring2"):"ring1";}
+  if(!slot){save();render();return;}
+  build.gear.slots[slot]=build.gear.slots[slot]===nm?null:nm;
   save();render();});
  // отряд
  const hs=el("heroSel");if(hs)hs.onchange=()=>{build.hero=hs.value;save();render()};
