@@ -1,0 +1,62 @@
+[
+ {
+  "name": "Armor, Necklace",
+  "source": "Side-Quest reward",
+  "type": 461,
+  "value": "+1 Dexterity 6% Stun When Struck",
+  "effect": "-",
+  "slots": "Level 9 17 Will",
+  "reqs": "Elf",
+  "origin": ""
+ },
+ {
+  "name": "Armor, Ring",
+  "source": "Side-Quest reward",
+  "type": 299,
+  "value": "+3 Dexterity Enemy Miss Chance +1%",
+  "effect": "-",
+  "slots": "Level 9 17 Will",
+  "reqs": "Elf",
+  "origin": ""
+ },
+ {
+  "name": "Armor, Necklace",
+  "source": "Side-Quest reward",
+  "type": 841,
+  "value": "+10 Dexterity +80 Power",
+  "effect": 1,
+  "slots": "Level 23 33 Will",
+  "reqs": "Elf",
+  "origin": ""
+ },
+ {
+  "name": "Armor, Ring",
+  "source": "Side-Quest reward",
+  "type": 2712,
+  "value": "+3 Strength Enemy Miss Chance +4%",
+  "effect": "-",
+  "slots": "Level 23 33 Will",
+  "reqs": "Elf",
+  "origin": ""
+ },
+ {
+  "name": "Armor, Necklace",
+  "source": "Side-Quest reward",
+  "type": 20450,
+  "value": "+7 Strength +4 Stamina +50 Damage",
+  "effect": "-",
+  "slots": "Level 33 47 Will",
+  "reqs": "Elf",
+  "origin": ""
+ },
+ {
+  "name": "Armor, Ring",
+  "source": "Side-Quest reward",
+  "type": 16656,
+  "value": "+12 Strength Enemy Miss Chance +6%",
+  "effect": "-",
+  "slots": "Level 33 47 Will",
+  "reqs": "Elf",
+  "origin": ""
+ }
+]
