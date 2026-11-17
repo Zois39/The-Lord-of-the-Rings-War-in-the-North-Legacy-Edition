@@ -20,7 +20,7 @@ def api(params, retries=4):
 def norm(s):
     s = s.lower()
     s = re.sub(r"\.[a-z0-9]{2,5}$", "", s)          # расширение
-    s = s.replace("_", " ").replace("´", "'").replace("`", "'").replace("-", " ")
+    s = s.replace("_", " ").replace("´", "'").replace("`", "'").replace("-", " ").replace("-", " ")
     s = re.sub(r"\s+-\s+.*$", "", s)                 # суффикс перевода "- Cuchilla de..."
     s = re.sub(r"\s+", " ", s).strip()
     return s
@@ -50,6 +50,8 @@ def find_url(name):
     n2 = n.replace("'", "")
     for k, u in by_norm.items():
         if k.replace("'", "") == n2: return u
+    for k, u in by_norm.items():
+        if k.startswith(n + " ") or k == n: return u
     return None
 
 def download(url, path):
