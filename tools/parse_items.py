@@ -158,6 +158,57 @@ def parse_boss_loot():
                 out.append({k: norm_num(str(v)) for k, v in d.items()})
     return out
 
+
+def parse_elf_stones():
+    page = load("Elf_Stones.txt")
+    out = []
+    GRADES = ["normal", "glowing", "shining", "radiant", "legendary"]
+    GW = ["EFFECT", "NORMAL", "GLOWING", "SHINING", "RADIANT", "LEGENDARY", "USABILITY"]
+    for sec, body in sections3(page):
+        for t in tables(body):
+            rows = t["rows"]
+            if not rows: continue
+            hdr = rows[0]
+            if not hdr or hdr[0].upper() not in GW: continue
+            n_grades = max(1, len(hdr) - 2)      # EFFECT + USABILITY по краям
+            grades = GRADES[:n_grades]
+            for r in rows[1:]:
+                if len(r) < 2 + n_grades + 1: continue
+                name, effect = r[0], r[1]
+                vals = [norm_num(x.replace("+", "")) for x in r[2:2 + n_grades]]
+                use = r[2 + n_grades]
+                if not any(v not in ("", "-") for v in vals): continue
+                out.append({"group": sec, "name": name, "effect": effect,
+                            "values": dict(zip(grades, vals)), "usability": use})
+    return out
+
+def sections3(text):
+    parts = re.split(r"\n===\s*([^=]+?)\s*===\s*\n", text)
+    out = []
+    for i in range(1, len(parts) - 1, 2):
+        out.append((clean(parts[i]), parts[i + 1]))
+    return out
+
+def parse_quest_rewards():
+    page = load("Side-Quests.txt")
+    out = []
+    for t in tables(page):
+        hdrs = list(t["headers"])
+        if not hdrs: continue
+        joined = " ".join(hdrs).lower()
+        if "damage" not in joined and "armor" not in joined and "effects" not in joined: continue
+        if "name" not in hdrs[0].lower(): hdrs = ["Name"] + hdrs
+        for d in rows_to_dicts(hdrs, t["rows"]):
+            item = {"name": clean(str(d.get("name", ""))), "source": "Side-Quest reward"}
+            for k, v in d.items():
+                if k == "name": continue
+                item[MAPW.get(k, MAPE.get(k, k))] = norm_num(str(v))
+            if item["name"]: out.append(item)
+    return out
+
+elf = parse_elf_stones()
+qr  = parse_quest_rewards()
+
 weapons = parse_weapons("Weapons.txt") + parse_weapons("Ranged_Weapons.txt")
 armor   = parse_equipment()
 sets    = parse_sets()
@@ -166,6 +217,6 @@ loot    = parse_boss_loot()
 
 for fn, data in [("weapons.json", weapons), ("armor.json", armor), ("sets.json", sets),
                  ("potions.json", potions), ("ingredients.json", ingredients),
-                 ("boss_loot.json", loot)]:
+                 ("boss_loot.json", loot), ("elf_stones.json", elf), ("quest_rewards.json", qr)]:
     json.dump(data, open(os.path.join(OUT, fn), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(fn + ":", len(data), "records")

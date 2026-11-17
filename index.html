@@ -98,7 +98,7 @@ footer{padding:10px 16px;color:var(--dim);font-size:11.5px;border-top:1px solid 
 <footer>Некоммерческий фанатский инструмент. Данные: <a href="https://witn.fandom.com" style="color:var(--acc2)">WitN Wiki</a> (CC BY-SA 3.0) · Код: MIT · Поддержка разработки: добровольные донаты (см. LICENSE)</footer>
 <script>
 /* ================= МОДЕЛЬ ================= */
-const DB={heroes:{},items:{sets:[],weapons:[],armor:[],potions:[],ingredients:[],boss_loot:[]}};
+const DB={heroes:{},items:{sets:[],weapons:[],armor:[],potions:[],ingredients:[],boss_loot:[],elf_stones:[]}};
 const build={hero:"Eradan",level:20,attrs:{str:0,wil:0,dex:0,sta:0},skills:{},gear:{weapon:null,ranged:null,armor:{head:null,shoulders:null,body:null,gloves:null,leggings:null,boots:null,ring1:null,ring2:null}}};
 const ATTRS=["str","wil","dex","sta"];
 const ATTRNAMES={str:"Strength",wil:"Will",dex:"Dexterity",sta:"Stamina"};
@@ -109,7 +109,7 @@ async function load(){
  for(const h of["eradan","andriel","farin"]){
   DB.heroes[h[0].toUpperCase()+h.slice(1)]=await(await fetch("data/raw/skills/"+h+".json")).json();
  }
- for(const f of["sets","weapons","armor","potions","ingredients","boss_loot"]){
+ for(const f of["sets","weapons","armor","potions","ingredients","boss_loot","elf_stones"]){
   try{DB.items[f]=await(await(fetch("data/raw/items/"+f+".json"))).json()}catch(e){DB.items[f]=[]}
  }
  render();
@@ -182,7 +182,7 @@ function viewSkills(){
  </div>`).join("");
 }
 function viewGear(){
- const types=[["weapons","Оружие"],["armor","Броня"],["sets","Сеты"],["potions","Зелья"],["ingredients","Ингредиенты"],["boss_loot","Лут боссов"]];
+ const types=[["weapons","Оружие"],["armor","Броня"],["sets","Сеты"],["potions","Зелья"],["ingredients","Ингредиенты"],["boss_loot","Лут боссов"],["elf_stones","Камни"]];
  let h=`<h2>Снаряжение</h2><div class="filters">`+
   types.map(([k,n])=>`<button class="chip ${tab.eqType===k?"on":""}" data-tp="${k}">${n}</button>`).join("")+
   `<input type="text" id="search" placeholder="Поиск…" value="${esc(tab.q)}"></div>`;
@@ -202,9 +202,10 @@ function viewGear(){
   let main="",eff="",req="";
   if(r.damage)main=`Урон ${esc(r.damage)}`;
   else if(r.armor)main=`Броня ${esc(r.armor)}`;
+  else if(r.values)main=`Норм ${esc(r.values.normal??"-")} · Сияющ ${esc(r.values.glowing??"-")} · Легенд ${esc(r.values.legendary??"-")}`;
   else if(r.bonuses)main=`Бонусы: ${Object.keys(r.bonuses).join("/")} предм.`;
   else if(r.value!==undefined&&r.value!=="")main=`Цена ${esc(r.value)}`;
-  eff=r.effect||r.description||Object.values(r.bonuses||{}).join(" · ")||"";
+  eff=(r.effect&&r.name!==r.effect?esc(r.effect):"")||r.description||Object.values(r.bonuses||{}).join(" · ")||"";
   if(r.level_req||r.str_req||r.dex_req||r.wil_req||r.sta_req||r.reqs){
    const rs=[];if(r.level_req)rs.push("ур."+r.level_req);
    if(r.str_req)rs.push("СИЛ "+r.str_req);if(r.wil_req)rs.push("ВОЛ "+r.wil_req);
@@ -213,7 +214,7 @@ function viewGear(){
   }
   return `<div class="card ${isSel?"sel":""}" data-nm="${esc(nm)}">
    <div class="top">${icon(r,"🛡")}<div><div class="nm">${esc(nm)}</div>
-   <div class="tp">${esc(r.type||r.slot||r.quality||(r.boss?("Лут: "+r.boss):""))}</div></div></div>
+   <div class="tp">${esc(r.type||r.slot||r.quality||r.group||(r.boss?("Лут: "+r.boss):""))}</div></div></div>
    <div class="st">${main}</div>
    ${eff?`<div class="ef">${esc(eff)}</div>`:""}
    ${req?`<div class="rq">${req}</div>`:""}

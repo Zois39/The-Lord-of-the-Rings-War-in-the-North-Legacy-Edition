@@ -1327,8 +1327,7 @@
   "effect": "+6 Strength + 5 Will + 7 Dexterity + 5 Stamina",
   "slots": "",
   "reqs": "",
-  "origin": "",
-  "local_image": "assets/images/armor/Last_Alliance_Ring.png"
+  "origin": ""
  },
  {
   "name": "Lindon Archer's Ring",
@@ -1478,8 +1477,7 @@
   "effect": "+5 Dexterity Reduced Damage +7 Skill Cooldown Reduction 26%",
   "slots": "",
   "reqs": "",
-  "origin": "",
-  "local_image": "assets/images/armor/Second_Age_Ring.png"
+  "origin": ""
  },
  {
   "name": "Sunlight Ring",

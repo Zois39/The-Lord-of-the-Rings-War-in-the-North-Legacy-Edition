@@ -1,0 +1,376 @@
+[
+ {
+  "group": "Primary Character Attributes",
+  "name": "STRENGTH",
+  "effect": "Str",
+  "values": {
+   "normal": 5,
+   "glowing": 8,
+   "shining": 11,
+   "radiant": 16,
+   "legendary": 22
+  },
+  "usability": "All"
+ },
+ {
+  "group": "Primary Character Attributes",
+  "name": "DEXTERITY",
+  "effect": "Dex",
+  "values": {
+   "normal": 5,
+   "glowing": 8,
+   "shining": 11,
+   "radiant": 16,
+   "legendary": 22
+  },
+  "usability": "All"
+ },
+ {
+  "group": "Primary Character Attributes",
+  "name": "WILL",
+  "effect": "Wil",
+  "values": {
+   "normal": 5,
+   "glowing": 8,
+   "shining": 11,
+   "radiant": 16,
+   "legendary": 22
+  },
+  "usability": "All"
+ },
+ {
+  "group": "Primary Character Attributes",
+  "name": "STAMINA",
+  "effect": "Sta",
+  "values": {
+   "normal": 5,
+   "glowing": 8,
+   "shining": 11,
+   "radiant": 16,
+   "legendary": 22
+  },
+  "usability": "All"
+ },
+ {
+  "group": "Class Statistics",
+  "name": "CHAMPION",
+  "effect": "Wil/Dex/Dmg",
+  "values": {
+   "normal": "5/5/30",
+   "glowing": "8/8/60",
+   "shining": "11/11/100",
+   "radiant": "16/16/140",
+   "legendary": "22/22/200"
+  },
+  "usability": "All"
+ },
+ {
+  "group": "Class Statistics",
+  "name": "RANGER",
+  "effect": "Str/Dex",
+  "values": {
+   "normal": "5/5",
+   "glowing": "8/8",
+   "shining": "11/11",
+   "radiant": "16/16",
+   "legendary": "22/22"
+  },
+  "usability": "All"
+ },
+ {
+  "group": "Elemental Effects",
+  "name": "FROST",
+  "effect": "Ice Dmg",
+  "values": {
+   "normal": 5,
+   "glowing": 10,
+   "shining": 20,
+   "radiant": 40,
+   "legendary": 60
+  },
+  "usability": "Melee"
+ },
+ {
+  "group": "Elemental Effects",
+  "name": "SHOCK",
+  "effect": "Shock Dmg",
+  "values": {
+   "normal": 15,
+   "glowing": 35,
+   "shining": 70,
+   "radiant": 100,
+   "legendary": 130
+  },
+  "usability": "Melee"
+ },
+ {
+  "group": "Elemental Effects",
+  "name": "FIRE",
+  "effect": "Fire Dmg",
+  "values": {
+   "normal": 15,
+   "glowing": 40,
+   "shining": 75,
+   "radiant": 100,
+   "legendary": 140
+  },
+  "usability": "Melee"
+ },
+ {
+  "group": "Creature Bane Effects",
+  "name": "ORC",
+  "effect": "Damage vs. Orc",
+  "values": {
+   "normal": "1.5x"
+  },
+  "usability": "Weapon"
+ },
+ {
+  "group": "Creature Bane Effects",
+  "name": "TROLL",
+  "effect": "Damage vs. Troll",
+  "values": {
+   "normal": "1.6x"
+  },
+  "usability": "Weapon"
+ },
+ {
+  "group": "Creature Bane Effects",
+  "name": "SPIDER",
+  "effect": "Damage vs. Spider",
+  "values": {
+   "normal": "1.5x"
+  },
+  "usability": "Weapon"
+ },
+ {
+  "group": "Creature Bane Effects",
+  "name": "UNDEAD",
+  "effect": "Damage vs. Undead",
+  "values": {
+   "normal": "1.5x"
+  },
+  "usability": "Weapon"
+ },
+ {
+  "group": "Combat Effects",
+  "name": "STUNNING BLOWS",
+  "effect": "Weapon skills cause Stun",
+  "values": {
+   "normal": "100%",
+   "glowing": "-",
+   "shining": "-",
+   "radiant": "-",
+   "legendary": "-"
+  },
+  "usability": "Weapon"
+ },
+ {
+  "group": "Combat Effects",
+  "name": "CRIPPLING BLOWS",
+  "effect": "Weapon skills cause Slow",
+  "values": {
+   "normal": "100%",
+   "glowing": "-",
+   "shining": "-",
+   "radiant": "-",
+   "legendary": "-"
+  },
+  "usability": "Weapon"
+ },
+ {
+  "group": "Combat Effects",
+  "name": "HEROISM",
+  "effect": "Crit Dmg",
+  "values": {
+   "normal": 75,
+   "glowing": 150,
+   "shining": 230,
+   "radiant": 350,
+   "legendary": 450
+  },
+  "usability": "Weapon"
+ },
+ {
+  "group": "Secondary Statistics and Effects",
+  "name": "PROTECTION",
+  "effect": "Armor",
+  "values": {
+   "normal": 35,
+   "glowing": 65,
+   "shining": 110,
+   "radiant": 160,
+   "legendary": 210
+  },
+  "usability": "All"
+ },
+ {
+  "group": "Secondary Statistics and Effects",
+  "name": "LIFE",
+  "effect": "Health",
+  "values": {
+   "normal": 55,
+   "glowing": 85,
+   "shining": 110,
+   "radiant": 170,
+   "legendary": 210
+  },
+  "usability": "All"
+ },
+ {
+  "group": "Secondary Statistics and Effects",
+  "name": "DURABILITY",
+  "effect": "Red. Wear",
+  "values": {
+   "normal": "300%",
+   "glowing": "-",
+   "shining": "-",
+   "radiant": "-",
+   "legendary": "-"
+  },
+  "usability": "All"
+ },
+ {
+  "group": "Secondary Statistics and Effects",
+  "name": "PERMANENCE",
+  "effect": "Red. Wear",
+  "values": {
+   "normal": "1000%",
+   "glowing": "-",
+   "shining": "-",
+   "radiant": "-",
+   "legendary": "-"
+  },
+  "usability": "All"
+ },
+ {
+  "group": "Secondary Statistics and Effects",
+  "name": "DEFENDER'S",
+  "effect": "Health/Armor",
+  "values": {
+   "normal": "55/55",
+   "glowing": "85/85",
+   "shining": "110/110",
+   "radiant": "170/160",
+   "legendary": "210/210"
+  },
+  "usability": "Weapon"
+ },
+ {
+  "group": "Secondary Statistics and Effects",
+  "name": "WARRIOR'S",
+  "effect": "Health/Dmg",
+  "values": {
+   "normal": "55/30",
+   "glowing": "85/60",
+   "shining": "110/100",
+   "radiant": "170/140",
+   "legendary": "210/200"
+  },
+  "usability": "Weapon"
+ },
+ {
+  "group": "Secondary Statistics and Effects",
+  "name": "HEALTH CLAIMING",
+  "effect": "Chance of Health Orb",
+  "values": {
+   "normal": "10%",
+   "glowing": "-",
+   "shining": "-",
+   "radiant": "-",
+   "legendary": "-"
+  },
+  "usability": "Weapon"
+ },
+ {
+  "group": "Secondary Statistics and Effects",
+  "name": "POWER CLAIMING",
+  "effect": "Chance of Power Orb",
+  "values": {
+   "normal": "10%",
+   "glowing": "-",
+   "shining": "-",
+   "radiant": "-",
+   "legendary": "-"
+  },
+  "usability": "Weapon"
+ },
+ {
+  "group": "Secondary Statistics and Effects",
+  "name": "RECOVERY",
+  "effect": "Health Regen",
+  "values": {
+   "normal": "5%",
+   "glowing": "7%",
+   "shining": "10%",
+   "radiant": "13%",
+   "legendary": "15%"
+  },
+  "usability": "All"
+ },
+ {
+  "group": "Secondary Statistics and Effects",
+  "name": "RESTORATION",
+  "effect": "Power Regen",
+  "values": {
+   "normal": "6%",
+   "glowing": "9%",
+   "shining": "12%",
+   "radiant": "15%",
+   "legendary": "17%"
+  },
+  "usability": "All"
+ },
+ {
+  "group": "Secondary Statistics and Effects",
+  "name": "REFRESHING",
+  "effect": "Skill Cooldown Reduction",
+  "values": {
+   "normal": "30%",
+   "glowing": "-",
+   "shining": "-",
+   "radiant": "-",
+   "legendary": "-"
+  },
+  "usability": "All"
+ },
+ {
+  "group": "Secondary Statistics and Effects",
+  "name": "LEARNING",
+  "effect": "Bonus Experience",
+  "values": {
+   "normal": "10%",
+   "glowing": "-",
+   "shining": "-",
+   "radiant": "-",
+   "legendary": "-"
+  },
+  "usability": "All"
+ },
+ {
+  "group": "Secondary Statistics and Effects",
+  "name": "CONGENIALITY",
+  "effect": "Reduced Store Prices",
+  "values": {
+   "normal": "10%",
+   "glowing": "-",
+   "shining": "-",
+   "radiant": "-",
+   "legendary": "-"
+  },
+  "usability": "All"
+ },
+ {
+  "group": "Secondary Statistics and Effects",
+  "name": "FORTUNE",
+  "effect": "Find More Coins",
+  "values": {
+   "normal": "x2",
+   "glowing": "x3",
+   "shining": "x4",
+   "radiant": "x5",
+   "legendary": "x6"
+  },
+  "usability": "All"
+ }
+]
