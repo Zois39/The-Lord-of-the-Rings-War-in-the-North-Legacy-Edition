@@ -1,0 +1,27 @@
+# Секреты и ключи — НИКОГДА не коммитить
+*.token
+*.pem
+.env
+.env.*
+secrets/
+# GitHub Actions локальные артефакты
+workflow_runs/
+# ОС и редакторы
+.DS_Store
+Thumbs.db
+*.swp
+*~
+.vscode/
+.idea/
+# Python
+__pycache__/
+*.pyc
+.venv/
+# Node (харнесс тестов)
+node_modules/
+# Сборочные артефакты
+dist/
+*.log
+# Временное
+tmp/
+*.tmp
