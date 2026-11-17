@@ -8,7 +8,8 @@
    "+135 Damage"
   ],
   "slots": 2,
-  "mithril": "Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and (8) with 2 free slots."
+  "mithril": "Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and (8) with 2 free slots.",
+  "local_image": "assets/images/best/Northwarden_s_Amulet.png"
  },
  {
   "name": "Dwarfmade trinket",
@@ -24,7 +25,8 @@
   "value": 55,
   "slots": 2,
   "mithril": "Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and 8 with 2 free slots.",
-  "source": "Found in a standard chest in Fornost, on Normal difficulty. I only found one, and it was random; I couldn't say exactly which chest it was yet. I'll update this later."
+  "source": "Found in a standard chest in Fornost, on Normal difficulty. I only found one, and it was random; I couldn't say exactly which chest it was yet. I'll update this later.",
+  "local_image": "assets/images/best/Seer_s_Talisman.png"
  },
  {
   "name": "Imladris Signet",
@@ -34,7 +36,8 @@
    "+5 Stamina"
   ],
   "slots": 2,
-  "mithril": "Obtainable as a reward from Elrond in the mission \"Cult of the Lidless Eye\" on Easy and Normal modes (though I can only personally confirm getting it on Normal). It is the only ring in the game with two slots. Please ignore the Mithril upgrades; I've already added them."
+  "mithril": "Obtainable as a reward from Elrond in the mission \"Cult of the Lidless Eye\" on Easy and Normal modes (though I can only personally confirm getting it on Normal). It is the only ring in the game with two slots. Please ignore the Mithril upgrades; I've already added them.",
+  "local_image": "assets/images/best/Imladris_Signet.png"
  },
  {
   "name": "Dwarf-Smith's Ring",
@@ -46,7 +49,8 @@
    "+80 Damage"
   ],
   "mithril": "Mithrill Upgrades: 8 total.",
-  "source": "Obtainable as a reward from Buri in the mission \"A Gem No Mine Can Yield,\" only in Legendary mode."
+  "source": "Obtainable as a reward from Buri in the mission \"A Gem No Mine Can Yield,\" only in Legendary mode.",
+  "local_image": "assets/images/best/Dwarf-Smith_s_Ring.png"
  },
  {
   "name": "Combatant´s ring",
@@ -70,7 +74,8 @@
    "26% Skill Cooldown Reduction"
   ],
   "mithril": "Mithrill Upgrades: 8 total.",
-  "source": "Obtainable as a reward from Elrond in the mission \"Cult of the Lidless Eye\" on Legendary mode."
+  "source": "Obtainable as a reward from Elrond in the mission \"Cult of the Lidless Eye\" on Legendary mode.",
+  "local_image": "assets/images/best/Second_Age_Ring.png"
  },
  {
   "name": "Moonlight Band",
@@ -81,7 +86,8 @@
    "7% Bonus XP"
   ],
   "mithril": "Mithrill Upgrades: 8 total.",
-  "source": "Obtainable as a reward from Elrond in the mission \"Cult of the Lidless Eye\" on Heroic mode. It only serves to accumulate experience faster—nothing fancy."
+  "source": "Obtainable as a reward from Elrond in the mission \"Cult of the Lidless Eye\" on Heroic mode. It only serves to accumulate experience faster—nothing fancy.",
+  "local_image": "assets/images/best/Moonlight_Band.png"
  },
  {
   "name": "Last Alliance Ring",
@@ -93,7 +99,8 @@
    "+5 Stamina"
   ],
   "mithril": "Mithrill Upgrades: 8 total.",
-  "source": "Obtainable as a reward from Elrond in the mission \"Cult of the Lidless Eye\" on Legendary mode."
+  "source": "Obtainable as a reward from Elrond in the mission \"Cult of the Lidless Eye\" on Legendary mode.",
+  "local_image": "assets/images/best/Last_Alliance_Ring.png"
  },
  {
   "name": "Truesilver Broadsword",
@@ -141,7 +148,8 @@
   ],
   "source": "Obtained as a reward for flattering the dragon Urgost during Bilbo's \"The Chronicler\" quest in Imladris. Only on Legendary mode.",
   "slots": 1,
-  "mithril": "Mithrill Upgrades: (7) w /1 slot covered and 8 with 1 free slots."
+  "mithril": "Mithrill Upgrades: (7) w /1 slot covered and 8 with 1 free slots.",
+  "local_image": "assets/images/best/Moria-silver_Hammer.png"
  },
  {
   "name": "Redwater Shield",
@@ -305,7 +313,8 @@
   "value": 10848,
   "slots": 2,
   "mithril": "Mithrill Upgrades: (6) w/2 slot covered, (7) w/1 slot covered and 8 with 2 free slots.",
-  "source": "Obtainable as a random drop during the Nordinbad Siege map. It can be found via the following sources: standard chests located on both sides of the Nordinbad gate; drops from Ologs during the fourth wave of enemies; and drops from the Beornid commander during the fifth and final wave. I haven't veri"
+  "source": "Obtainable as a random drop during the Nordinbad Siege map. It can be found via the following sources: standard chests located on both sides of the Nordinbad gate; drops from Ologs during the fourth wave of enemies; and drops from the Beornid commander during the fifth and final wave. I haven't veri",
+  "local_image": "assets/images/best/Carnen_Gauntlets.png"
  },
  {
   "name": "Lorien Vambraces",
@@ -313,7 +322,8 @@
   "value": 1068,
   "slots": 2,
   "mithril": "Mithrill Upgrades: (6) w/2 slot covered, (7) w/1 slot covered and 8 with 2 free slots.",
-  "source": "Obtainable as a random drop from guild chests on the Barrow-downs map, as an item at the Sarn Ford and Rivendell vendors, and as a random drop in the first section of the Ettenmoors map. Only on Heroic Mode."
+  "source": "Obtainable as a random drop from guild chests on the Barrow-downs map, as an item at the Sarn Ford and Rivendell vendors, and as a random drop in the first section of the Ettenmoors map. Only on Heroic Mode.",
+  "local_image": "assets/images/best/Lorien_Vambraces.png"
  },
  {
   "name": "Stalker´s Gauntlets",
@@ -321,7 +331,8 @@
   "value": 4491,
   "slots": 2,
   "mithril": "Mithrill Upgrades: (6) w/2 slot covered, (7) w/1 slot covered and 8 with 2 free slots.",
-  "source": "Obtainable as a random drop in the Ettenmoors, Gundabad, and Mirkwood maps—from mobs, standard chests, and guild chests, as well as from Saenathra. Only in Heroic (low probability) and Legendary mode."
+  "source": "Obtainable as a random drop in the Ettenmoors, Gundabad, and Mirkwood maps—from mobs, standard chests, and guild chests, as well as from Saenathra. Only in Heroic (low probability) and Legendary mode.",
+  "local_image": "assets/images/best/Stalker_s_Gauntlets.png"
  },
  {
   "name": "Moria Silver Vambraces",
@@ -350,7 +361,8 @@
   "value": 9028,
   "slots": 2,
   "mithril": "Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and 8 with 2 free slots.",
-  "source": "Random loot on the Barrow Downs map (drops from the Barrow-wight boss, level-specific wights, urns, regular and guild chests, and other mobs). Only on Heroic and Legendary Mode."
+  "source": "Random loot on the Barrow Downs map (drops from the Barrow-wight boss, level-specific wights, urns, regular and guild chests, and other mobs). Only on Heroic and Legendary Mode.",
+  "local_image": "assets/images/best/Eastfold_Leggings.png"
  },
  {
   "name": "Polished Moria silver legs",
@@ -360,7 +372,8 @@
    "+17 Desterity"
   ],
   "mithril": "Mithrill Upgrades: 8 total.",
-  "source": "Random loot from the Fire-hammer Troll, and Agandaur on Carn-dûm finale. Only on Legendary Mode."
+  "source": "Random loot from the Fire-hammer Troll, and Agandaur on Carn-dûm finale. Only on Legendary Mode.",
+  "local_image": "assets/images/best/Polished_Moria_silver_legs.png"
  },
  {
   "name": "Neldoreth Leg Guards -",
@@ -378,7 +391,8 @@
   "value": 69423,
   "slots": 2,
   "mithril": "Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and 8 with 2 free slots.",
-  "source": "Random loot in the Ettermoors, Gundabad, and Urgost's Lair maps. Found in standard and guild chests, as well as on in-game mobs. Also in Shops as random item. Only on Legendary Mode."
+  "source": "Random loot in the Ettermoors, Gundabad, and Urgost's Lair maps. Found in standard and guild chests, as well as on in-game mobs. Also in Shops as random item. Only on Legendary Mode.",
+  "local_image": "assets/images/best/Lebennin_Greaves.png"
  },
  {
   "name": "Commander´s Greaves",
@@ -386,7 +400,8 @@
   "value": 8137,
   "slots": 2,
   "mithril": "Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and 8 with 2 free slots.",
-  "source": "Random loot in the Fornost, Ettermors, and Gundabad maps. Found in standard and guild chests, as well as on in-game mobs. Also in Shops as random item. Only on Heroic and Legendary Mode."
+  "source": "Random loot in the Fornost, Ettermors, and Gundabad maps. Found in standard and guild chests, as well as on in-game mobs. Also in Shops as random item. Only on Heroic and Legendary Mode.",
+  "local_image": "assets/images/best/Commander_s_Greaves.png"
  },
  {
   "name": "Ithilien Boots",
@@ -396,6 +411,7 @@
    "+9 Strenght"
   ],
   "mithril": "Mithrill Upgrades: 8 total.",
-  "source": "Random loot in the Carn-dûm map (drops from level Ologs, Fire-hammer Troll, and Agandaur). Only on Legendary Mode."
+  "source": "Random loot in the Carn-dûm map (drops from level Ologs, Fire-hammer Troll, and Agandaur). Only on Legendary Mode.",
+  "local_image": "assets/images/best/Ithilien_Boots.png"
  }
 ]
