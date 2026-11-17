@@ -83,8 +83,9 @@ def parse_weapons(fname):
             if not hdrs or "damage" not in " ".join(hdrs).lower(): continue
             if "name" not in hdrs[0].lower():
                 hdrs = ["Name"] + hdrs
+            sec_clean = re.sub(r"Nothing\s*$", "", sec).strip() or sec
             for d in rows_to_dicts(hdrs, t["rows"]):
-                item = {"name": clean(str(d.get("name", ""))), "type": sec}
+                item = {"name": clean(str(d.get("name", ""))), "type": sec_clean}
                 for k, v in d.items():
                     if k == "name": continue
                     item[MAPW.get(k, k)] = norm_num(str(v))

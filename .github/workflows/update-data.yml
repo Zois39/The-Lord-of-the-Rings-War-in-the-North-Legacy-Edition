@@ -15,11 +15,15 @@ jobs:
           python-version: "3.12"
       - name: Fetch wiki content
         run: python tools/fetch_wiki.py
+      - name: Parse data
+        run: python tools/parse_items.py
+      - name: Fetch images
+        run: python tools/fetch_images.py
       - name: Commit data
         run: |
           git config user.name "witn-data-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/wikitext data/sources.json
+          git add -A
           if git diff --cached --quiet; then
             echo "no changes"
           else

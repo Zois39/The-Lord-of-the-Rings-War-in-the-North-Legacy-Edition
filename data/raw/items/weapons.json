@@ -1,7 +1,7 @@
 [
  {
   "name": "Angmir's Longschlong",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 86542,
   "damage": "683-731",
   "effect": "+7 Will +110 Power Reduced Wear 300% +21 Ice Damage",
@@ -13,7 +13,7 @@
  },
  {
   "name": "Artillerist's Scimitar",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 7454,
   "damage": "423-529",
   "effect": "+60 Shock Damage",
@@ -25,7 +25,7 @@
  },
  {
   "name": "Buri's Longsword",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 80439,
   "damage": "669-729",
   "effect": "-",
@@ -37,7 +37,7 @@
  },
  {
   "name": "Caras Edhel Sabre",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 133544,
   "damage": "593-635",
   "effect": "+7 Will",
@@ -49,7 +49,7 @@
  },
  {
   "name": "Eleran's Broadsword",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 20042,
   "damage": "557-646",
   "effect": "+65 Armor Reduced Damage +4",
@@ -61,7 +61,7 @@
  },
  {
   "name": "Elf-smith's Sword",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 426,
   "damage": "108-138",
   "effect": "-",
@@ -73,7 +73,7 @@
  },
  {
   "name": "Emyn Arnen Sabre",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 1259,
   "damage": "244-293",
   "effect": "+4 Will",
@@ -85,7 +85,7 @@
  },
  {
   "name": "Eored Sword",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 16737,
   "damage": "502-582",
   "effect": "+65 Fire Damage",
@@ -97,7 +97,7 @@
  },
  {
   "name": "Ernil Longsword",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 181456,
   "damage": "667-714",
   "effect": "-",
@@ -109,7 +109,7 @@
  },
  {
   "name": "Golden Wood Sword",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 2598,
   "damage": "300-348",
   "effect": "+5 Stamina +80 Power 1.5x Damage vs. Troll",
@@ -121,7 +121,7 @@
  },
  {
   "name": "Gram Broadsword",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 525,
   "damage": "126-192",
   "effect": "+30 Fire Damage +39 Deep Wounds Damage",
@@ -133,7 +133,7 @@
  },
  {
   "name": "Keystone Short Sword",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 865,
   "damage": "179-245",
   "effect": "+6 Strength +30 Shock Damage",
@@ -145,7 +145,7 @@
  },
  {
   "name": "Midgewater Blade",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 33900,
   "damage": "480-557",
   "effect": "-",
@@ -157,7 +157,7 @@
  },
  {
   "name": "Minhiriath Broadsword",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 9557,
   "damage": "463-528",
   "effect": "+7 Will",
@@ -169,7 +169,7 @@
  },
  {
   "name": "Moria Sword",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 1920,
   "damage": "160-224",
   "effect": "-",
@@ -181,7 +181,7 @@
  },
  {
   "name": "Nargothrond Blade",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 189010,
   "damage": "814-838",
   "effect": "+5 Strength +5 Stamina",
@@ -193,7 +193,7 @@
  },
  {
   "name": "Second Age Longsword",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 50502,
   "damage": "640-691",
   "effect": "+70 Fire Damage",
@@ -205,7 +205,7 @@
  },
  {
   "name": "Stalker's Longsword",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 5123,
   "damage": "392-470",
   "effect": "+6 Strength",
@@ -217,7 +217,7 @@
  },
  {
   "name": "Stalker's Sabre",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 5300,
   "damage": "388-435",
   "effect": "+6 Will Weapon skills cause Slow 100%",
@@ -229,7 +229,7 @@
  },
  {
   "name": "Starlight Blade",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 21045,
   "damage": "528-586",
   "effect": "+36 Armor +81 Deep Wound Damage",
@@ -241,7 +241,7 @@
  },
  {
   "name": "Troll-hunter's Sword",
-  "type": "1-Handed SwordNothing",
+  "type": "1-Handed Sword",
   "value": 772,
   "damage": "82-122",
   "effect": "-",
