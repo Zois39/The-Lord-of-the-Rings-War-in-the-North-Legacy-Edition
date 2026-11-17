@@ -91,6 +91,9 @@ footer{padding:10px 16px;color:var(--dim);font-size:11.5px;border-top:1px solid 
 .ld-stage{color:var(--dim);font-size:13px;margin-bottom:12px;min-height:18px}
 .ld-bar{height:8px;background:#0c1117;border:1px solid var(--line);border-radius:5px;overflow:hidden}
 #ldFill{height:100%;width:0;background:var(--acc);transition:width .2s}
+.row-sep{text-align:center;color:var(--dim);font-size:11px;padding:4px 0;border-top:1px dashed var(--line);letter-spacing:1px}
+.skill.locked{opacity:.62}
+.badge.lock{color:var(--bad);border-color:var(--bad)}
 </style>
 </head>
 <body>
@@ -118,6 +121,14 @@ const SLOTNAMES={mainhand:"Оружие (правая)",offhand:"Вторая р
 const ARMORFILTERS=[["Все","Все"],["Headpiece","Голова"],["Shoulders","Плечи"],["Body","Тело"],["Gloves","Перчатки"],["Leggings","Поножи"],["Boots","Сапоги"],["Rings","Кольца"],["Amulets","Амулеты"]];
 const ARMORSLOTMAP={headpiece:"head",shoulders:"shoulders",body:"body",gloves:"gloves",leggings:"legs",boots:"boots",amulets:"amulet",amulet:"amulet",rings:null,ring:null};
 const COEF={hpPerSta:5,powerPerWil:2,melPerStr:2,rngPerDex:2,baseHp:100,basePower:50,baseArrows:20,arrowsPerQuiver:10};
+const GATE=3; // очков в ветке для открытия следующего ряда (настраивается)
+function treePoints(t){return t.skills.reduce((a,x)=>a+((build.skills[x.name]||{}).rank||0),0);}
+function treeGate(t){let g=GATE;const dw=((build.skills["Dual Wield"]||{}).rank||0)>0;
+ if(build.hero==="Eradan"&&t.name==="Ranger Strike"&&dw)g=2;return g;}
+function skillGate(sk,t){
+ if((sk.tier||1)<=1)return{need:0,has:0};
+ const need=(sk.tier-1)*treeGate(t);return{need,has:treePoints(t)};}
+function canInvest(sk,t){const g=skillGate(sk,t);return g.has>=g.need;}
 const ATTRKEY={strength:"str",will:"wil",dexterity:"dex",stamina:"sta"};
 const ATTRS=["str","wil","dex","sta"];
 const ATTRNAMES={str:"Strength",wil:"Will",dex:"Dexterity",sta:"Stamina"};
@@ -245,8 +256,11 @@ function renderSide(){
  if(tab.cur==="skills"){
   const hero=DB.heroes[build.hero];const spent=skillPoints();
   h+=`<div class="row"><label>Очки навыков: <b class="${spent>build.level?"warn":"ok"}">${spent}</b> / ${build.level}</label></div><hr style="border-color:var(--line)">`;
-  hero.trees.forEach(t=>{const s=t.skills.reduce((a,x)=>a+((build.skills[x.name]||{}).rank||0),0);
-   h+=`<div class="row"><label style="width:130px">${esc(t.name)}</label><b>${s}</b></div>`;});
+  hero.trees.forEach(t=>{const s=treePoints(t);const g=treeGate(t);
+   const maxTier=Math.max(...t.skills.map(x=>x.tier||1));
+   const openable=Math.min(maxTier-1,Math.floor(s/g));
+   h+=`<div class="row"><label style="width:130px">${esc(t.name)}</label><b>${s}</b>
+    <span class="badge" title="${g} очк. за ряд">рядов открыто: ${1+openable}/${maxTier}</span></div>`;});
   const chosen=[];hero.trees.forEach(t=>t.skills.forEach(s=>{const r=(build.skills[s.name]||{}).rank||0;if(r)chosen.push({t:t.name,...s,rank:r})}));
   if(chosen.length){h+=`<hr style="border-color:var(--line)">`+chosen.map(c=>
    `<div class="row" style="margin:3px 0"><span style="flex:1">${esc(c.name)}</span><span class="badge s">${c.rank}${c.max_rank?"/"+c.max_rank:""}</span></div>`).join("");}
@@ -269,14 +283,20 @@ function viewSkills(){
  return `<h2>${build.hero} — ${hero.archetype}</h2>${portrait}<p style="color:var(--dim)">${esc(hero.description)}</p>`+
  hero.trees.map(t=>`<div class="tree">
   <header><b>${esc(t.name)}</b><span class="badge">${t.skills.filter(s=>((build.skills[s.name]||{}).rank||0)>0).length}/${t.skills.length}</span></header>
-  ${t.skills.map(s=>{const cur=(build.skills[s.name]||{}).rank||0;const maxR=s.max_rank||1;
-   const pips=Array.from({length:maxR},(_,i)=>`<span class="pip ${i<cur?"f":""}"></span>`).join("");
-   return `<div class="skill ${s.type==="active"?"act":""} ${cur?"sel":""}" data-sk="${esc(s.name)}" data-max="${maxR}">
+  ${(()=>{const g0=treeGate(t);let out="",lastTier=0;
+   t.skills.forEach((s,idx)=>{const cur=(build.skills[s.name]||{}).rank||0;const maxR=s.max_rank||1;
+    const tier=s.tier||1;
+    if(tier!==lastTier){lastTier=tier;
+     if(tier>1)out+=`<div class="row-sep">— ряд ${tier} · нужно ${(tier-1)*g0} очк. в ветке —</div>`;}
+    const g=skillGate(s,t);const locked=tier>1&&g.has<g.need;
+    const pips=Array.from({length:maxR},(_,i)=>`<span class="pip ${i<cur?"f":""}"></span>`).join("");
+    out+=`<div class="skill ${s.type==="active"?"act":""} ${cur?"sel":""} ${locked?"locked":""}" data-sk="${esc(s.name)}" data-max="${maxR}" data-tier="${tier}" title="${locked?("Требуется "+g.need+" очков в ветке (есть "+g.has+")"):""}">
     ${icon(s,s.type==="active"?"⚡":"◈")}
-    <div style="flex:1"><div class="nm">${esc(s.name)} ${s.type==="active"?'<span class="badge">активный</span>':""}</div>
-    <div class="meta">${esc(s.cost||"")}</div>
+    <div style="flex:1"><div class="nm">${esc(s.name)} ${s.type==="active"?'<span class="badge">активный</span>':""} <span class="badge ${locked?"lock":""}">ряд ${tier}</span></div>
+    <div class="meta">${esc(s.cost||"")}${locked?` · <span style="color:var(--bad)">🔒 ${g.has}/${g.need} очк. ветки</span>`:""}</div>
     <div class="ds">${esc(s.description)}</div></div>
-    <div class="pips">${pips}</div></div>`}).join("")}
+    <div class="pips">${pips}</div></div>`;});
+   return out;})()}
  </div>`).join("");
 }
 function viewGear(){
@@ -387,6 +407,12 @@ function bind(){
  document.querySelectorAll(".skill[data-sk]").forEach(card=>{
   card.onclick=()=>{const name=card.dataset.sk,max=+card.dataset.max;
    const cur=(build.skills[name]||{}).rank||0;
+   if(cur<max){
+    const hero=DB.heroes[build.hero];
+    for(const t of hero.trees){const sk=t.skills.find(x=>x.name===name);
+     if(sk){if(!canInvest(sk,t)){card.style.borderLeft="3px solid var(--bad)";
+      setTimeout(()=>card.style.borderLeft="",400);return;}break;}}
+   }
    build.skills[name]={rank:cur>=max?0:cur+1};save();render();};
   card.oncontextmenu=e=>{e.preventDefault();const name=card.dataset.sk;
    const cur=(build.skills[name]||{}).rank||0;

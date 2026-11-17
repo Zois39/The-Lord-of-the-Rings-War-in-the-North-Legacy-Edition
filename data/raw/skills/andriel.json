@@ -10,40 +10,47 @@
     {
      "name": "Sanctuary",
      "description": "How to use: Press RT+B (on Xbox 360) to conjure a protective orb that defends from ranged attacks. Info: Can be enhanced with the Healing Light, Sanctuary Mastery, Wrath of the Eldar and Forceful Fire skills.",
+     "tier": 1,
      "type": "active"
     },
     {
      "name": "Healing Light",
      "description": "Info: Unlocks and increases healing done by Sanctuary. Sanctuary must be active for effects. Higher ranks increases healing rate.",
+     "tier": 2,
      "type": "active",
      "max_rank": 3
     },
     {
      "name": "Preservation",
      "description": "Skills used by any party members cost less power.",
+     "tier": 2,
      "type": "passive",
      "max_rank": 3
     },
     {
      "name": "Focus Mind",
      "description": "Upgrade the elf's passive power regeneration.",
+     "tier": 2,
      "type": "passive",
      "max_rank": 3
     },
     {
      "name": "Shielding Light",
      "description": "How to use: Press LB+B (on Xbox 360) for a temporary Armor bonus. Info: Additional ranks add to the Armor bonus and increase duration.",
+     "tier": 3,
      "type": "active",
      "max_rank": 3
     },
     {
      "name": "Sanctuary Mastery",
      "description": "Increases the duration of sanctuary.",
+     "tier": 3,
      "type": "passive"
     },
     {
      "name": "Heal",
      "description": "How to use: Press LB+A (on Xbox 360) to instantly heal nearby party members. Info: Higher ranks add to the amount of Health restored.",
+     "tier": 3,
      "type": "active",
      "max_rank": 3
     }
@@ -55,59 +62,69 @@
     {
      "name": "Word of Command",
      "description": "How to use: Press RT+X (on Xbox 360) to unleash a magical shockwave in all directions. Info: Can be upgraded with the Loremaster’s Reach and Sundering Command skills.",
+     "tier": 1,
      "type": "active",
      "max_rank": 3
     },
     {
      "name": "Clarity",
      "description": "Chance each time a skill is cast the next is free and does not trigger a cooldown.",
+     "tier": 2,
      "type": "passive",
      "max_rank": 3
     },
     {
      "name": "Loremaster's Reach",
      "description": "Upgrades the range of your word of command and tempest skills.",
+     "tier": 2,
      "type": "passive",
      "max_rank": 3
     },
     {
      "name": "Tempest",
      "description": "How to use: Press LB+Y (on Xbox 360) to blast targets with a force of elemental energy. Info: Additional ranks increase the damage applied, expand the effective range and knock enemies back.",
+     "tier": 2,
      "type": "active",
      "max_rank": 3
     },
     {
      "name": "Smite",
      "description": "How to use: Press RT+Y (on Xbox 360) to devastate a single target Info: Higher ranks add chain damage to additional targets and increase the damage inflicted.",
+     "tier": 3,
      "type": "active",
      "max_rank": 3
     },
     {
      "name": "Quick-Minded",
      "description": "Reduces the cooldowns of your active skills.",
+     "tier": 3,
      "type": "passive",
      "max_rank": 3
     },
     {
      "name": "Strength of Will",
      "description": "Grants a bonus to armor based on your current will.",
+     "tier": 3,
      "type": "passive"
     },
     {
      "name": "Renewed Power",
      "description": "Each killing blow achieved with a skill regenerates power.",
+     "tier": 4,
      "type": "active",
      "max_rank": 3
     },
     {
      "name": "Sundering Command",
      "description": "How to use: Hold RT+X (on Xbox 360) to follow Word of Command with an overwhelming area attack. Info: Higher ranks increase damage inflicted.",
+     "tier": 4,
      "type": "active",
      "max_rank": 3
     },
     {
      "name": "Staff and Steel",
      "description": "Info: Unlocks dual wielding of a 1-Handed Weapon alongside the staff and increases your damage. Additional ranks increase damage while dual wielding.",
+     "tier": 4,
      "type": "active",
      "max_rank": 3
     }
@@ -119,47 +136,53 @@
     {
      "name": "Empower Staff",
      "description": "How to use: Hold LT+RB(on Xbox 360) to power-up your ranged attacks, firing multiple charges at once. Info: Can be enhanced with the Magnify Staff skill.",
+     "tier": 1,
      "type": "active",
      "max_rank": 3
     },
     {
      "name": "Staff Mastery",
      "description": "increases damage done with staves.",
+     "tier": 2,
      "type": "passive",
      "max_rank": 3
     },
     {
      "name": "Magnify Staff",
      "description": "Increases the rate that staff ranged attacks charge, and increases the damage bonus of charge shots.",
+     "tier": 2,
      "type": "passive",
      "max_rank": 3
     },
     {
      "name": "Elemental Affinity",
      "description": "Increase the duration of fire, ice, and lightning effects you inflict on enemies.",
+     "tier": 2,
      "type": "passive",
      "max_rank": 3
     },
     {
      "name": "Wrath of the Eldar",
      "description": "How to use: Press RT+B(on Xbox 360) to dispel Sanctuary with a powerful detonation. Requires Sanctuary. Info: Higher ranks increase detonation damage.",
+     "tier": 3,
      "type": "active",
      "max_rank": 3
     },
     {
      "name": "Forceful Fire",
      "description": "Info: Any ranged attacks fired through or within Sanctuary do extra damage. Higher ranks increase damage.",
+     "tier": 3,
      "type": "active",
      "max_rank": 3
     },
     {
      "name": "Burst of Light",
      "description": "How to use: Press LT+X (on Xbox 360) to conjure a slow but highly lethal bolt of explosive energy. Press LT+X (on Xbox 360) again to detonate it. Info: Additional ranks increase damage. • enemies with shield may block it (they'll recieve no damage, but surrounding enemies do).",
+     "tier": 3,
      "type": "active",
      "max_rank": 3
     }
    ]
   }
- ],
- "local_image": "assets/images/heroes/Andriel.png"
+ ]
 }

@@ -104,10 +104,13 @@ for hero in ["Eradan", "Andriel", "Farin"]:
     existing = load_existing(hero)
     total = 0
     seen = set()
+    TIERS = {"Eradan": 3, "Andriel": 3, "Farin": 3}
     for t in trees:
         if not t.get("name") and t["skills"]:
             t["name"] = t["skills"][0]["name"]
-        for s in t["skills"]:
+        for i, s in enumerate(t["skills"]):
+            if "tier" not in s:
+                s["tier"] = 1 if i == 0 else 2 + (i - 1) // TIERS[hero]
             total += 1
             seen.add(s["name"])
             old = existing.get(s["name"])
@@ -129,6 +132,10 @@ for hero in ["Eradan", "Andriel", "Farin"]:
                 if ps["name"] not in seen:
                     ps = dict(ps); ps["note"] = "в вики не оформлено, из ручной сверки"
                     tgt["skills"].append(ps); seen.add(ps["name"]); total += 1
+    for t in trees:  # пост-проход: гарантированно заполнить тиры по позиции
+        for i, s in enumerate(t["skills"]):
+            if s.get("tier") in (None, ""):
+                s["tier"] = 1 if i == 0 else 2 + (i - 1) // 3
     out = {"hero": hero, "archetype": ARCH[hero][0],
            "source": f"https://witn.fandom.com/wiki/{hero}",
            "description": ARCH[hero][1], "trees": trees}

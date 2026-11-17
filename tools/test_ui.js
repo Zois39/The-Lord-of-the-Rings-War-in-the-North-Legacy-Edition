@@ -28,7 +28,7 @@ const ctx=vm.createContext({document:documentStub,localStorage:localStorageStub,
 const T={pass:0,fail:0};const ok=(n,c)=>{c?T.pass++:(T.fail++,console.error('FAIL:',n))};
 
 (async()=>{
- vm.runInContext(code+';globalThis.DB=DB;globalThis.build=build;globalThis.tab=tab;globalThis.render=render;globalThis.computeStats=computeStats;globalThis.equipWeapon=equipWeapon;globalThis.reqsOk=reqsOk;globalThis.findItem=findItem;',ctx);
+ vm.runInContext(code+';globalThis.DB=DB;globalThis.build=build;globalThis.tab=tab;globalThis.render=render;globalThis.computeStats=computeStats;globalThis.equipWeapon=equipWeapon;globalThis.skillGate=skillGate;globalThis.canInvest=canInvest;globalThis.treeGate=treeGate;globalThis.reqsOk=reqsOk;globalThis.findItem=findItem;',ctx);
  await new Promise(r=>setTimeout(r,200));
 
  ok('3 героя',Object.keys(ctx.DB.heroes).length===3);
@@ -69,6 +69,25 @@ const T={pass:0,fail:0};const ok=(n,c)=>{c?T.pass++:(T.fail++,console.error('FAI
  const types=new Set(ctx.DB.items.weapons.map(w=>w.type));
  ok('нет мусора Nothing',[...types].every(t=>!t.includes('Nothing')));
 
+ // --- ряды навыков (tiers) ---
+ const heroE = ctx.DB.heroes['Eradan'];
+ const t1 = heroE.trees[0];
+ ok('тиры заданы', t1.skills.every(s=>typeof s.tier==='number'));
+ const g1 = ctx.skillGate(t1.skills[4], t1); // ряд 3 -> нужно 6
+ ok('гейт ряда 3 = 6', g1.need===6);
+ ok('нельзя инвестировать без очков', ctx.canInvest(t1.skills[4], t1)===false);
+ ctx.build.skills[t1.skills[0].name]={rank:1};
+ ctx.build.skills[t1.skills[1].name]={rank:2};
+ ctx.build.skills[t1.skills[2].name]={rank:2};
+ ctx.build.skills[t1.skills[3].name]={rank:1};
+ ok('6 очков: ряд 3 открыт', ctx.canInvest(t1.skills[4], t1)===true);
+ // Dual Wield снижает гейт Ranger Strike
+ const t2 = heroE.trees[1];
+ ctx.build.skills['Dual Wield']={rank:1};
+ ok('DW: гейт 2', ctx.treeGate(t2)===2);
+ ok('DW: ряд 2 нужно 2', ctx.skillGate(t2.skills[1], t2).need===2);
+ ctx.build.skills['Dual Wield']={rank:0};
+ ctx.build.skills={};
  // --- слоты и характеристики ---
  ctx.build.gear.slots.mainhand = ctx.DB.items.weapons.find(w=>!(w.type||'').match(/bow|crossbow/i)).name;
  const st1 = ctx.computeStats();
