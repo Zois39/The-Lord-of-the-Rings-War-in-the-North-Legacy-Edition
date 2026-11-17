@@ -113,7 +113,8 @@
    "+85 Shock Damage"
   ],
   "mithril": "Mithrill Upgrades: 8 total",
-  "source": "It is obtained from the following confirmed sources: Agandaûr (medium-to-hard drop rate), the Fire-Hammer Troll summoned by Agandaûr, Beornings summoned by Agandaûr (ridiculously low, but possible), and the first guild chest found in Carn-Dûm (the one inside the Carn-dûm man's cell with low drop rat"
+  "source": "It is obtained from the following confirmed sources: Agandaûr (medium-to-hard drop rate), the Fire-Hammer Troll summoned by Agandaûr, Beornings summoned by Agandaûr (ridiculously low, but possible), and the first guild chest found in Carn-Dûm (the one inside the Carn-dûm man's cell with low drop rat",
+  "local_image": "assets/images/best/Truesilver_Broadsword.png"
  },
  {
   "name": "Nargothrond Blade",
@@ -125,7 +126,8 @@
   ],
   "slots": 2,
   "mithril": "Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and 8 with 2 free slots.",
-  "source": "Loot obtained from 3 confirmed sources: from Agandaûr (a very low drop rate, obtained after 31 attempts); from the Fire-hammer Troll summoned by Agandaûr (low drop rate, obtained after 18 attempts); and from the first Carn Dûm guild (the one inside the Carn-dûm man's cell with a ridiculously low dro"
+  "source": "Loot obtained from 3 confirmed sources: from Agandaûr (a very low drop rate, obtained after 31 attempts); from the Fire-hammer Troll summoned by Agandaûr (low drop rate, obtained after 18 attempts); and from the first Carn Dûm guild (the one inside the Carn-dûm man's cell with a ridiculously low dro",
+  "local_image": "assets/images/best/Nargothrond_Blade.png"
  },
  {
   "name": "Ithilien Hatchet",
