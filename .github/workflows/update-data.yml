@@ -15,8 +15,10 @@ jobs:
           python-version: "3.12"
       - name: Fetch wiki content
         run: python tools/fetch_wiki.py
-      - name: Parse data
+      - name: Parse items
         run: python tools/parse_items.py
+      - name: Parse skills
+        run: python tools/parse_skills.py
       - name: Fetch images
         run: python tools/fetch_images.py
       - name: Commit data

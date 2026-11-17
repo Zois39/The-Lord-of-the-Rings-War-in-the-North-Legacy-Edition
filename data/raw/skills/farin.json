@@ -11,37 +11,37 @@
      "name": "War-cry",
      "type": "active",
      "max_rank": null,
-     "description": "Боевой клич, усиливающий отряд и сбивающий врагов. Активный навык. Стоимость: 15 power. Первый тир, средняя колонка; усиливается сетом из трёх навыков."
+     "description": "Active Skill\nCost: 15 power \nPress RT + B to temporarily increase Armor, Health, and melee damage.\nNote: Can be enhanced by the following skills: Dwarf Armor, Taunt, Retaliation, Fortitude, Abundant Harm, Indomitable Spirit, Battle Fury, and Battle-ready\nArmor of equipment is increased by 100% of the base armor.\nHealth is increased by 25% of the base health"
     },
     {
      "name": "Dwarf Armor",
      "type": "passive",
      "max_rank": 3,
-     "description": "Увеличивает защиту в тяжёлой броне. Ранги добавляют броню."
+     "description": "Passive Skill\nWar-cry allows the Dwarf to ignore heavy hit reactions and also increases the Armor of nearby party members.\nNote: War-cry must be active for effect. Higher ranks increase the shared Armor bonus.\n Ignore heavier hit reactions  means that you gain resistance to flinching effects while under the effects of War-cry."
     },
     {
      "name": "Shield Bash",
      "type": "active",
      "max_rank": 3,
-     "description": "Удар щитом, оглушающий врага. Ветка War-cry, 20 power. Открывает сет из двух усилений."
+     "description": "Active Skill\nCost:  power\nWhile blocking press LB + Y to stun your target. Also increases the Armor from shields.  Requires a Shield \nNote: Additional ranks increase Armor bonus from shields."
     },
     {
      "name": "Mighty Reach",
      "type": "passive",
      "max_rank": 3,
-     "description": "Увеличивает досягаемость двуручного оружия. Ветка War-cry, 20 power. Сет из трёх усилений."
+     "description": "Passive Skill\nIncreases the range and damage of your Sweeping Attack, Earthshaker, and Whirlwind skills.\nNote: Additional ranks increase the attack range and damage."
     },
     {
      "name": "Fortitude",
      "type": "passive",
      "max_rank": 3,
-     "description": "Увеличивает максимальное здоровье на 15 за ранг (макс 3)."
+     "description": "Passive Skill\nUpon activation War-cry grants temporary combat Health regeneration for the Dwarf and any party members.\nNote: War-cry must be active for effect. Higher ranks increase the shared Health rengeration rate."
     },
     {
      "name": "Heavy Weapons",
      "type": "passive",
      "max_rank": 3,
-     "description": "Обучение двуручному оружию. Каждый ранг: +6 к максимальному урону, +140 к минимальному (макс 3 ранга)."
+     "description": "Passive Skill\nIncreases the damage you cause with 2-handed melee weapons\nNote: Additional ranks increase damage\n Effect: +6 melee attack with 2h-weapons for each skill point\n Maximum : 3 skillpoints (+18 melee damage)\nLegendary Difficulty:\n Effect: +140 melee attack with 2h-weapons for each skill point\n Maximum : 3 skillpoints (+420 melee damage)"
     }
    ]
   },
@@ -52,37 +52,37 @@
      "name": "Sweeping Attack",
      "type": "active",
      "max_rank": null,
-     "description": "Широкий удар, поражающий всех врагов вокруг. Активный навык. Стоимость: 15 power. Первый тир, средняя колонка; усиливается сетом из трёх навыков."
+     "description": "Active Skill\nCost: 15\nPress RT+X to strike out at multiple enemies over a wide area.\nNote: Can be followed with the Whirlwind and Earthshaker skills for additional effect."
     },
     {
      "name": "Battle Fury",
      "type": "active",
      "max_rank": 3,
-     "description": "Усиливает Sweeping Attack: бонус к урону ветки. Стоимость: 15 power."
+     "description": "Passive Skill\nIncreases the War-cry damage bonus and increases the melee damage done by nearby party members while active.\nNote: War-cry must be active for effects. Higher ranks increases damage bonus."
     },
     {
      "name": "Impact",
      "type": "active",
      "max_rank": 3,
-     "description": "Увеличивает урон Sweeping Attack. Навык ветки. Стоимость: 20 power."
+     "description": "Passive skill\nUpgrades the damage of the devastating Crushing Blow and Crushing Wave attacks.\nNote: Additional ranks increase damage."
     },
     {
      "name": "Taunt",
      "type": "active",
      "max_rank": 3,
-     "description": "Провоцирует врагов атаковать Фарина, защищая отряд. Активный. Стоимость: 15 power."
+     "description": "Passive Skill\nWar-cry now shifts enemy focus to the Dwarf, damages nearby enemies and increases the damage they take.\nNote: War-cry must be active for effect. Higher ranks add larger area of effect range and additional damage."
     },
     {
      "name": "Determination",
      "type": "passive",
      "max_rank": 3,
-     "description": "Повышает защиту на 10% за ранг при блокировании."
+     "description": "Passive skill\nReduces the cooldown of your active skills.\nNote: Additional ranks further reduce active skill cooldown times."
     },
     {
      "name": "Whirlwind",
      "type": "active",
      "max_rank": 3,
-     "description": "Вращающаяся атака, поражающая всех врагов вокруг. Доступно после Sweeping Attack (удерживать RT+X)."
+     "description": "Active Skill\nCost: 19\nHold RT + X to follow Sweeping Attack with a continuous flurry of quick area attacks. Requires a Sword \nNote: Continuing to hold RT + X allows Whirlwind to persist. Additional ranks increase damage from attacks."
     }
    ]
   },
@@ -93,61 +93,61 @@
      "name": "Crushing Blow",
      "type": "active",
      "max_rank": null,
-     "description": "Тяжёлый удар, наносящий огромный урон одной цели. Активный навык (RT+Y). Стоимость: 15 power. Первый тир, средняя колонка; усиливается сетом из трёх навыков."
+     "description": "Active Skill\nCost: 15 power\nPress RT + Y to strike a single melee target for high damage.\nNote: Can be upgraded by the Crushing Wave skill.\nThe damage done by this skill is the total melee damage plus 150% of the total melee damage.\nEquation: Total melee damage (Min. or Max) x 2.5 = Total Damage for Crushing Blow"
     },
     {
      "name": "Crossbow Adept",
      "type": "passive",
      "max_rank": 3,
-     "description": "Увеличивает урон арбалета на 10% за ранг."
+     "description": "Passive Skill\nThe crossbow is upgraded from single-shot to rapid firing, multiple bolt capability.\nNote: Additional ranks increase bolt capacity for rapid firing.\nRank 1 - +3 additional bolts \nRank 2 - +2 additional bolts"
     },
     {
      "name": "Heavy Bolt",
      "type": "active",
      "max_rank": 3,
-     "description": "Прицельный выстрел арбалетом с повышенным уроном. Ветка Crushing Blow, 20 power."
+     "description": "Active Skill\nCost: 19 power\nLT + RB fires a precise high damage bolt at your target.\nNote: Additional ranks increase bolt damage.\nThe damage done by this skill is the total ranged damage plus 100% of the total ranged damage.\nRank 1 - +100% of total ranged damage\nRank 2 - +120% of total ranged damage\nRank 3 - +140% of total ranged damage\nEquation: Total ranged damage (Min. or Max) + Rank (1, 2, or 3) = Total Damage for Heavy Bolt"
     },
     {
      "name": "Retaliation",
      "type": "passive",
      "max_rank": 3,
-     "description": "Возвращает часть полученного урона атакующим."
+     "description": "Passive Skill\nDuring War-cry, melee damage absorbed by the Champion is reflected back to the enemy.\nNote: War-cry must be active for effect. Reflected damage is a percentage of your total Armor. Each rank adds damage.\nThe percentage is 12% of your total armor\nRank 1 - 12% of total armor\nRank 2 - 24% of total armor\nRank 3 - 36% of total armor\nEquation: Total armor x Rank (1, 2, or 3) = Total damage"
     },
     {
      "name": "Shield Charge",
      "type": "active",
      "max_rank": 3,
-     "description": "Стремительный бросок с щитом, сбивающий врагов с ног. Активный, 20 power."
+     "description": "Active Skill\nCost:  power\nWhile blocking press LB + B to charge violently ahead, knocking enemies aside and damaging them. Requires a Shield \nNote: Higher ranks increase the damage dealt."
     },
     {
      "name": "Abundant Harm",
      "type": "passive",
      "max_rank": 3,
-     "description": "Повышает критический урон на 15% за ранг."
+     "description": "Passive Skill\nDuring War-cry your melee attacks will echo to nearby enemies, striking them for damage.\nNote: War-cry must be active for effect. Additional ranks add more targets."
     },
     {
      "name": "Indomitable Spirit",
      "type": "passive",
      "max_rank": 3,
-     "description": "Устойчивость к оглушению и замедлению."
+     "description": "Passive Skill\nActive War-cry near a fallen ally to instantly revive them.\nNote: Higher ranks give more Health to the revived ally."
     },
     {
      "name": "Explosive Bolt",
      "type": "active",
      "max_rank": 3,
-     "description": "Болт, взрывающийся при попадании и поражающий область."
+     "description": "Active Skill\nCost:  power\nLT + X fires an explosive bolt that detontes upon impact.\nNote: Additional ranks increase the damage from impact.\nThis ability is very powerful, especially when uppgraded. It may even be said that it is downright overpowered as it creates such a large and high damage explosion from a distance. It can wipe out groups of enemies and do noteworhty damage to trolls and other heavy opponents."
     },
     {
      "name": "Crushing Wave",
      "type": "active",
      "max_rank": 3,
-     "description": "Crushing Blow поражает нескольких врагов конусом перед Фарином."
+     "description": "Active Skill\nCost: ??? power\nEnhance Crushing Blow (RT + Y) with a devastating wave of damage extending ahead of the champion.\nNote:Higher ranks add damage."
     },
     {
      "name": "Battle-ready",
      "type": "passive",
      "max_rank": 3,
-     "description": "Ускоряет восстановление power после убийств."
+     "description": "Passive Skill\nSkills used while War-cry is active cost less power\nNote: War-cry must be active for effects. Higher ranks further decrease skill costs.\nDecreases the cost by 25% per level.\nRank 1 - 25%\nRank 2 - 50%"
     }
    ]
   }

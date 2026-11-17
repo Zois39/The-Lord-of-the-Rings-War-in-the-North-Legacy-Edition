@@ -2,52 +2,52 @@
  "hero": "Eradan",
  "archetype": "Ranger",
  "source": "https://witn.fandom.com/wiki/Eradan",
- "description": "Дунаданский рейнджер из Севера. Мастер скрытности, двойного владения и лука.",
+ "description": "Дунаданский рейнджер из Севора. Мастер скрытности, двойного владения и лука.",
  "trees": [
   {
    "name": "Evasion",
    "skills": [
     {
      "name": "Evasion",
-     "type": "active",
-     "max_rank": null,
-     "description": "Боевой перекат в выбранном направлении, позволяющий уклониться от атак. Базовый приём выживания рейнджера."
+     "description": "Become invisible for a short amount of time.  • On its own, useful for losing aggro, attack important targets such as spellcaster, reviving companions... can be further upgraded by other skills.",
+     "type": "active"
     },
     {
      "name": "Onslaught",
+     "description": "while evasion is active unleash a suprise heavy attack(press right mouse button) against your target for bonus damage. • does good damage, useful for assassinating spellcasters or simply to dump some damage on a target if the Evasion is close to end. Stronger if using dual wielded weapons, for some reason it does almost double the damage",
      "type": "active",
-     "max_rank": 3,
-     "description": "Мощная комбинация из четырёх ударов, наносящая повышенный урон. Дополнительные ранги увеличивают урон каждого удара."
+     "max_rank": 3
     },
     {
      "name": "Critical Wound",
+     "description": "increase hero mode damage and improves the rate that your attacks build critical strikes.",
      "type": "passive",
-     "max_rank": 3,
-     "description": "Критические удары сильнее ранят врага. Ранги повышают бонусный урон критических атак."
+     "max_rank": 3
     },
     {
      "name": "Respite",
+     "description": "Enables automatic health and power regeneration while evasion is active.",
      "type": "passive",
-     "max_rank": 3,
-     "description": "Быстрое восстановление запаса сил (power) между боями."
+     "max_rank": 3
     },
     {
      "name": "Smoke and flame",
+     "description": "Enhance evasion by disappearing in a flash that stuns enemies.",
      "type": "active",
-     "max_rank": 3,
-     "description": "Дымовая завеса, сбивающая врагам цель и позволяющая уйти в скрытность. Поздние ранги добавляют огненный урон."
+     "max_rank": 3
     },
     {
      "name": "Stealth Mastery",
+     "description": "increases the duration of the evasion bonus. Evasive Foe Allows you to use normal attack(press left mouse button) without being revealed.",
      "type": "passive",
-     "max_rank": 3,
-     "description": "Улучшает эффективность скрытности: скорость передвижения в невидимости и урон из засады растут с рангами."
+     "max_rank": 3
     },
     {
      "name": "Evasive Foe",
      "type": "passive",
      "max_rank": null,
-     "description": "Вероятность уклонения растёт при ношении лёгкой брони."
+     "description": "Вероятность уклонения растёт при ношении лёгкой брони.",
+     "note": "в вики не оформлено, из ручной сверки"
     }
    ]
   },
@@ -56,63 +56,61 @@
    "skills": [
     {
      "name": "Ranger Strike",
+     "description": "Press RT+Y(on PlayStation 3) to perform a quick attack that strikes a single target for bonus damage. • quite a weak skill, even when upgraded",
      "type": "active",
-     "max_rank": 3,
-     "description": "Быстрый выпад с оружием в каждой руке. Наносит урон двумя ударами за одно действие."
+     "max_rank": 3
     },
     {
      "name": "Dual Wield",
-     "type": "passive",
-     "max_rank": null,
-     "description": "Позволяет сражаться двумя одноручными клинками."
+     "description": "unlocks dual wielding of 1-handed weapons and increases the damage done with them equipped.",
+     "type": "passive"
     },
     {
      "name": "Combat Training",
+     "description": "increases the damage of your ranger strike. • since Ranger Strike is weak even with this, it's better to avoid spending points in it.",
      "type": "passive",
-     "max_rank": 3,
-     "description": "Увеличивает базовый урон ближнего боя. Ранги добавляют фиксированный бонус к урону."
+     "max_rank": 3
     },
     {
      "name": "Heavy Weapons",
+     "description": "increases your damage wielding 2-handed swords.",
      "type": "passive",
-     "max_rank": 3,
-     "description": "Обучение обращению с двуручным оружием. Каждый ранг: +6 к максимальному урону, +140 к минимальному (макс 3 ранга)."
+     "max_rank": 3
     },
     {
      "name": "Dual Strike",
+     "description": "Press RT+X(on PlayStation 3) to attack all enemies around with both weapons - requires dual wielding. • enemies with flinch, but will not fall over. damage is quite low, but it's useful still as it's an AoE attack.",
      "type": "active",
-     "max_rank": 3,
-     "description": "Удар обоими оружиями одновременно; требует двух клинков."
+     "max_rank": 3
     },
     {
      "name": "Blood of Westernesse",
+     "description": "Reduces the cool-down times of active skills. • a must-have!",
      "type": "passive",
-     "max_rank": 3,
-     "description": "Древняя кровь Дунаданов усиливает исцеление от зелий и делает частично устойчивым к проклятиям."
+     "max_rank": 3
     },
     {
      "name": "Cleave",
+     "description": "Press RT+X(on PlayStation 3) for a wide arcing attack that strikes multiple enemies. - requires a 2-handed sword. • excelent skill, does good damage, often hits the same target twice, but most importantly, if enemies are close it will knock them to the ground - best way to fight orcs when in melee, since it works on them too and the cooldown is very short.",
      "type": "active",
-     "max_rank": 3,
-     "description": "Широкий замах, поражающий нескольких врагов перед рейнджером."
+     "max_rank": 3
     },
     {
      "name": "Might of the Dunedain",
-     "type": "passive",
-     "max_rank": null,
-     "description": "Существенно повышает максимальный запас здоровья."
+     "description": "Each killing blows grants a temporary strength bonus. • on max level, it adds +10 Strength. The way it works is, after you kill an enemy, you get +10 Strength for a short time, but you don't get any more Strength for multiple kills. 10 Strength might seem a lot at first, but it's actually just +30 melee damage",
+     "type": "passive"
     },
     {
      "name": "Assail",
+     "description": "While blocking press RB+Y(on PlayStation 3) to rush ahead, striking targets for bonus damage. • useful for escaping tough spots, similar to Cleave, just weaker and harder to aim. It's almost the same as regular dodge roll + Cleave, just not very deadly",
      "type": "active",
-     "max_rank": 3,
-     "description": "Стремительная серия ударов, пробивающая блок врага."
+     "max_rank": 3
     },
     {
      "name": "Agility",
+     "description": "grants a bonus of armor based on your current dexterity. • very useful later in the game, when with all the gear bonuses, Eradan can have over 200 Dexterity. If you have 100 Dexterity, one point will add +100, two points +150, and three points +200 armor",
      "type": "passive",
-     "max_rank": 3,
-     "description": "Повышает ловкость и скорость перекатов."
+     "max_rank": 3
     }
    ]
   },
@@ -121,45 +119,45 @@
    "skills": [
     {
      "name": "Heavy Shot",
+     "description": "Hold and release RT+RB(on PlayStation 3) to fire a arrow with greater power.",
      "type": "active",
-     "max_rank": 3,
-     "description": "Прицельный выстрел с повышенным уроном. Ранги увеличивают множитель."
+     "max_rank": 3
     },
     {
      "name": "Bow Mastery",
+     "description": "Increases the damage of your bow attacks and increases the speed you reload arrows",
      "type": "passive",
-     "max_rank": 3,
-     "description": "Пассивно повышает урон от лука."
+     "max_rank": 3
     },
     {
      "name": "Broad Quiver",
+     "description": "Increases the maximum number of arrows stored in your quiver.",
      "type": "passive",
-     "max_rank": 3,
-     "description": "Увеличивает вместимость колчана. Каждый ранг добавляет 10 стрел."
+     "max_rank": 3
     },
     {
      "name": "Stunning Shot",
+     "description": "Press LT+Y(on PlayStation 3) to fire an arrow that stuns your target and enables a follow-up critical attack. • very useful to have 1 point in it because the target hit will immediately be opened for a critical attack, meaning even if you're a melee fighter, you can shoot this at the first target coming at you, and you'll immediately be able to critical it and then continue to fight in hero mode. Works on ALL enemies, even trolls and bosses. Critical opening doesn't appear if the target blocks the arrow with a shield, but it will be stunned.",
      "type": "active",
-     "max_rank": 3,
-     "description": "Выстрел, оглушающий цель. Длительность оглушения растёт с рангами."
+     "max_rank": 3
     },
     {
      "name": "Precision Aura",
+     "description": "A Shared bonus increases the damage each party member inflicts with headshots. • maxing this skill makes your headshots do double damage compared to normal shots.",
      "type": "passive",
-     "max_rank": 3,
-     "description": "Аура, повышающая меткость всего отряда."
+     "max_rank": 3
     },
     {
      "name": "Volley",
+     "description": "Press LT+X(on PlayStation 3) to fire multiple arrows that automatically seek visible targets. • when maxed, fires 8 arrows at random 8 targets in front of you. If there are only 3 enemies, it will fire only 3 arrows. Damage per arrow is the same as a normal shot. Most useful against goblin sappers, or for killing bosses quickly if there are other enemies around - for example, if a troll is in front of you and lots of enemies are behind the troll, if you fire Volley, all 8 arrows may hit the troll, doing lots of damage quickly. • even if it fires multiple arrows, Volley depletes only 1 arrow from your quiver.",
      "type": "active",
-     "max_rank": 3,
-     "description": "Залп из нескольких стрел по области."
+     "max_rank": 3
     },
     {
      "name": "Piercing shot",
+     "description": "Maximizes Heavy Shot(RT+RB) by increasing initial damage, reducing charge time and applying additional damage over time to targets. • increases the damage, but there isn't any damage over time.  ==Character builds==",
      "type": "active",
-     "max_rank": 3,
-     "description": "Пробивающий выстрел, наносящий урон всем врагам на линии огня."
+     "max_rank": 3
     }
    ]
   }
