@@ -206,6 +206,40 @@ def parse_quest_rewards():
             if item["name"]: out.append(item)
     return out
 
+
+def parse_best_gear():
+    page = load("Best_Gear.txt")
+    out = []
+    slot = ""
+    for m in re.finditer(r"\n(==|===)\s*([^=\n]+?)\s*==+\s*\n", page):
+        lvl, name = len(m.group(1)), clean(m.group(2))
+        end = page.find("\n==", m.end())
+        end = len(page) if end < 0 else end
+        body = page[m.end():end]
+        if lvl == 2:
+            slot = re.sub(r"\s+-(\s+[A-ZÁÉÍÓÚÑÜ][a-záéíóúñü]+){1,3}.*$", "", name).strip()
+            continue
+        item_name = re.sub(r"\s+-\s+.*$", "", name).strip()
+        rec = {"name": item_name, "slot": slot}
+        for line in body.splitlines():
+            line = clean(line).lstrip("* ").strip()
+            if not line: continue
+            if line.lower().startswith("value:"):
+                rec["value"] = norm_num(re.sub(r"^[^0-9]*", "", line.split("/")[0]))
+            elif "elfstone slots" in line.lower() or "elf-stone" in line.lower():
+                mm = re.search(r"\+?\d", line)
+                if mm: rec["slots"] = int(mm.group())
+            elif re.match(r"^[+\-]?\d", line) or line.startswith("+"):
+                rec.setdefault("bonuses", []).append(line.split("/")[0].strip())
+            elif "mithril" in line.lower():
+                rec["mithril"] = line
+            elif len(line) > 60:
+                rec["source"] = line[:300]
+        if rec.get("name"): out.append(rec)
+    return out
+
+best = parse_best_gear()
+
 elf = parse_elf_stones()
 qr  = parse_quest_rewards()
 
@@ -217,6 +251,6 @@ loot    = parse_boss_loot()
 
 for fn, data in [("weapons.json", weapons), ("armor.json", armor), ("sets.json", sets),
                  ("potions.json", potions), ("ingredients.json", ingredients),
-                 ("boss_loot.json", loot), ("elf_stones.json", elf), ("quest_rewards.json", qr)]:
+                 ("boss_loot.json", loot), ("elf_stones.json", elf), ("best_gear.json", best)]:
     json.dump(data, open(os.path.join(OUT, fn), "w", encoding="utf-8"), ensure_ascii=False, indent=1)
     print(fn + ":", len(data), "records")

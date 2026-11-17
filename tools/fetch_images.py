@@ -20,7 +20,7 @@ def api(params, retries=4):
 def norm(s):
     s = s.lower()
     s = re.sub(r"\.[a-z0-9]{2,5}$", "", s)          # расширение
-    s = s.replace("_", " ").replace("´", "'").replace("`", "'")
+    s = s.replace("_", " ").replace("´", "'").replace("`", "'").replace("-", " ")
     s = re.sub(r"\s+-\s+.*$", "", s)                 # суффикс перевода "- Cuchilla de..."
     s = re.sub(r"\s+", " ", s).strip()
     return s
@@ -74,7 +74,8 @@ def attach(sec, fn, data, rec, name):
     return True
 
 # предметы
-for sec, fn in [("weapons", "data/raw/items/weapons.json"),
+for sec, fn in [("best", "data/raw/items/best_gear.json"),
+                ("weapons", "data/raw/items/weapons.json"),
                 ("armor", "data/raw/items/armor.json"),
                 ("potions", "data/raw/items/potions.json"),
                 ("sets", "data/raw/items/sets.json")]:

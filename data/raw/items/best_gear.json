@@ -1,0 +1,401 @@
+[
+ {
+  "name": "Northwarden's Amulet",
+  "slot": "Amulets",
+  "value": 21860,
+  "bonuses": [
+   "+8 Strength",
+   "+135 Damage"
+  ],
+  "slots": 2,
+  "mithril": "Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and (8) with 2 free slots."
+ },
+ {
+  "name": "Dwarfmade trinket",
+  "slot": "Amulets",
+  "value": 380,
+  "slots": 2,
+  "mithril": "Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and (8) with 2 free slots.",
+  "source": "Can be bought from Bree NPC only on Normal and Heroic mode. (Just a tip: don't save it until the Legendary level; use it in the campaign with two Brilliant Champion Stones, or the best stones you can get, because the Northwardens Amulet surpasses it in every way, in later game)."
+ },
+ {
+  "name": "Seer´s Talisman",
+  "slot": "Amulets",
+  "value": 55,
+  "slots": 2,
+  "mithril": "Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and 8 with 2 free slots.",
+  "source": "Found in a standard chest in Fornost, on Normal difficulty. I only found one, and it was random; I couldn't say exactly which chest it was yet. I'll update this later."
+ },
+ {
+  "name": "Imladris Signet",
+  "slot": "Rings",
+  "value": 434,
+  "bonuses": [
+   "+5 Stamina"
+  ],
+  "slots": 2,
+  "mithril": "Obtainable as a reward from Elrond in the mission \"Cult of the Lidless Eye\" on Easy and Normal modes (though I can only personally confirm getting it on Normal). It is the only ring in the game with two slots. Please ignore the Mithril upgrades; I've already added them."
+ },
+ {
+  "name": "Dwarf-Smith's Ring",
+  "slot": "Rings",
+  "value": 35013,
+  "bonuses": [
+   "+18 Stamina",
+   "+90 Armor",
+   "+80 Damage"
+  ],
+  "mithril": "Mithrill Upgrades: 8 total.",
+  "source": "Obtainable as a reward from Buri in the mission \"A Gem No Mine Can Yield,\" only in Legendary mode."
+ },
+ {
+  "name": "Combatant´s ring",
+  "slot": "Rings",
+  "value": 214648,
+  "bonuses": [
+   "+5 Dexterity",
+   "+46 Armor",
+   "+5% Chance to steal health"
+  ],
+  "mithril": "Mithrill Upgrades: 8 total.",
+  "source": "It can be purchased in Nordinband from the Dwarf Merchant NPC for a cost of 214,648. Only in Legendary mode."
+ },
+ {
+  "name": "Second Age Ring",
+  "slot": "Rings",
+  "value": 26576,
+  "bonuses": [
+   "+5 Dexterity",
+   "+7 Reduced Damage",
+   "26% Skill Cooldown Reduction"
+  ],
+  "mithril": "Mithrill Upgrades: 8 total.",
+  "source": "Obtainable as a reward from Elrond in the mission \"Cult of the Lidless Eye\" on Legendary mode."
+ },
+ {
+  "name": "Moonlight Band",
+  "slot": "Rings",
+  "value": 1806,
+  "bonuses": [
+   "13% Reduced Prices",
+   "7% Bonus XP"
+  ],
+  "mithril": "Mithrill Upgrades: 8 total.",
+  "source": "Obtainable as a reward from Elrond in the mission \"Cult of the Lidless Eye\" on Heroic mode. It only serves to accumulate experience faster—nothing fancy."
+ },
+ {
+  "name": "Last Alliance Ring",
+  "slot": "Rings",
+  "bonuses": [
+   "+6 Strenght",
+   "+5 Will",
+   "+7 Dexterity",
+   "+5 Stamina"
+  ],
+  "mithril": "Mithrill Upgrades: 8 total.",
+  "source": "Obtainable as a reward from Elrond in the mission \"Cult of the Lidless Eye\" on Legendary mode."
+ },
+ {
+  "name": "Truesilver Broadsword",
+  "slot": "One-handed Weapons",
+  "value": 171346,
+  "bonuses": [
+   "+70 Health",
+   "+47 Armor",
+   "+13% Health Regen",
+   "+85 Shock Damage"
+  ],
+  "mithril": "Mithrill Upgrades: 8 total",
+  "source": "It is obtained from the following confirmed sources: Agandaûr (medium-to-hard drop rate), the Fire-Hammer Troll summoned by Agandaûr, Beornings summoned by Agandaûr (ridiculously low, but possible), and the first guild chest found in Carn-Dûm (the one inside the Carn-dûm man's cell with low drop rat"
+ },
+ {
+  "name": "Nargothrond Blade",
+  "slot": "One-handed Weapons",
+  "value": 189010,
+  "bonuses": [
+   "+5 Strength",
+   "+5 Stamina"
+  ],
+  "slots": 2,
+  "mithril": "Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and 8 with 2 free slots.",
+  "source": "Loot obtained from 3 confirmed sources: from Agandaûr (a very low drop rate, obtained after 31 attempts); from the Fire-hammer Troll summoned by Agandaûr (low drop rate, obtained after 18 attempts); and from the first Carn Dûm guild (the one inside the Carn-dûm man's cell with a ridiculously low dro"
+ },
+ {
+  "name": "Ithilien Hatchet",
+  "slot": "One-handed Weapons",
+  "value": 107640,
+  "bonuses": [
+   "+90 Fire Damage"
+  ],
+  "mithril": "Mithrill Upgrades: 8 total",
+  "source": "It's supposedly a drop from Agandâur; the drop rate must be very low. I'll check it out later. Only on Legendary Mode."
+ },
+ {
+  "name": "Moria-silver Hammer",
+  "slot": "One-handed Weapons",
+  "value": 95885,
+  "bonuses": [
+   "+10 Strength",
+   "+30 Health",
+   "2% bonus XP"
+  ],
+  "source": "Obtained as a reward for flattering the dragon Urgost during Bilbo's \"The Chronicler\" quest in Imladris. Only on Legendary mode.",
+  "slots": 1,
+  "mithril": "Mithrill Upgrades: (7) w /1 slot covered and 8 with 1 free slots."
+ },
+ {
+  "name": "Redwater Shield",
+  "slot": "Shields",
+  "source": "Location: Urgost Lair in shops or as a random drop on Heroic mode."
+ },
+ {
+  "name": "Battle-master's Shield",
+  "slot": "Shields",
+  "value": 56207,
+  "bonuses": [
+   "+9 Dexterity",
+   "+9 Stamina"
+  ],
+  "source": "Looted from Agandaur (final boss) on Legendary mode. (Check also the piles around him)."
+ },
+ {
+  "name": "Scatha's Horde Shield",
+  "slot": "Shields",
+  "value": 78801,
+  "bonuses": [
+   "+9 Stamina",
+   "+75 Power"
+  ]
+ },
+ {
+  "name": "Lossarnach Buckler",
+  "slot": "Shields",
+  "value": 31459,
+  "source": "Looted from Agandaur (final boss) on Legendary mode. (Check also the piles around him)."
+ },
+ {
+  "name": "Pinehurst Shield",
+  "slot": "Shields",
+  "value": 20534,
+  "bonuses": [
+   "+8 Strength",
+   "+8 Will",
+   "+60 Health"
+  ],
+  "source": "location: Mount Gundabad random loot, also sold at the first shop-checkpoint (if the shop doesn't offer it, travel somewhere and back to Gundabad and check again). on Legendary mode."
+ },
+ {
+  "name": "Peredhil Maul",
+  "slot": "Two-handed weapons",
+  "bonuses": [
+   "2-handed hammer"
+  ],
+  "source": "Loot from Urgost (The Chronicle Quest). Talk to Bilbo after speaking to Gorin in Nordinbad for the first time, when it's mentioned that you have to find Urgost, but before you actually find Urgost. (talk to him until he mentions so you're gonna face a dragon)"
+ },
+ {
+  "name": "Angost Great Sword",
+  "slot": "Two-handed weapons",
+  "value": 56343,
+  "bonuses": [
+   "+9 Dexterity"
+  ],
+  "source": "Has lower damage than most top tier weapons, but has a high chance for health orbs, especially since that bonus is usually never available on swords."
+ },
+ {
+  "name": "Buri's Battle-axe",
+  "slot": "Two-handed weapons",
+  "value": 556,
+  "source": "Location: The Nordinbad NPC shop after the siege on normal mode."
+ },
+ {
+  "name": "Forest-lord's Staff",
+  "slot": "Staffs",
+  "value": 74227,
+  "bonuses": [
+   "+ 8 Dexterity",
+   "1.5x Damage vs. Orcs"
+  ]
+ },
+ {
+  "name": "Ernil Longbow",
+  "slot": "Bows",
+  "value": 39305
+ },
+ {
+  "name": "Doriath Bow",
+  "slot": "Bows",
+  "value": 137000,
+  "bonuses": [
+   "+15 Dexterity"
+  ],
+  "source": "Found in Carn Dum, most likely to be found as troll or boss loot on Legendary."
+ },
+ {
+  "name": "Jewel-smith Bow",
+  "slot": "Bows",
+  "value": 77292,
+  "bonuses": [
+   "+1.5x Troll Damage",
+   "+91 Deep Wounds Damage",
+   "+290 Crit Damage"
+  ]
+ },
+ {
+  "name": "Buri's Master Bow",
+  "slot": "Bows",
+  "value": 113898,
+  "bonuses": [
+   "+8 Dexterity",
+   "+8 Stamina",
+   "+1.5x Orc Damage"
+  ]
+ },
+ {
+  "name": "Galron's Yew Bow",
+  "slot": "Bows",
+  "value": 28594,
+  "bonuses": [
+   "+19% Chance to steal Power",
+   "+5% Chance of Power Orb",
+   "+2 Improved aiming"
+  ]
+ },
+ {
+  "name": "Beleriand War Bow",
+  "slot": "Bows",
+  "value": 202512,
+  "bonuses": [
+   "+9 Will",
+   "+5 Stamina",
+   "+13% Health Regen",
+   "+380 Crit Damage"
+  ],
+  "source": "Found in Carn Dum, most likely to be found as troll or boss loot on Legendary."
+ },
+ {
+  "name": "Battle-master's Crossbow",
+  "slot": "Crossbows"
+ },
+ {
+  "name": "Deep-vein Helm",
+  "slot": "Helmets",
+  "value": 793,
+  "bonuses": [
+   "+4 Will"
+  ],
+  "source": "Can be bought from Nordinbad NPC on Heroic mode. Can also be found on Legendary mode in the same gold chest as the Northwarden's Amulet."
+ },
+ {
+  "name": "Hidden-lake Helmet",
+  "slot": "Helmets",
+  "value": 6872
+ },
+ {
+  "name": "Nightshade Shoulders",
+  "slot": "Shoulders",
+  "value": 27723,
+  "bonuses": [
+   "+12 Reflect Damage"
+  ],
+  "source": "Looted form Legendary Ettenmoors - first gold chest across the jump at the star of the level."
+ },
+ {
+  "name": "Carnen Gauntlets",
+  "slot": "Gloves",
+  "value": 10848,
+  "slots": 2,
+  "mithril": "Mithrill Upgrades: (6) w/2 slot covered, (7) w/1 slot covered and 8 with 2 free slots.",
+  "source": "Obtainable as a random drop during the Nordinbad Siege map. It can be found via the following sources: standard chests located on both sides of the Nordinbad gate; drops from Ologs during the fourth wave of enemies; and drops from the Beornid commander during the fifth and final wave. I haven't veri"
+ },
+ {
+  "name": "Lorien Vambraces",
+  "slot": "Gloves",
+  "value": 1068,
+  "slots": 2,
+  "mithril": "Mithrill Upgrades: (6) w/2 slot covered, (7) w/1 slot covered and 8 with 2 free slots.",
+  "source": "Obtainable as a random drop from guild chests on the Barrow-downs map, as an item at the Sarn Ford and Rivendell vendors, and as a random drop in the first section of the Ettenmoors map. Only on Heroic Mode."
+ },
+ {
+  "name": "Stalker´s Gauntlets",
+  "slot": "Gloves",
+  "value": 4491,
+  "slots": 2,
+  "mithril": "Mithrill Upgrades: (6) w/2 slot covered, (7) w/1 slot covered and 8 with 2 free slots.",
+  "source": "Obtainable as a random drop in the Ettenmoors, Gundabad, and Mirkwood maps—from mobs, standard chests, and guild chests, as well as from Saenathra. Only in Heroic (low probability) and Legendary mode."
+ },
+ {
+  "name": "Moria Silver Vambraces",
+  "slot": "Gloves",
+  "value": 129990,
+  "bonuses": [
+   "+9 Dexterity"
+  ],
+  "slots": 1,
+  "mithril": "Mithrill Upgrades: (7) w/1 slot covered and 8 with 1 free slot.",
+  "source": "Obtainable as a random drop on the Carn-dûm map. Possibly from Agandaur or the mobs he summons. There is also a chance it can be found in the four weapon piles in the first final battle stage. I will update this. Only in Legendary mode."
+ },
+ {
+  "name": "Moria Silver Gauntlets",
+  "slot": "Gloves",
+  "value": 119005,
+  "bonuses": [
+   "+9 Stamina"
+  ],
+  "mithril": "Mithrill Upgrades: (8) total.",
+  "source": "Obtainable as a random drop on the Carn-dûm map. Possibly from Agandaur or the mobs he summons. There is also a chance it can be found in the four weapon piles in the first final battle stage. I will update this. Only in Legendary mode."
+ },
+ {
+  "name": "Eastfold Leggings",
+  "slot": "Leggings",
+  "value": 9028,
+  "slots": 2,
+  "mithril": "Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and 8 with 2 free slots.",
+  "source": "Random loot on the Barrow Downs map (drops from the Barrow-wight boss, level-specific wights, urns, regular and guild chests, and other mobs). Only on Heroic and Legendary Mode."
+ },
+ {
+  "name": "Polished Moria silver legs",
+  "slot": "Leggings",
+  "value": 9028,
+  "bonuses": [
+   "+17 Desterity"
+  ],
+  "mithril": "Mithrill Upgrades: 8 total.",
+  "source": "Random loot from the Fire-hammer Troll, and Agandaur on Carn-dûm finale. Only on Legendary Mode."
+ },
+ {
+  "name": "Neldoreth Leg Guards -",
+  "slot": "Leggings",
+  "value": 76196,
+  "bonuses": [
+   "+70 Health"
+  ],
+  "mithril": "Mithrill Upgrades: (7) w /1 slot covered and 8 with 2 free slots.",
+  "source": "Supposedly a random loot from the Fire-hammer Troll, and Agandaur on Carn-dûm finale. Only on Legendary Mode."
+ },
+ {
+  "name": "Lebennin Greaves",
+  "slot": "Boots",
+  "value": 69423,
+  "slots": 2,
+  "mithril": "Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and 8 with 2 free slots.",
+  "source": "Random loot in the Ettermoors, Gundabad, and Urgost's Lair maps. Found in standard and guild chests, as well as on in-game mobs. Also in Shops as random item. Only on Legendary Mode."
+ },
+ {
+  "name": "Commander´s Greaves",
+  "slot": "Boots",
+  "value": 8137,
+  "slots": 2,
+  "mithril": "Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and 8 with 2 free slots.",
+  "source": "Random loot in the Fornost, Ettermors, and Gundabad maps. Found in standard and guild chests, as well as on in-game mobs. Also in Shops as random item. Only on Heroic and Legendary Mode."
+ },
+ {
+  "name": "Ithilien Boots",
+  "slot": "Boots",
+  "value": 51921,
+  "bonuses": [
+   "+9 Strenght"
+  ],
+  "mithril": "Mithrill Upgrades: 8 total.",
+  "source": "Random loot in the Carn-dûm map (drops from level Ologs, Fire-hammer Troll, and Agandaur). Only on Legendary Mode."
+ }
+]
