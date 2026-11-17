@@ -1,0 +1,237 @@
+[
+ {
+  "name": "Choice of Rewards",
+  "value": 1,
+  "description": "A choice of gift for completion of a side quest."
+ },
+ {
+  "name": "Cram",
+  "value": 15,
+  "description": "5 Strength, Improved Power Regeneration Duration: 1.5 minutes"
+ },
+ {
+  "name": "Dried Fish",
+  "value": 4,
+  "description": "Heals 40 health."
+ },
+ {
+  "name": "Efficiency Elixir",
+  "value": 50,
+  "description": "Power cost of skills is reduced 80% Duration: 10 minutes"
+ },
+ {
+  "name": "Elixir of Learning",
+  "value": 50,
+  "description": "x2 experience earned Duration: 1 minute"
+ },
+ {
+  "name": "Elixir of Lethal Striking",
+  "value": 50,
+  "description": "Enemies hit receive Deep Wounds. Duration: 3 minutes"
+ },
+ {
+  "name": "Elixir of Powerful Shooting",
+  "value": 50,
+  "description": "Enemies hit with normal ranged shots are stunned Duration: 10 minutes"
+ },
+ {
+  "name": "Great Feather",
+  "value": 50,
+  "description": "Summons Beleram to strike at an enemy."
+ },
+ {
+  "name": "Healing Cake",
+  "value": 50,
+  "description": "Improved health regeneration. Duration: 1 minute"
+ },
+ {
+  "name": "Healing Salve",
+  "value": 35,
+  "description": "Heals 200 health."
+ },
+ {
+  "name": "Health Potion",
+  "value": 45,
+  "description": "Restores a % of your health."
+ },
+ {
+  "name": "Hero's Potion",
+  "value": 50,
+  "description": "Each strike gives +1000 bonus damage while in Heroic Mode. Duration: 2 minutes"
+ },
+ {
+  "name": "Map Fragments",
+  "value": 30,
+  "description": "A piece of the map, use it to add the location to your map of Middle Earth."
+ },
+ {
+  "name": "Miruvor",
+  "value": 50,
+  "description": "Full Health and Power, +20 Strength, +20 Dexterity, +30 Stamina Duration: 5 minutes"
+ },
+ {
+  "name": "Orc-liquor",
+  "value": 20,
+  "description": "+25 Stamina, +50 Melee Damage Duration: 2.5 minutes"
+ },
+ {
+  "name": "Potion of Hardiness",
+  "value": 50,
+  "description": "Health x 2 Duration: 60 minutes"
+ },
+ {
+  "name": "Potion of Might",
+  "value": 50,
+  "description": "All strikes have minor Area Damage, and enemies are Slowed. Duration: 2 minutes"
+ },
+ {
+  "name": "Potion of Quickness",
+  "value": 50,
+  "description": "Upon being struck there's a chance for a temporary increase in speed Duration: 5 minutes"
+ },
+ {
+  "name": "Potion of Resurgence",
+  "value": 50,
+  "description": "Protection from death while effect lasts: auto-revive once. Duration: 2 minutes"
+ },
+ {
+  "name": "Potion of Retribution",
+  "value": 50,
+  "description": "Enemies who strike the player are injured (equal to 30% of player damage) Duration: 10 minutes"
+ },
+ {
+  "name": "Potion of Wisdom",
+  "value": 50,
+  "description": "+750 Power Duration: 10 minutes"
+ },
+ {
+  "name": "Power Potion",
+  "value": 40,
+  "description": "Restores a % of your power."
+ },
+ {
+  "name": "Rejuvenating Cake",
+  "value": 50,
+  "description": "Improved health and power regeneration. Duration: 1 minute"
+ },
+ {
+  "name": "Rejuvenation Potion",
+  "value": 50,
+  "description": "Restores both health and power."
+ },
+ {
+  "name": "Re-spec Token",
+  "value": 4000,
+  "description": "Allows you to change how you originally distributed your characters skill and stat points."
+ },
+ {
+  "name": "Restoring Cake",
+  "value": 50,
+  "description": "Improved power regeneration. Duration: 1 minute"
+ },
+ {
+  "name": "Stale Grey Bread",
+  "value": 1,
+  "description": "When consumed, heals for 5 health."
+ },
+ {
+  "name": "Strength Potion",
+  "value": 50,
+  "description": "Strength x2 Duration: 1 minute"
+ },
+ {
+  "name": "Strong Ale",
+  "value": 30,
+  "description": "Heals 40 Health."
+ },
+ {
+  "name": "Victor's Brew",
+  "value": 50,
+  "description": "Receive orbs upon enemy kill. Duration: 1 minute"
+ },
+ {
+  "name": "Warding Potion",
+  "value": 50,
+  "description": "+50% of received damage is absorbed Duration: 1 minute"
+ },
+ {
+  "name": "Alfirin",
+  "value": 2,
+  "description": "(Never-fade) A delicate bell-shaped, golden flower."
+ },
+ {
+  "name": "Arthrif",
+  "value": 1,
+  "description": "(Noble-bark) A thin silver-grey tree bark."
+ },
+ {
+  "name": "Carandol",
+  "value": 3,
+  "description": "(Red Cap) A small mushroom with a brilliant red cap."
+ },
+ {
+  "name": "Elanor",
+  "value": 3,
+  "description": "(Sun-star) A small, golden, star-shaped flower."
+ },
+ {
+  "name": "Gwinuial",
+  "value": 1,
+  "description": "(Twilight Vine) A low creeper with tiny blooms resembling dim stars."
+ },
+ {
+  "name": "Hithlas",
+  "value": 1,
+  "description": "(Mist-leaf) A small bush with grey-green leaves."
+ },
+ {
+  "name": "Lothrond",
+  "value": 2,
+  "description": "(Cave-flower) A fungus with a colorful cap which grows in separate segments reminiscent of the petals of a flower."
+ },
+ {
+  "name": "Meluinen",
+  "value": 1,
+  "description": "(Sweet-water) Crystal clear mineral water."
+ },
+ {
+  "name": "Morthond",
+  "value": 3,
+  "description": "(Black Root) A dark, many-lobed tuber."
+ },
+ {
+  "name": "Naugrimbas",
+  "value": 2,
+  "description": "(Dwarf-bread) A bloated, unappealing mushroom; edible, but foul. Often used by dwarves as an emergency ration."
+ },
+ {
+  "name": "Naurivor",
+  "value": 1,
+  "description": "(Flame Crystal) Tiny, fiery-red crystals."
+ },
+ {
+  "name": "Niphredil",
+  "value": 1,
+  "description": "(Snowdrop) A pale white flower atop a slender green stalk."
+ },
+ {
+  "name": "Orchamarth",
+  "value": 3,
+  "description": "(Orc-bane) A sickly-looking fungus which often proves deadly to those who handle it improperly."
+ },
+ {
+  "name": "Remmenthond",
+  "value": 2,
+  "description": "(Tangle Root) A cluster of thin, densely-intertwined roots."
+ },
+ {
+  "name": "Rhiwaeg",
+  "value": 5,
+  "description": "(Winterthorn) A hardy shrub bearing many prickly leaves."
+ },
+ {
+  "name": "Simbelmyne",
+  "value": 2,
+  "description": "(Evermind) A small, low growing, white flower found in clusters."
+ }
+]

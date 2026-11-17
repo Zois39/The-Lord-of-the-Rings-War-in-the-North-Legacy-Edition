@@ -1,0 +1,362 @@
+[
+ {
+  "set": "Adamant",
+  "classes": "Ranger, Champion, and Lore-Master",
+  "pieces": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "bonuses": {
+   "2": "+25 Armor",
+   "3": "+30 Health",
+   "4": "+80 Armor",
+   "5": "+50 Health",
+   "6": "+150 Armor"
+  }
+ },
+ {
+  "set": "Alliance",
+  "classes": "Ranger, Champion, and Lore-Master",
+  "pieces": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "bonuses": {
+   "2": "+3 Strength",
+   "3": "+10 Crit Damage",
+   "4": "+8 Strength",
+   "5": "+110 Armor",
+   "6": "+105 Damage"
+  }
+ },
+ {
+  "set": "Arthedain Guard",
+  "classes": "Ranger, preorder bonus",
+  "pieces": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "bonuses": {
+   "2": "+3 Dexterity",
+   "3": "+30 Power",
+   "4": "+5 Dexterity",
+   "5": "+50 Power",
+   "6": "+5% Bonus Experience"
+  }
+ },
+ {
+  "set": "Battlemaster",
+  "classes": "Lore-Master",
+  "pieces": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "bonuses": {
+   "2": "+3 Will",
+   "3": "+40 Power",
+   "4": "+19% Skill Cooldown Reduction",
+   "5": "+12 Strength",
+   "6": "+16% Power Regeneration"
+  }
+ },
+ {
+  "set": "Battlement",
+  "classes": "Champion, Ranger, and Lore-Master",
+  "pieces": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "bonuses": {
+   "2": "+25 Armor",
+   "3": "+50 Armor",
+   "4": "+80 Armor",
+   "5": "+110 Armor",
+   "6": "+150 Armor"
+  }
+ },
+ {
+  "set": "Bowmaster",
+  "classes": "Ranger",
+  "pieces": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "bonuses": {
+   "2": "+18 Damage",
+   "3": "+4 Dexterity",
+   "4": "+80 Power",
+   "5": "+11 Dexterity",
+   "6": "+105 Damage"
+  }
+ },
+ {
+  "set": "Bright-flame",
+  "classes": "Ranger, Champion, and Lore-Master",
+  "pieces": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "bonuses": {
+   "2": "+2% Steal Health Chance",
+   "3": "+6 Will",
+   "4": "+11% Power Regeneration",
+   "5": "+100 Power",
+   "6": "+65 Health"
+  }
+ },
+ {
+  "set": "Dragon-Fire",
+  "classes": "Ranger, Champion, and Lore-Master",
+  "pieces": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "bonuses": {
+   "2": "+25 Armor",
+   "3": "+6 Strength",
+   "4": "+56 Damage",
+   "5": "+110 Armor",
+   "6": "+85 Fire Damage"
+  }
+ },
+ {
+  "set": "Defender",
+  "classes": "Champion",
+  "pieces": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "bonuses": {
+   "2": "+3 Stamina",
+   "3": "+50 Armor",
+   "4": "+5 Reduced Damage",
+   "5": "+50 Health",
+   "6": "+20 Stamina"
+  }
+ },
+ {
+  "set": "Ered Mithrin",
+  "classes": "Champion, preorder bonus",
+  "pieces": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "bonuses": {
+   "2": "+3 Stamina",
+   "3": "+30 Power",
+   "4": "+5 Stamina",
+   "5": "+50 Power",
+   "6": "x4 Find more coins"
+  }
+ },
+ {
+  "set": "Fell-hunter",
+  "classes": "Ranger, Champion, and Lore-Master",
+  "pieces": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "bonuses": {
+   "2": "+18 Damage",
+   "3": "+50 Armor",
+   "4": "+15 Crit Damage",
+   "5": "+110 Armor",
+   "6": "+23 Dexterity"
+  }
+ },
+ {
+  "set": "Fortune",
+  "classes": "Ranger, Champion, and Lore-Master",
+  "pieces": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "bonuses": {
+   "2": "x2 Find more coins",
+   "3": "10% Reduced store prices",
+   "4": "+8 Stamina",
+   "5": "+13 Will",
+   "6": "x4 Find more coins"
+  }
+ },
+ {
+  "set": "Grey Havens",
+  "classes": "Lore-Master, preorder bonus",
+  "pieces": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "bonuses": {
+   "2": "+3 Will",
+   "3": "+30 Power",
+   "4": "+5 Will",
+   "5": "+50 Power",
+   "6": "+14 Reflect Damage"
+  }
+ },
+ {
+  "set": "Marksman",
+  "classes": "Ranger, Champion, and Lore-Master",
+  "pieces": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "bonuses": {
+   "2": "+3 Dexterity",
+   "3": "+35 Damage",
+   "4": "+80 Armor",
+   "5": "+14 Dexterity",
+   "6": "+105 Damage"
+  }
+ },
+ {
+  "set": "Stalker",
+  "classes": "Ranger",
+  "pieces": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "bonuses": {
+   "2": "+5 Crit Damage",
+   "3": "+35 Damage",
+   "4": "+8 Strength",
+   "5": "+20 Crit Damage",
+   "6": "+65 Health"
+  }
+ },
+ {
+  "set": "Stronghold",
+  "classes": "Ranger, Champion, and Lore-Master",
+  "pieces": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "bonuses": {
+   "2": "+3 Stamina",
+   "3": "+50 Armor",
+   "4": "+5 Reduced Damage",
+   "5": "+110 Armor",
+   "6": "+65 Health"
+  }
+ },
+ {
+  "set": "Sunrise",
+  "classes": "Ranger, Champion, and Lore-Master",
+  "pieces": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "bonuses": {
+   "2": "+5% Health Regeneration",
+   "3": "+6% Reflect Damage",
+   "4": "+15 Crit Damage",
+   "5": "+12 Stamina",
+   "6": "+150 Armor"
+  }
+ },
+ {
+  "set": "War-forge",
+  "classes": "Ranger, Champion, and Lore-Master",
+  "pieces": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "bonuses": {
+   "2": "+3 Reduced Damage",
+   "3": "+3% Stun When Struck",
+   "4": "+80 Armor",
+   "5": "+11 Reflect Damage",
+   "6": "+8% Enemy Miss Chance"
+  }
+ },
+ {
+  "set": "Warlord",
+  "classes": "Champion",
+  "pieces": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "bonuses": {
+   "2": "+18 Damage",
+   "3": "+5 Strength",
+   "4": "+8 Dexterity",
+   "5": "+13 Strength",
+   "6": "+30 Crit Damage"
+  }
+ },
+ {
+  "set": "War-wise",
+  "classes": "Lore-Master",
+  "pieces": [
+   "2",
+   "3",
+   "4",
+   "5",
+   "6"
+  ],
+  "bonuses": {
+   "2": "+3 Strength",
+   "3": "+30 Health",
+   "4": "+9 Will",
+   "5": "+100 Power",
+   "6": "+150 Armor"
+  }
+ }
+]

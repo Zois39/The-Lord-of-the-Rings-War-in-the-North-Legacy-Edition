@@ -1,0 +1,167 @@
+{
+ "hero": "Andriel",
+ "archetype": "Loremaster",
+ "source": "https://witn.fandom.com/wiki/Andriel",
+ "description": "Эльфийская хранительница знаний из Ривенделла. Мастер посоха, света и защиты отряда.",
+ "trees": [
+  {
+   "name": "Sanctuary",
+   "skills": [
+    {
+     "name": "Sanctuary",
+     "type": "active",
+     "max_rank": null,
+     "description": "Создаёт защитный купол вокруг отряда, поглощающий урон. Основа выживания группы."
+    },
+    {
+     "name": "Healing Light",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Поток света, исцеляющий союзников в области. Сила исцеления растёт с рангами."
+    },
+    {
+     "name": "Preservation",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Пассивно усиливает эффективность всех исцеляющих умений Андриэль."
+    },
+    {
+     "name": "Focus Mind",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Ускоряет восстановление запаса сил (power)."
+    },
+    {
+     "name": "Shielding Light",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Усиленный купол Sanctuary: добавляет периодическое исцеление находящимся внутри."
+    },
+    {
+     "name": "Sanctuary Mastery",
+     "type": "passive",
+     "max_rank": null,
+     "description": "Увеличивает радиус и прочность купола Sanctuary."
+    },
+    {
+     "name": "Heal",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Мгновенное мощное исцеление одной цели. На высоких рангах снимает негативные эффекты."
+    }
+   ]
+  },
+  {
+   "name": "Word of Command",
+   "skills": [
+    {
+     "name": "Word of Command",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Слово силы, наносящее урон и прерывающее применение заклинаний врага. Стоимость: 15 power. Первый тир, центральная колонка; усиливается сетом из трёх навыков."
+    },
+    {
+     "name": "Clarity",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Снижает стоимость всех умений на 5% за ранг."
+    },
+    {
+     "name": "Loremaster's Reach",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Увеличивает дальность действия умений и заклинаний."
+    },
+    {
+     "name": "Tempest",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Мощный вихрь стихии, поражающий всех врагов в области перед Андриэль."
+    },
+    {
+     "name": "Smite",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Небесный удар по выбранной цели; оглушает обычных врагов."
+    },
+    {
+     "name": "Quick-Minded",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Сокращает время перезарядки активных умений."
+    },
+    {
+     "name": "Strength of Will",
+     "type": "passive",
+     "max_rank": null,
+     "description": "Увеличивает максимальный запас сил (power)."
+    },
+    {
+     "name": "Renewed Power",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Мгновенно восстанавливает часть запаса сил всего отряда."
+    },
+    {
+     "name": "Sundering Command",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Слово силы, снижающее защиту поражённых врагов. Отлично сочетается с физическим отрядом."
+    },
+    {
+     "name": "Staff and Steel",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Боевое применение посоха: серия быстрых ударов с магическим уроном."
+    }
+   ]
+  },
+  {
+   "name": "Empower Staff",
+   "skills": [
+    {
+     "name": "Empower Staff",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Вкладывает силу в посох: усиливает следующее заклинание. Базовый навык ветки."
+    },
+    {
+     "name": "Staff Mastery",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Повышает урон ближних атак посохом."
+    },
+    {
+     "name": "Magnify Staff",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Усиливает эффекты Empower Staff."
+    },
+    {
+     "name": "Elemental Affinity",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Сопротивление стихиям и усиление стихийного урона Андриэль."
+    },
+    {
+     "name": "Wrath of the Eldar",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Древняя сила эльфов: мощная волна урона вокруг Андриэль."
+    },
+    {
+     "name": "Forceful Fire",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Усиленный огненный снаряд, поджигающий врагов."
+    },
+    {
+     "name": "Burst of Light",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Взрыв света, отбрасывающий и ослепляющий врагов. Спасение в ближнем бою."
+    }
+   ]
+  }
+ ]
+}

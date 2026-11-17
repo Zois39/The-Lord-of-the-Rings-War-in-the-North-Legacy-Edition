@@ -1,0 +1,318 @@
+[
+ {
+  "name": "Animal Pelt",
+  "value": 17
+ },
+ {
+  "name": "Arrowheads",
+  "value": 4
+ },
+ {
+  "name": "Barbed Hook",
+  "value": 2
+ },
+ {
+  "name": "Bronze Chain Belt",
+  "value": 30
+ },
+ {
+  "name": "Bronze Goblet",
+  "value": 20
+ },
+ {
+  "name": "Bronze Horn",
+  "value": 40
+ },
+ {
+  "name": "Candle",
+  "value": 6
+ },
+ {
+  "name": "Carved Bone Dice",
+  "value": 2
+ },
+ {
+  "name": "Ceramic Ewer",
+  "value": 45
+ },
+ {
+  "name": "Ceramic Urn",
+  "value": 85
+ },
+ {
+  "name": "Chipped Diamond",
+  "value": 32600
+ },
+ {
+  "name": "Chipped Ruby",
+  "value": 16300
+ },
+ {
+  "name": "Chipped Sapphire",
+  "value": 4080
+ },
+ {
+  "name": "Chipped Topaz",
+  "value": 2040
+ },
+ {
+  "name": "Cut Diamond",
+  "value": 65600
+ },
+ {
+  "name": "Cut Emerald",
+  "value": 16400
+ },
+ {
+  "name": "Cut Ruby",
+  "value": 32800
+ },
+ {
+  "name": "Cut Sapphire",
+  "value": 8200
+ },
+ {
+  "name": "Cut Topaz",
+  "value": 4080
+ },
+ {
+  "name": "Decorative Plate",
+  "value": 10
+ },
+ {
+  "name": "Drinking Horn",
+  "value": 70
+ },
+ {
+  "name": "Flawed Emerald",
+  "value": 8160
+ },
+ {
+  "name": "Gold Bracelet",
+  "value": 70
+ },
+ {
+  "name": "Gold Ceremonial Dagger",
+  "value": 105
+ },
+ {
+  "name": "Gold Chain",
+  "value": 350
+ },
+ {
+  "name": "Gold Crown",
+  "value": 800
+ },
+ {
+  "name": "Gold Ingot",
+  "value": 100
+ },
+ {
+  "name": "Gold Nugget",
+  "value": 100
+ },
+ {
+  "name": "Gold Pipe",
+  "value": 90
+ },
+ {
+  "name": "Gold Pitcher",
+  "value": 230
+ },
+ {
+  "name": "Gold Plate",
+  "value": 85
+ },
+ {
+  "name": "Gold Scepter",
+  "value": 130
+ },
+ {
+  "name": "Gold Statue",
+  "value": 250
+ },
+ {
+  "name": "Iron Chain",
+  "value": 18
+ },
+ {
+  "name": "Iron Collar",
+  "value": 1
+ },
+ {
+  "name": "Iron Shod Shoe",
+  "value": 2
+ },
+ {
+  "name": "Jewel Encrusted Statue",
+  "value": 460
+ },
+ {
+  "name": "Jeweled Belt",
+  "value": 550
+ },
+ {
+  "name": "Jeweled Bracelet",
+  "value": 120
+ },
+ {
+  "name": "Jeweled Broach",
+  "value": 65
+ },
+ {
+  "name": "Jeweled Ceremonial Dagger",
+  "value": 220
+ },
+ {
+  "name": "Jeweled Scepter",
+  "value": 240
+ },
+ {
+  "name": "Jewelry Box",
+  "value": 120
+ },
+ {
+  "name": "Large Gold Nugget",
+  "value": 150
+ },
+ {
+  "name": "Large Gold Goblet",
+  "value": 95
+ },
+ {
+  "name": "Large Jeweled Goblet",
+  "value": 200
+ },
+ {
+  "name": "Large Silver Goblet",
+  "value": 65
+ },
+ {
+  "name": "Manacles",
+  "value": 1
+ },
+ {
+  "name": "Metal Tongs",
+  "value": 4
+ },
+ {
+  "name": "Nails",
+  "value": 1
+ },
+ {
+  "name": "Old Tool",
+  "value": 6
+ },
+ {
+  "name": "Perfect Amber",
+  "value": 576
+ },
+ {
+  "name": "Perfect Diamond",
+  "value": 97600
+ },
+ {
+  "name": "Perfect Emerald",
+  "value": 24400
+ },
+ {
+  "name": "Perfect Malachite",
+  "value": 240
+ },
+ {
+  "name": "Perfect Ruby",
+  "value": 48800
+ },
+ {
+  "name": "Perfect Sapphire",
+  "value": 12200
+ },
+ {
+  "name": "Perfect Topaz",
+  "value": 6120
+ },
+ {
+  "name": "Polished Diamond",
+  "value": 12200
+ },
+ {
+  "name": "Raven Adorned War-gear",
+  "value": 1
+ },
+ {
+  "name": "Rough Sapphire",
+  "value": 510
+ },
+ {
+  "name": "Shaped Amber",
+  "value": 384
+ },
+ {
+  "name": "Silver Bracelet",
+  "value": 40
+ },
+ {
+  "name": "Silver Ceremonial Dagger",
+  "value": 65
+ },
+ {
+  "name": "Silver Chain Belt",
+  "value": 120
+ },
+ {
+  "name": "Silver Crown",
+  "value": 400
+ },
+ {
+  "name": "Silver Ingot",
+  "value": 50
+ },
+ {
+  "name": "Silver Pipe",
+  "value": 55
+ },
+ {
+  "name": "Silver Plate",
+  "value": 55
+ },
+ {
+  "name": "Silver Scepter",
+  "value": 75
+ },
+ {
+  "name": "Silver Statue",
+  "value": 120
+ },
+ {
+  "name": "Silver Urn",
+  "value": 100
+ },
+ {
+  "name": "Small Gold Nugget",
+  "value": 50
+ },
+ {
+  "name": "Smooth Ruby",
+  "value": 6120
+ },
+ {
+  "name": "Tarnished Silver Pitcher",
+  "value": 161
+ },
+ {
+  "name": "Uncut Diamond",
+  "value": 4100
+ },
+ {
+  "name": "Uncut Ruby",
+  "value": 2040
+ },
+ {
+  "name": "Uncut Topaz",
+  "value": 255
+ },
+ {
+  "name": "Whip",
+  "value": 12
+ }
+]

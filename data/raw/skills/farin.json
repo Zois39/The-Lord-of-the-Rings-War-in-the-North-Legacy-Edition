@@ -1,0 +1,155 @@
+{
+ "hero": "Farin",
+ "archetype": "Champion",
+ "source": "https://witn.fandom.com/wiki/Farin",
+ "description": "Гном-чемпион из Эребора. Неудержимый воин щитом, топором и арбалетом.",
+ "trees": [
+  {
+   "name": "War-cry",
+   "skills": [
+    {
+     "name": "War-cry",
+     "type": "active",
+     "max_rank": null,
+     "description": "Боевой клич, усиливающий отряд и сбивающий врагов. Активный навык. Стоимость: 15 power. Первый тир, средняя колонка; усиливается сетом из трёх навыков."
+    },
+    {
+     "name": "Dwarf Armor",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Увеличивает защиту в тяжёлой броне. Ранги добавляют броню."
+    },
+    {
+     "name": "Shield Bash",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Удар щитом, оглушающий врага. Ветка War-cry, 20 power. Открывает сет из двух усилений."
+    },
+    {
+     "name": "Mighty Reach",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Увеличивает досягаемость двуручного оружия. Ветка War-cry, 20 power. Сет из трёх усилений."
+    },
+    {
+     "name": "Fortitude",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Увеличивает максимальное здоровье на 15 за ранг (макс 3)."
+    },
+    {
+     "name": "Heavy Weapons",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Обучение двуручному оружию. Каждый ранг: +6 к максимальному урону, +140 к минимальному (макс 3 ранга)."
+    }
+   ]
+  },
+  {
+   "name": "Sweeping Attack",
+   "skills": [
+    {
+     "name": "Sweeping Attack",
+     "type": "active",
+     "max_rank": null,
+     "description": "Широкий удар, поражающий всех врагов вокруг. Активный навык. Стоимость: 15 power. Первый тир, средняя колонка; усиливается сетом из трёх навыков."
+    },
+    {
+     "name": "Battle Fury",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Усиливает Sweeping Attack: бонус к урону ветки. Стоимость: 15 power."
+    },
+    {
+     "name": "Impact",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Увеличивает урон Sweeping Attack. Навык ветки. Стоимость: 20 power."
+    },
+    {
+     "name": "Taunt",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Провоцирует врагов атаковать Фарина, защищая отряд. Активный. Стоимость: 15 power."
+    },
+    {
+     "name": "Determination",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Повышает защиту на 10% за ранг при блокировании."
+    },
+    {
+     "name": "Whirlwind",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Вращающаяся атака, поражающая всех врагов вокруг. Доступно после Sweeping Attack (удерживать RT+X)."
+    }
+   ]
+  },
+  {
+   "name": "Crushing Blow",
+   "skills": [
+    {
+     "name": "Crushing Blow",
+     "type": "active",
+     "max_rank": null,
+     "description": "Тяжёлый удар, наносящий огромный урон одной цели. Активный навык (RT+Y). Стоимость: 15 power. Первый тир, средняя колонка; усиливается сетом из трёх навыков."
+    },
+    {
+     "name": "Crossbow Adept",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Увеличивает урон арбалета на 10% за ранг."
+    },
+    {
+     "name": "Heavy Bolt",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Прицельный выстрел арбалетом с повышенным уроном. Ветка Crushing Blow, 20 power."
+    },
+    {
+     "name": "Retaliation",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Возвращает часть полученного урона атакующим."
+    },
+    {
+     "name": "Shield Charge",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Стремительный бросок с щитом, сбивающий врагов с ног. Активный, 20 power."
+    },
+    {
+     "name": "Abundant Harm",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Повышает критический урон на 15% за ранг."
+    },
+    {
+     "name": "Indomitable Spirit",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Устойчивость к оглушению и замедлению."
+    },
+    {
+     "name": "Explosive Bolt",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Болт, взрывающийся при попадании и поражающий область."
+    },
+    {
+     "name": "Crushing Wave",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Crushing Blow поражает нескольких врагов конусом перед Фарином."
+    },
+    {
+     "name": "Battle-ready",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Ускоряет восстановление power после убийств."
+    }
+   ]
+  }
+ ]
+}

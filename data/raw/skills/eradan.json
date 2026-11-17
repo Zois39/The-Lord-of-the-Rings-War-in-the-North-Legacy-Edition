@@ -1,0 +1,167 @@
+{
+ "hero": "Eradan",
+ "archetype": "Ranger",
+ "source": "https://witn.fandom.com/wiki/Eradan",
+ "description": "Дунаданский рейнджер из Севера. Мастер скрытности, двойного владения и лука.",
+ "trees": [
+  {
+   "name": "Evasion",
+   "skills": [
+    {
+     "name": "Evasion",
+     "type": "active",
+     "max_rank": null,
+     "description": "Боевой перекат в выбранном направлении, позволяющий уклониться от атак. Базовый приём выживания рейнджера."
+    },
+    {
+     "name": "Onslaught",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Мощная комбинация из четырёх ударов, наносящая повышенный урон. Дополнительные ранги увеличивают урон каждого удара."
+    },
+    {
+     "name": "Critical Wound",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Критические удары сильнее ранят врага. Ранги повышают бонусный урон критических атак."
+    },
+    {
+     "name": "Respite",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Быстрое восстановление запаса сил (power) между боями."
+    },
+    {
+     "name": "Smoke and flame",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Дымовая завеса, сбивающая врагам цель и позволяющая уйти в скрытность. Поздние ранги добавляют огненный урон."
+    },
+    {
+     "name": "Stealth Mastery",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Улучшает эффективность скрытности: скорость передвижения в невидимости и урон из засады растут с рангами."
+    },
+    {
+     "name": "Evasive Foe",
+     "type": "passive",
+     "max_rank": null,
+     "description": "Вероятность уклонения растёт при ношении лёгкой брони."
+    }
+   ]
+  },
+  {
+   "name": "Ranger Strike",
+   "skills": [
+    {
+     "name": "Ranger Strike",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Быстрый выпад с оружием в каждой руке. Наносит урон двумя ударами за одно действие."
+    },
+    {
+     "name": "Dual Wield",
+     "type": "passive",
+     "max_rank": null,
+     "description": "Позволяет сражаться двумя одноручными клинками."
+    },
+    {
+     "name": "Combat Training",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Увеличивает базовый урон ближнего боя. Ранги добавляют фиксированный бонус к урону."
+    },
+    {
+     "name": "Heavy Weapons",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Обучение обращению с двуручным оружием. Каждый ранг: +6 к максимальному урону, +140 к минимальному (макс 3 ранга)."
+    },
+    {
+     "name": "Dual Strike",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Удар обоими оружиями одновременно; требует двух клинков."
+    },
+    {
+     "name": "Blood of Westernesse",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Древняя кровь Дунаданов усиливает исцеление от зелий и делает частично устойчивым к проклятиям."
+    },
+    {
+     "name": "Cleave",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Широкий замах, поражающий нескольких врагов перед рейнджером."
+    },
+    {
+     "name": "Might of the Dunedain",
+     "type": "passive",
+     "max_rank": null,
+     "description": "Существенно повышает максимальный запас здоровья."
+    },
+    {
+     "name": "Assail",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Стремительная серия ударов, пробивающая блок врага."
+    },
+    {
+     "name": "Agility",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Повышает ловкость и скорость перекатов."
+    }
+   ]
+  },
+  {
+   "name": "Heavy Shot",
+   "skills": [
+    {
+     "name": "Heavy Shot",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Прицельный выстрел с повышенным уроном. Ранги увеличивают множитель."
+    },
+    {
+     "name": "Bow Mastery",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Пассивно повышает урон от лука."
+    },
+    {
+     "name": "Broad Quiver",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Увеличивает вместимость колчана. Каждый ранг добавляет 10 стрел."
+    },
+    {
+     "name": "Stunning Shot",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Выстрел, оглушающий цель. Длительность оглушения растёт с рангами."
+    },
+    {
+     "name": "Precision Aura",
+     "type": "passive",
+     "max_rank": 3,
+     "description": "Аура, повышающая меткость всего отряда."
+    },
+    {
+     "name": "Volley",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Залп из нескольких стрел по области."
+    },
+    {
+     "name": "Piercing shot",
+     "type": "active",
+     "max_rank": 3,
+     "description": "Пробивающий выстрел, наносящий урон всем врагам на линии огня."
+    }
+   ]
+  }
+ ]
+}
