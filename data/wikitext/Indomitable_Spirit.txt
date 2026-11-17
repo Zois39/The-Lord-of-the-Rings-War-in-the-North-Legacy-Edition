@@ -1,0 +1,6 @@
+[[File:Placeholder|right|300px]] 
+Passive Skill
+
+Active [[War-cry]] near a fallen ally to instantly revive them.
+
+Note: Higher ranks give more Health to the revived ally.

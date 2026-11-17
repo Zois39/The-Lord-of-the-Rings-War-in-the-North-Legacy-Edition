@@ -1,0 +1,9 @@
+[[File:Placeholder|right|300px]]
+Passive Skill
+
+[http://witn.wikia.com/wiki/Warcry War-cry] allows the Dwarf to ignore heavy hit reactions and also increases the Armor of nearby party members.
+
+Note: [http://witn.wikia.com/wiki/Warcry War-cry] must be active for effect. Higher ranks increase the shared Armor bonus.
+
+<u>'''Ignore heavier hit reactions'''</u> means that you gain resistance to flinching effects while under the effects of [[War-cry]].
+[[Category:Skills]]

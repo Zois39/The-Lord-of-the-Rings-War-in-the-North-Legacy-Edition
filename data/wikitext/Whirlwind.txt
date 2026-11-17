@@ -1,0 +1,11 @@
+[[File:Placeholder|right|300px]]
+
+
+Active Skill
+
+Cost: 19
+
+Hold '''RT + X''' to follow [http://witn.wikia.com/wiki/Sweeping_Attack Sweeping Attack] with a continuous flurry of quick area attacks. <u>'''Requires a Sword'''</u>
+
+Note: Continuing to hold '''RT + X''' allows Whirlwind to persist. Additional ranks increase damage from attacks.
+[[Category:Skills]]

@@ -1,0 +1,9 @@
+[[File:Placeholder|right|300px]]
+
+
+Passive Skill
+
+Upon activation [http://witn.wikia.com/wiki/Warcry War-cry] grants temporary combat Health regeneration for the Dwarf and any party members.
+
+Note: [http://witn.wikia.com/wiki/Warcry War-cry] must be active for effect. Higher ranks increase the shared Health rengeration rate.
+[[Category:Skills]]

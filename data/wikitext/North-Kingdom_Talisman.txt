@@ -1,0 +1,28 @@
+
+
+{| align="center" border="1" cellpadding="1" cellspacing="1" class="article-table article-table-selected" style="width:500px;height:500px;"
+! colspan="2" scope="col" style="text-align:center;"|[[File:Placeholder|right|300px]]
+|-
+| colspan="2"|Necklace
+|-
+|Value
+|264
+|-
+|Effects
+|
++2 Dexterity
+
+Bonus Experience 2%
+|-
+|Slots
+|0
+|-
+|Level Req.
+|7
+|-
+|Stat Req.
+|16 Will
+|-
+|Origin
+|Elf
+|}

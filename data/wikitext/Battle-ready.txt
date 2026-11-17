@@ -1,0 +1,12 @@
+[[File:Placeholder|right|300px]] 
+Passive Skill
+
+Skills used while [[War-cry]] is active cost less power
+
+Note: [[War-cry]] must be active for effects. Higher ranks further decrease skill costs.
+
+Decreases the cost by 25% per level.
+
+Rank 1 - 25%
+
+Rank 2 - 50%

@@ -1,0 +1,229 @@
+
+=='''Bows (Ranger Only)'''==
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="width: 500px; "
+|-
+! scope="col" style="text-align:center;"|Name
+! scope="col" style="text-align:center;"|Value
+! scope="col" style="text-align:center;"|Damage
+! scope="col" style="text-align:center;"|__________Effect__________
+! scope="col" style="text-align:center;"|Elf Stone Slots
+! scope="col" style="text-align:center;"|Durability
+! scope="col" style="text-align:center;"|Level Req.
+! scope="col" style="text-align:center;"|Dexterity Req.
+! scope="col" style="text-align:center;"|Origin
+|-
+|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+|-
+|Archer's Bow
+| style="text-align:center;"|96
+| style="text-align:center;"|125-131
+| style="text-align:center;"| -
+| style="text-align:center;"|0
+| style="text-align:center;"|70
+| style="text-align:center;"|3
+| style="text-align:center;"| -
+| style="text-align:center;"|Elf
+|-
+|Beorning Bow
+| style="text-align: center;"|908
+| style="text-align: center;"|264-401
+| style="text-align:center;"| -
+| style="text-align: center;"|0
+| style="text-align: center;"|60
+| style="text-align: center;"|13
+| style="text-align: center;"|15
+| style="text-align: center;"|Man
+|-
+|Buri's War Bow
+| style="text-align:center;"|534
+| style="text-align:center;"|473-577
+| style="text-align:center;"|-
+| style="text-align:center;"|1
+| style="text-align:center;"|50
+| style="text-align:center;"|13
+| style="text-align:center;"|17
+| style="text-align:center;"|Dwarf
+|-
+|Dwarf-smith War Bow
+| style="text-align: center;"|509
+| style="text-align: center;"|441-538
+| style="text-align: center;"| -
+| style="text-align: center;"|0
+| style="text-align: center;"|230
+| style="text-align: center;"|15
+| style="text-align: center;"|17
+| style="text-align: center;"|Dwarf
+|-
+|Falcon Strike
+| style="text-align: center;"|761
+| style="text-align: center;"|454-472
+| style="text-align: center;"| +3 Strength, +6% Power Regen, Weapon skills cause Stun 100%
+| style="text-align: center;"|0
+| style="text-align: center;"|70
+| style="text-align: center;"|11
+| style="text-align: center;"|15
+| style="text-align: center;"|Elf
+|-
+|Guardian's Shortbow
+| style="text-align:center;"|948
+| style="text-align:center;"|284-295
+| style="text-align:center;"| -
+| style="text-align:center;"|0
+| style="text-align:center;"|110
+| style="text-align:center;"|11
+| style="text-align:center;"|13
+| style="text-align:center;"|Elf
+|-
+|Lore-keeper's Bow
+| style="text-align:center;"|1256
+| style="text-align:center;"|386-401
+| style="text-align:center;"| -
+| style="text-align:center;"|0
+| style="text-align:center;"|90
+| style="text-align:center;"|12
+| style="text-align:center;"|15
+| style="text-align:center;"|Elf
+|-
+|Steel-backed Elf-smith's Bow
+| style="text-align:center;"|522
+| style="text-align:center;"|370-385
+| style="text-align:center;"| +35 Health, Steal Health Chance 2%
+| style="text-align:center;"|0
+| style="text-align:center;"|70
+| style="text-align:center;"|9
+| style="text-align:center;"|13
+| style="text-align:center;"|Elf
+|-
+|Wolf-rider Shortbow
+| style="text-align:center;"|240
+| style="text-align:center;"|207-321
+| style="text-align:center;"|1.4x Damage vs. Orc
+| style="text-align:center;"|0
+| style="text-align:center;"|60
+| style="text-align:center;"|10
+| style="text-align:center;"|15
+| style="text-align:center;"|Orc
+|-
+|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+|}
+
+=='''Crossbows (Champion Only)'''==
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="width: 500px; "
+|-
+! scope="col" style="text-align:center;"|Name
+! scope="col" style="text-align:center;"|Value
+! scope="col" style="text-align:center;"|Damage
+! scope="col" style="text-align:center;"|__________Effect__________
+! scope="col" style="text-align:center;"|Elf Stone Slots
+! scope="col" style="text-align:center;"|Durability
+! scope="col" style="text-align:center;"|Level Req.
+! scope="col" style="text-align:center;"|Dexterity Req.
+! scope="col" style="text-align:center;"|Origin
+|-
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|
+|-
+| style="border-bottom-color:rgb(204,204,204);"|Angmir's Arblest
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|708
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|482-549
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"| +3 Will, +4 Dexterity
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|0
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|120
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|11
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|15
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|Elf
+|-
+| style="border-bottom-color:rgb(204,204,204);"|Buri's Heavy Crossbow
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|837
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|529-645
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"| +6 Stamina
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|0
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|230
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|13
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|17
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|Dwarf
+|-
+| style="border-bottom-color:rgb(204,204,204);"|Dwarf-crafted Crossbow
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|138
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|124-157
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|-
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|1
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|120
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|-
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|-
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|Dwarf
+|-
+| style="border-bottom-color:rgb(204,204,204);"|Hold-keeper
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|3304
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|464-566
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"| +25 Power, +6 Armor, Chance at Power Orb +9%
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|0
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|210
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|15
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|17
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|Dwarf
+|-
+| style="border-bottom-color:rgb(204,204,204);"|Nordinbad Arbalest
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|1640
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|329-401
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"| +3 Will, +3 Dexterity
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|0
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|80
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|13
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|15
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|Dwarf
+|-
+| style="border-bottom-color:rgb(204,204,204);"|Troll-hunter's Heavy Crossbow
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|245
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|311-383
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"| -
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|0
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|100
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|11
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|16
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|Man
+|-
+| style="border-bottom-color:rgb(204,204,204);"|Well-made Ranger's Crossbow
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|1360
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|395-486
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|-
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|0
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|40
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|13
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|16
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|Man
+|-
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|
+| style="border-bottom-color:rgb(204,204,204);text-align:center;"|
+|}
+[[Category:Equiptment]]

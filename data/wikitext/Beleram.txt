@@ -1,0 +1,23 @@
+[[File:Beleram01.jpeg|thumb|400px|Beleram.]]
+There are few creatures in all of Middle-earth more majestic than the Great Eagles. These noble beings live under the guidance of their King <nowiki>[[Gwaihir]]</nowiki> in eyries high atop the Misty Mountains. While the Great Eagles do not generally interfere with forces outside of their own realm, they have made rare exceptions in the name of honor and trust. Gandalf himself earned the friendship of these noble Eagles.
+
+Beleram, a warrior of the Great Eagles, comes to build a similar bond with [http://witn.wikia.com/wiki/Eradan Eradan] , [http://witn.wikia.com/wiki/Andriel Andriel] , and [http://witn.wikia.com/wiki/Farin Farin] as they drive North together to halt Agandaûr's advances. His wise perspective, steadfast loyalty, and deadly force in combat are guiding beacons for our heroes as they venture ever further behind enemy lines.
+
+== Biography ==
+Beleram served the Eagle Lord Gwaihir in the Misty Mountains. He was went to scout [[Fornost]], but was shot down by a couple of Siege Machines controlled by Tharzog, the Orc Chieftain of Mount Gram. He was captured by a horde of [[Goblin|Goblins]], and rescued by Eradan, Andriel and Farin. In gratitude, Beleram joined forces with the company to help destroy the siege machines. Due to being unable to enter the citadel of Fornost to face Tharzog, he flew to intercept [[Agandaûr]], who was fleeing on a [[fell beast]], but he was repelled by the sorcerer's lightning. He was able to escape, and flew to report what he had seen to Gwaihir. 
+
+Beleram arrived to assist the company during their journey across  [[The Ettenmoors]] , accompanied by two fellow eagles, [[Baranthor]] and [[Armanel]], who helped him and the company slay the  [[Stone Giant]] [[Bargrisar]]. The three eagles asked for Gwaihir's permission to assist the company, which he agreed to after some deliberation. Beleram provided assistance in [[Mirkwood]], [[Mount Gundabad]] and [[Nordinbad]], but during the battle of Nordinbad he was injured and had to be rescued by Baranthor and Armanel. They succeeded at the cost of their lives. 
+
+Despite his injuries, Beleram was present at the final battle in [[Carn Dum]] where Agandaur was defeated. He helped escort Eradan, Andriel and Farin back to [[Rivendell]].
+
+Note: If player uses Beleram to kill Agandaur, Beleram is killed by Agandaur's sword.
+
+==Achievements:==
+===Friend to the Eagles===
+Help free the Great Eagle Beleram.
+===Swift-winged Warrior===
+Summon Beleram 10 times in a single playthrough.
+===Eagle Saviour===
+Defeat Agandaûr without the aid of Beleram.
+
+[[Category:Creatures]]

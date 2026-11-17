@@ -1,0 +1,10 @@
+[[File:Placeholder|right|300px]] 
+Passive Skill
+
+The crossbow is upgraded from single-shot to rapid firing, multiple bolt capability.
+
+Note: Additional ranks increase bolt capacity for rapid firing.
+
+Rank 1 - +3 additional bolts 
+
+Rank 2 - +2 additional bolts

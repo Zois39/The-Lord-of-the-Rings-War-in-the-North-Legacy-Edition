@@ -1,0 +1,323 @@
+==Bree==
+===Forewarned Is Forearmed===
+In the Prancing Pony Otto is by the fire place. Talk to Otto and agree to try and talk Grof into bringing weapons's to Bree. Once you have talked Grof into bringing weapons to Bree return to Otto in the Prancing Pony. He will ask you to bring him weapons until Grof has returned to Bree with weapons. Agree and this starts the next side quest Otto's Arsenal.
+
+
+
+===Rowlie's Gift===
+Rowlie is standing in the Prancing Pony at the bottom of the stairs near the mirror that allows you to customize your character. Agree to help him and get the locket that needs to be repaired. Take the locket to the blacksmith Elmund Brushwood, the man hammering on the anvil. Get Elmund to repair the locket, go up the street until you see a lady, this is Idona Bellflower. Speak to her and give her the locket and get her answer to Rowlie's question. Return to Rowlie for the reward of silver or experience.
+
+Reward: Difficulty scaled points of experience with or without the 50 silver he's offering. Should you accept the silver(the silver he offers when you're giving Idona's answer) you'll only lose 50 experience points out of the recieved quest experience. Easy & Normal - 100 Experience and 50 Silver or only 150 Experience.
+
+Note: You can return to Rowlie directly after Elmund has repaired the locket and ask for one silver as compensation for the silver you lost repairing it - This changes Rowlie's end dialogue, but you're still able to get the extra silver/experience for your troubles.
+
+===Otto's Arsenal===
+After Forewarned is Forearmed is completed and you agreed to sell unwanted weapons to Otto the quest has started. The quest is completed by selling Otto around 12 weapons. I sell them one at a time because the quest does not notify you it has completed until you enter the sell menu. So sell the weapon leave and return to the sell menu to reduce the number of weapons you sell to complete the quest. Once completed you will get Ottos' reward, which will be a choice of either an necklace or a ring.
+
+Easy/Normal rewards:
+
+'''Otto's Amulet'''
+{| border="0" cellpadding="1" cellspacing="1" class="article-table" style="width:600px;"
+! scope="col"|Type
+! scope="col"|Value
+! scope="col"|Effects
+! scope="col"|Elf Stone Slots
+! scope="col"|Requirements
+! scope="col"|Origin
+|-
+|Armor, Necklace
+|461
+| +1 Dexterity, 6% Stun When Struck
+| style="text-align:center;"| -
+|
+Level 9,
+
+17 Will
+|Elf
+|}
+'''Otto's Ring'''
+{| border="0" cellpadding="1" cellspacing="1" class="article-table" style="width:600px;"
+! scope="col"|Type
+! scope="col"|Value
+! scope="col"|Effects
+! scope="col"|Elf Stone Slots
+! scope="col"|Requirements
+! scope="col"|Origin
+|-
+|Armor, Ring
+|299
+| +3 Dexterity, Enemy Miss Chance +1%
+| style="text-align:center;"| -
+|
+Level 9,
+
+17 Will
+|Elf
+|}
+
+Heroic rewards:
+
+'''Otto's Talisman'''
+{| class="article-table" border="0" cellpadding="1" cellspacing="1" style="width:600px;"
+! scope="col" |Type
+! scope="col" |Value
+! scope="col" |Effects
+! scope="col" |Elf Stone Slots
+! scope="col" |Requirements
+! scope="col" |Origin
+|-
+|Armor, Necklace
+|841
+| +10 Dexterity +80 Power
+| style="text-align:center;" | 1
+|
+Level 23,
+
+33 Will
+|Elf
+|}
+'''Otto's Artifact'''
+{| class="article-table" border="0" cellpadding="1" cellspacing="1" style="width:600px;"
+! scope="col" |Type
+! scope="col" |Value
+! scope="col" |Effects
+! scope="col" |Elf Stone Slots
+! scope="col" |Requirements
+! scope="col" |Origin
+|-
+|Armor, Ring
+|2712
+| +3 Strength, Enemy Miss Chance +4%
+| style="text-align:center;" | -
+|
+Level 23,
+
+33 Will
+|Elf
+|}
+
+Legendary rewards:
+
+'''Otto's Artifact'''
+{| border="0" cellpadding="1" cellspacing="1" class="article-table" style="width:600px;"
+! scope="col"|Type
+! scope="col"|Value
+! scope="col"|Effects
+! scope="col"|Elf Stone Slots
+! scope="col"|Requirements
+! scope="col"|Origin
+|-
+|Armor, Necklace
+|20,450
+| +7 Strength, +4 Stamina, +50 Damage
+| style="text-align:center;"| -
+|
+Level 33,
+
+47 Will
+|Elf
+|}
+'''Otto's Ancient Relic'''
+{| border="0" cellpadding="1" cellspacing="1" class="article-table" style="width:550px;"
+! scope="col"|Type
+! scope="col"|Value
+! scope="col"|Effects
+! scope="col"|Elf Stone Slots
+! scope="col"|Requirements
+! scope="col"|Origin
+|-
+|Armor, Ring
+|16,656
+|
+
++12 Strength, Enemy Miss Chance +6%
+| style="text-align:center;"| -
+|
+Level 33,
+
+47 Will
+|Elf
+|}
+
+==Fornost==
+
+===Work of Westernesse===
+
+Throughout Fornost and Barrow Downs, locate 3 ancient artifacts hidden in breakable barrels and boxes. The locations will vary, and multiple playthroughs of the level may be required. Once all three artifacts are found, take them to either the Elf smith Angmir in Rivendell or the Dwarf smith Buri in Nordinbad, where they will make you a strong weapon from the artifacts.
+
+
+===The Seer's Words===
+There is a chest containing a strange tome (book) just after the mounted crossbow. Take this to Elrond in Rivendell and he will reward you with a choice of rare potions.
+
+==Sarn Ford==
+===Athelas===
+
+This quest is in Sarn Ford. You will see a woman by a bed and a ranger who is ill in the bed. Talk to Silanna and agree to get the Athelas. Once in the Barrows-downs follow the path until you make a right turn and come to a left turn that has a large rock on the left. The Athelas is in front of the large rock, it is a flower that is pulsing and you will see a gather choice when you approach the flower.
+
+Return to Sarn Ford and give Silanna the Athelas. You need to do this <u>'''as soon as you can'''</u> travel to Sarn Ford, because if you progress to far in the game the ranger will die. The ranger will give you a reward which is a choice of weapons.
+==Barrow Downs==
+
+===The Last Sons of Cardolan===
+<p style="border-bottom-width:0px;border-left-width:0px;font-style:inherit;font-weight:inherit;margin-top:0.4em;margin-right:0px;margin-bottom:0.5em;margin-left:0px;padding-top:0px;padding-right:0px;padding-bottom:0px;padding-left:0px;vertical-align:baseline;">Just after defeating the first Barrow Wight, 3 tombs will open. Two are located in the clearing area where you fought the Barrow Wight, and the third is the way to progress forward in the level. You must enter all three and defeat every enemy in each tomb to finish this side quest.</p>
+
+==Rivendell==
+
+
+[[File:228px-Lotrwitn-039.jpg|thumb|Arwen]]
+[[File:43006671.jpg|thumb|Miriloth Bloom]]
+
+[[File:Fourth_Miriloth_Bloom.jpg|thumb|4th Mirirloth Bloom]]
+[[File:Gilivor_Crystal_2_of_2.jpg|thumb|Gilivor crystal]]
+
+===Elf Stones===
+Speak with the Elf smith Angmir and ask what he is working on. He will tell you about his plans to imbue certain stones with power, so you must find the stones in various breakable boxes and barrels throughout the Ettenmoors. It may take multiple playthroughs to find all of the stones. Once you have them all, return to Rivendell, show them to Gloin the dwarf, and then return to Angmir for your reward.
+
+
+
+===Miruvor===
+
+In Rivendell speak with Arwen, she is standing on the bridge prior to reaching the exit point to continue to the Ettenmoors. Arwen will give you the quest Miruvor. This is a very important quest, because if you do not complete this quest you will not be able to complete True Silver. True Silver allows you upgrade any armor item, weapon, amulet or ring.
+
+After you have the quest continue to the Ettenmoors. You will arrive in the Coldfells. All the items needed for the quest are in the Coldfells. The first cave you come to will be on the left, after defeating the goblins and two achers you can find two flowers which are Miriloth Blooms. Miriloth Blooms 2/5 needed for the quest.
+
+Exit the cave and turn left. When you get to the end, jump down. You will find yourself in an orc camp. A long fight divided into a few stages awaits you. First, you’ll fight with an orc leader, two warriors and an archer. The leader has similar blows to '''Tharzog''' – when he roars it means that he’s about to perform a aerial attack.
+
+When you kill these enemies, new ones will appear – several goblins (new will join during the fight), two ordinary and one fast orc warrior. Here, like before, only the last opponent can be a problem. Defeat all enemies and wait for the next.
+
+An orc sorcerer accompanied by six warriors will teleport to the camp. While he’s not standing in any inaccessible place, you can run up to him immediately and attack with a series of blows. Yet, don’t let yourself get surrounded by the enemies, as it can have pitiful results. Also, be prepared to save a companion if she/he falls.
+
+Several goblins will get down the rocks to the left, but it won’t be the worst thing – after a while a troll will also appear. To be sure, you already know how to fight with trolls but this one has a new attack – he can grab you and inflict a lot of wounds. If he knocks you down, you have to quickly press the button at the bottom of the screen to free yourself. Do the same if the troll manages to catch your character and he’s trying to bite his/her head off.[[File:Troll_grab.jpg|thumb|Troll grab]]
+
+
+
+
+
+
+
+
+
+There is also a chest near the wooden tower to the right of the exit, and close (on the left) the third '''Miriloth Bloom 3/5.'''
+Follow the stream and after a couple of battles there will be some trees to your left. Near these trees is the fourth '''Miriloth Bloom 4/5'''.[[File:Fourth_Miriloth_Bloom.jpg|thumb|4th Miriloth Bloom]]
+
+
+
+
+
+
+
+
+
+After the Troll cave drop down to the right is a chest, drop down again and enter the cave. After the fight and searching the cave exit the cave and you will find the last Miriloth Bloom and the first '''Gilivor Crystal 1/2'''.
+
+Now run up the stream and go past the first entrance to the cave. Then get to a place where the path turns to the right (a flower is on the left). You will notice an armored warrior and two ordinary ones in the distance. Attack and kill them. Do the same with two archers who will join the fight. To the right, near a small stream behind the rock, you will find a flower and the second deposit of '''Gilivor Crystals 2/2'''. [[File:Gilivor_Crystal_2_of_2.jpg|thumb|Gilivor crystal]]
+
+
+
+
+
+
+
+
+
+After the barricade on the left is the Mountain Honey in the end of a tree trunk.
+
+[[File:Honey.jpg|thumb]]
+
+
+
+
+
+
+
+
+
+When you get back to Rivendell return to Arwen.
+
+
+
+===Truesilver (Miruvor follow-up)===
+
+After you complete Miruvor Arwen will give this quest. The [[Mithril]] is in a cave in Mt. Gundabad, you need to be a dwarf to find the secret entrance. You can spot the cave entrance by the fire outside.
+
+[[File:Fire.jpg|thumb]]
+
+
+
+
+
+
+
+
+
+
+
+Enter the cave and open the secret door, the chest inside contains the Mithril.
+
+Once you get to a point where you can return to Rivendell go back and speak to Arwen. Then go to the blacksmith and upgrade an item of your choice. I recommend upgrading amulets and committing to wearing that amulet the rest of the game. That way you can change armor and weapons without losing the upgrade perks.
+
+
+
+===The Poet===
+
+Bilbo is sitting on a bench across from Eaure (the merchant in Rivendell). Simply talk to Bilbo and then talk to Arwen and the quest is completed.
+
+Note there is a glitch in the Chronicler quest where the dialogue option to initiate this quest (Tell me about your writing) is available a second time (it will be available if you do not have any updates to report to Bilbo for the Chronicler quest). If you use this dialogue, Bilbo will ask you to take his poetry to Arwen again. You cannot do this (Arwen has no option to take it) and the quest does not appear in your log. However, doing this will break the ability to flatter Urgost as mentioned in the Chronicler quest (the flatter options show up where it usually says "Investigate").
+
+
+
+[[File:Bilbo.jpg|thumb]]
+
+===The Chronicler (The Poet follow-up)===
+
+After you complete the Poet return to Bilbo to begin this quest. He will ask about your adventures and then ask you to come back and tell him more later. Come back as frequently as possible and be sure to steer the conversation toward dragons and flattery. When you meet the dragon, flatter him to receive a gift before you depart for Nordinbad.
+
+Note the option to flatter Urgost can become unavailable even if you talk to Bilbo about flattering Dragons as per the glitch in "The Poet" quest section.
+
+==Nordinbad==
+===Gorin's Gratitude===
+Very simple, when you finish your conversation about the dragon with Gorin, simply talk to the rude dwarf that runs the item shop, Galar. He will give you the reward. On a side note, don't forget to go back to Rivendell now and update Bilbo, talk about dragons and set yourself up to claim a prize from Urgost himself.
+
+
+===A Gem No Mine Can Yield===
+Talk to Buri, the Dwarf smith until he tells you about his belt. He needs a Black Pearl to complete his work, so our goal is to find one in one of the breakable boxes and barrels in Mirkwood. It could be anywhere in the level, but it is most often found near where the elf is being held captive. Find it, bring it back to Buri, choose your reward. (Sidenote: Urgost's Lair, second set of wizards one on the left drops a pearl.)
+
+==Mirkwood==
+===The Captive===
+Locate the captive elf on your way through Mirkwood. After defeating a on of spiders while the dwarf calls for Radagast, pick up his staff and move on through the checkpoint to reach the Woodland Marshes. Kill a bunch of Uruk-hai as you progress, until Eradan says something about Spider tracks and dragging someone. Stay to the right and go through a difficult to see archway. Follow this path, kill more Uruk-hai and rescue the elf, Glorhirin. He will then leave to find his friend, but will return after you defeat the Spider queen, Saenathra. Talk to him then before leaving Mirkwood and he will tell you that his friend was killed, and will give you a choice of his friends armor to wear.
+
+==Quests that starts in dungeons (e.g. by picking up a scroll)==
+
+
+===Cult of the Lidless Eye===
+You must find all 7 of the Sorcerer's Scrolls and return them to Elrond in Rivendell to be destroyed. To start the quest, find the scroll in Fornost and show it to Elrond when you first arrive in Rivendell, then you must find the last six and speak to him again.
+
+'''Important''': turn in this quest ''before ''you fight the battle at Nordingad (after meeting Urgost). Otherwise Elrond will not let you complete this quest. He will instead say something about killing Agandaur.
+
+Scroll 1: Fornost
+
+It is dropped from the very first orc mage you kill in the Battlements.
+
+Scroll 2: Ettenmoors
+
+It is located in a chest on top of a waterfall. After you kill the troll and other waves of orcs at their camp, you will go through a narrow passage and come out by a stream. Follow it to the waterfall and notice you cannot get the chest yet. Continue on, kill the orcs, but do not jump across the rocks where they come from, instead continue going forward, kill the troll in a cave on the left, loot it, then jump down one cliff, grab a chest, then jump all the way down. Make your way to the right, following the stream to reach the chest containing the scroll.
+
+Scroll 3: Ettenmoors
+
+It is dropped by an orc mage soon after one of your team screams "Archers on the high ground." Kill a few orcs, round the corner, kill a few more, continue on and you will find the mage. Kill him and grab the scroll, then deal with the Orc captain. There is bridge on the left right by the mage, if you cross it, you've gone a little too far.
+
+Scroll 4: Mt. Gundabad
+
+You will come upon a troll cranking a lever, kill it, break the machine, run up one tower, over to the next, and down this second tower killing the archers along the way. When you reach the bottom of that second tower, there are two exits from the main structure, one leads on and one leads to a dead end with another archer and the chest containing scroll #4.
+
+Scroll 5: Mirkwood
+
+As soon as you enter the level, you will fight the sorcerer Wulfrun, who will drop scroll #5 when you kill him, pick it up and move on.
+
+Scroll 6: Urgost's Lair
+
+This is probably the hardest scroll to get in the game, as your teammates can knock the mage off a cliff before you get to him. After running through a dark part of the level, killing archers along the way, you will come upon a flat bridge with a large waterfall to your right. Run across immediately, ignore the Uruk-hai and the mage on the right, go for the mage that is on the left, up the little cliff. Kill him, but don't knock him off the edge, then grab the scroll he drops.
+
+Scroll 7: Urgost's Lair
+
+Last one. Right at the end of the level, just before you reach the dragon, you will have to face the Carn Dum Captain. He holds the scroll, so kill him, take it and report back to Elrond for your reward/achievement/trophy.
+[[Category:Quests]]

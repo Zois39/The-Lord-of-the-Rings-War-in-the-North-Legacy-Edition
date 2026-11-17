@@ -1,0 +1,15 @@
+[[File:Placeholder|right|300px]]
+
+Passive Skill
+
+Grants a bouns of armor based on your current will.
+
+Note: Higher ranks increase the armor bonus.
+
+        Will / Armor
+
+Rank 1 - 1 = 1
+
+Rank 2 - 1 = 1.5
+
+Rank 3 - 1 = 2

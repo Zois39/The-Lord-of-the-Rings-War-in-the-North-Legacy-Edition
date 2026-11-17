@@ -1,0 +1,29 @@
+==The Quest for Mithril==
+After chapter 2, Barrow-Downs, you're located in the elven city Rivendell. From there, talk to Arwen on the water bridge to get a quest called "Miruvor" that asks you to collect herbs in the Ettenmoors (chapter 3). When you have collected them, hand the quest in to Arwen and you'll recieve a follow-up quest called "Truesilver". This will ask you to find Mithril ore. Enter Mount Gundabad (chapter 4) with a dwarf in the party that is not AI. Walk up the mountain. When you get to the first troll that walks out of a cave, go inside that cave and Farin should be able to break down a wall and find a chest with the Mithril inside. After finishing the chapter, hand it in to Arwen and then talk to the Rivendell blacksmith called Angmir to unlock a Rune upgrade bonus for one piece of equipment. 
+
+'''Weapons Rune Upgrades:'''
+
+Easy/Normal Difficulty: +5000% reduced wear, +25 damage, +75 critcal damage
+
+Ranged: +5000% reduced wear, +40 Damage, +90 critical damage
+
+Heroic Difficulty: +5000% reduced wear, +75 damage, +150 critcal damage
+
+Ranged: +5000% Reduced wear, +75 damage, 175 critical damage
+
+Legendary Difficulty:+5000 % reduced wear, +120 damage, +300 critical damage
+
+Ranged: +5000% reduced wear, +120 damage, +300 critical damage
+
+'''Armor/Jewelry Rune Upgrades:'''
+
+Easy/Normal Difficulty: +5000% reduced wear, +60 armor, +10 dexterity
+
+Heroic Difficulty: +5000% reduced wear, +100 armor, +20 dexterity
+
+Legendary Difficulty +5000% reduced wear, +150 armor, +30 dexterity
+
+'''Important Note:''' How many times can you stack Mithril Runes on items? 
+
+Slots on many items found in the game are also considered a Rune. like this Mithril Rune and they do interfere with one another. '''Items with 1 elf-stone slot can only have 7 runes added to them''' subsequently '''Items with 2 elf-stone slot can only have 6 runes added to them, <u>If you try and go above this the game will remove your Elf-stone bonues.</u>''' You can do the quest once every play-through.
+[[Category:Quests]]

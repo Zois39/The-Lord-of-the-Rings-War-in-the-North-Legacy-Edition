@@ -1,0 +1,6 @@
+[[File:Placeholder|right|300px]] 
+Passive Skill
+
+During [[War-cry]] your melee attacks will echo to nearby enemies, striking them for damage.
+
+Note: [[War-cry]] must be active for effect. Additional ranks add more targets.

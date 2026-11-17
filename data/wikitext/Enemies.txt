@@ -1,0 +1,69 @@
+==Fornost enemies==
+Orc Swordsman
+
+Orc Archer
+
+Orc Sapper
+
+Orc Caster
+
+Feral Orc
+
+Tharzog
+
+==The Barrow-downs enemies==
+Undead
+
+Barrow Wight
+
+Undead Troll
+
+Barrow Wight Lord
+
+==Ettenmoors enemies==
+
+==Gundabad enemies==
+Feral Orc
+
+Orc Dual Swordsman
+
+Mountain Troll
+
+Uruk Hai
+
+Orc swordsman
+
+Orc Archer
+
+Wild Snow Troll
+
+==Mirkwood enemies==
+Wulfrun
+
+Uruk Archer
+
+Uruk Breaker
+
+Orc Swordsman
+
+Spider
+
+Giant Spider
+
+Seanathra
+
+==Urgost's Lair enemies==
+
+==Nordinbad enemies==
+
+==Carn Dûm enemies==
+Rust Monger
+
+Dunlander
+
+Sorcerer
+
+Carn Dum Swordsman
+
+Hammerman
+[[Category:Creatures]]

@@ -1,0 +1,20 @@
+Passive Skill
+
+Increases the damage you cause with 2-handed melee weapons
+
+Note: Additional ranks increase damage
+
+<u style="font-style:inherit;">Effect:</u> +6 melee attack with 2h-weapons for each skill point
+
+<u>Maximum</u>: 3 skillpoints (+18 melee damage)
+
+
+
+'''Legendary Difficulty:'''
+
+
+
+<u>Effect:</u> +140 melee attack with 2h-weapons for each skill point
+
+<u>Maximum</u>: 3 skillpoints (+420 melee damage)
+[[Category:Skills]]

@@ -1,0 +1,175 @@
+==Headpiece==
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="float: left; width: 500px; "
+|-
+! scope="col"|Name
+! scope="col"|
+Value
+! scope="col"|Armor
+! scope="col"|Effect
+! scope="col"|Elf Stone Slots
+! scope="col"|Durabillity
+! scope="col"|Level Req.
+! scope="col"|Stat Req.
+! scope="col"|Origin
+|-
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+|}
+
+
+
+
+
+
+==Shoulders==
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="float: left; width: 500px; "
+|-
+! scope="col"|Name
+! scope="col"|
+Value
+! scope="col"|<span style="font-weight:bold;">Armor</span>
+! scope="col"|Effect
+! scope="col"|Elf Stone Slots
+! scope="col"|Durabillity
+! scope="col"|Level Req.
+! scope="col"|Stat Req.
+! scope="col"|Origin
+|-
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+|}
+
+
+
+
+
+
+==Body==
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="float: left; width: 500px; "
+|-
+! scope="col"|Name
+! scope="col"|
+Value
+! scope="col"|<span style="font-weight:bold;">Armor</span>
+! scope="col"|Effect
+! scope="col"|Elf Stone Slots
+! scope="col"|Durabillity
+! scope="col"|Level Req.
+! scope="col"|Stat Req.
+! scope="col"|Origin
+|-
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+|}
+
+
+
+
+
+
+==Gloves==
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="float: left; width: 500px; "
+|-
+! scope="col"|Name
+! scope="col"|
+Value
+! scope="col"|<span style="font-weight:bold;">Armor</span>
+! scope="col"|Effect
+! scope="col"|Elf Stone Slots
+! scope="col"|Durabillity
+! scope="col"|Level Req.
+! scope="col"|Stat Req.
+! scope="col"|Origin
+|-
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+|}
+
+
+
+
+
+
+==Leggings==
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="float: left; width: 500px; "
+|-
+! scope="col"|Name
+! scope="col"|
+Value
+! scope="col"|<span style="font-weight:bold;">Armor</span>
+! scope="col"|Effect
+! scope="col"|Elf Stone Slots
+! scope="col"|Durabillity
+! scope="col"|Level Req.
+! scope="col"|Stat Req.
+! scope="col"|Origin
+|-
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+|}
+
+
+
+
+
+
+==Boots==
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="float: left; width: 500px; "
+|-
+! scope="col"|Name
+! scope="col"|
+Value
+! scope="col"|<span style="font-weight:bold;">Armor</span>
+! scope="col"|Effect
+! scope="col"|Elf Stone Slots
+! scope="col"|Durabillity
+! scope="col"|Level Req.
+! scope="col"|Stat Req.
+! scope="col"|Origin
+|-
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+| style="border-bottom-color:rgb(204,204,204);"|
+|}
+[[Category:Equiptment]]

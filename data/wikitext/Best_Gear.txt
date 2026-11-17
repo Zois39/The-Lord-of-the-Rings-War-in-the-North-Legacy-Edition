@@ -1,0 +1,568 @@
+Below is a list of all the best equipment found in LOTR War in the North. Most of the best items in the game are found on Legendary mode but not all of them. Gear with additional elf-stone slots are often the best given they can add major bonus. For ever type of equipment in the game there is a two slot item, three slot items do exist but the only confirmed one is on normal mode at the Nordinbad NPC shop after the siege. The weapon is a Champion (Dwarf) Only war axe named Buri's Battle-axe. 
+
+==Amulets - Amuletos==
+[[File:Northwarden´s Amulet.png|thumb]]
+
+=== Northwarden's Amulet - Amuleto de Mayoral del Norte ===
+
+* Value: 21,860 / Valor: 21,860.
+* +8 Strength / +8 Fuerza
+* +135 Damage / +135 Daño
+* Elfstone Slots: +2 / Ranuras de piedra élfica: +2
+* Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and (8) with 2 free slots.
+
+Loot obtained from a guild chest. Specifically, it is found on the Mount Gundabad map—past the second group of towers and before the save point visible at the tunnel entrance. The chest is located by following a Ranger secret on the left-hand side, just before the checkpoint. (The drop rate is moderate; you simply need to farm that spot until you get it.). The two elf-stone slots, in addition to existing bonuses, make it the best amulet in the game. (updated to legacy version 2026). only in Legendary mode. 
+[[File:Dwarfmade trincket.png|thumb]]
+
+=== Dwarfmade trinket - Amuleto Estrella de Sol ===
+
+* Value: 380 / Valor: 380
+* Elfstone Slots: +2 / Ranuras de piedra élfica: +2
+* Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and (8) with 2 free slots.
+
+Can be bought from Bree NPC only on Normal and Heroic mode. (Just a tip: don't save it until the Legendary level; use it in the campaign with two Brilliant Champion Stones, or the best stones you can get, because the Northwardens Amulet surpasses it in every way, in later game).
+[[File:Seer´s Talisman.png|thumb]]
+
+=== Seer´s Talisman - Amuleto Cabeza de León ===
+
+* Value: 55 / Valor: 55
+* Elfstone Slots: +2 / Ranuras de piedra élfica: +2
+* Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and 8 with 2 free slots.
+
+Found in a standard chest in Fornost, on Normal difficulty. I only found one, and it was random; I couldn't say exactly which chest it was yet. I'll update this later. 
+
+==Rings - Anillos==
+[[File:Imladris Signet.png|thumb]]
+
+=== Imladris Signet - Banda Elegante ===
+
+* Value: 434 / Valor: 434
+* +5 Stamina / +5 Resistencia
+* Elfstone Slots: +2 / Ranuras de piedra élfica: +2
+* Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and 8 with 2 free slots.
+
+Obtainable as a reward from Elrond in the mission "Cult of the Lidless Eye" on Easy and Normal modes (though I can only personally confirm getting it on Normal). It is the only ring in the game with two slots. Please ignore the Mithril upgrades; I've already added them.
+[[File:Dwarf-Smith´s Ring.png|thumb]]
+
+===Dwarf-Smith's Ring - Anillo de Herrero Enano===
+
+* Value: 35,013 / Valor: 35,013
+* +18 Stamina / +18 Resistencia
+* +90 Armor / +90 Armadura
+* +80 Damage / +80 Daño
+* Mithrill Upgrades: 8 total.
+
+Obtainable as a reward from Buri in the mission "A Gem No Mine Can Yield," only in Legendary mode.
+[[File:Ring of the Combatant.png|thumb]]
+
+===Combatant´s ring - Anillo de combatiente===
+
+* Value: 214,648 / Valor: 214,648
+* +5 Dexterity / +5 Destreza
+* +46 Armor /+46 Armadura
+* +5% Chance to steal health / +5% oportunidad de robar salud
+* Mithrill Upgrades: 8 total.
+
+It can be purchased in Nordinband from the Dwarf Merchant NPC for a cost of 214,648. Only in Legendary mode.
+[[File:Second Age Ring.png|thumb]]
+
+===Second Age Ring - Anillo de la Segundad Edad===
+
+*Value: 26,576 / Valor: 26,576
+* +5 Dexterity / +5 Destreza
+* +7 Reduced Damage / +7 Reducir Daño
+* 26% Skill Cooldown Reduction / 26% Reducción de habilidad de calmarse
+* Mithrill Upgrades: 8 total.
+
+Obtainable as a reward from Elrond in the mission "Cult of the Lidless Eye" on Legendary mode.
+[[File:Moonlight Band.png|thumb]]
+
+===Moonlight Band - Banda luz de luna===
+
+*Value: 1,806 / Valor: 1,806
+* 13% Reduced Prices / 13% Precios reducidos
+* 7% Bonus XP / Bonificación de experiencia 7%
+* Mithrill Upgrades: 8 total.
+
+Obtainable as a reward from Elrond in the mission "Cult of the Lidless Eye" on Heroic mode. It only serves to accumulate experience faster—nothing fancy.
+[[File:Last Alliance Ring.png|thumb]]
+
+===Last Alliance Ring - Anillo de la última alianza===
+
+*+6 Strenght / +6 Fuerza
+* +5 Will / +5 Voluntad
+* +7 Dexterity / +7 Destreza
+* +5 Stamina / +5 Resistencia
+* Mithrill Upgrades: 8 total.
+
+Obtainable as a reward from Elrond in the mission "Cult of the Lidless Eye" on Legendary mode.
+
+== One-handed Weapons - Armas de una mano ==
+[[File:Truesilver Broadsword - Espada Ancha de Veraplata.png|thumb]]
+
+===Truesilver Broadsword - Espada Ancha de Veraplata===
+
+* Value: 171,346 / Valor: 171,346
+* Damage: 780-803 / Daño: 780-803
+* +70 Health / +70 Salud
+* +47 Armor /+47 Armadura
+* +13% Health Regen / +13% Regenerar Salud
+* +85 Shock Damage / +85 Daño por Shock
+* Mithrill Upgrades: 8 total
+
+It is obtained from the following confirmed sources: Agandaûr (medium-to-hard drop rate), the Fire-Hammer Troll summoned by Agandaûr, Beornings summoned by Agandaûr (ridiculously low, but possible), and the first guild chest found in Carn-Dûm (the one inside the Carn-dûm man's cell with low drop rate). Only on Legendary mode.
+[[File:Image.png|thumb]]
+
+===Nargothrond Blade - Cuchilla de Nargothrond===
+
+* Value: 189,010 / Valor: 189,010
+* Damage: 814-838 / Daño: 814-838
+* +5 Strength / +5 Fuerza
+* +5 Stamina / +5 Resistencia
+* Elfstone Slots: +2 / Ranuras de piedra élfica: +2
+* Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and 8 with 2 free slots.
+
+Loot obtained from 3 confirmed sources: from Agandaûr (a very low drop rate, obtained after 31 attempts); from the Fire-hammer Troll summoned by Agandaûr (low drop rate, obtained after 18 attempts); and from the first Carn Dûm guild (the one inside the Carn-dûm man's cell with a ridiculously low drop rate, yet possible, obtained after 126 attempts). (Updated, 2026 legacy version). I haven't checked if it's possible to obtain it from the weapon piles around the first battle arena with Agandaûr; I'll update this if I verify it. Only on Legendary mode.
+
+=== Ithilien Hatchet - Hachuela de Ithilien ===
+
+* Value: 107,640 / Valor: 107,640
+* Damage : 777-816 / Daño: 777-816
+* +90 Fire Damage / +90 Daño por Fuego
+* Mithrill Upgrades: 8 total
+
+It's supposedly a drop from Agandâur; the drop rate must be very low. I'll check it out later. Only on Legendary Mode.
+[[File:Moria-Silver Hammer.png|thumb]]
+
+=== Moria-silver Hammer ===
+
+* Value: 95,885 / Valor: 95,885
+* Damage: 741-771 / Daño: 741-771
+* +10 Strength / +10 Fuerza
+* +30 Health /+30 Salud
+*2% bonus XP / 2% bonificación de experiencia
+* Weapons Skills cause Stun 100% / Las habilidades del arma causan atontamiento 100%
+* Elfstone Slots: +1 / Ranuras de piedra élfica: +1
+* Mithrill Upgrades: (7) w /1 slot covered and 8 with 1 free slots.
+
+Obtained as a reward for flattering the dragon Urgost during Bilbo's "The Chronicler" quest in Imladris. Only on Legendary mode.
+
+== Shields ==
+
+=== Chamberlain's Great Shield ===
+
+* Level: 33
+* Value: 13,606
+*Armor: 673
+* Slots: 2
+* Durability: 170
+
+Location: Barrow Downs as random drop or in shop-checkpoints on Legendary mode.
+
+=== '''Redwater Shield''' ===
+* Level : 28
+* Armor: 508
+* Slots: 2
+
+Location: Urgost Lair in shops or as a random drop on Heroic mode.
+
+=== Battle-master's Shield ===
+
+* Level: 38
+* Value: 56,207
+* Armor: 868
+* +9 Dexterity
+* +9 Stamina
+* Durability: 210
+
+Looted from Agandaur (final boss) on Legendary mode. (Check also the piles around him).
+
+<br />
+
+=== Scatha's Horde Shield ===
+
+* Level: 39
+* Value: 78,801
+* Armor: 927
+* +9 Stamina
+* +75 Power
+* Durability: 220
+
+location: final boss loot<br />
+
+<br />
+
+=== Lossarnach Buckler ===
+
+* Level: 38
+* Value: 31,459
+* Armor: 822
+* Slots: 1
+* Durability: 130
+
+Looted from Agandaur (final boss) on Legendary mode. (Check also the piles around him).<br />
+
+<br />
+
+=== Pinehurst Shield ===
+
+* Level: 
+* Value: 20,534
+* Armor: 687
+* +8 Strength
+* +8 Will
+* +60 Health
+* Slots: 1
+
+location: Mount Gundabad random loot, also sold at the first shop-checkpoint (if the shop doesn't offer it, travel somewhere and back to Gundabad and check again). on Legendary mode.
+
+<br />
+
+==Two-handed weapons==
+===<span style="font-style: normal; ">Halifirien Polearm</span>===
+
+* Level: 39
+* Value: 74,573
+* Damage: 1223-1284
+* +85 Fire Damage
+* Slots: 2
+* Durability: 110
+* Champion only.
+
+Looted from Agandaur (final boss). Random loot.
+
+<br />
+===Peredhil Maul===
+
+* Level: 40
+* 2-handed hammer
+* Price: 95,693
+* Damage: 1379-1419
+* Durability: 60/60
+* Champion only
+
+Loot from Urgost (The Chronicle Quest). Talk to Bilbo after speaking to Gorin in Nordinbad for the first time, when it's mentioned that you have to find Urgost, but before you actually find Urgost. (talk to him until he mentions ''so you're gonna face a dragon'')
+
+<br />
+=== Angost Great Sword ===
+
+* Level:37
+* Value: 56,343
+* Damage: 1111-1122
+* +9 Dexterity
+* Chance of health orb +20%
+* Durability: 100
+
+Looted from Agandaur (final boss) on Legendary mode. (Check also the piles around him).
+
+Has lower damage than most top tier weapons, but has a high chance for health orbs, especially since that bonus is usually never available on swords.  
+
+=== '''Buri's Battle-axe''' ===
+* Level: 13
+* Value: 556
+* Damage: 237-341
+* Slots: 3
+* Durability: 130
+
+Location: The Nordinbad NPC shop after the siege on normal mode. 
+
+==Staffs==
+
+===Doriath Battle Staff===
+
+* Level: 39
+* Value: 177,594
+* Damage: 913-940
+* +90 Shock Damage
+* Slots: 2
+
+Looted from Agandaur (final boss) on Legendary mode. (Check also the piles around him). Random loot.
+
+<br />
+===Forest-lord's Staff===
+
+* Level: 36
+* Value: 74,227
+* Damage: 816-857
+* + 8 Dexterity
+* 1.5x Damage vs. Orcs
+* Slots: 2
+* Durability: 70/70
+
+Looted from Seanathra, the Spider Queen on Legendary mode.
+
+==Bows==
+
+=== Celebdil Bow ===
+
+* Level: 34
+* Value: 35,185
+*Damage 1796 - 1814
+* +8 Strength
+* +295 Crit Damage
+* 1.5x Damage vs. Spider
+* Slots: 2
+* Durability: 100
+
+=== Ernil Longbow ===
+
+* Level: 34
+* Value: 39,305
+* Damage: 2021-2061
+* Slots: 2
+* Durability: 120<br />
+Location: Can be bought from Rivendell NPC on Heroic mode.
+
+=== Doriath Bow ===
+
+* Level: 39
+* Value: 137,000
+* Damage: 2414 - 2438
+* +15 Dexterity
+* Weapons skills cause Stun 100%
+* Weapons skills cause Slow 100%
+* Durability: 110
+
+Found in Carn Dum, most likely to be found as troll or boss loot on Legendary.
+
+===Jewel-smith Bow===
+
+* Level: 34
+* Value: 77,292
+* Damage: 2112-2154
+* +1.5x Troll Damage
+* +91 Deep Wounds Damage
+* +290 Crit Damage
+* Durability: 90
+
+Can be bought from Rivendell NPC on Legendary mode.
+
+
+===Buri's Master Bow===
+
+* Level: 37
+* Value: 113,898
+* Damage: 2234-2346
+* +8 Dexterity
+* +8 Stamina
+* +1.5x Orc Damage
+* Durability: 130
+
+Can be bought from Nordinbad NPC on Legendary mode.
+
+
+===Galron's Yew Bow===
+
+* Level: 36
+* Value: 28,594
+* Damage: 2149-2428
+* +19% Chance to steal Power
+* +5% Chance of Power Orb
+* +2 Improved aiming
+* Durability: 90
+* Quest Reward ( ''The Captive'' [-> All Modes] ).<br />
+
+<br />
+=== Beleriand War Bow ===
+
+* Level: 40
+* Value: 202,512
+* Damage: 2557-2583
+* +9 Will
+* +5 Stamina
+* +13% Health Regen
+* +380 Crit Damage
+* Durability: 60
+
+Found in Carn Dum, most likely to be found as troll or boss loot on Legendary.
+
+==Crossbows==
+===Jewel-smith Crossbow===
+
+* Level: 34
+* Price: 312,152
+* Value: 78,038
+* Damage: 2349-2466
+* +1.5x Undead Damage
+* +1.5x Orc Damage
+* Durability: 90
+
+Can be bought from Nordinbad NPC on Legendary mode.
+
+<br />
+===Battle-master's Crossbow===
+
+* Level: 
+*Price: 69,774
+* Damage: 2631-2710
+* Durability: 60
+
+Can be bought from Rivendell NPC on Legendary mode.
+
+<br />
+
+== Helmets ==
+<br />
+
+=== Deep-vein Helm ===
+
+* Level: 19
+* Value: 793
+* Armor: 104
+* +4 Will
+* Slots: 2
+* Durability 90
+
+Can be bought from Nordinbad NPC on Heroic mode. Can also be found on Legendary mode in the same gold chest as the Northwarden's Amulet.
+<br />
+
+=== Hidden-lake Helmet ===
+
+* Level: 27
+* Value: 6,872
+* Armor: 208
+* Slots: 2
+* Durability 130
+
+Can be bought from Nordinbad NPC on Heroic mode.
+<br />
+
+== Shoulders ==
+<br />
+
+=== Nightshade Shoulders ===
+
+* Level: 34
+* Value: 27,723
+* Armor: 143
+* +12 Reflect Damage
+* Slots: 2
+* Durability 140
+
+Looted form Legendary Ettenmoors - first gold chest across the jump at the star of the level.
+
+
+== Breastplate ==
+
+=== Hardened Brambleton Armor ===
+
+* Level: 32
+* Value: 2,854
+* Armor: 307
+* Slots: 2
+* Durability 140
+
+Can be found on legendary Barrow Downs as random loot or bought from the checkpoint-shop after spiral hill and before barrow-white encounter.
+
+
+== Gloves ==
+[[File:Carnen Gauntlets.png|thumb]]
+
+=== Carnen Gauntlets - Guanteletes de Carnen ===
+
+* Value: 10,848 / Valor: 10,848
+* Armor: 172 / Armadura: 172
+* Elfstone Slots: +2 / Ranuras de piedra élfica: +2
+* Mithrill Upgrades: (6) w/2 slot covered, (7) w/1 slot covered and 8 with 2 free slots.
+
+Obtainable as a random drop during the Nordinbad Siege map. It can be found via the following sources: standard chests located on both sides of the Nordinbad gate; drops from Ologs during the fourth wave of enemies; and drops from the Beornid commander during the fifth and final wave. I haven't verified this yet, but I believe other enemies might drop it with a very low probability; I will update this information. Only on Legendary mode.
+[[File:Lorien Vambraces.png|thumb]]
+
+=== Lorien Vambraces - Brazales de Lórien ===
+
+* Value: 1,068 / Valor: 1,068
+* Armor: 99 / Armadura: 99
+* Elfstone Slots: +2 / Ranuras de piedra élfica: +2
+* Mithrill Upgrades: (6) w/2 slot covered, (7) w/1 slot covered and 8 with 2 free slots.
+Obtainable as a random drop from guild chests on the Barrow-downs map, as an item at the Sarn Ford and Rivendell vendors, and as a random drop in the first section of the Ettenmoors map. Only on Heroic Mode.
+[[File:Stalker´s Gauntlets.png|thumb]]
+
+=== Stalker´s Gauntlets - Guanteletes de acechador ===
+
+* Value: 4,491 / Valor: 4,491
+* Armor: 140 / Armadura: 140
+* Elfstone Slots: +2 / Ranuras de piedra élfica: +2
+* Mithrill Upgrades: (6) w/2 slot covered, (7) w/1 slot covered and 8 with 2 free slots.
+Obtainable as a random drop in the Ettenmoors, Gundabad, and Mirkwood maps—from mobs, standard chests, and guild chests, as well as from Saenathra. Only in Heroic (low probability) and Legendary mode.
+
+=== Moria Silver Vambraces ===
+
+* Value: 129,990 / Valor: 129,990
+* Armor: 271 / Armadura: 271
+* +9 Dexterity / +9 Precisión
+* Elfstone Slots: +1 / Ranuras de piedra élfica: +1
+* Mithrill Upgrades: (7) w/1 slot covered and 8 with 1 free slot.
+Obtainable as a random drop on the Carn-dûm map. Possibly from Agandaur or the mobs he summons. There is also a chance it can be found in the four weapon piles in the first final battle stage. I will update this. Only in Legendary mode.
+
+=== Moria Silver Gauntlets ===
+
+* Value: 119,005 / Valor: 119,005
+* Armor: 269 / Armadura: 269
+* +9 Stamina /+9 Resistencia
+* Mithrill Upgrades: (8) total.
+Obtainable as a random drop on the Carn-dûm map. Possibly from Agandaur or the mobs he summons. There is also a chance it can be found in the four weapon piles in the first final battle stage. I will update this. Only in Legendary mode.
+
+== Leggings - Mallas ==
+[[File:Eastfold Leggings.png|thumb]]
+
+=== Eastfold Leggings - Mallas del Folde Este ===
+
+* Value: 9,028 / Valor: 9,028
+* Armor: 102 / Armadura: 102
+* Elfstone Slots: +2 / Ranuras de piedra élfica: +2
+* Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and 8 with 2 free slots.
+
+Random loot on the Barrow Downs map (drops from the Barrow-wight boss, level-specific wights, urns, regular and guild chests, and other mobs). Only on Heroic and Legendary Mode.
+[[File:Polished Moria Silver Legs.png|thumb]]
+
+=== Polished Moria silver legs - Armadura de plata bruñida de Moria ===
+
+* Value: 9,028 / Valor: 9,028
+* Armor: 158 / Armadura: 158
+* +17 Desterity / +17 Destreza
+* Mithrill Upgrades: 8 total.
+
+Random loot from the Fire-hammer Troll, and Agandaur on Carn-dûm finale. Only on Legendary Mode.
+
+=== Neldoreth Leg Guards - ===
+
+* Value: 76,196 / Valor: 76,196
+* Armor: 154 / Armadura: 154
+* +70 Health / +17 Salud
+* Elfstone Slot: +1 / Ranuras de piedra élfica: +1
+* Mithrill Upgrades: (7) w /1 slot covered and 8 with 2 free slots.
+
+Supposedly a random loot from the Fire-hammer Troll, and Agandaur on Carn-dûm finale. Only on Legendary Mode.
+
+== Boots - Botas ==
+[[File:Lebennin Greaves1.png|thumb]]
+
+=== Lebennin Greaves - Grebas de Lebennin ===
+
+* Value: 69,423 / Valor: 69,423
+* Armor: 206 / Armadura: 206
+* Elfstone Slots: +2 / Ranuras de piedra élfica: +2
+* Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and 8 with 2 free slots.
+
+Random loot in the Ettermoors, Gundabad, and Urgost's Lair maps. Found in standard and guild chests, as well as on in-game mobs. Also in Shops as random item. Only on Legendary Mode.
+[[File:Commander´s Greaves.png|thumb]]
+
+=== Commander´s Greaves - Grebas de comandante ===
+
+* Value: 8,137 / Valor: 8,137
+* Armor: 129 / Armadura: 129
+* Elfstone Slots: +2 / Ranuras de piedra élfica: +2
+* Mithrill Upgrades: (6) w/2 slot covered, (7) w /1 slot covered and 8 with 2 free slots.
+
+Random loot in the Fornost, Ettermors, and Gundabad maps. Found in standard and guild chests, as well as on in-game mobs. Also in Shops as random item. Only on Heroic and Legendary Mode.
+[[File:Ithilien Boots.png|thumb]]
+
+=== Ithilien Boots - Botas de Ithilien ===
+
+* Value: 51,921 / Valor: 51,921
+* Armor: 193 / Armadura: 193
+* +9 Strenght / +9 Fuerza
+* Mithrill Upgrades: 8 total.
+
+Random loot in the Carn-dûm map (drops from level Ologs, Fire-hammer Troll, and Agandaur). Only on Legendary Mode.
+[[Category:Equiptment]]

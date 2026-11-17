@@ -1,0 +1,527 @@
+==Class Specific Weapons==
+
+
+
+<p style="color:rgb(1000,1000,1000);">Champion (Farin/Dwarf) ---> Crossbows, 2-Handed Swords, 2-Handed Axes, 2-Handed Blunts</p>
+
+<p style="color:rgb(1000,1000,1000);">Ranger (Eredan/Man) ---> Bows, 1-Handed Weapons (can duel-wield with Dual Strike Skill), 2-Handed Swords</p>
+
+<p style="color:rgb(1000,1000,1000);">Lore-Master (Andriel/Elf) ---> Staves, 1-Handed Weapons (with Skill)</p>
+
+Listed Value may be from player Inventory or Store.
+
+==1-Handed SwordNothing ==
+==Name==
+{| class="article-table article-table-selected" border="1" cellpadding="1" cellspacing="1" style="width: 500px;"
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;" |Value
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;" |Damage
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;" |__________Effect__________
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;" |Elf Stone Slots
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;" |Durability
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;" |Level Req.
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;" |Strength Req.
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;" |Origin
+|-
+|Angmir's Longschlong
+| style="text-align:center;" |86542
+| style="text-align:center;" |683-731
+| style="text-align:center;" |+7 Will, +110 Power, Reduced Wear 300%, +21 Ice Damage
+| style="text-align:center;" |0
+| style="text-align:center;" |80
+| style="text-align:center;" |34
+| style="text-align:center;" |40
+| style="text-align:center;" |Elf
+|-
+|Artillerist's Scimitar
+| style="text-align:center;" |7454
+| style="text-align:center;" |423-529
+| style="text-align:center;" |+60 Shock Damage
+| style="text-align:center;" |0
+| style="text-align:center;" |50
+| style="text-align:center;" |31
+| style="text-align:center;" |34
+| style="text-align:center;" |Orc
+|-
+|Buri's Longsword
+| style="text-align:center;" |80439
+| style="text-align:center;" |669-729
+| style="text-align:center;" |-
+| style="text-align:center;" |0
+| style="text-align:center;" |?
+| style="text-align:center;" |35
+| style="text-align:center;" |40
+| style="text-align:center;" |Dwarf
+|-
+|Caras Edhel Sabre
+| style="text-align:center;" |133544
+| style="text-align:center;" |593-635
+| style="text-align:center;" |+7 Will
+| style="text-align:center;" |2
+| style="text-align:center;" |60
+| style="text-align:center;" |34
+| style="text-align:center;" |36
+| style="text-align:center;" |Elf
+|-
+|Eleran's Broadsword
+| style="text-align:center;" |20042
+| style="text-align:center;" |557-646
+| style="text-align:center;" |+65 Armor, Reduced Damage +4
+| style="text-align:center;" |0
+| style="text-align:center;" |110
+| style="text-align:center;" |33
+| style="text-align:center;" |36
+| style="text-align:center;" |Man
+|-
+|Elf-smith's Sword
+| style="text-align:center;" |426
+| style="text-align:center;" |108-138
+| style="text-align:center;" |-
+| style="text-align:center;" |1
+| style="text-align:center;" |?
+| style="text-align:center;" |9
+| style="text-align:center;" |13
+| style="text-align:center;" |Elf
+|-
+|Emyn Arnen Sabre
+| style="text-align:center;" |1259
+| style="text-align:center;" |244-293
+| style="text-align:center;" |+4 Will
+| style="text-align:center;" |2
+| style="text-align:center;" |70
+| style="text-align:center;" |20
+| style="text-align:center;" |24
+| style="text-align:center;" |Elf
+|-
+|Eored Sword
+| style="text-align:center;" |16737
+| style="text-align:center;" |502-582
+| style="text-align:center;" |+65 Fire Damage
+| style="text-align:center;" |0
+| style="text-align:center;" |50
+| style="text-align:center;" |32
+| style="text-align:center;" |35
+| style="text-align:center;" |Man
+|-
+|Ernil Longsword
+| style="text-align:center;" |181456
+| style="text-align:center;" |667-714
+| style="text-align:center;" |-
+| style="text-align:center;" |0
+| style="text-align:center;" |50
+| style="text-align:center;" |34
+| style="text-align:center;" |37
+| style="text-align:center;" |Elf
+|-
+|Golden Wood Sword
+| style="text-align:center;" |2598
+| style="text-align:center;" |300-348
+| style="text-align:center;" |+5 Stamina, +80 Power, 1.5x Damage vs. Troll
+| style="text-align:center;" |?
+| style="text-align:center;" |60
+| style="text-align:center;" |25
+| style="text-align:center;" |26
+| style="text-align:center;" |Elf
+|-
+|Gram Broadsword
+| style="text-align:center;" |525
+| style="text-align:center;" |126-192
+| style="text-align:center;" |+30 Fire Damage, +39 Deep Wounds Damage
+| style="text-align:center;" |1
+| style="text-align:center;" |30
+| style="text-align:center;" |18
+| style="text-align:center;" |22
+| style="text-align:center;" |Orc
+|-
+|Keystone Short Sword
+| style="text-align:center;" |865
+| style="text-align:center;" |179-245
+| style="text-align:center;" |+6 Strength, +30 Shock Damage
+| style="text-align:center;" |0
+| style="text-align:center;" |140
+| style="text-align:center;" |18
+| style="text-align:center;" |22
+| style="text-align:center;" |Dwarf
+|-
+|Midgewater Blade
+| style="text-align:center;" |33900
+| style="text-align:center;" |480-557
+| style="text-align:center;" |-
+| style="text-align:center;" |0
+| style="text-align:center;" |40
+| style="text-align:center;" |32
+| style="text-align:center;" |34
+| style="text-align:center;" |Man
+|-
+|Minhiriath Broadsword
+| style="text-align:center;" |9557
+| style="text-align:center;" |463-528
+| style="text-align:center;" |+7 Will
+| style="text-align:center;" |0
+| style="text-align:center;" |70
+| style="text-align:center;" |33
+| style="text-align:center;" |36
+| style="text-align:center;" |Man
+|-
+|Moria Sword
+| style="text-align:center;" |1920
+| style="text-align:center;" |160-224
+| style="text-align:center;" |-
+| style="text-align:center;" |0
+| style="text-align:center;" |180
+| style="text-align:center;" |18
+| style="text-align:center;" |22
+| style="text-align:center;" |Dwarf
+|-
+|Nargothrond Blade
+| style="text-align:center;" |189010
+| style="text-align:center;" |814-838
+| style="text-align:center;" |+5 Strength, +5 Stamina
+| style="text-align:center;" |2
+| style="text-align:center;" |110
+| style="text-align:center;" |40
+| style="text-align:center;" |40
+| style="text-align:center;" |Elf
+|-
+|Second Age Longsword
+| style="text-align:center;" |50502
+| style="text-align:center;" |640-691
+| style="text-align:center;" |+70 Fire Damage
+| style="text-align:center;" |0
+| style="text-align:center;" |90
+| style="text-align:center;" |33
+| style="text-align:center;" |36
+| style="text-align:center;" |Elf
+|-
+|Stalker's Longsword
+| style="text-align:center;" |5123
+| style="text-align:center;" |392-470
+| style="text-align:center;" |+6 Strength
+| style="text-align:center;" |0
+| style="text-align:center;" |70
+| style="text-align:center;" |31
+| style="text-align:center;" |34
+| style="text-align:center;" |Man
+|-
+|Stalker's Sabre
+| style="text-align:center;" |5300
+| style="text-align:center;" |388-435
+| style="text-align:center;" |+6 Will, Weapon skills cause Slow 100%
+| style="text-align:center;" |0
+| style="text-align:center;" |60
+| style="text-align:center;" |31
+| style="text-align:center;" |34
+| style="text-align:center;" |Elf
+|-
+|Starlight Blade
+| style="text-align:center;" |21045
+| style="text-align:center;" |528-586
+| style="text-align:center;" |+36 Armor, +81 Deep Wound Damage
+| style="text-align:center;" |0
+| style="text-align:center;" |60
+| style="text-align:center;" |32
+| style="text-align:center;" |35
+| style="text-align:center;" |Elf
+|-
+|Troll-hunter's Sword
+| style="text-align:center;" |772
+| style="text-align:center;" |82-122
+| style="text-align:center;" |-
+| style="text-align:center;" |0
+| style="text-align:center;" |70
+| style="text-align:center;" |11
+| style="text-align:center;" |16
+| style="text-align:center;" |Man
+|-
+|
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+| style="text-align:center;" |
+|}
+
+==1-Handed Axes==
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="width:500px; "
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Name
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Value
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Damage
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|__________Effect__________
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Elf Stone Slots
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Durability
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Level Req.
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Strength Req.
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Origin
+|-
+|Lore-keeper's Axe
+|style="text-align:center;"|1288
+|style="text-align:center;"|115-145
+|style="text-align:center;"|-
+|style="text-align:center;"|0
+|style="text-align:center;"|80
+|style="text-align:center;"|13
+|style="text-align:center;"|16
+|style="text-align:center;"|Elf
+|-
+|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|}
+
+==1-Handed Blunts==
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="width: 500px; "
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Name
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Value
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Damage
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|__________Effect__________
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Elf Stone Slots
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Durability
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Level Req.
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Strength Req.
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Origin
+|-
+|Mirkwood Mace
+|style="text-align:center;"|1316
+|style="text-align:center;"|75-95
+|style="text-align:center;"|+3 Strength, Reduced Wear 300%, 1.4x Damage vs. Spider
+|style="text-align:center;"|0
+|style="text-align:center;"|90
+|style="text-align:center;"|11
+|style="text-align:center;"|13
+|style="text-align:center;"|Elf
+|-
+|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|}
+
+==2-Handed Swords (Ranger and Champion Only)==
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="width: 500px; "
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Name
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Value
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Damage
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|__________Effect__________
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Elf Stone Slots
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Durability
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Level Req.
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Strength Req.
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Origin
+|-
+|Halifirien War Sword
+|style="text-align:center;"|67532
+|style="text-align:center;"|1188-1247
+|style="text-align:center;"|+22 Ice Damage
+|style="text-align:center;"|0
+|style="text-align:center;"|90
+|style="text-align:center;"|39
+|style="text-align:center;"|51
+|style="text-align:center;"|Man
+|-
+|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|}
+
+==2-Handed Axes (Champion Only)==
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="width: 500px; "
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Name
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Value
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Damage
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|__________Effect__________
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Elf Stone Slots
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Durability
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Level Req.
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Strength Req.
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Origin
+|-
+|Dragon Scale Long Axe
+|style="text-align:center;"|59337
+|style="text-align:center;"|1142-1222
+|style="text-align:center;"|+22 Ice Damage
+|style="text-align:center;"|0
+|style="text-align:center;"|200
+|style="text-align:center;"|36
+|style="text-align:center;"|49
+|style="text-align:center;"|Dwarf
+|-
+|Tempest
+|style="text-align:center;"|1644
+|style="text-align:center;"|127-161
+|style="text-align:center;"|+5 Health, 1.4x Damage vs. Undead, +15 Shock Damage
+|style="text-align:center;"|0
+|style="text-align:center;"|140
+|style="text-align:center;"|22
+|style="text-align:center;"|17
+|style="text-align:center;"|Elf
+|-
+|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|}
+
+==2-Handed Blunts (Champion Only)==
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="width: 500px; "
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Name
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Value
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Damage
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|__________Effect__________
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Elf Stone Slots
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Durability
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Level Req.
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Strength Req.
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Origin
+|-
+|Deep-root Cudgel
+|style="text-align:center;"|801/3204
+|style="text-align:center;"|220-277
+|style="text-align:center;"|+3 Dexterity, +20 Health, 1.4x Damage vs. Undead
+|style="text-align:center;"|1
+|style="text-align:center;"|70
+|style="text-align:center;"|11
+|style="text-align:center;"|20
+|style="text-align:center;"|Elf
+|-
+|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|}
+
+==Staves (Loremaster Only)==
+
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="width: 500px; "
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Name
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Value
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Damage
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|__________Effect__________
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Elf Stone Slots
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Durability
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Level Req.
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Strength Req.
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Origin
+|-
+|Angmir's Staff
+|style="text-align:center;"|683
+|style="text-align:center;"|156-193
+|style="text-align:center;"|+3 Will, +50 Power, Reduced Wear 300%, +16 Fire Damage
+|style="text-align:center;"|0
+|style="text-align:center;"|120
+|style="text-align:center;"|11
+|style="text-align:center;"|17
+|style="text-align:center;"|Elf
+|-
+|Forest Lord's Staff
+|style="text-align:center;"|74277
+|style="text-align:center;"|816-857
+|style="text-align:center;"| +8 Dexterity, 1-5x Damage vs. Orc
+|style="text-align:center;"|2
+|style="text-align:center;"|70
+|style="text-align:center;"|36
+|style="text-align:center;"|38
+|style="text-align:center;"|Elf
+|-
+|Guardian's Staff
+|style="text-align:center;"|1008
+|style="text-align:center;"|96-120
+|style="text-align:center;"| -
+|style="text-align:center;"|1
+|style="text-align:center;"|90
+|style="text-align:center;"|11
+|style="text-align:center;"|13
+|style="text-align:center;"|Elf
+|-
+|Lore-keeper's Quarterstaff
+|style="text-align:center;"|1856
+|style="text-align:center;"|142-178
+|style="text-align:center;"| -
+|style="text-align:center;"|1
+|style="text-align:center;"|120
+|style="text-align:center;"|13
+|style="text-align:center;"|16
+|style="text-align:center;"|Elf
+|-
+|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|}
+
+==Shields (Ranger and Champion Only)==
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="width: 500px; "
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Name
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Value
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Damage
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|__________Effect__________
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Elf Stone Slots
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Durability
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Level Req.
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Stamina Req.
+! scope="col" style="border-bottom-color:rgb(204,204,204);text-align:center;"|Origin
+|-
+|Imladris Great Shield
+|style="text-align:center;"|1076
+|style="text-align:center;"|188
+|style="text-align:center;"|-
+|style="text-align:center;"|0
+|style="text-align:center;"|170
+|style="text-align:center;"|11
+|style="text-align:center;"|10
+|style="text-align:center;"|Elf
+|-
+|Lore-keeper's Shield
+|style="text-align:center;"|1512
+|style="text-align:center;"|202
+|style="text-align:center;"|+20 Health
+|style="text-align:center;"|1
+|style="text-align:center;"|110
+|style="text-align:center;"|12
+|style="text-align:center;"|12
+|style="text-align:center;"|Elf
+|-
+|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|}
+[[Category:Equiptment]]

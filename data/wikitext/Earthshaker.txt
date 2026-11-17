@@ -1,0 +1,8 @@
+[[File:Placeholder|right|300px]]
+Active Skill
+
+Cost: 19
+
+Hold '''RT + X''' to follow Sweeping Attack with a continuous flurry of quick area attacks. <u>'''Requires an Axe, Hammer, or Mace'''</u>
+
+Note: Continuing to hold '''RT + X''' allows Whirlwind to persist. Additional ranks increase damage from attacks.

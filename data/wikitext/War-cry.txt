@@ -1,0 +1,12 @@
+[[File:Placeholder|right|300px]]
+Active Skill
+
+Cost: 15 power 
+
+Press '''RT + B''' to temporarily increase Armor, Health, and melee damage.
+
+Note: Can be enhanced by the following skills: [[Dwarf Armor]], [[Taunt]], [[Retaliation]], [[Fortitude]], [[Abundant_Harm|Abundant Harm]], [[Indomitable Spirit]], [[Battle Fury]], and [[Battle-ready]]
+
+Armor of equipment is increased by 100% of the base armor.
+
+Health is increased by 25% of the base health

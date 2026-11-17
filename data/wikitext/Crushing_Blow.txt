@@ -1,0 +1,13 @@
+[[File:Placeholder|right|300px]]
+Active Skill
+
+Cost: 15 power
+
+Press '''RT + Y''' to strike a single melee target for high damage.
+
+Note: Can be upgraded by the [http://witn.wikia.com/wiki/Crushing_Wave Crushing Wave] skill.
+
+The damage done by this skill is the total melee damage plus 150% of the total melee damage.
+
+Equation: Total melee damage (Min. or Max) x 2.5 = Total Damage for Crushing Blow
+[[Category:Skills]]

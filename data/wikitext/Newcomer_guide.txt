@@ -1,0 +1,36 @@
+==How does the combat work?==
+In it's most basic form, all characters perform combat with three attacks. A light, a heavy and a ranged.
+
+Your light attack is your most basic, and usually your least damaging attack, but the fastest. It's probably what you'll be using most of, due to it's high speed. On PC, the default keybinding for this attack is the left mouse button.
+
+Your heavy attack is just that, a heavy attack. It's usually more damaging than your light attack, but slower, leaving you slightly vulnerable after use. It's very useful for taking out enemies with shields. This is also the attack you want to perform when you see a yellow arrow above your enemies head, as it will perform a critical attack. On PC, this is done using your right click. Both your heavy and light attack's damage is based off your weapon, and strength.
+
+Your ranged attack varies per character. Andriel's ranged attacks use 5 mana per shot, and she can perform 5 in rapid succession before having to recharge her staff. Eradan's and Farin's attacks do not require a recharge, but however are slower and require arrows, which can be found in the containers and breakables throughout the game. Your basic ranged damage is based off your ranged weapon (Or staff, in Andriel's case), as well as your dexterity. On PC by default, ranged mode is entered by holding ALT.
+
+All characters also have a block, which you can perform by holding the block button (On PC, this is by default CONTROL). Blocking will prevent you taking any damage from normal attacks, however, it won't do much to stop a large troll club or a charging uruk-hai. Using your light attack while in block will perform a kick, knocking most enemies back slightly.
+
+
+
+In most combat scenarios, you will be using a combination of your light, heavy and ranged attacks, dealing damage to the enemy. As you do damage, your "crit meter" for that enemy will charge up, until a yellow arrow appears above the enemies head. When this appears, it means they are vulnerable to a critical attack, which you can do by using your heavy attack.
+
+==How does the loot system work?==
+Items can be found from enemy drops, chests, loot piles, and barrels/boxes/pots. War in the North gives you a lot of inventory space. This lets you save items with nice bonus stats, which can come in handy when equipping items with higher stat requirements.
+
+The game has 3 separate loot tables one for Easy/Normal mode, another for Heroic mode, and another for Legendary mode. Items found in each loot mode are vastly different. 
+
+==How do the skills and level-up system work?==
+==How to defeat specific enemies==
+Remember to always kill enemies who use ranged attacks first. So if you see any mages or archers, get to them as soon as you can. Use dodge roll and sprint to evade anyone who's standing in your way. Use your abilities to kill the archers/mages. Make sure you watch your back because usually you're being chased by melee enemies.
+
+'''''Dual-wielding enemies:''''' The key to defeat dual-wielding enemies is to block. Simply press the block button before they attack and they won't be able to deal any damage and they'll be stunned for a few seconds, allowing you to attack them. Even if you're surrounded by multiple dual-wielding enemies, holding the block button is enough, the direction you're facing doesn't matter.
+
+'''''Trolls:''''' Trolls become very easy to defeat once you learn how to recognize their attack patterns. They have a special animation for their 180° attack and for their forward attack. Just keep hitting them and when they're about to attack, dodge roll underneath them. This technique should be quite easy to master and soon you'll be able to defeat trolls without taking any damage.
+
+<span style="font-style: italic;"><span style="font-weight: bold;">Uruk-hai with a shield:''''' '''''</span></span>These Uruk-Hai can do a shield charge which, if you're not paying attention, might get you into trouble. Just like trolls, they always have the same animation before they charge, so just learn to recognize it and use dodge roll to evade their attack. When attacking them, use heavy attacks instead of light attacks.
+
+'''''Uruk-hai Berserkers (sword):''''' These strong Uruk-hai enemies carry a two-handed sword. They have a powerful 360° attack and they can deal a lot of damage with each hit. Again, they have a special animation before they do their 360° attack so just dodge roll in time. Normally these enemies should be easy to defeat, it just takes some time.
+
+'''''Uruk-hai Berserkers (hammer):''''' Similar to the sword berserkers but without the 360° attack and they carry a hammer instead of a sword. They can pound the ground however for a very small 'earthquake' effect. So even if you're hitting them in the back, you might get hit.
+
+'''''Goblin sappers:''''' These goblins carry blasting powder and they basically suicide charge against you. There are two easy ways to defeat them: 1) Kill them with a ranged weapon before they get close to you. 2) Let them get close so they start trying to blow themselves up, then once this animation starts, dodge roll away from them.
+[[Category:Guide]]

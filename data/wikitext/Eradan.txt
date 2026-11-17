@@ -1,0 +1,143 @@
+[[File:Ranger-bio.jpg|thumb|306px|link=Special:FilePath/Ranger-bio.jpg]]
+
+== Background: ==
+Eradan son of Baranor is a Ranger of the North, part of the Dúnedain race that at the time of the War of the Ring could yet be found dwelling in the northwestern lands of Middle-earth. The life of a Ranger is difficult and trying, but it is one Eradan has lived for over thirty years, although that would be difficult for many to believe by looking at him, for like many of his kinsmen, he is older than he appears to be.
+
+The blood of Númenor runs strong in Eradan and he can trace his heritage back to knights who served Elendil while he was yet a lord of Númenor. Eradan is proud of his family’s long history of serving the Heirs of Elendil in spite of the fragmentation and destruction of their Kingdom of Arnor.
+
+Eradan was raised in a small Dúnedain settlement, near the confluence of the rivers in eastern Eriador. Like far too many of his kinsmen, Eradan lost his father, Baranor, while still a boy. Baranor’s fate is uncertain, for he was part of a Ranger company that simply failed to return from a patrol along the western fringes of the White Mountains.
+
+In spite of this personal tragedy, Eradan began his own training as a Ranger as soon as he came of age. As was traditional, he began by serving an apprenticeship under the watchful eye of his uncle Dunhir. After two years in this role he became a fully trained Ranger capable of acting on his own.
+
+Eradan found ample opportunity to test his skills, as the Northlands were often threatened by groups of pillaging Orcs from the Misty Mountains, as well as the occasional marauding troll that kept the Rangers constantly busy along the Eastern edges of Eriador.
+
+Eradan soon gained a reputation as a deadly archer and swordsman, but it was his skill as an outdoorsman and tracker that was most often praised by his fellow Rangers, for his mastery of such lore was exceptional, even among that race of huntsmen.
+
+Eradan was already a seasoned veteran when Aragorn gave orders for the doubling of the watch kept upon the Shire. In the intervening years the Ranger camp at Sarn Ford, along the southern border of the Shire. During his time there he has served most often under the command of Aragorn’s kinsman Halbarad.
+
+Two years past, Aragorn returned from long travels in the south and began to take a more active hand in the defense of the Shire. During that time Eradan had the opportunity to work directly with his Chieftain. Aragorn was favorably impressed with Eradan’s skill and courage and invited him to accompany him on several ventures, giving Eradan the opportunity to increase his skills under the direct guidance of the man considered the greatest traveler and huntsman of his age. One topic was never breached between them however — the reason for the strong guard upon the Shire. On this subject Aragorn remained ever tight-lipped and Eradan would never press the question, trusting fully in the wisdom of his Chieftain.
+
+Those who undertake the path of a Ranger gain a strong sense of purpose and unshakeable camaraderie, but they can expect little else in the way of tangible rewards. Nevertheless, Eradan is fully committed to his duty, for he knows the hope of his kin for brighter days is entirely tied to the destiny of Aragorn.
+==Skills==
+
+=== Talent Build Tree 1: ===
+
+==== Evasion ====
+Become invisible for a short amount of time. 
+
+- On its own, useful for losing aggro, attack important targets such as spellcaster, reviving companions... can be further upgraded by other skills.
+
+==== Onslaught ====
+while evasion is active unleash a suprise heavy attack(press right mouse button) against your target for bonus damage.
+
+- does good damage, useful for assassinating spellcasters or simply to dump some damage on a target if the Evasion is close to end. Stronger if using dual wielded weapons, for some reason it does almost double the damage
+
+==== Critical Wound ====
+increase hero mode damage and improves the rate that your attacks build critical strikes.
+
+==== Respite ====
+Enables automatic health and power regeneration while evasion is active.
+
+==== Smoke and flame ====
+Enhance evasion by disappearing in a flash that stuns enemies.
+
+==== Stealth Mastery ====
+increases the duration of the evasion bonus.
+
+Evasive Foe
+
+Allows you to use normal attack(press left mouse button) without being revealed.
+
+=== Talent Build Tree 2: ===
+
+==== Ranger Strike ====
+Press RT+Y(on PlayStation 3) to perform a quick attack that strikes a single target for bonus damage.
+
+- quite a weak skill, even when upgraded
+
+==== Dual Wield ====
+unlocks dual wielding of 1-handed weapons and increases the damage done with them equipped. 
+
+==== Combat Training ====
+increases the damage of your ranger strike.
+
+- since Ranger Strike is weak even with this, it's better to avoid spending points in it.
+
+==== Heavy Weapons ====
+increases your damage wielding 2-handed swords.
+
+==== Dual Strike ====
+Press RT+X(on PlayStation 3) to attack all enemies around with both weapons - requires dual wielding.
+
+- enemies with flinch, but will not fall over.  damage is quite low, but it's useful still as it's an AoE attack.
+
+==== Blood of Westernesse ====
+Reduces the cool-down times of active skills.
+
+- a must-have!
+
+==== Cleave ====
+Press RT+X(on PlayStation 3) for a wide arcing attack that strikes multiple enemies. - requires a 2-handed sword.
+
+- excelent skill, does good damage, often hits the same target twice, but most importantly, if enemies are close it will knock them to the ground - best way to fight orcs when in melee, since it works on them too and the cooldown is very short.
+
+==== Might of the Dunedain ====
+Each killing blows grants a temporary strength bonus.
+
+- on max level, it adds +10 Strength. The way it works is, after you kill an enemy, you get +10 Strength for a short time, but you don't get any more Strength for multiple kills. 10 Strength might seem a lot at first, but it's actually just +30 melee damage
+
+==== Assail ====
+While blocking press RB+Y(on PlayStation 3) to rush ahead, striking targets for bonus damage.
+
+- useful for escaping tough spots, similar to Cleave, just weaker and harder to aim. It's almost the same as regular dodge roll + Cleave, just not very deadly
+
+==== Agility ====
+grants a bonus of armor based on your current dexterity.
+
+- very useful later in the game, when with all the gear bonuses, Eradan can have over 200 Dexterity. If you have 100 Dexterity, one point will add +100, two points +150, and three points +200 armor
+
+=== Talent Build Tree 3: ===
+
+==== Heavy Shot ====
+Hold and release RT+RB(on PlayStation 3) to fire a arrow with greater power.
+
+==== Bow Mastery ====
+Increases the damage of your bow attacks and increases the speed you reload arrows
+
+==== Broad Quiver ====
+Increases the maximum number of arrows stored in your quiver.
+
+==== Stunning Shot ====
+Press LT+Y(on PlayStation 3) to fire an arrow that stuns your target and enables a follow-up critical attack.
+
+- very useful to have 1 point in it because the target hit will immediately be opened for a critical attack, meaning even if you're a melee fighter, you can shoot this at the first target coming at you, and you'll immediately be able to critical it and then continue to fight in hero mode. Works on ALL enemies, even trolls and bosses. Critical opening doesn't appear if the target blocks the arrow with a shield, but it will be stunned.
+
+==== Precision Aura ====
+A Shared bonus increases the damage each party member inflicts with headshots.
+
+- maxing this skill makes your headshots do double damage compared to normal shots.
+
+==== Volley ====
+Press LT+X(on PlayStation 3) to fire multiple arrows that automatically seek visible targets.
+
+- when maxed, fires 8 arrows at random 8 targets in front of you. If there are only 3 enemies, it will fire only 3 arrows. Damage per arrow is the same as a normal shot. Most useful against goblin sappers, or for killing bosses quickly if there are other enemies around - for example, if a troll is in front of you and lots of enemies are behind the troll, if you fire Volley, all 8 arrows may hit the troll, doing lots of damage quickly.
+
+- even if it fires multiple arrows, Volley depletes only 1 arrow from your quiver.
+
+==== Piercing shot ====
+Maximizes Heavy Shot(RT+RB) by increasing initial damage, reducing charge time and applying additional damage over time to targets.
+
+- increases the damage, but there isn't any damage over time. 
+
+==Character builds==
+
+=== Introduction ===
+Eradan is a wonderful and strong character however you build him. He fights in melee as well as from range with similar proficiency. He differs from other characters mostly in his Evasion skill, which makes him invisible (but not invulnerable) to enemies. Therefore, his most outstanding quality lies in safely reviving allies and eliminating critical threats utilizing Evasion.
+
+=== Ranged build ===
+Well there isn't really a fully ranged build because if you pick any one of the melee builds, you still have enough skill points to max most of the ranged skill tree. Meaning, you can always be a good ranger no matter the build.
+
+One option is also to max everything in ranged skill tree and use sword and shield, while maxing whatever else is left since you won't spec into dual or 2-handed - gives a lot of chances of survival because you're fighting from range and because of the shield. You just won't be able to finish melee fights as fast. 
+
+Also, there is no need to invest too much into Dexterity on level-ups if you plan on playing on Legendary difficulty - adding Mithril to gear gives lots of Dexterity as well as Will and you might end up with 200 dexterity and 50 strength, for example. But there's the respect token for that.
+[[Category:Characters]]

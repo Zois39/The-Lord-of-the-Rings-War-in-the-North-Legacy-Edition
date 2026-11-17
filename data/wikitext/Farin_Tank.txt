@@ -1,0 +1,11 @@
+[[File:2011-11-23_00001.jpg|thumb|Tank skill tree]]
+
+[[File:2011-11-23_00002.jpg|thumb|Stats at level 40]]Farin is perfectly suited for a tank role. With this build, your primary role is to draw enemy aggro, absorb as much damage as possible and survive even when your teammates are falling. The key to achieve this is War-cry, you should keep it active whenever you can. Use items with a skill cooldown reduction effect to reduce the cooldown of War-cry.
+
+The most important skills in the beginning are Dwarf-armor and Indomitable Spirit. Dwarf-armor allows you to ignore all heavy hit attacks, which basically means that you can't be knocked down (while War-cry is active). Indomitable Spirit allows you to instantly revive your allies if you activate War Cry while standing next to them.
+
+Other essential skills are the entire War-cry tree, Abundant Harm, Fortitude, Endurance, Battle-fury and Battle-ready. See the screenshot to the right for a selection of skills.
+
+For your attributes, ignore Dexterity. Get your Willpower to 20-25, that's all you need to keep War-cry active and spam some abilities. You need at least 48 Stamina for the best armor pieces but you can further increase it if you feel that you need the extra health. Normally health shouldn't be a problem though. Put all other points in Strength for some extra melee damage.
+
+Strategy is rather simple: activate War-cry at the start of the battle and let all the enemies get to you. Use some abilities if you wish but don't dodge their attacks! War-cry gives you reflect damage and if you also wear some reflect damage items, the enemies will kill themselves by attacking you. Once you get to level 40, focus on getting good items with reflect damage and +armor and upgrade your items with mithril.

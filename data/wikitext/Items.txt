@@ -1,0 +1,601 @@
+[[File:Placeholder|right|300px]]
+==Ammo==
+*Arrows
+*Bolts
+
+
+
+
+
+==Slottable==
+
+[[Elf Stones]]
+
+==Useable==
+Many of these Potions, Elixirs and Cakes are made with Andriel's crafting abilities only.
+
+Map fragments include: Weathertop, Carrock, Ford of Bruinen, Trollshaws, Gladden Fields, The Black Gate(Morannon), Dale, Fangorn Forest, The Dark Tower(Barad-dur), Grey Haven(Mithlond).
+{| align="center" border="0" cellpadding="1" cellspacing="1" class="article-table article-table-selected" style="width:500px;"
+! scope="col"|Name
+! scope="col"|Value
+! scope="col"|Description
+|-
+|Choice of Rewards
+|1
+|A choice of gift for completion of a side quest.
+|-
+|Cram
+|15
+|5 Strength, Improved Power Regeneration
+Duration: 1.5 minutes
+|-
+|Dried Fish
+|4
+|Heals 40 health.
+|-
+|Efficiency Elixir
+|50
+|Power cost of skills is reduced 80%
+Duration: 10 minutes
+|-
+|Elixir of Learning
+|50
+|x2 experience earned
+Duration: 1 minute
+|-
+|Elixir of Lethal Striking
+|50
+|Enemies hit receive Deep Wounds.
+Duration: 3 minutes
+|-
+|Elixir of Powerful Shooting
+|50
+|Enemies hit with normal ranged shots are stunned
+Duration: 10 minutes
+|-
+|Great Feather
+|50
+|Summons Beleram to strike at an enemy.
+|-
+|Healing Cake
+|50
+|Improved health regeneration.
+Duration: 1 minute
+|-
+|Healing Salve
+|35
+|Heals 200 health.
+|-
+|Health Potion
+|45
+|Restores a % of your health.
+|-
+|Hero's Potion
+|50
+|Each strike gives +1000 bonus damage while in Heroic Mode.
+Duration: 2 minutes
+|-
+|Map Fragments
+|30
+|A piece of the map, use it to add the location to your map of Middle Earth.
+|-
+|Miruvor
+|50
+|Full Health and Power, +20 Strength, +20 Dexterity, +30 Stamina
+Duration: 5 minutes
+|-
+|Orc-liquor
+|20
+|
++25 Stamina, +50 Melee Damage
+Duration: 2.5 minutes
+|-
+|Potion of Hardiness
+|50
+|Health x 2
+Duration: 60 minutes
+|-
+|Potion of Might
+|50
+|All strikes have minor Area Damage, and enemies are Slowed.
+Duration: 2 minutes
+|-
+|Potion of Quickness
+|50
+|Upon being struck there's a chance for a temporary increase in speed
+Duration: 5 minutes
+|-
+|Potion of Resurgence
+|50
+|Protection from death while effect lasts: auto-revive once.
+Duration: 2 minutes
+|-
+|Potion of Retribution
+|50
+|Enemies who strike the player are injured (equal to 30% of player damage)
+Duration: 10 minutes
+|-
+|Potion of Wisdom
+|50
+| +750 Power
+Duration: 10 minutes
+|-
+|Power Potion
+|40
+|Restores a % of your power.
+|-
+|Rejuvenating Cake
+|50
+|Improved health and power regeneration.
+Duration: 1 minute
+|-
+|Rejuvenation Potion
+|50
+|Restores both health and power.
+|-
+|Re-spec Token
+|4000
+|Allows you to change how you originally distributed your characters skill and stat points.
+|-
+|Restoring Cake
+|50
+|Improved power regeneration.
+Duration: 1 minute
+|-
+|Stale Grey Bread
+|1
+|When consumed, heals for 5 health.
+|-
+|Strength Potion
+|50
+|Strength x2
+Duration: 1 minute
+|-
+|Strong Ale
+|30
+|Heals 40 Health.
+|-
+|Victor's Brew
+|50
+|Receive orbs upon enemy kill.
+Duration: 1 minute
+|-
+|Warding Potion
+|50
+| 
++50% of received damage is absorbed
+
+Duration: 1 minute
+|}
+
+==Craftable==
+These 16 items can be gathered by Andriel and crafted into potions, other characters cannot collect them and can only sell those currently in your inventory.
+{| border="0" cellpadding="1" cellspacing="1" class="article-table" style="width:500px;"
+! scope="col"|Name
+! scope="col"|Value
+! scope="col"|Description
+|-
+|Alfirin
+|2
+|(Never-fade) A delicate bell-shaped, golden flower.
+|-
+|Arthrif
+|1
+|(Noble-bark) A thin silver-grey tree bark.
+|-
+|Carandol
+|3
+|(Red Cap) A small mushroom with a brilliant red cap.
+|-
+|Elanor
+|3
+|(Sun-star) A small, golden, star-shaped flower.
+|-
+|Gwinuial
+|1
+|(Twilight Vine) A low creeper with tiny blooms resembling dim stars.
+|-
+|Hithlas
+|1
+|(Mist-leaf) A small bush with grey-green leaves.
+|-
+|Lothrond
+|2
+|(Cave-flower) A fungus with a colorful cap which grows in separate segments reminiscent of the petals of a flower.
+|-
+|Meluinen
+|1
+|(Sweet-water) Crystal clear mineral water.
+|-
+|Morthond
+|3
+|(Black Root) A dark, many-lobed tuber.
+|-
+|Naugrimbas
+|2
+|(Dwarf-bread) A bloated, unappealing mushroom; edible, but foul. Often used by dwarves as an emergency ration.
+|-
+|Naurivor
+|1
+|(Flame Crystal) Tiny, fiery-red crystals.
+|-
+|Niphredil
+|1
+|(Snowdrop) A pale white flower atop a slender green stalk.
+|-
+|Orchamarth
+|3
+|(Orc-bane) A sickly-looking fungus which often proves deadly to those who handle it improperly.
+|-
+|Remmenthond
+|2
+|(Tangle Root) A cluster of thin, densely-intertwined roots.
+|-
+|Rhiwaeg
+|5
+|(Winterthorn) A hardy shrub bearing many prickly leaves.
+|-
+|Simbelmyne
+|2
+|(Evermind) A small, low growing, white flower found in clusters.
+|}
+{| border="0" cellpadding="1" cellspacing="1" class="article-table" style="width:500px;"
+! scope="row"|
+! scope="col"|
+Alfirin /
+
+Lothrond
+! scope="col"|
+Arthrif /
+
+Naugrimbas
+! scope="col"|
+Carandol/
+
+Gwinuial
+! scope="col"|
+Elanor /
+
+Orchamarth
+! scope="col"|
+Hithlas /
+
+Remmenthond
+! scope="col"|
+Meluinen/
+
+Rhiwaeg
+! scope="col"|
+Morthond/
+
+Niphredil
+! scope="col"|
+Naurivor /
+
+Simbelmyne
+|-
+! scope="row"|Alfirin/Lothrond
+|none
+|Power Potion
+|Health Potion
+|Rejuvenating Potion
+|none
+|none
+|Rejuvenating Cake
+|none
+|-
+! scope="row"|Arthrif/Naugrimbas
+|Power Potion
+|none
+|none
+|Elixir of Learning
+|Restoring Cake
+|none
+|none
+|none
+|-
+! scope="row"|Carandol/Gwinuial
+|Health Potion
+|none
+|none
+|none
+|Healing Cake
+|Strength Potion
+|Warding Potion
+|none
+|-
+! scope="row"|Elanor/Orchamarth
+|Rejuvenating Potion
+|Elixir of Learning
+|none
+|none
+|Potion of Quickness
+|Hero's Potion
+|none
+|none
+|-
+! scope="row"|Hithlas/Remmenthond
+|none
+|Restoring Cake
+|Healing Cake
+|Potion of Quickness
+|none
+|none
+|none
+|Victor's Brew
+|-
+! scope="row"|Meluinen/Rhiwaeg
+|none
+|none
+|Strength Potion
+|Hero's Potion
+|none
+|none
+|none
+|Potion of Might
+|-
+! scope="row"|Morthond/Niphredil
+|Rejuvenating Cake
+|none
+|Warding Potion
+|none
+|none
+|none
+|none
+|Potion of Resurgence
+|-
+! scope="row"|Naurivor/Simbelmyne
+|none
+|none
+|none
+|none
+|Victor's Brew
+|Potion of Might
+|Potion of Resurgence
+|none
+|}
+
+==Valuables==
+These items and gems have no purpose in the game but to be sold for coins.
+{| align="center" border="0" cellpadding="1" cellspacing="1" class="article-table" style="width:500px;"
+! scope="col"|Name
+! scope="col"|Value
+|-
+|Animal Pelt
+|17
+|-
+|Arrowheads
+|4
+|-
+|Barbed Hook
+|2
+|-
+|Bronze Chain Belt
+|30
+|-
+|Bronze Goblet
+|20
+|-
+|Bronze Horn
+|40
+|-
+|Candle
+|6
+|-
+|Carved Bone Dice
+|2
+|-
+|Ceramic Ewer
+|45
+|-
+|Ceramic Urn
+|85
+|-
+|Chipped Diamond
+|32600
+|-
+|Chipped Ruby
+|16300
+|-
+|Chipped Sapphire
+|4080
+|-
+|Chipped Topaz
+|2040
+|-
+|Cut Diamond
+|65600
+|-
+|Cut Emerald
+|16400
+|-
+|Cut Ruby
+|32800
+|-
+|Cut Sapphire
+|8200
+|-
+|Cut Topaz
+|4080
+|-
+|Decorative Plate
+|10
+|-
+|Drinking Horn
+|70
+|-
+|Flawed Emerald
+|8160
+|-
+|Gold Bracelet
+|70
+|-
+|Gold Ceremonial Dagger
+|105
+|-
+|Gold Chain
+|350
+|-
+|Gold Crown
+|800
+|-
+|Gold Ingot
+|100
+|-
+|Gold Nugget
+|100
+|-
+|Gold Pipe
+|90
+|-
+|Gold Pitcher
+|230
+|-
+|Gold Plate
+|85
+|-
+|Gold Scepter
+|130
+|-
+|Gold Statue
+|250
+|-
+|Iron Chain
+|18
+|-
+|Iron Collar
+|1
+|-
+|Iron Shod Shoe
+|2
+|-
+|Jewel Encrusted Statue
+|460
+|-
+|Jeweled Belt
+|550
+|-
+|Jeweled Bracelet
+|120
+|-
+|Jeweled Broach
+|65
+|-
+|Jeweled Ceremonial Dagger
+|220
+|-
+|Jeweled Scepter
+|240
+|-
+|Jewelry Box
+|120
+|-
+|Large Gold Nugget
+|150
+|-
+|Large Gold Goblet
+|95
+|-
+|Large Jeweled Goblet
+|200
+|-
+|Large Silver Goblet
+|65
+|-
+|Manacles
+|1
+|-
+|Metal Tongs
+|4
+|-
+|Nails
+|1
+|-
+|Old Tool
+|6
+|-
+|Perfect Amber
+|576
+|-
+|Perfect Diamond
+|97600
+|-
+|Perfect Emerald
+|24400
+|-
+|Perfect Malachite
+|240
+|-
+|Perfect Ruby
+|48800
+|-
+|Perfect Sapphire
+|12200
+|-
+|Perfect Topaz
+|6120
+|-
+|Polished Diamond
+|12200
+|-
+|Raven Adorned War-gear
+|1
+|-
+|Rough Sapphire
+|510
+|-
+|Shaped Amber
+|384
+|-
+|Silver Bracelet
+|40
+|-
+|Silver Ceremonial Dagger
+|65
+|-
+|Silver Chain Belt
+|120
+|-
+|Silver Crown
+|400
+|-
+|Silver Ingot
+|50
+|-
+|Silver Pipe
+|55
+|-
+|Silver Plate
+|55
+|-
+|Silver Scepter
+|75
+|-
+|Silver Statue
+|120
+|-
+|Silver Urn
+|100
+|-
+|Small Gold Nugget
+|50
+|-
+|Smooth Ruby
+|6120
+|-
+|Tarnished Silver Pitcher
+|161
+|-
+|Uncut Diamond
+|4100
+|-
+|Uncut Ruby
+|2040
+|-
+|Uncut Topaz
+|255
+|-
+|Whip
+|12
+|}
+[[Category:Items]]

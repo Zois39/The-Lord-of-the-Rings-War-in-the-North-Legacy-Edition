@@ -1,0 +1,42 @@
+Title: avoid stuck in a level. 
+
+Before i start, actually i saw this method from somewhere in a website. 
+Sometimes you get stuck and cannot progress further in your adventure like in level 5 after the spider queen, no option for level 6, urgost lair. This is how you avoid the problem from happening...
+
+Each time when you start a game, check your quest first. If there is no propper quest to move forward, then do not progress further in the game. quit the game and choose your save and start again. Do this until you see the correct quest. 
+
+But in case your game already stuck, then you just need to join other multiplayer on that level and go through the level. 
+
+Another way to avoid problem is by duplicate save but make sure your save's quest is fine first before you duplicate. Use 2 player/controller. Player 2 join player 1's game but player 2 must be higher level. Example player 2 level 4 and player 1 level 1. When player 2 join, there is 2 option to choose: a) use existing file, b) save in another file. Choose b) then save when you in the game by going to merchant or progress further in the level until you see the temporary circular ring in the screen. that ring is the save in progress.
+
+==Save the game by visiting a merchant==
+The War in the North uses checkpoints to save the game. There are only a few checkpoints so it's possible that you quit the game and return later, only to find that you have to replay a certain part of the game or even a boss battle.
+
+To prevent this from happening, visit a merchant and buy or sell something. This should save the game for you.
+==Unlimited [[mithril]]==
+This technique requires a co-op partner and the PC version of the game. Player 1 gets the [[Side-Quests#Truesilver .28Miruvor follow-up.29|mithril quest]]. Player 2 must be ahead of player 1, it doesn't matter how far. Player 1 must make a copy of his save file, it's usually located in C:Users\User\AppData\Local\WBGames (file could be hidden). Player 1 hosts a game and player 2 joins it.
+
+Go to Gundabad and when you face your first troll, enter the cave behind him. The Dwarf can open a secret area with a chest containing mithril. Turn in the quest and upgrade one of your items. Player 1 gives the item to player 2, who then saves the game by visiting a merchant.
+
+Player 1 can now overwrite his save with the old one (before he completed the mithril quest). He can now do the mithril quest again. Rinse and repeat to get unlimited mithril, it should only take you 5-10 minutes for each try.
+
+''Note: this has been tested and it only worked for the Elven smith. On legendary difficulty he gives you a +30 Dexterity, +5000% reduced wear and +150 armor bonus (or +120 damage/+300Crit. if you enchant a weapon).''
+
+Note: you can enhance each item only eight times with mithril, the ninth won´t be saved and will overwrite elf stones.
+
+==Duplicate items==
+This technique requires a co-op partner. It should work on all versions.
+
+Player 1 must be ahead of player 2. Player 1 then hosts a game and player 2 joins it (you get a message that you cannot save the game). Player 2 can now give all his items to player 1 and quit without saving. Player 1 can save the game by visiting a merchant.
+
+Using this technique, you can duplicate any item (even Elven stones).
+
+Note: this technique can also be done on ps3 with 2 controller and 2 profile. I duplicate a lot of item and duplicate saves and mithilize all my gears. Now i can spam farin explosive bolt using gears with slots and slots one skill cooldown reduction in each gear
+
+==Equip items with high requirements even if you don't meet them==
+All you need for this is a respec token. For example, if you have 20 Willpower and an amulet that requires 48 Willpower, simply respec and get your Willpower to 48. Equip the amulet, buy another respec token and respec back to your previous stats (with 20 Willpower). The amulet is still equipped for you and the effects still work.
+
+This also works for weapons and armor and makes it easy to bypass requirements.
+
+Note: If you don´t have the money for repec tokens try changing your equipped armor/weapon/... with stuff that might be weaker, but boosts that required stat until you meet the requirements of your desired item; equip it; change armor/etc. back to good stuff.
+[[Category:Guide]]

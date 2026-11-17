@@ -1,0 +1,15 @@
+
+
+<p style="color:rgb(1000,1000,1000);">Mirrors are located at the settlements in Lord of the Rings War in the North, and they allow the player to customize the characters appearence.</p>
+
+<p style="color:rgb(1000,1000,1000);">When the Mirror is activated the player can choose from a list of customizations for:</p>
+
+*Face
+*Hair
+*Eyes
+*Beard
+
+==Locations==
+
+*Bree - At the start of the game (when done talking to Aragorn) if you go to the right of Aragorn and head towards a fireplace in the right-hand corner of the tavern.
+*Sarn Ford - At the back of the large cabin.

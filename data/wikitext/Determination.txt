@@ -1,0 +1,5 @@
+[[File:Placeholder|right|300px]] Passive skill
+
+Reduces the cooldown of your active skills.
+
+Note: Additional ranks further reduce active skill cooldown times.

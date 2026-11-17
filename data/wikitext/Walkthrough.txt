@@ -1,0 +1,67 @@
+==Chapter 1: Bree==
+
+=== Quest Goal 1: Talk Strider ===
+After a cutsene player's character starts talking with Strider. They talk him about attacked Duınudein Rangers in Sarn Ford. Aragorn asks how many losses, and they say too bad. After a talk, player starts to ask a corrupted black numenorean leader, Agandaur. After a talk, they leave Strider.
+
+=== Quest Goal 1: Fornost ===
+Player needs to go Fornost.
+
+==Chapter 2: Fornost==
+==Chapter 3: Sarn Ford==
+==Chapter 4: The Barrow-downs==
+==Chapter 5: Rivendell==
+==Chapter 6: Ettenmoors==
+==Chapter 7: Gundabad==
+Tips for the final battle - holding off enemies before the secret weapon is activated:
+
+Before mounting a fixed crossbow, equip any item that would give you the x1.5 bonus damage vs. Orc, if possible, equip another item with x1.5 vs. Trolls; in this fight, your job is to kill enemies as fast as possible, not allowing enemies to push through to the Nordri and Bruni, and if an item with x1.5 vs Orc is equipped, the Uruk-Hai enemies will drop dead in only 2 hits, as opposed to 3 hits without the bonus. Trolls will die a lot faster as well.
+
+Best characters to use on the crossbows (in solo games) are Farin, having the explosive bolt skill, and Andriel with her explosive ranged ball of explosiveness. This is because you'll only have yourself at a crossbow and you won't be able to completely halt the enemies rushing behind you, and since the fixed crossbow can't turn that way, you'll need some quick AoE damage to kill everything behind and return to shooting the crossbow, so that Eradan would be inferior choice to play as.
+
+==Chapter 8: Nordinbad==
+Tips for the siege of Nordinbad, for single player:
+
+Siege towers - can only be damaged after they lower their ramps, target the ramps so the enemies passing by also get killed. Eagles will automatically destroy the siege towers after a short while.
+
+Sappers - probably the hardest part of this fight; if playing as Farin, it's more difficult unless you have leveled the rapid-fire skill. The safest way to defend against sappers is to stand in front of the gate and shoot any that come up the stairs. Leave the AI companions behind and don't call them to aid you, since they'll only get in the way of your shooting.
+
+Trolls - use skills that would interrupt them like Eradan's sweeping strike, or high damage skills like Farin's explosive bolt or Andriel's explosive ball of light. If you can't kill them quickly enough, keep them occupied by damaging them both.
+
+Orc chieftain - the danger here are archers, which will be replaced if killed. Burst the chieftain down with high damaging skills while dodging on cooldowns. If you like to fight him in close combat, get a healing shield up around you, so the arrows can't hit you (order AI to defend and Andriel will cast it on you position).
+
+==Chapter 9: Mirkwood==
+===<u>Quest goal 1: Defeat Wulfrun</u>===
+After a cutscene the chapter starts with a boss battle! [[File:2011-11-24_00001.jpg|thumb|Wulfrun]]You're attacked by Wulfrun, the proud owner of a Fell Beast. He immediately summons a wall of fire so you can't attack him in melee. When he has around 75% health left, he'll teleport close to you and start attacking you and your teammates. This should be one of the easier boss battles in this game so just hit him hard and he should go down quickly. Wulfrun drops a scroll for the ''<span style="color:#FF4500">Cult of the Lidless Eye</span>'' quest.
+
+Fighting tips: his fast blows can be blocked but his slow blows can't. His ranged attacks are quite weak.
+
+===<u>Quest goal 2: Continue on to the home of Radagast</u>===
+
+[[File:2011-11-24_00002.jpg|thumb|A Warg]]After another cutscene, it's time to explore Mirkwood! Soon, you'll encounter a Warg. Sadly, you will not be able to fight these creatures. They just warn the Orcs that you're coming. After a short walk you'll see a pool of water in front of you with an Orc encampment to the right. Enter the camp and you should see an archer on a ledge. Kill him. Some more archers appear, use ranged attacks or Beleram to deal with them. Soon the Uruk-hai will charge you. There are around a dozen Uruk-hai with shields or two-handed weapons. Fortunately they [[File:2011-11-24_00003.jpg|thumb|Mirkwood troll]]attack you in waves. As long as you evade the shield charge this fight shouldn't be much of a problem. When most enemies are dead, two Orc archers and another Uruk-hai berserker appear, allowing you to move on.
+
+Enter the cave. Farin can open a hidden passage to the left where you'll find two chests. Further down the cave you'll encounter a troll. Killing him should be easy,[[File:2011-11-24_00004.jpg|thumb|Radagast's home]] by now you should know how to evade his attacks. When the troll is down, check all the lootpiles and then enter the next area. Here you'll fight spiders for the first time! The small spiders aren't much of a problem but the giant spiders can be quite tough. After all the spiders in the open area are dead, there are two paths but they both lead to the same area and another fight. Continue on and you'll arrive near a small stream. Archers appear and Uruk-hai charge you. Go left for a lootpile then follow the stream upwards while dealing with all the enemies. Go left again and you'll see Radagast's home in front of you.
+
+Tip: giant spiders may shoot webs at you and then drag you towards them. When they drag you to them, a struggle sequence will ensue, where you have to mash a button to escape the situation and kill the spider. The problem here is that, while being dragged, other enemies can attack you freely and you can do nothing about it. Try looking at the bigger spiders to dodge their shots in time.
+
+===<u>Quest goal 3: Defeat the spider horde</u>===
+
+The next battle should be pretty simple. Radagast isn't home and you're attacked by waves of spiders. When they're all dead, <u>collect Radagast's staff (quest goal 4)</u>.
+
+===<u>Quest goal 5: Search for the missing wizard Radagast</u>===
+
+The next area is rather big and it's easy to miss something, so take your time. Follow the path and two Orcs, one Uruk-hai carrying a shield and an archer attack you. Kill them and then move on. Next in line, awaiting to be killed are two archers, one Orc and two Uruk-hai carrying a shield. Another Orc and Uruk-hai soldier show up as reinforcements. Proceed to the next area. The next fight can be quite challenging, here's what you'll face: two Uruk-hai berserkers (warhammer), three Uruk-hai soldiers carrying a shield, five Orcs and three archers. They won't attack you at the same time so stay in the beginning and deal with them wave by wave.[[File:2011-11-25_00001.jpg|thumb|The captive Elf, Glorhirin]]
+
+You can now go left into a small pool of water or right. For now, go right. Go right again, you got the right path if it takes you under a tree. Follow the path and you should see a camp. This camp contains: three Uruk-hai berserkers (warhammer), three Uruk-hai soldiers (shield), four archers, six orcs. First wave: the berserker, two uruk-hai (shield), three archers and three orcs. Second wave: uruk-hai (shield) and orc. Third wave: 1 archer (in the back of the camp), two uruk-hai berserkers (warhammer), two orcs. As long as you don't rush ahead, you should be able to clear the camp. If you're having trouble with this fight, try to kill the archers first. When everyone is dead, free the Elf for the sidequest: <u>The Captive</u>.
+
+As you leave the camp, go right and follow the path for a chest. Now go back and go under the tree again. An ambush! Three Uruk-hai and three archers. Not much of a threat. When they're dead, go right and follow the pool of water. Another ambush! This time you'll face one Uruk-hai berserker, two Uruk-hai (shield), two Orcs and three archers. Go right,[[File:2011-11-25_00003.jpg|thumb|Hidden passage]]where the Uruk-hai berserker was standing, there's a wall that Farin can bring down. Inside you'll find a chest. Go on to the next area. You'll be attacked by spiders but it's nothing you can't handle. The next open area has a more challenging fight with quite a lot of spiders. When they're all down, there are three paths to choose from. Take the path to the right. Kill the spiders and then loot the chest to your right. Continue on and you'll see that all three paths lead to the same open area where another fight awaits you. Continue on to the next area and the boss fight!
+
+===<u>Quest goal 6: Defeat Saenathra</u>===
+
+If you freed the Elf (Glorhirin), he'll help you during this[[File:2011-11-25_00004.jpg|thumb|Shelob! Err, I mean Saenathra.]] fight. The battle itself is pretty straightforward. Try to hit Saenathra in her face for more damage. She'll summon some small spiders but just keep attacking her. She might grab you, which starts a simple quick-time event. If you watch your health this fight shouldn't be that hard. When she's dead, free Radagast to trigger a conversation and a cutscene. You can talk to the Elf for a reward. And this completes the Mirkwood chapter!
+
+==Chapter 10: Urgost's Lair==
+Before speaking with the dragon, you should speak to Bilbo in Rivendell. Bilbo will tell you how dragons like to be flattered, and your character will remember that when facing Urgost, namely you'll have an additional dialogue option to compliment the dragon who will be quite amused with that, so much so that he'll reward your flattering words with a choice of powerful items.
+
+==Chapter 11: Carn Dûm==
+An advice - after going to Carn Dum, there is no going back, no shop/travel checkpoints. Whatever you planned to finish before the end of the game, you should do it before this chapter.
+[[Category:Guide]]

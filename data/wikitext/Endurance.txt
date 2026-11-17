@@ -1,0 +1,9 @@
+[[File:Placeholder|right|300px]]
+
+
+Passive Skill
+
+Increases your passive Health regeneration.
+
+Note: Further ranks increase the Health regeneration rates.
+[[Category:Skills]]

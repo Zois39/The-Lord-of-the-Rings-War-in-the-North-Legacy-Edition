@@ -1,0 +1,121 @@
+== Description: ==
+[[File:Andriel-bio.jpg|thumb|306px]]An Elven Loremaster, schooled in ancient wisdom by Elrond himself; yet she is no meek scholar. In her hands a simple sword becomes a deadly weapon, not only because she wields it with Elven-skill, but also because she can use it to focus her power, striking down enemies near and far. But as capable as she is in combat, Andriel’s true strength lies in her power to preserve and protect her allies, and with her arts she can create shields of light which heal and restore those within.
+
+== Background: ==
+Andriel is a Lore-master of the house of Elrond Halfelven, one of those who keep alive the ancient arts and knowledge of the Eldar. She is a skilled healer and practitioner of arts that the unknowing would mistakenly call magic. Her powers and abilities stem from a keen understanding of the world and the powers that shape it. With this knowledge she is able to perceive and call upon forces that are hidden from others. From her youth, Andriel showed an affinity for such arts and was fortunate to have as her teacher Elrond, the greatest of the living Lore-masters.
+
+Although Andriel is considered a relative newcomer among her Elven peers, and has the distinction of being the youngest of Elrond’s students to have achieved the title Lore-master, she nevertheless has many centuries of experience and study behind her.
+
+But Andriel has never been merely a mild academic, content to spend her days amid the pages of books and dusty scrolls. Elrond often relies upon her Lore-masters to act as her eyes and ears beyond the refuge of Rivendell, and frequently sends them to gather information on the state of the world, for unlike other observers, a Lore-master can often sense and interpret the forces at work behind an event.
+
+Elrond trusts Andriel to act on her own initiative and she is frequently away from Rivendell for extended periods of time wandering the surrounding lands alone or in the company of other Elves. Her travels have brought him into frequent contact with the Dúnedain, the Rangers of the North, and she is known and trusted by them.
+
+Those who travel through Middle-earth know of its dangers and Andriel quickly saw the benefit of becoming proficient in combat arts. To him, skillful use of weapons was yet another science to be carefully studied and mastered, and in Rivendell she found many superb warriors to act as her teachers. She learned a great deal from her friends Elladan and Elrohir, the valiant sons of Elrond.
+
+Although she most often looks to her arts when danger threatens, she is not shy about wielding weapons. Nor is she adverse to donning armor, seeing such precautions as the wise course when her path leads into harm’s way. While she is lethal with a blade, Andriel rarely boasts of her skill, nor does she revel in it. She simply does what is necessary when the situation demands it.
+
+Like many of her kind, Andriel has an intense love for Middle-earth and a strong desire keep it safe from threat. While she has the option, as one of the Eldar, of leaving this troubled realm behind and sailing into the West, she long ago resolved not to seek that road while the fate of Middle-earth yet hangs in the balance. Above all, she wants to see Middle-earth safe from the destruction Sauron would bring.
+
+Andriel is well known to Aragorn, who was fostered in Rivendell, as were many generations of her sires before him. Likewise she is quite familiar with the wizard Gandalf, who for many centuries has been a frequent guest in Rivendell. She is aware that Gandalf and the Rangers of the North are helping to guard an important secret, but she can only guess at its exact nature. She is certain someday soon that secret will be revealed. In the meantime, she endeavors to assist the Rangers and her lord, Elrond, in any way she can.
+
+== Skills: ==
+
+==== Talent Build Tree 1: ====
+
+===== Sanctuary: =====
+How to use: Press RT+B (on Xbox 360) to conjure a protective orb that defends from ranged attacks.
+
+Info: Can be enhanced with the Healing Light, Sanctuary Mastery, Wrath of the Eldar and Forceful Fire skills.
+
+===== Healing Light: =====
+Info: Unlocks and increases healing done by Sanctuary. Sanctuary must be active for effects. Higher ranks increases healing rate.
+
+===== Preservation: =====
+Skills used by any party members cost less power.
+
+===== Focus Mind: =====
+Upgrade the elf's passive power regeneration.
+
+===== Shielding Light: =====
+How to use: Press LB+B (on Xbox 360) for a temporary Armor bonus.
+
+Info: Additional ranks add to the Armor bonus and increase duration.
+
+===== Sanctuary Mastery: =====
+Increases the duration of sanctuary.
+
+===== Heal: =====
+How to use: Press LB+A (on Xbox 360) to instantly heal nearby party members.
+
+Info: Higher ranks add to the amount of Health restored.
+
+==== Talent Build Tree 2: ====
+
+===== Word of Command =====
+How to use: Press RT+X (on Xbox 360) to unleash a magical shockwave in all directions.
+
+Info: Can be upgraded with the Loremaster’s Reach and Sundering Command skills.
+
+===== Clarity =====
+Chance each time a skill is cast the next is free and does not trigger a cooldown.
+
+===== Loremaster's Reach =====
+Upgrades the range of your word of command and tempest skills.
+
+===== Tempest =====
+How to use: Press LB+Y (on Xbox 360) to blast targets with a force of elemental energy.
+
+Info: Additional ranks increase the damage applied, expand the effective range and knock enemies back.
+
+===== Smite =====
+How to use: Press RT+Y (on Xbox 360) to devastate a single target
+
+Info: Higher ranks add chain damage to additional targets and increase the damage inflicted.
+
+===== Quick-Minded =====
+Reduces the cooldowns of your active skills.
+
+===== Strength of Will =====
+Grants a bonus to armor based on your current will.
+
+===== Renewed Power =====
+Each killing blow achieved with a skill regenerates power.
+
+===== Sundering Command =====
+How to use: Hold RT+X (on Xbox 360) to follow Word of Command with an overwhelming area attack.
+
+Info: Higher ranks increase damage inflicted.
+
+===== Staff and Steel =====
+Info: Unlocks dual wielding of a 1-Handed Weapon alongside the staff and increases your damage. Additional ranks increase damage while dual wielding.
+
+==== Talent Build Tree 3: ====
+
+===== Empower Staff =====
+How to use: Hold LT+RB(on Xbox 360) to power-up your ranged attacks, firing multiple charges at once.
+
+Info: Can be enhanced with the Magnify Staff skill.
+
+===== Staff Mastery =====
+increases damage done with staves.
+
+===== Magnify Staff =====
+Increases the rate that staff ranged attacks charge, and increases the damage bonus of charge shots.
+
+===== Elemental Affinity =====
+Increase the duration of fire, ice, and lightning effects you inflict on enemies.
+
+===== Wrath of the Eldar =====
+How to use: Press RT+B(on Xbox 360) to dispel Sanctuary with a powerful detonation. Requires Sanctuary.
+
+Info: Higher ranks increase detonation damage.
+
+===== Forceful Fire =====
+Info: Any ranged attacks fired through or within Sanctuary do extra damage. Higher ranks increase damage.
+
+===== Burst of Light =====
+How to use: Press LT+X (on Xbox 360) to conjure a slow but highly lethal bolt of explosive energy. Press LT+X (on Xbox 360) again to detonate it.
+
+Info: Additional ranks increase damage.
+
+- enemies with shield may block it (they'll recieve no damage, but surrounding enemies do).

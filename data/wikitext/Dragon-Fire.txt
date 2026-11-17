@@ -1,0 +1,233 @@
+All known parts of the Dragon-Fire armor set.
+
+[NOTE: The names could vary for i´m playing the game in german.]
+
+=='''Head'''==
+
+
+
+
+=='''Shoulders'''==
+{| border="0" cellpadding="1" cellspacing="1" class="article-table" style="width: 500px;"
+|-
+! scope="col" style="text-align:center;"|Name
+! scope="col" style="text-align:center;"|Value
+! scope="col" style="text-align:center;"|Armor
+! scope="col" style="text-align:center;"|Effects
+! scope="col" style="text-align:center;"|Elf Stone Slots
+! scope="col" style="text-align:center;"|Durability
+! scope="col" style="text-align:center;"|Set
+! scope="col" style="text-align:center;"|Characters
+! scope="col" style="text-align:center;"|Requirements
+! scope="col" style="text-align:center;"|Origin
+|-
+|Dunedain Shoulders
+| style="text-align:center;"|220
+| style="text-align:center;"|32
+| style="text-align:center;"| -
+| style="text-align:center;"| -
+| style="text-align:center;"|110
+| style="text-align:center;"|Dragon-Fire
+| style="text-align:center;"|All
+| style="text-align:center;"|
+Level 8
+
+12 Stamina
+| style="text-align:center;"|Elf
+|-
+|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+|}
+
+=='''Gloves'''==
+{| border="0" cellpadding="1" cellspacing="1" class="article-table" style="width: 500px;"
+|-
+! scope="col" style="text-align:center;"|Name
+! scope="col" style="text-align:center;"|Value
+! scope="col" style="text-align:center;"|Armor
+! scope="col" style="text-align:center;"|Effects
+! scope="col" style="text-align:center;"|Elf Stone Slots
+! scope="col" style="text-align:center;"|Durability
+! scope="col" style="text-align:center;"|Set
+! scope="col" style="text-align:center;"|Characters
+! scope="col" style="text-align:center;"|Requirements
+! scope="col" style="text-align:center;"|Origin
+|-
+|Second age fighting-gloves
+| style="text-align:center;"|41094
+| style="text-align:center;"|201
+| style="text-align:center;"|
++4 Will
+
++7 Stamina
+
++12 Damage Reflection
+| style="text-align:center;"| -
+| style="text-align:center;"|100
+| style="text-align:center;"|Dragon-Fire
+| style="text-align:center;"|All
+| style="text-align:center;"|
+Level 33
+
+47 Stamina
+| style="text-align:center;"|Elf
+|-
+|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+|}
+
+=='''Body'''==
+{| border="0" cellpadding="1" cellspacing="1" class="article-table" style="width: 500px;"
+|-
+! scope="col" style="text-align:center;"|Name
+! scope="col" style="text-align:center;"|Value
+! scope="col" style="text-align:center;"|Armor
+! scope="col" style="text-align:center;"|Effects
+! scope="col" style="text-align:center;"|Elf Stone Slots
+! scope="col" style="text-align:center;"|Durability
+! scope="col" style="text-align:center;"|Set
+! scope="col" style="text-align:center;"|Characters
+! scope="col" style="text-align:center;"|Requirements
+! scope="col" style="text-align:center;"|Origin
+|-
+|Chainmail of Celduin
+| style="text-align:center;"|1862
+| style="text-align:center;"|252
+| style="text-align:center;"|
++6 Stamina
+
++45 Health
+
++9% Health Regn
+| style="text-align:center;"| -
+| style="text-align:center;"|130
+| style="text-align:center;"|Dragon-Fire
+| style="text-align:center;"|All
+| style="text-align:center;"|
+Level 28
+
+31 Stamina
+| style="text-align:center;"|Elf
+|-
+|Fortified Eryn Vorn Chestguard
+| style="text-align:center;"|3840
+| style="text-align:center;"|344
+| style="text-align:center;"| -
+| style="text-align:center;"|1
+| style="text-align:center;"|70
+| style="text-align:center;"|Dragon-Fire
+| style="text-align:center;"|All
+| style="text-align:center;"|
+Level 33
+
+36 Stamina
+| style="text-align:center;"|Elf
+|-
+|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+|}
+
+=='''Legs'''==
+{| border="0" cellpadding="1" cellspacing="1" class="article-table" style="width: 500px;"
+|-
+! scope="col" style="text-align:center;"|Name
+! scope="col" style="text-align:center;"|Value
+! scope="col" style="text-align:center;"|Armor
+! scope="col" style="text-align:center;"|Effects
+! scope="col" style="text-align:center;"|Elf Stone Slots
+! scope="col" style="text-align:center;"|Durability
+! scope="col" style="text-align:center;"|Set
+! scope="col" style="text-align:center;"|Characters
+! scope="col" style="text-align:center;"|Requirements
+! scope="col" style="text-align:center;"|Origin
+|-
+|Stalkhunter Leggings
+| style="text-align:center;"|2283
+| style="text-align:center;"|77
+| style="text-align:center;"| -
+| style="text-align:center;"| -
+| style="text-align:center;"|110
+| style="text-align:center;"|Dragon-Fire
+| style="text-align:center;"|All
+| style="text-align:center;"|
+Level 31
+
+34 Stamina
+| style="text-align:center;"|Elf
+|-
+|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+|}
+
+=='''Shoes'''==
+{| border="0" cellpadding="1" cellspacing="1" class="article-table" style="width: 500px;"
+|-
+! scope="col" style="text-align:center;"|Name
+! scope="col" style="text-align:center;"|Value
+! scope="col" style="text-align:center;"|Armor
+! scope="col" style="text-align:center;"|Effects
+! scope="col" style="text-align:center;"|Elf Stone Slots
+! scope="col" style="text-align:center;"|Durability
+! scope="col" style="text-align:center;"|Set
+! scope="col" style="text-align:center;"|Characters
+! scope="col" style="text-align:center;"|Requirements
+! scope="col" style="text-align:center;"|Origin
+|-
+|Gravekeeper boots
+| style="text-align:center;"|121
+| style="text-align:center;"|27
+| style="text-align:center;"| -
+| style="text-align:center;"| -
+| style="text-align:center;"|70
+| style="text-align:center;"|Dragon-Fire
+| style="text-align:center;"|All
+| style="text-align:center;"|
+Level 8
+
+13 Stamina
+| style="text-align:center;"|Elf
+|-
+|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+| style="text-align:center;"|
+|}
+[[Category:Equiptment]]

@@ -1,0 +1,7 @@
+[[File:Placeholder|right|300px]]
+Passive Skill
+
+[http://witn.wikia.com/wiki/Warcry War-cry] now shifts enemy focus to the Dwarf, damages nearby enemies and increases the damage they take.
+
+Note: [http://witn.wikia.com/wiki/Warcry War-cry] must be active for effect. Higher ranks add larger area of effect range and additional damage.
+[[Category:Skills]]

@@ -1,0 +1,17 @@
+[[File:Placeholder|right|300px]]
+Cost: 15 power
+
+War-cry is a first-tier active skill for [http://witn.wikia.com/wiki/Farin Farin] in the left set. Like all first-tier skills it is set in the middle column, is the only option within that tier, and has one rank.
+
+In-game description: "Press RT+B to temporarily increase Armor, Health, and melee damage."
+
+War-cry can be enhanced by the following skills:
+
+*[http://witn.wikia.com/wiki/Dwarf_Armor Dwarf Armor], [http://witn.wikia.com/wiki/Taunt Taunt], and [http://witn.wikia.com/wiki/Retaliation Retaliation] in the left set.
+
+*[http://witn.wikia.com/wiki/Fortitude Fortitude], [http://witn.wikia.com/wiki/Abundant_Harm Abundant Harm], and [http://witn.wikia.com/wiki/Indomitable_Spirit Indomitable Spirit] in the center set.
+*[http://witn.wikia.com/wiki/Battle_Fury Battle Fury] and [http://witn.wikia.com/wiki/Battle-ready Battle-ready] in the right set.
+Armor is increased by 100% of the base armor
+
+Health is increased by 25% of the base health
+[[Category:Skills]]

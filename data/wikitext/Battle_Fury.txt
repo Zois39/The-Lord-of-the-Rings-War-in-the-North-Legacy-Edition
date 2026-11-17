@@ -1,0 +1,6 @@
+[[File:Placeholder|right|300px]] 
+Passive Skill
+
+Increases the [[Warcry|War-cry]] damage bonus and increases the melee damage done by nearby party members while active.
+
+Note: [[Warcry|War-cry]] must be active for effects. Higher ranks increases damage bonus.

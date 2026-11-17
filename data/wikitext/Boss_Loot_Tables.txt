@@ -1,0 +1,622 @@
+Tharzog
+{| class="article-table"
+!
+!
+!
+!
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|}
+{{Tocright}}'''Barrow-wight'''
+{| class="article-table"
+!
+!
+!
+!
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|}
+'''Barrow-wight Lord'''
+{| class="article-table"
+!
+!
+!
+!
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|}
+'''Bargrisar'''
+{| class="article-table"
+!
+!
+!
+!
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|}
+'''Wulfrun'''
+{| class="article-table"
+!''Normal Loot Table''
+!
+!
+!
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|}
+{| class="article-table"
+!''Heoric Loot Table''
+!
+!
+!
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|}
+{| class="article-table"
+!''Legendary Loot Table''
+!
+!
+!
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|}
+'''Saenathra'''
+{| class="article-table"
+!''Normal Loot Table''
+!
+!
+!
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|}
+{| class="article-table"
+!''Heroic Loot Table''
+!Item Type
+!Value
+!Armor
+!Damage
+!Effect(s)
+!Class Requirement
+!Stat Requirements
+|-
+|Silvan Ring (Uncommon)
+|Ring
+|2650
+|0
+|0
+|21% Cooldown Reduction
+|None
+|Level 28, Will 40 
+|-
+|Dorwinion Blade (Uncommon)
+|1-Handed Sword
+|1960
+|0
+|317-396
+|None
+|None
+|Level 28, Strength 31 
+|-
+|Redwater Shield (Special Common)
+|Shield
+|3257
+|508
+|0
+|Two Gem Slots
+|Champion
+|Level 28, Stamina 28 
+|-
+|Skin-changer's Gauntlets (Uncommon)
+|Gauntlets
+|5301
+|145
+|0
+|<nowiki>+6 Stamina</nowiki>
+|None
+|Level 28, Stamina 40 
+|-
+|Dorwinion Mace (Common)
+|1-Handed Mace
+|1560
+|0
+|279-349
+|<nowiki>+95 Health</nowiki>
+|None
+|Level 28, Strength 31
+|-
+|Taskmaster's Fighting Axe (Common)
+|1-Handed Axe
+|4201
+|0
+|395-486
+|None
+|None
+|Level 29, Strength 32 
+|-
+|Mountain-realm Shoulder Guards (Common)
+|Shoulders
+|822
+|71
+|0
+|None
+|None
+|Level 28, Stamina 22 
+|-
+|Cave-creeper's Bow (Common)
+|Bow
+|1429
+|0
+|895-1155
+|None
+|Ranger
+|Level 28, Dexterity 31 
+|-
+|Master's Armor (Common)
+|Chestpiece
+|1546
+|267
+|0
+|High chance for Stronghold
+|None
+|Level 28, Stamina 22 
+|-
+|Web-breaker's Amulet (Uncommon)
+|Necklace
+|1957
+|0
+|0
+|<nowiki>+6 Strength</nowiki>
+|None
+|Level 28, Will 40 
+|-
+|Cave-creeper's Blade (Common)
+|1-Handed Sword
+|1576
+|0
+|306-407
+|None
+|None
+|Level 29, Strength 32 
+|-
+|Skin-changer's Spaulders (Uncommon)
+|Shoulders
+|1033
+|73
+|0
+|<nowiki>+6 Will</nowiki>
+|None
+|Level 28, Stamina 22 
+|-
+|Stonebreaker Shield (Common)
+|Shield
+|6022
+|596
+|0
+|None
+|None
+|Level 29, Stamina 29 
+|-
+|Forest-river Leggings (Uncommon)
+|Leggins
+|1654
+|66
+|0
+|Enemy Miss Chance +6%, Reduced Wear +300%
+|None
+|Level 28, Stamina 31
+|-
+|Mountain-realm Headgear (Common)
+|Helm
+|2268
+|172
+|0
+|None
+|None
+|Level 28, Stamina 31 
+|-
+|Easterling Sword (Common)
+|1-Handed Sword
+|1845
+|
+|319-392
+|None
+|None
+|Level 28, Strength 31 
+|-
+|Mirrormere Great Sword (Common)
+|2-Handed Sword
+|1079
+|0
+|389-513
+|None
+|Ranger and Champion
+|Level 22, Strength 34
+|-
+|Spider-slayer's Leggings (Uncommon)
+|Leggins
+|2418
+|76
+|0
+|<nowiki>+6 Strength</nowiki>
+|None
+|Level 28, Stamina 31 
+|-
+|Deepforge Vambraces (Common)
+|Gauntlets
+|5922
+|152
+|0
+|High chance for Dragonforge
+|None
+|Level 29, Stamina 42 
+|-
+|Skin-changer's Hatchet (Uncommon)
+|1-Handed Axe
+|5123
+|0
+|386-475
+|<nowiki>+50 Shock Damage</nowiki>
+|None
+|Level 29, Strength 31 
+|-
+|Dorwinion Leg Armor (Common)
+|Leggings
+|1136
+|67
+|0
+|None
+|None
+|Level 28, Stamina 31 
+|-
+|Spider-slayer's Arbalest (Uncommon)
+|Crossbow
+|4775
+|0
+|1306-1489
+|<nowiki>+9 Will, 1.5x damage to spiders</nowiki>
+|Champion
+|Level 28, Dexterity 31
+|-
+|Master's Hammer (Common)
+|1-Handed Hammer
+|2432
+|0
+|336-417
+|None
+|None
+|Level 28, Strength 31
+|-
+|Easterling Boots (Uncommon)
+|Boots
+|758
+|77
+|0
+|<nowiki>+6 Strength</nowiki>
+|Noine
+|Level 29, Stamina 22
+|-
+|Celduin Haubrek (Epic)
+|Chestpiece
+|1862
+|252
+|0
+|<nowiki>+6 Stamina, +45 Health, +9% Health Regen, High chance for Dragonfire</nowiki>
+|None
+|Level 28, Stamina 31 
+|-
+|Taskmaster's Bow (Common)
+|Bow
+|3162
+|0
+|1187-1353
+|None
+|None
+|Level 29, Dexterity 32
+|-
+|Dol Guldur Warrior's Sledgehammer (Common)
+|2-Handed Hammer
+|1235
+|0
+|471-626
+|None
+|Ranger and Champion
+|Level 28, Strength 40 
+|-
+|Warg-master's Great Axe
+|2-Handed Axe
+|3222
+|0
+|567-748
+|<nowiki>+210 Crit Damage</nowiki>
+|Ranger and Champion
+|Level 28,  Strength 40
+|-
+|Lorien War-hammer (Common)
+|1-Handed Hammer
+|3442
+|0
+|383-437
+|None
+|None
+|Level 28, Strength 31 
+|-
+|Spider-slayer's Leggings (Uncommon)
+|Leggings
+|2418
+|76
+|0
+|<nowiki>+6 Strength</nowiki>
+|None
+|Level 28, Stamina 31 
+|-
+|Swanfleet Boots (Common)
+|Boots
+|643
+|77
+|0
+|None
+|None
+|Level 21, Stamina 25 
+|-
+|Amon Anon Two-handed Mace (Uncommon)
+|2-Handed Hammer
+|4264
+|0
+|630-718
+|<nowiki>+9 Strength</nowiki>
+|Ranger and Champion
+|Level 29, Strength 42 
+|-
+|Warg-master's Great Sword (Uncommon)
+|2-Handed Sword
+|3387
+|0
+|502-778
+|<nowiki>+50 Shock Damage</nowiki>
+|Ranger and Champion
+|Level 28, Strength 40 
+|-
+|Ravenhill Chestguard (Common)
+|Chestpiece
+|4552
+|356
+|0
+|None
+|None
+|Level 28, Stamina 40 
+|-
+|Eotheod Lord's Talisman (Rare)
+|Necklace
+|6851
+|0
+|0
+|<nowiki>+9% Health Regen, Reduced Damage +6, +210 Crit Damage, One Gem Slot</nowiki>
+|None
+|Level 29, Will 42 
+|-
+|Cairn-watch War-hammer (Uncommon)
+|1-Handed Hammer
+|736
+|0
+|186-246
+|<nowiki>+6 Will</nowiki>
+|None
+|Level 21, Strength 25
+|-
+|Forest River War Sword (Rare)
+|2-Handed Sword
+|3854
+|0
+|569-562
+|<nowiki>+6 Strength, +13 Ice Damage, Weapon Skills Cause Slow 100%</nowiki>
+|Ranger and Champion
+|Level 28, Strength 40
+|-
+|Downlands Mace (Uncommon)
+|1-Handed Mace
+|972
+|0
+|221-294
+|<nowiki>+7 Reflect Damage</nowiki>
+|None
+|Level 22, Strength 26
+|-
+|Dorwinion Gloves (Epic)
+|Gauntlets
+|838
+|77
+|0
+|<nowiki>+15 Strength, +12% Power Regen</nowiki>
+|None
+|Level 22, Stamina 28
+|}
+{| class="article-table"
+!''Legendary Loot Table''
+!
+!
+!
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|}
+'''Carn Dum Captain'''
+{| class="article-table"
+!
+!
+!
+!
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|}
+'''Orc Champion''' (Nordinbad Assault)
+{| class="article-table"
+!
+!
+!
+!
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|}
+'''Agandaûr'''
+{| class="article-table"
+!
+!
+!
+!
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|-
+|
+|
+|
+|
+|}

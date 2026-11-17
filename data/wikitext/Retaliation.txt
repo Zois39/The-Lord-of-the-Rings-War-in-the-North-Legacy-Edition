@@ -1,0 +1,17 @@
+[[File:Placeholder|right|300px]]
+Passive Skill
+
+During [http://witn.wikia.com/wiki/Warcry War-cry], melee damage absorbed by the Champion is reflected back to the enemy.
+
+Note: [[War-cry]] must be active for effect. Reflected damage is a percentage of your total Armor. Each rank adds damage.
+
+The percentage is 12% of your total armor
+
+Rank 1 - 12% of total armor
+
+Rank 2 - 24% of total armor
+
+Rank 3 - 36% of total armor
+
+Equation: Total armor x Rank (1, 2, or 3) = Total damage
+[[Category:Skills]]

@@ -1,0 +1,214 @@
+The Stronghold armor set.
+
+Usable by all characters. This [[Armor sets|Armor Set's]] Origin is Man.
+
+
+=='''Stacking Effects'''==
+
+Armor Set effects are additive. In this set wearing five (5) pieces adds +50 <u>and</u> +110 Armor for a total bonus of +160 Armor.
+
+2: +3 Stamina
+
+3: +50 Armor
+
+4: +5 Reduced Damage
+
+5: +110 Armor
+
+6: +65 Health
+
+=='''Headpiece'''==
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="width: 500px; "
+|-
+! scope="col" style="text-align:center;"|Name
+! scope="col" style="text-align:center;"|Value
+! scope="col" style="text-align:center;"|Armor
+! scope="col" style="text-align:center;"|__________Effect__________
+! scope="col" style="text-align:center;"|Elf Stone Slots
+! scope="col" style="text-align:center;"|Durability
+! scope="col" style="text-align:center;"|Level Req.
+! scope="col" style="text-align:center;"|Stamina Req.
+|-
+|Archer's Helmet
+|style="text-align:center;"|148
+|style="text-align:center;"|35
+|style="text-align:center;"|-
+|style="text-align:center;"|0
+|style="text-align:center;"|70
+|style="text-align:center;"|3
+|style="text-align:center;"|-
+|-
+|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|}
+
+=='''Shoulders'''==
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="width: 500px; "
+|-
+! scope="col" style="text-align:center;"|Name
+! scope="col" style="text-align:center;"|Value
+! scope="col" style="text-align:center;"|Armor
+! scope="col" style="text-align:center;"|__________Effect__________
+! scope="col" style="text-align:center;"|Elf Stone Slots
+! scope="col" style="text-align:center;"|Durability
+! scope="col" style="text-align:center;"|Level Req.
+! scope="col" style="text-align:center;"|Stamina Req.
+|-
+|Strong Coldfells Shoulders
+! scope="col" style="text-align:center;"|112
+! scope="col" style="text-align:center;"|23
+! scope="col" style="text-align:center;"|-
+! scope="col" style="text-align:center;"|0
+! scope="col" style="text-align:center;"|40
+! scope="col" style="text-align:center;"|10
+! scope="col" style="text-align:center;"|11
+|-
+|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+|}
+
+=='''Body'''==
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="width: 500px; "
+|-
+! scope="col" style="text-align:center;"|Name
+! scope="col" style="text-align:center;"|Value
+! scope="col" style="text-align:center;"|Armor
+! scope="col" style="text-align:center;"|__________Effect__________
+! scope="col" style="text-align:center;"|Elf Stone Slots
+! scope="col" style="text-align:center;"|Durability
+! scope="col" style="text-align:center;"|Level Req.
+! scope="col" style="text-align:center;"|Stamina Req.
+|-
+|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+|}
+
+=='''Gloves'''==
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="width: 500px; "
+|-
+! scope="col" style="text-align:center;"|Name
+! scope="col" style="text-align:center;"|Value
+! scope="col" style="text-align:center;"|Armor
+! scope="col" style="text-align:center;"|__________Effect__________
+! scope="col" style="text-align:center;"|Elf Stone Slots
+! scope="col" style="text-align:center;"|Durability
+! scope="col" style="text-align:center;"|Level Req.
+! scope="col" style="text-align:center;"|Stamina Req.
+|-
+|Troll-fells Gloves
+! scope="col" style="text-align:center;"|309
+! scope="col" style="text-align:center;"|56
+! scope="col" style="text-align:center;"|-
+! scope="col" style="text-align:center;"|0
+! scope="col" style="text-align:center;"|110
+! scope="col" style="text-align:center;"|11
+! scope="col" style="text-align:center;"|21
+|-
+|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+|}
+
+=='''Leggings'''==
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="width: 500px; "
+|-
+! scope="col" style="text-align:center;"|Name
+! scope="col" style="text-align:center;"|Value
+! scope="col" style="text-align:center;"|Armor
+! scope="col" style="text-align:center;"|__________Effect__________
+! scope="col" style="text-align:center;"|Elf Stone Slots
+! scope="col" style="text-align:center;"|Durability
+! scope="col" style="text-align:center;"|Level Req.
+! scope="col" style="text-align:center;"|Stamina Req.
+|-
+|Angmar Warlord's Leg Armor
+! scope="col" style="text-align:center;"|281
+! scope="col" style="text-align:center;"|28
+! scope="col" style="text-align:center;"| +25 Power
+! scope="col" style="text-align:center;"|0
+! scope="col" style="text-align:center;"|90
+! scope="col" style="text-align:center;"|11
+! scope="col" style="text-align:center;"|16
+|-
+|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+! scope="col" style="text-align:center;"|
+|}
+
+=='''Boots'''==
+{| border="1" cellpadding="1" cellspacing="1" class="article-table" style="width: 500px; "
+|-
+! scope="col" style="text-align:center;"|Name
+! scope="col" style="text-align:center;"|Value
+! scope="col" style="text-align:center;"|Armor
+! scope="col" style="text-align:center;"|__________Effect__________
+! scope="col" style="text-align:center;"|Elf Stone Slots
+! scope="col" style="text-align:center;"|Durability
+! scope="col" style="text-align:center;"|Level Req.
+! scope="col" style="text-align:center;"|Stamina Req.
+|-
+|Rhudaur Greaves
+|style="text-align:center;"|168
+|style="text-align:center;"|35
+|style="text-align:center;"| -
+|style="text-align:center;"|0
+|style="text-align:center;"|70
+|style="text-align:center;"|10
+|style="text-align:center;"|15
+|-
+|Standard Guardsman's Boots
+|style="text-align:center;"|288
+|style="text-align:center;"|36
+|style="text-align:center;"|-
+|style="text-align:center;"|0
+|style="text-align:center;"|90
+|style="text-align:center;"|9
+|style="text-align:center;"|14
+|-
+|Watchkeeper's Boots
+|style="text-align:center;"|82
+|style="text-align:center;"|16
+|style="text-align:center;"| -
+|style="text-align:center;"|0
+|style="text-align:center;"|50
+|style="text-align:center;"| -
+|style="text-align:center;"| -
+|-
+|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|style="text-align:center;"|
+|}
+[[Category:Equiptment]]

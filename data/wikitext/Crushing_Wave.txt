@@ -1,0 +1,8 @@
+[[File:Placeholder|right|300px]] 
+Active Skill
+
+Cost: ??? power
+
+Enhance [[Crushing Blow]] ('''RT + Y''') with a devastating wave of damage extending ahead of the champion.
+
+Note:Higher ranks add damage.

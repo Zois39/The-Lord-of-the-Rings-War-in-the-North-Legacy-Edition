@@ -1,0 +1,18 @@
+[[File:Placeholder|right|300px]] 
+Active Skill
+
+Cost: 19 power
+
+'''LT + RB''' fires a precise high damage bolt at your target.
+
+Note: Additional ranks increase bolt damage.
+
+The damage done by this skill is the total ranged damage plus 100% of the total ranged damage.
+
+Rank 1 - +100% of total ranged damage
+
+Rank 2 - +120% of total ranged damage
+
+Rank 3 - +140% of total ranged damage
+
+Equation: Total ranged damage (Min. or Max) + Rank (1, 2, or 3) = Total Damage for Heavy Bolt 

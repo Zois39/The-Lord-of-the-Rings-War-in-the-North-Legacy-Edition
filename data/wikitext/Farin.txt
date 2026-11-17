@@ -1,0 +1,61 @@
+[[File:Farin-bio.jpg|thumb|306px]]
+
+A Champion of the Dwarf-realm of Erebor. From his first taste of war at the Battle of Five Armies, he has been one of the foremost warriors of his homeland. A warrior of a warlike race, Farin is skilled in the use of all melee weapons and adept with a crossbow as well.  Farin is an unyielding rock upon which waves of enemies break. The sound of his fierce war-cry bolsters his allies, even as it strikes fear into the hearts of his enemies.
+==Background==
+Farin son of Norin is a Dwarf of Durin’s Folk. Farin makes his home in Erebor, but was in exile during the days when the dragon Smaug was master of Erebor.
+
+Farin was considered hardly more than a child when word reached that the Dwarf-lord, Thorin Oakenshield had regained Erebor and was in urgent need of his kin. In other circumstances, Farin would have been considered too young to go to war, but the need was great and so he became one of those who marched with Dáin Ironfoot and found themselves facing a host of Orcs at the Battle of Five Armies.
+
+Although Thorin was slain in the battle, Erebor became once more the home of the Longbeards and Dáin became their king. In spite of his youth, Farin distinguished himself in battle and he was made a member of King Dáin’s personal guard. For many years, Farin served his king against marauding Orcs.
+
+Long years after the liberation of Erebor, the Hobbit Bilbo Baggins returned to visit old friends. Farin had the opportunity to meet Bilbo, who made a strong impression upon him. Thus he was greatly distressed when several years later a messenger came to Erebor from the land of Mordor asking about “Baggins” and the land called the Shire. King Dáin turned the messenger away, but it was clear the Shire and Bilbo were in grave danger.
+
+Farin felt his people had an obligation to protect the land of the one who had made it possible for them to reclaim Erebor. He swore that he would travel to the Shire and offer his axe in that land’s defense. Unfortunately, he could not find others who were willing to make the long and dangerous journey, especially with the shadows of war gathering on their own borders. Determined not to be forsworn, Farin asked permission from King Dáin to travel west.
+
+Several weeks later, on the borders of the Shire, the Ranger Captain Halbarad heard a curious report from one of his men who had witnessed a strange Dwarf standing guard upon the road leading into the Shire from the east. This Dwarf was questioning travelers and turning away those he seemed to find undesirable — with a ready fist, when necessary. In short, this Dwarf was doing the very thing the Rangers had been doing for many years!
+
+Determined to get to the bottom of this mystery, Halbarad disguised himself as a traveler and set out to find this unusual Dwarf. He skillfully gained Farin’s confidence and learned of his self-appointed mission to protect the Shire. Convinced of the Dwarf’s good intentions, Halbarad informed him that the Shire was already carefully guarded. Naturally, Farin was a bit taken back by this news, but he was determined to fulfill his oath and so accepted Halbarad’s invitation to join the Rangers in their watch.
+
+Farin has since become something of an honorary Dwarf, sharing their tasks and hardships and living among them. A few Rangers still have reservations about this unusual ally, but for the most part they are pleased to have found another who is willing to sacrifice in secret for the protection of others.
+
+Farin is determined to be a good example of the virtues of his race while living among Men and Elves. He cares deeply about the honor of his people and does not want to tarnish it in any way. He is naturally courageous, and his determination to be an exemplary ambassador for his Dwarven clan makes him all the more so. There is no task too great or foe too tough for him to challenge.
+==Skills==
+Click on a skill for more information.
+{| border="1" cellpadding="1" cellspacing="1"
+|-
+!colspan = "2"|[[War-cry]]
+!colspan = "3"|[http://witn.wikia.com/wiki/Sweeping_Attack Sweeping Attack]
+!colspan = "2"|[http://witn.wikia.com/wiki/Crushing_Blow Crushing Blow]
+|-
+| style="text-align: center;"|[http://witn.wikia.com/wiki/Dwarf_Armor Dwarf Armor]
+| style="text-align: center;"|[http://witn.wikia.com/wiki/Shield_Bash Shield Bash]
+| style="text-align: center;"|[http://witn.wikia.com/wiki/Mighty_Reach Mighty Reach]
+| style="text-align: center;"|[http://witn.wikia.com/wiki/Fortitude Fortitude]
+| style="text-align: center;"|[[Heavy Weapons]]
+| style="text-align: center;"|[http://witn.wikia.com/wiki/Battle_Fury Battle Fury]
+| style="text-align: center;"|[http://witn.wikia.com/wiki/Impact Impact]
+|-
+| style="text-align: center;"|[http://witn.wikia.com/wiki/Taunt Taunt]
+| style="text-align: center;"|[http://witn.wikia.com/wiki/Determination Determination]
+| style="text-align: center;"|[http://witn.wikia.com/wiki/Whirlwind Whirlwind]
+| style="text-align: center;"|[http://witn.wikia.com/wiki/Endurance Endurance]
+| style="text-align: center;"|[http://witn.wikia.com/wiki/Earthshaker Earthshaker]
+| style="text-align: center;"|[http://witn.wikia.com/wiki/Crossbow_Adept Crossbow Adept]
+| style="text-align: center;"|[http://witn.wikia.com/wiki/Heavy_Bolt Heavy Bolt]
+|-
+| style="text-align: center;"|[http://witn.wikia.com/wiki/Retaliation Retaliation]
+| style="text-align: center;"|[http://witn.wikia.com/wiki/Shield_Charge Shield Charge]
+| style="text-align: center;"|[http://witn.wikia.com/wiki/Abundant_Harm Abundant Harm]
+| style="text-align: center;"|[http://witn.wikia.com/wiki/Indomitable_Spirit Indomitable Spirit]
+| style="text-align: center;"|[http://witn.wikia.com/wiki/Explosive_Bolt Explosive Bolt]
+| style="text-align: center;"|[http://witn.wikia.com/wiki/Crushing_Wave Crushing Wave]
+| style="text-align: center;"|[http://witn.wikia.com/wiki/Battle-ready Battle-ready]
+|}
+
+==Character builds==
+[[/Tank/]]
+
+[[/Two-handed damage dealer/]]
+
+[[/Ranged build/]]
+[[Category:Characters]]
