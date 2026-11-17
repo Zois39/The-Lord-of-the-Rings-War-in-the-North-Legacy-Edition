@@ -133,7 +133,9 @@ function render(){renderSide();const c=el("content");
  else c.innerHTML=viewBuild();
  bind();}
 function renderSide(){
+ const himg=DB.heroes[build.hero]&&DB.heroes[build.hero].local_image;
  let h=`<h2>${build.hero} · ${DB.heroes[build.hero]?DB.heroes[build.hero].archetype:""}</h2>`;
+ if(himg)h=`<img src="${esc(himg)}" style="width:54px;height:54px;object-fit:cover;border-radius:6px;border:1px solid var(--acc);display:block;margin-bottom:8px" alt="">`+h;
  if(tab.cur==="skills"){
   const hero=DB.heroes[build.hero];const spent=skillPoints();
   h+=`<div class="row"><label>Очки навыков: <b class="${spent>build.level?"warn":"ok"}">${spent}</b> / ${build.level}</label></div><hr style="border-color:var(--line)">`;
@@ -168,7 +170,8 @@ function renderSide(){
 }
 function viewSkills(){
  const hero=DB.heroes[build.hero];
- return `<h2>${build.hero} — ${hero.archetype}</h2><p style="color:var(--dim)">${esc(hero.description)}</p>`+
+ const portrait=hero.local_image?`<img src="${esc(hero.local_image)}" style="width:64px;height:64px;object-fit:cover;border-radius:6px;border:1px solid var(--acc);float:right;margin-left:10px" alt="">`:"";
+ return `<h2>${build.hero} — ${hero.archetype}</h2>${portrait}<p style="color:var(--dim)">${esc(hero.description)}</p>`+
  hero.trees.map(t=>`<div class="tree">
   <header><b>${esc(t.name)}</b><span class="badge">${t.skills.filter(s=>((build.skills[s.name]||{}).rank||0)>0).length}/${t.skills.length}</span></header>
   ${t.skills.map(s=>{const cur=(build.skills[s.name]||{}).rank||0;const maxR=s.max_rank||1;
