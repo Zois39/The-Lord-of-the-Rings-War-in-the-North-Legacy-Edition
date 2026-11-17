@@ -104,11 +104,14 @@ def parse_equipment():
                 hdrs = t["headers"]
                 if not hdrs or "name" not in hdrs[0].lower(): continue
                 for d in rows_to_dicts(hdrs, t["rows"]):
-                    item = {"name": clean(str(d.get("name", ""))), "slot": sec, "quality": sub}
+                    nm = clean(str(d.get("name", "")))
+                    if nm.lower() in ("", "-", "–", "?", "none") or len(nm) < 2: continue
+                    if "[" in sec or "http" in sec: continue  # ссылочные секции-перекрёстки
+                    item = {"name": nm, "slot": sec, "quality": sub}
                     for k, v in d.items():
                         if k == "name": continue
                         item[MAPE.get(k, k)] = norm_num(str(v))
-                    if item["name"]: out.append(item)
+                    out.append(item)
     return out
 
 def parse_sets():

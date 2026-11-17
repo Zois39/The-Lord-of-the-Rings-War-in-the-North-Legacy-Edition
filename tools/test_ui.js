@@ -28,12 +28,12 @@ const ctx=vm.createContext({document:documentStub,localStorage:localStorageStub,
 const T={pass:0,fail:0};const ok=(n,c)=>{c?T.pass++:(T.fail++,console.error('FAIL:',n))};
 
 (async()=>{
- vm.runInContext(code+';globalThis.DB=DB;globalThis.build=build;globalThis.tab=tab;globalThis.render=render;globalThis.computeStats=computeStats;globalThis.reqsOk=reqsOk;globalThis.findItem=findItem;',ctx);
+ vm.runInContext(code+';globalThis.DB=DB;globalThis.build=build;globalThis.tab=tab;globalThis.render=render;globalThis.computeStats=computeStats;globalThis.equipWeapon=equipWeapon;globalThis.reqsOk=reqsOk;globalThis.findItem=findItem;',ctx);
  await new Promise(r=>setTimeout(r,200));
 
  ok('3 героя',Object.keys(ctx.DB.heroes).length===3);
  ok('оружие',ctx.DB.items.weapons.length>=40);
- ok('броня',ctx.DB.items.armor.length>=100);
+ ok('броня (без мусора)',ctx.DB.items.armor.length>=80);
  ok('сеты',ctx.DB.items.sets.length===20);
  ok('лут боссов',ctx.DB.items.boss_loot.length>=30);
 
@@ -86,6 +86,38 @@ const T={pass:0,fail:0};const ok=(n,c)=>{c?T.pass++:(T.fail++,console.error('FAI
  // клик-путь: вкладка gear, выбор в слот mainhand через findItem/карточку
  ctx.tab.cur='gear'; ctx.render();
  ok('панель слотов рендерится', byId['side']._html.includes('Слоты'));
+ // правила слотов оружия
+ const twoH = ctx.DB.items.weapons.find(w=>(w.type||'').match(/2-handed/i));
+ const oneH = ctx.DB.items.weapons.find(w=>(w.type||'').match(/1-handed/i));
+ const shield = ctx.DB.items.weapons.find(w=>(w.type||'').match(/shield/i));
+ ctx.build.gear.slots.mainhand=null; ctx.build.gear.slots.offhand=null; ctx.build.skills['Dual Wield']={rank:0};
+ if (twoH) { ctx.equipWeapon(twoH);
+   ok('двуручное занимает обе руки', ctx.build.gear.slots.mainhand===twoH.name && ctx.build.gear.slots.offhand==='2H');
+   ctx.equipWeapon(twoH); // повторный клик — снять
+   ok('повторный клик снимает 2H', ctx.build.gear.slots.mainhand===null);
+ }
+ if (shield) { ctx.equipWeapon(shield);
+   ok('щит в offhand', ctx.build.gear.slots.offhand===shield.name);
+   ok('2H снято при щите', !ctx.build.gear.slots.mainhand||!(ctx.findItem(ctx.build.gear.slots.mainhand).type||'').match(/2-handed/i));
+ }
+ if (oneH) { ctx.build.gear.slots.mainhand=null; ctx.build.gear.slots.offhand=null;
+   ctx.equipWeapon(oneH);
+   ok('1H в mainhand', ctx.build.gear.slots.mainhand===oneH.name);
+   ctx.build.skills['Dual Wield']={rank:0};
+   const second1H = ctx.DB.items.weapons.find(w=>(w.type||'').match(/1-handed/i)&&w.name!==oneH.name);
+   if (second1H) { ctx.equipWeapon(second1H);
+     ok('без Dual Wield 2-е 1H меняет mainhand', ctx.build.gear.slots.mainhand===second1H.name && ctx.build.gear.slots.offhand!==second1H.name);
+     ctx.build.skills['Dual Wield']={rank:1};
+     ctx.equipWeapon(oneH);
+     ok('с Dual Wield 1H в offhand', ctx.build.gear.slots.offhand===oneH.name);
+   }
+ }
+ ctx.build.gear.slots.mainhand=null; ctx.build.gear.slots.offhand=null; ctx.build.skills['Dual Wield']={rank:0};
+ // сеты: бонусы с описаниями
+ const setRec = ctx.DB.items.sets[0];
+ ok('сет имеет бонусы', setRec.bonuses && Object.keys(setRec.bonuses).length>=2);
+ // загрузчик существует
+ ok('loader html', ctx.document.getElementById('loader')!==undefined);
  // требования: reqsOk отвечает объектом
  const reqRes = ctx.reqsOk(ctx.DB.items.weapons[0]);
  ok('reqsOk структура', reqRes && typeof reqRes.ok === 'boolean');
