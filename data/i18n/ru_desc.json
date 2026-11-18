@@ -387,7 +387,7 @@
  "Bright-flame": {
   "text": "Бонусы комплекта: 2 предм.: +2% Steal Здоровье шанс · 3 предм.: +6 Воля · 4 предм.: +11% Мощь Regeneration · 5 предм.: +100 Мощь · 6 предм.: +65 Здоровье",
   "src": "draft",
-  "name": "Bright-Пламенный"
+  "name": "Яркий-Пламенный"
  },
  "Dragon-Fire": {
   "text": "Бонусы комплекта: 2 предм.: +25 Броня · 3 предм.: +6 Сила · 4 предм.: +56 Урон · 5 предм.: +110 Броня · 6 предм.: +85 Огонь Урон",
@@ -608,7 +608,7 @@
  },
  "Steel-backed Elf-smith's Bow": {
   "src": "draft",
-  "name": "Лук (Elf-Кузнец)"
+  "name": "Лук (Эльфийский-Кузнец)"
  },
  "Large Silver Goblet": {
   "src": "draft",
@@ -616,7 +616,7 @@
  },
  "Keystone Short Sword": {
   "src": "draft",
-  "name": "Меч Краеугольный Short"
+  "name": "Меч Краеугольный Короткий"
  },
  "Pinehurst Shield": {
   "src": "draft",
@@ -868,7 +868,7 @@
  },
  "Dragon Scale Long Axe": {
   "src": "draft",
-  "name": "Драконий Чешуя Long Топор"
+  "name": "Драконий Чешуя Длинный Топор"
  },
  "Orc-liquor": {
   "src": "draft",
@@ -876,7 +876,7 @@
  },
  "Elf-smith's Sword": {
   "src": "draft",
-  "name": "Меч (Elf-Кузнец)"
+  "name": "Меч (Эльфийский-Кузнец)"
  },
  "Elixir of Lethal Striking": {
   "src": "draft",
@@ -1320,7 +1320,7 @@
  },
  "[http://witn.wikia.com/wiki/Wood-elf Wood-elf Amulet]": {
   "src": "draft",
-  "name": "Амулет http witn wikia com wiki Деревянный-elf Деревянный-elf"
+  "name": "Амулет http witn wikia com wiki Деревянный-Эльфийский Деревянный-Эльфийский"
  },
  "WILL": {
   "src": "draft",
@@ -1432,7 +1432,7 @@
  },
  "Elf-made Amulet": {
   "src": "draft",
-  "name": "Амулет Elf-made"
+  "name": "Амулет Эльфийский-made"
  },
  "Amulet of Lune": {
   "src": "draft",
