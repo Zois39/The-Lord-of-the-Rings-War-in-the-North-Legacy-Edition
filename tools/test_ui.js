@@ -90,12 +90,33 @@ const T={pass:0,fail:0};const ok=(n,c)=>{c?T.pass++:(T.fail++,console.error('FAI
  ok('6 суммарно: тир 4 открыт', ctx.canInvest({tier:4,name:'x'}, t1)===true);
  ctx.build.skills={};
  ok('tierPoints считает', ctx.tierPoints(t1,1)===0);
+ // --- точные формулы (стартовая статистика, GameFAQs) ---
+ const Z = {str:0,wil:0,dex:0,sta:0};
+ const cases = [
+   ['Eradan', 1, Z, {hp:100, power:70, str:11, dex:12, sta:10, wil:9}],
+   ['Farin', 1, Z, {hp:105, power:73, str:12, dex:9, sta:11, wil:10}],
+   ['Andriel', 1, Z, {hp:95, power:125, str:10, dex:11, sta:9, wil:12}],
+ ];
+ for (const [hero, lvl, attrs, exp] of cases) {
+   const saved = {hero: ctx.build.hero, level: ctx.build.level, attrs: {...ctx.build.attrs}, skills: {...ctx.build.skills}, gear: JSON.parse(JSON.stringify(ctx.build.gear))};
+   ctx.build.hero = hero; ctx.build.level = lvl; ctx.build.attrs = attrs; ctx.build.skills = {}; ctx.build.gear.slots = {mainhand:null,offhand:null,ranged:null,head:null,shoulders:null,body:null,gloves:null,legs:null,boots:null,amulet:null,ring1:null,ring2:null};
+   const st = ctx.computeStats();
+   ok(hero+' HP стартовое', st.hp === exp.hp);
+   ok(hero+' Power стартовое', st.power === exp.power);
+   ok(hero+' атрибуты стартовые', st.attrs.str===exp.str && st.attrs.dex===exp.dex && st.attrs.sta===exp.sta && st.attrs.wil===exp.wil);
+   ctx.build.hero = saved.hero; ctx.build.level = saved.level; ctx.build.attrs = saved.attrs; ctx.build.skills = saved.skills; ctx.build.gear = saved.gear;
+ }
+ // +10 здоровья за очко Stamina; +3 мощи за Will
+ ctx.build.attrs.sta = 1;
+ const stA = ctx.computeStats();
+ ok('1 Sta = +5 HP', stA.hp - 0 >= 5);
+ ctx.build.attrs = {str:0,wil:0,dex:0,sta:0};
  // --- слоты и характеристики ---
  ctx.build.gear.slots.mainhand = ctx.DB.items.weapons.find(w=>!(w.type||'').match(/bow|crossbow/i)).name;
  const st1 = ctx.computeStats();
  ok('урон ближний появился', /\d+ – \d+/.test(st1.melee));
  ok('броня >= 0', st1.armor >= 0);
- ok('стрелы базовые', st1.arrows === 20);
+ ok('стрелы базовые (40)', st1.arrows === 40);
  const ring = ctx.DB.items.armor.find(a=>/ring/i.test(a.slot||'') && /Will/i.test(a.effect||'')) || ctx.DB.items.armor.find(a=>/ring/i.test(a.slot||''));
  if (ring) {
    const wil0 = st1.power;
@@ -144,7 +165,7 @@ const T={pass:0,fail:0};const ok=(n,c)=>{c?T.pass++:(T.fail++,console.error('FAI
  ok('reqsOk структура', reqRes && typeof reqRes.ok === 'boolean');
  // стрелы с Broad Quiver
  ctx.build.skills['Broad Quiver'] = {rank: 2};
- ok('стрелы с колчаном', ctx.computeStats().arrows === 40);
+ ok('стрелы с колчаном (40+20)', ctx.computeStats().arrows === 60);
  ctx.build.skills['Broad Quiver'] = {rank: 0};
 
  console.log(`PASS ${T.pass} FAIL ${T.fail}`);

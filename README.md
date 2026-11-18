@@ -33,6 +33,25 @@ War in the North (Legacy Edition). Чистый JS без фреймворков
   - https://gametruth.com/guides/war-in-the-north-legacy-edition-hero-build-guide/
   - https://gamesandgrub.blogspot.com/2012/05/lord-of-rings-war-in-north-character.html
 
+## Источники чисел (формулы характеристик)
+
+Точные коэффициенты выведены из стартовой статистики героев и перекрёстно
+проверены:
+
+- GameFAQs, The Lord of the Rings: War in the North — Guide and Walkthrough
+  (FAQ 70985): стартовые HP/Power/атрибуты/урон трёх героев.
+  Отсюда: HP = 50 + 5×Stamina; ближний урон = оружие + 2×Strength;
+  дальний урон = оружие + 3×Dexterity; Power = база героя + 3×Will
+  (база: Эрадан/Фарин 43, Андриэль 89 — классовая особенность лормастера).
+- gametruth.com, «War in the North Legacy Edition Hero Build Guide» (2026):
+  3 очка атрибутов + 1 очко навыка за уровень, кап уровня 40, направления
+  атрибутов (Stamina → здоровье).
+- Стартовые стрелы/болты — 40; Broad Quiver: +10 за ранг (описание навыка
+  в вики).
+- Спорные/оценочные данные (до подтверждения): точные пороги тиров навыков,
+  стоимость power отдельных активных навыков (частично из вики-описаний).
+  Числа отмечены тултипами в UI.
+
 ## Поддержка разработки
 
 Проект некоммерческий. Добровольные пожертвования на разработку и

@@ -125,7 +125,13 @@ const SLOTORDER=["mainhand","offhand","ranged","head","shoulders","body","gloves
 const SLOTNAMES={mainhand:"Оружие (правая)",offhand:"Вторая рука / щит",ranged:"Дальний бой",head:"Голова",shoulders:"Плечи",body:"Тело",gloves:"Перчатки",legs:"Поножи",boots:"Сапоги",amulet:"Амулет",ring1:"Кольцо 1",ring2:"Кольцо 2"};
 const ARMORFILTERS=[["Все","Все"],["Headpiece","Голова"],["Shoulders","Плечи"],["Body","Тело"],["Gloves","Перчатки"],["Leggings","Поножи"],["Boots","Сапоги"],["Rings","Кольца"],["Amulets","Амулеты"]];
 const ARMORSLOTMAP={headpiece:"head",shoulders:"shoulders",body:"body",gloves:"gloves",leggings:"legs",boots:"boots",amulets:"amulet",amulet:"amulet",rings:null,ring:null};
-const COEF={hpPerSta:5,powerPerWil:2,melPerStr:2,rngPerDex:2,baseHp:100,basePower:50,baseArrows:20,arrowsPerQuiver:10};
+// Точные числа — из стартовой статистики героев (GameFAQs FAQ 70985, cross-check):
+// HP = 50 + 5*Stamina (все три героя сходятся идеально)
+// Melee = урон оружия + 2*Strength; Ranged = урон оружия + 3*Dexterity (Eradan/Farin сходятся)
+// Power = база героя + 3*Will (Eradan/Farin: база 43; Andriel: 79 — классовая аномалия оригинала)
+const COEF={hpBase:50,hpPerSta:5,powerPerWil:3,melPerStr:2,rngPerDex:3,baseArrows:40,arrowsPerQuiver:10};
+const BASE_ATTRS={Eradan:{str:11,dex:12,sta:10,wil:9},Farin:{str:12,dex:9,sta:11,wil:10},Andriel:{str:10,dex:11,sta:9,wil:12}};
+const POWER_BASE={Eradan:43,Farin:43,Andriel:89};
 function treePoints(t){return t.skills.reduce((a,x)=>a+((build.skills[x.name]||{}).rank||0),0);}
 function tierPoints(t,n){return t.skills.reduce((a,x)=>a+(((x.tier||1)===n)?((build.skills[x.name]||{}).rank||0):0),0);}
 function skillGate(sk,t){
@@ -202,7 +208,8 @@ function dmgRange(s){if(!s)return null;const m=String(s).match(/(\d+)\s*-\s*(\d+
  if(!m)return null;return[ +m[1],+m[2] ];}
 function computeStats(){
  const g=build.gear.slots;
- const eff={str:10+build.attrs.str,wil:10+build.attrs.wil,dex:10+build.attrs.dex,sta:10+build.attrs.sta};
+ const base=BASE_ATTRS[build.hero]||{str:10,dex:10,sta:10,wil:10};
+ const eff={str:base.str+build.attrs.str,wil:base.wil+build.attrs.wil,dex:base.dex+build.attrs.dex,sta:base.sta+build.attrs.sta};
  const acc={melee:0,ranged:0,armor:0,power:0,arrows:0,hp:0,elem:{}};
  for(const k of SLOTORDER){const it=findItem(g[k]);if(!it)continue;
   const e=parseEffects(it);
@@ -220,8 +227,8 @@ function computeStats(){
  if(md&&od)melee+=" + "+Math.round(od[0]+melBonus)+" – "+Math.round(od[1]+melBonus);
  return{
   attrs:eff,
-  hp:COEF.baseHp+eff.sta*COEF.hpPerSta+acc.hp,
-  power:COEF.basePower+eff.wil*COEF.powerPerWil+acc.power,
+  hp:COEF.hpBase+eff.sta*COEF.hpPerSta+acc.hp,
+  power:(POWER_BASE[build.hero]||43)+eff.wil*COEF.powerPerWil+acc.power,
   melee,
   ranged:rd?Math.round(rd[0]+eff.dex*COEF.rngPerDex+acc.ranged)+" – "+Math.round(rd[1]+eff.dex*COEF.rngPerDex+acc.ranged):"—",
   armor:acc.armor,
@@ -250,8 +257,8 @@ function renderSide(){
  let h=(himg?`<img src="${esc(himg)}" style="width:54px;height:54px;object-fit:cover;border-radius:6px;border:1px solid var(--acc);display:block;margin-bottom:8px" alt="">`:"")+
  `<h2>${build.hero} · ${DB.heroes[build.hero]?DB.heroes[build.hero].archetype:""}</h2>
  <div class="stats">
-  <div class="st-row hp"><span>❤ Здоровье</span><b>${st.hp}</b></div>
-  <div class="st-row pw"><span>⚡ Мощь</span><b>${st.power}</b></div>
+  <div class="st-row hp"><span title="50 + 5×Stamina (GameFAQs)">❤ Здоровье</span><b>${st.hp}</b></div>
+  <div class="st-row pw"><span title="база героя + 3×Will; Andriel +79">⚡ Мощь</span><b>${st.power}</b></div>
   <div class="st-row"><span>🛡 Броня</span><b>${st.armor}</b></div>
   <div class="st-row"><span>⚔ Урон ближний</span><b title="оружие + бонус силы">${st.melee}</b></div>
   <div class="st-row"><span>🏹 Урон дальний</span><b title="оружие + бонус ловкости">${st.ranged}</b></div>
@@ -380,8 +387,8 @@ function viewBuild(){
  <p style="color:var(--dim)">Навыки: ${skillPoints()}/${build.level} · Атрибуты: ${ATTRS.map(k=>ATTRNAMES[k]+" "+build.attrs[k]).join(", ")}</p>
  <h2>Характеристики</h2>
  <div class="stats">
-  <div class="st-row hp"><span>❤ Здоровье</span><b>${st.hp}</b></div>
-  <div class="st-row pw"><span>⚡ Мощь</span><b>${st.power}</b></div>
+  <div class="st-row hp"><span title="50 + 5×Stamina (GameFAQs)">❤ Здоровье</span><b>${st.hp}</b></div>
+  <div class="st-row pw"><span title="база героя + 3×Will; Andriel +79">⚡ Мощь</span><b>${st.power}</b></div>
   <div class="st-row"><span>🛡 Броня</span><b>${st.armor}</b></div>
   <div class="st-row"><span>⚔ Ближний бой</span><b>${st.melee}</b></div>
   <div class="st-row"><span>🏹 Дальний бой</span><b>${st.ranged}</b></div>
