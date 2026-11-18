@@ -6,7 +6,8 @@
  },
  "Onslaught": {
   "text": "Серия из четырёх ударов с повышенным уроном; ранги усиливают каждый удар.",
-  "src": "draft"
+  "src": "draft",
+  "name": "Onslaught"
  },
  "Critical Wound": {
   "text": "Повышает частоту критических ударов и урон в режиме героизма.",
@@ -25,7 +26,8 @@
  },
  "Stealth Mastery": {
   "text": "Скорость в скрытности и урон из засады растут с рангами.",
-  "src": "draft"
+  "src": "draft",
+  "name": "Stealth Mastery"
  },
  "Evasive Foe": {
   "text": "Вероятность уклонения растёт при ношении лёгкой брони.",
@@ -339,7 +341,8 @@
  },
  "Explosive Bolt": {
   "text": "Взрывной болт по области.",
-  "src": "draft"
+  "src": "draft",
+  "name": "Explosive Bolt"
  },
  "Crushing Wave": {
   "text": "После сокрушительного удара взрывная волна наносит повреждения всем противникам рядом с целью.",
@@ -353,7 +356,8 @@
  },
  "Adamant": {
   "text": "Бонусы комплекта: 2 предм.: +25 Броня · 3 предм.: +30 Здоровье · 4 предм.: +80 Броня · 5 предм.: +50 Здоровье · 6 предм.: +150 Броня",
-  "src": "draft"
+  "src": "draft",
+  "name": "Adamant"
  },
  "Alliance": {
   "text": "Бонусы комплекта: 2 предм.: +3 Сила · 3 предм.: +10 Crit Урон · 4 предм.: +8 Сила · 5 предм.: +110 Броня · 6 предм.: +105 Урон",
@@ -367,15 +371,18 @@
  },
  "Battlemaster": {
   "text": "Бонусы комплекта: 2 предм.: +3 Воля · 3 предм.: +40 Мощь · 4 предм.: +19% Skill Cooldown Reduction · 5 предм.: +12 Сила · 6 предм.: +16% Мощь Regeneration",
-  "src": "draft"
+  "src": "draft",
+  "name": "Battlemaster"
  },
  "Battlement": {
   "text": "Бонусы комплекта: 2 предм.: +25 Броня · 3 предм.: +50 Броня · 4 предм.: +80 Броня · 5 предм.: +110 Броня · 6 предм.: +150 Броня",
-  "src": "draft"
+  "src": "draft",
+  "name": "Battlement"
  },
  "Bowmaster": {
   "text": "Бонусы комплекта: 2 предм.: +18 Урон · 3 предм.: +4 Ловкость · 4 предм.: +80 Мощь · 5 предм.: +11 Ловкость · 6 предм.: +105 Урон",
-  "src": "draft"
+  "src": "draft",
+  "name": "Bowmaster"
  },
  "Bright-flame": {
   "text": "Бонусы комплекта: 2 предм.: +2% Steal Здоровье шанс · 3 предм.: +6 Воля · 4 предм.: +11% Мощь Regeneration · 5 предм.: +100 Мощь · 6 предм.: +65 Здоровье",
@@ -389,7 +396,8 @@
  },
  "Defender": {
   "text": "Бонусы комплекта: 2 предм.: +3 Выносливость · 3 предм.: +50 Броня · 4 предм.: +5 Reduced Урон · 5 предм.: +50 Здоровье · 6 предм.: +20 Выносливость",
-  "src": "draft"
+  "src": "draft",
+  "name": "Defender"
  },
  "Ered Mithrin": {
   "text": "Бонусы комплекта: 2 предм.: +3 Выносливость · 3 предм.: +30 Мощь · 4 предм.: +5 Выносливость · 5 предм.: +50 Мощь · 6 предм.: x4 Find more coins",
@@ -403,7 +411,8 @@
  },
  "Fortune": {
   "text": "Бонусы комплекта: 2 предм.: x2 Find more coins · 3 предм.: 10% Reduced store prices · 4 предм.: +8 Выносливость · 5 предм.: +13 Воля · 6 предм.: x4 Find more coins",
-  "src": "draft"
+  "src": "draft",
+  "name": "Fortune"
  },
  "Grey Havens": {
   "text": "Бонусы комплекта: 2 предм.: +3 Воля · 3 предм.: +30 Мощь · 4 предм.: +5 Воля · 5 предм.: +50 Мощь · 6 предм.: +14 Reflect Урон",
@@ -412,7 +421,8 @@
  },
  "Marksman": {
   "text": "Бонусы комплекта: 2 предм.: +3 Ловкость · 3 предм.: +35 Урон · 4 предм.: +80 Броня · 5 предм.: +14 Ловкость · 6 предм.: +105 Урон",
-  "src": "draft"
+  "src": "draft",
+  "name": "Marksman"
  },
  "Stalker": {
   "text": "Бонусы комплекта: 2 предм.: +5 Crit Урон · 3 предм.: +35 Урон · 4 предм.: +8 Сила · 5 предм.: +20 Crit Урон · 6 предм.: +65 Здоровье",
@@ -421,11 +431,13 @@
  },
  "Stronghold": {
   "text": "Бонусы комплекта: 2 предм.: +3 Выносливость · 3 предм.: +50 Броня · 4 предм.: +5 Reduced Урон · 5 предм.: +110 Броня · 6 предм.: +65 Здоровье",
-  "src": "draft"
+  "src": "draft",
+  "name": "Stronghold"
  },
  "Sunrise": {
   "text": "Бонусы комплекта: 2 предм.: +5% Здоровье Regeneration · 3 предм.: +6% Reflect Урон · 4 предм.: +15 Crit Урон · 5 предм.: +12 Выносливость · 6 предм.: +150 Броня",
-  "src": "draft"
+  "src": "draft",
+  "name": "Sunrise"
  },
  "War-forge": {
   "text": "Бонусы комплекта: 2 предм.: +3 Reduced Урон · 3 предм.: +3% Stun When Struck · 4 предм.: +80 Броня · 5 предм.: +11 Reflect Урон · 6 предм.: +8% Enemy Miss шанс",
@@ -434,7 +446,8 @@
  },
  "Warlord": {
   "text": "Бонусы комплекта: 2 предм.: +18 Урон · 3 предм.: +5 Сила · 4 предм.: +8 Ловкость · 5 предм.: +13 Сила · 6 предм.: +30 Crit Урон",
-  "src": "draft"
+  "src": "draft",
+  "name": "Warlord"
  },
  "War-wise": {
   "text": "Бонусы комплекта: 2 предм.: +3 Сила · 3 предм.: +30 Здоровье · 4 предм.: +9 Воля · 5 предм.: +100 Мощь · 6 предм.: +150 Броня",
@@ -447,11 +460,11 @@
  },
  "Amon Sul Talisman": {
   "src": "draft",
-  "name": "Amon Sul Талисман"
+  "name": "Талисман Amon Sul"
  },
  "Lebennin Greaves": {
   "src": "draft",
-  "name": "Лебеннин Поножи"
+  "name": "Поножи Лебеннин"
  },
  "Perfect Sapphire": {
   "src": "draft",
@@ -463,15 +476,15 @@
  },
  "Silver Ceremonial Dagger": {
   "src": "draft",
-  "name": "Серебряный Церемониальный Кинжал"
+  "name": "Кинжал Серебряный Церемониальный"
  },
  "Combatant´s ring": {
   "src": "draft",
-  "name": "Combatant s Кольцо"
+  "name": "Кольцо (Combatant)"
  },
  "Iron Chain": {
   "src": "draft",
-  "name": "Железный Кольчуга"
+  "name": "Кольчуга Железный"
  },
  "Cardolan Knight's Ring": {
   "src": "draft",
@@ -483,7 +496,7 @@
  },
  "Halifirien War Sword": {
   "src": "draft",
-  "name": "Halifirien Военный Меч"
+  "name": "Меч Халифириэн Военный"
  },
  "Iron Collar": {
   "src": "draft",
@@ -503,7 +516,7 @@
  },
  "Troll-hunter's Sword": {
   "src": "draft",
-  "name": "Меч (Troll-hunter)"
+  "name": "Меч (Тролль-Охотник)"
  },
  "Uncut Diamond": {
   "src": "draft",
@@ -511,11 +524,11 @@
  },
  "Last Alliance Ring": {
   "src": "draft",
-  "name": "Последний Альянс Кольцо"
+  "name": "Кольцо Последний Альянс"
  },
  "Small Gold Nugget": {
   "src": "draft",
-  "name": "Маленький Золотой Самородок"
+  "name": "Самородок Маленький Золотой"
  },
  "Carved Bone Dice": {
   "src": "draft",
@@ -531,11 +544,11 @@
  },
  "Guardian's Shortbow": {
   "src": "draft",
-  "name": "Shortbow (Guardian)"
+  "name": "Короткий лук (Guardian)"
  },
  "Beleriand War Bow": {
   "src": "draft",
-  "name": "Белерианд Военный Лук"
+  "name": "Лук Белерианд Военный"
  },
  "Perfect Malachite": {
   "src": "draft",
@@ -547,39 +560,39 @@
  },
  "Ravenhill Chestguard": {
   "src": "draft",
-  "name": "Ravenhill Нагрудник"
+  "name": "Нагрудник Ravenhill"
  },
  "Healing Salve": {
   "src": "draft",
-  "name": "Исцеляющее Мазь"
+  "name": "Мазь Исцеляющее"
  },
  "Rejuvenating Cake": {
   "src": "draft",
-  "name": "Rejuvenating Пирог"
+  "name": "Пирог Rejuvenating"
  },
  "Celebdil Band": {
   "src": "draft",
-  "name": "Celebdil Обруч"
+  "name": "Обруч Celebdil"
  },
  "Eored Sword": {
   "src": "draft",
-  "name": "Eored Меч"
+  "name": "Меч Эоред"
  },
  "[http://witn.wikia.com/wiki/Forest-warden Forest-warden Pendant]": {
   "src": "draft",
-  "name": "http witn wikia com wiki Лесной-Надзиратель Лесной-Надзиратель Кулон"
+  "name": "Кулон http witn wikia com wiki Лесной-Надзиратель Лесной-Надзиратель"
  },
  "Ranger-captain's Ring": {
   "src": "draft",
-  "name": "Кольцо (Ranger-captain)"
+  "name": "Кольцо (Рейнджер-captain)"
  },
  "Deep Roots Pendant": {
   "src": "draft",
-  "name": "Глубокий Roots Кулон"
+  "name": "Кулон Глубокий Roots"
  },
  "Strength Potion": {
   "src": "draft",
-  "name": "Strength Зелье"
+  "name": "Зелье Strength"
  },
  "Jeweled Broach": {
   "src": "draft",
@@ -595,27 +608,27 @@
  },
  "Steel-backed Elf-smith's Bow": {
   "src": "draft",
-  "name": "Лук (Elf-smith)"
+  "name": "Лук (Elf-Кузнец)"
  },
  "Large Silver Goblet": {
   "src": "draft",
-  "name": "Большой Серебряный Кубок"
+  "name": "Кубок Большой Серебряный"
  },
  "Keystone Short Sword": {
   "src": "draft",
-  "name": "Keystone Short Меч"
+  "name": "Меч Краеугольный Short"
  },
  "Pinehurst Shield": {
   "src": "draft",
-  "name": "Pinehurst Щит"
+  "name": "Щит Pinehurst"
  },
  "Moonlight Band": {
   "src": "draft",
-  "name": "Лунный свет Обруч"
+  "name": "Обруч Лунный свет"
  },
  "Forest-lord's Staff": {
   "src": "draft",
-  "name": "Посох (Forest-lord)"
+  "name": "Посох (Лесной-Лорд)"
  },
  "Imladris Signet": {
   "src": "draft",
@@ -627,15 +640,15 @@
  },
  "Lore-keeper's Axe": {
   "src": "draft",
-  "name": "Топор (Lore-keeper)"
+  "name": "Топор (Знание-Хранитель)"
  },
  "Light Woven Robe": {
   "src": "draft",
-  "name": "Светлый Woven Одеяние"
+  "name": "Одеяние Светлый Woven"
  },
  "Enedwaith Shoulders": {
   "src": "draft",
-  "name": "Enedwaith Наплечники"
+  "name": "Наплечники Enedwaith"
  },
  "Arnor Lord's Amulet": {
   "src": "draft",
@@ -643,15 +656,15 @@
  },
  "Norbury Boots": {
   "src": "draft",
-  "name": "Norbury Сапоги"
+  "name": "Сапоги Norbury"
  },
  "Nightshade Shoulders": {
   "src": "draft",
-  "name": "Nightshade Наплечники"
+  "name": "Наплечники Nightshade"
  },
  "Jeweled Ceremonial Dagger": {
   "src": "draft",
-  "name": "Самоцветный Церемониальный Кинжал"
+  "name": "Кинжал Самоцветный Церемониальный"
  },
  "Moria Silver Gauntlets": {
   "src": "draft",
@@ -659,7 +672,7 @@
  },
  "Nargothrond Blade": {
   "src": "draft",
-  "name": "Нарготронд Клинок"
+  "name": "Клинок Нарготронд"
  },
  "Cardolan Soldier's Band": {
   "src": "draft",
@@ -671,11 +684,11 @@
  },
  "Hidden-lake Helmet": {
   "src": "draft",
-  "name": "Hidden-lake Шлем"
+  "name": "Шлем Hidden-lake"
  },
  "Moria Silver Vambraces": {
   "src": "draft",
-  "name": "Мория Серебряный Наручи"
+  "name": "Наручи Мория Серебряный"
  },
  "Lossarnach Buckler": {
   "src": "draft",
@@ -687,11 +700,11 @@
  },
  "Decorative Plate": {
   "src": "draft",
-  "name": "Decorative Латы"
+  "name": "Латы Decorative"
  },
  "Ithilien Boots": {
   "src": "draft",
-  "name": "Итилиэн Сапоги"
+  "name": "Сапоги Итилиэн"
  },
  "Potion of Retribution": {
   "src": "draft",
@@ -699,7 +712,7 @@
  },
  "Silver Plate": {
   "src": "draft",
-  "name": "Серебряный Латы"
+  "name": "Латы Серебряный"
  },
  "Cut Diamond": {
   "src": "draft",
@@ -715,15 +728,15 @@
  },
  "Healing Cake": {
   "src": "draft",
-  "name": "Исцеляющее Пирог"
+  "name": "Пирог Исцеляющее"
  },
  "Stalker´s Gauntlets": {
   "src": "draft",
-  "name": "Крадущийся s Латные перчатки"
+  "name": "Латные перчатки (Крадущийся)"
  },
  "Gold Chain": {
   "src": "draft",
-  "name": "Золотой Кольчуга"
+  "name": "Кольчуга Золотой"
  },
  "Buri's Ring": {
   "src": "draft",
@@ -731,7 +744,7 @@
  },
  "Stale Grey Bread": {
   "src": "draft",
-  "name": "Stale Серые Хлеб"
+  "name": "Хлеб Stale Серые"
  },
  "Angmir's Staff": {
   "src": "draft",
@@ -739,7 +752,7 @@
  },
  "Troll-fells Talisman": {
   "src": "draft",
-  "name": "Тролль-fells Талисман"
+  "name": "Талисман Тролль-fells"
  },
  "[http://witn.wikia.com/wiki/North-Kingdom Talisman North-kingdom Talisman]": {
   "src": "draft",
@@ -747,7 +760,7 @@
  },
  "Moria-silver Hammer": {
   "src": "draft",
-  "name": "Мория-Серебряный Молот"
+  "name": "Молот Мория-Серебряный"
  },
  "Flawed Emerald": {
   "src": "draft",
@@ -755,15 +768,15 @@
  },
  "Dunedain Shoulders": {
   "src": "draft",
-  "name": "Dunedain Наплечники"
+  "name": "Наплечники Dunedain"
  },
  "Redwater Shield": {
   "src": "draft",
-  "name": "Redwater Щит"
+  "name": "Щит Redwater"
  },
  "Gold Ingot": {
   "src": "draft",
-  "name": "Золотой Слиток"
+  "name": "Слиток Золотой"
  },
  "Otto's Ring (Easy/Normal)": {
   "src": "draft",
@@ -775,7 +788,7 @@
  },
  "Lore-keeper's Quarterstaff": {
   "src": "draft",
-  "name": "Quarterstaff (Lore-keeper)"
+  "name": "Боевой посох (Знание-Хранитель)"
  },
  "RANGER": {
   "src": "draft",
@@ -783,11 +796,11 @@
  },
  "Amon Torog Shoulders": {
   "src": "draft",
-  "name": "Amon Torog Наплечники"
+  "name": "Наплечники Amon Torog"
  },
  "Eotheod Amulet": {
   "src": "draft",
-  "name": "Eotheod Амулет"
+  "name": "Амулет Eotheod"
  },
  "Galron's Yew Bow": {
   "src": "draft",
@@ -799,7 +812,7 @@
  },
  "Re-spec Token": {
   "src": "draft",
-  "name": "Re-spec Жетон"
+  "name": "Жетон Re-spec"
  },
  "Northland Ranger's Amulet": {
   "src": "draft",
@@ -807,7 +820,7 @@
  },
  "Starlight Blade": {
   "src": "draft",
-  "name": "Starlight Клинок"
+  "name": "Клинок Звёздный"
  },
  "Neldoreth Leg Guards -": {
   "src": "draft",
@@ -823,7 +836,7 @@
  },
  "Lake-town Trinket": {
   "src": "draft",
-  "name": "Lake-town Безделушка"
+  "name": "Безделушка Lake-town"
  },
  "Gram Broadsword": {
   "src": "draft",
@@ -835,7 +848,7 @@
  },
  "Caras Edhel Sabre": {
   "src": "draft",
-  "name": "Caras Edhel Сабля"
+  "name": "Сабля Caras Edhel"
  },
  "Polished Moria silver legs": {
   "src": "draft",
@@ -847,11 +860,11 @@
  },
  "Khazad Talisman": {
   "src": "draft",
-  "name": "Казад Талисман"
+  "name": "Талисман Казад"
  },
  "Silver Statue": {
   "src": "draft",
-  "name": "Серебряный Статуэтка"
+  "name": "Статуэтка Серебряный"
  },
  "Dragon Scale Long Axe": {
   "src": "draft",
@@ -863,7 +876,7 @@
  },
  "Elf-smith's Sword": {
   "src": "draft",
-  "name": "Меч (Elf-smith)"
+  "name": "Меч (Elf-Кузнец)"
  },
  "Elixir of Lethal Striking": {
   "src": "draft",
@@ -871,15 +884,15 @@
  },
  "Warding Potion": {
   "src": "draft",
-  "name": "Warding Зелье"
+  "name": "Зелье Warding"
  },
  "Dwarf-made Trinket": {
   "src": "draft",
-  "name": "Гном-made Безделушка"
+  "name": "Безделушка Гном-made"
  },
  "Barrow-stone Amulet": {
   "src": "draft",
-  "name": "Курган-Каменный Амулет"
+  "name": "Амулет Курган-Каменный"
  },
  "LIFE": {
   "src": "draft",
@@ -891,7 +904,7 @@
  },
  "Midgewater Blade": {
   "src": "draft",
-  "name": "Midgewater Клинок"
+  "name": "Клинок Midgewater"
  },
  "Buri's Longsword": {
   "src": "draft",
@@ -903,15 +916,15 @@
  },
  "Travel-worn Boots": {
   "src": "draft",
-  "name": "Travel-Изношенный Сапоги"
+  "name": "Сапоги Travel-Изношенный"
  },
  "Doriath Bow": {
   "src": "draft",
-  "name": "Doriath Лук"
+  "name": "Лук Doriath"
  },
  "Beorning Bow": {
   "src": "draft",
-  "name": "Beorning Лук"
+  "name": "Лук Beorning"
  },
  "Eleran's Broadsword": {
   "src": "draft",
@@ -923,15 +936,15 @@
  },
  "Deep Rock Trinket": {
   "src": "draft",
-  "name": "Глубокий Камень Безделушка"
+  "name": "Безделушка Глубокий Камень"
  },
  "Bronze Goblet": {
   "src": "draft",
-  "name": "Бронзовый Кубок"
+  "name": "Кубок Бронзовый"
  },
  "Troll-hunter's Heavy Crossbow": {
   "src": "draft",
-  "name": "Heavy Арбалет (Troll-hunter)"
+  "name": "Heavy Арбалет (Тролль-Охотник)"
  },
  "Knight's Signet": {
   "src": "draft",
@@ -939,7 +952,7 @@
  },
  "Large Jeweled Goblet": {
   "src": "draft",
-  "name": "Большой Самоцветный Кубок"
+  "name": "Кубок Большой Самоцветный"
  },
  "Uncut Topaz": {
   "src": "draft",
@@ -951,7 +964,7 @@
  },
  "Carnen Trinket": {
   "src": "draft",
-  "name": "Carnen Безделушка"
+  "name": "Безделушка Carnen"
  },
  "Angmir's Arblest": {
   "src": "draft",
@@ -971,11 +984,11 @@
  },
  "Swanfleet Chestguard": {
   "src": "draft",
-  "name": "Swanfleet Нагрудник"
+  "name": "Нагрудник Swanfleet"
  },
  "Lore-keeper's Bow": {
   "src": "draft",
-  "name": "Лук (Lore-keeper)"
+  "name": "Лук (Знание-Хранитель)"
  },
  "Ring of Ancient Lore": {
   "src": "draft",
@@ -983,7 +996,7 @@
  },
  "Beorning Pauldrons": {
   "src": "draft",
-  "name": "Beorning Наплечники"
+  "name": "Наплечники Beorning"
  },
  "Buri's War Bow": {
   "src": "draft",
@@ -995,7 +1008,7 @@
  },
  "Large Gold Nugget": {
   "src": "draft",
-  "name": "Большой Золотой Самородок"
+  "name": "Самородок Большой Золотой"
  },
  "Northwarden's Amulet": {
   "src": "draft",
@@ -1003,7 +1016,7 @@
  },
  "Health Potion": {
   "src": "draft",
-  "name": "Health Зелье"
+  "name": "Зелье Health"
  },
  "TROLL": {
   "src": "draft",
@@ -1015,7 +1028,7 @@
  },
  "Commander´s Greaves": {
   "src": "draft",
-  "name": "Commander s Поножи"
+  "name": "Поножи (Commander)"
  },
  "Ring of Might": {
   "src": "draft",
@@ -1023,7 +1036,7 @@
  },
  "Orc-hunter's Ring": {
   "src": "draft",
-  "name": "Кольцо (Orc-hunter)"
+  "name": "Кольцо (Орочий-Охотник)"
  },
  "Forest Lord's Staff": {
   "src": "draft",
@@ -1031,15 +1044,15 @@
  },
  "Jeweled Scepter": {
   "src": "draft",
-  "name": "Самоцветный Скипетр"
+  "name": "Скипетр Самоцветный"
  },
  "Gold Ceremonial Dagger": {
   "src": "draft",
-  "name": "Золотой Церемониальный Кинжал"
+  "name": "Кинжал Золотой Церемониальный"
  },
  "Power Potion": {
   "src": "draft",
-  "name": "Сила Зелье"
+  "name": "Зелье Сила"
  },
  "Truesilver Broadsword": {
   "src": "draft",
@@ -1047,11 +1060,11 @@
  },
  "Worn Leather Armor": {
   "src": "draft",
-  "name": "Изношенный Кожа Доспех"
+  "name": "Доспех Изношенный Кожа"
  },
  "Wolf-rider Shortbow": {
   "src": "draft",
-  "name": "Волчий-rider Shortbow"
+  "name": "Волчий-rider Короткий лук"
  },
  "Gold Pipe": {
   "src": "draft",
@@ -1067,23 +1080,23 @@
  },
  "Great Feather": {
   "src": "draft",
-  "name": "Великий Перо"
+  "name": "Перо Великий"
  },
  "Light Leather Armor": {
   "src": "draft",
-  "name": "Светлый Кожа Доспех"
+  "name": "Доспех Светлый Кожа"
  },
  "Large Gold Goblet": {
   "src": "draft",
-  "name": "Большой Золотой Кубок"
+  "name": "Кубок Большой Золотой"
  },
  "Longbeard Ring": {
   "src": "draft",
-  "name": "Longbeard Кольцо"
+  "name": "Кольцо Longbeard"
  },
  "[http://witn.wikia.com/wiki/Golden Golden Wood Pendant]": {
   "src": "draft",
-  "name": "http witn wikia com wiki Золотой Золотой Деревянный Кулон"
+  "name": "Кулон http witn wikia com wiki Золотой Золотой Деревянный"
  },
  "Strong Ale": {
   "src": "draft",
@@ -1103,15 +1116,15 @@
  },
  "Silver Ingot": {
   "src": "draft",
-  "name": "Серебряный Слиток"
+  "name": "Слиток Серебряный"
  },
  "Deepcast Ring": {
   "src": "draft",
-  "name": "Deepcast Кольцо"
+  "name": "Кольцо Deepcast"
  },
  "Imladris Great Shield": {
   "src": "draft",
-  "name": "Имладрис Великий Щит"
+  "name": "Щит Имладрис Великий"
  },
  "Otto's Amulet (Easy/Normal)": {
   "src": "draft",
@@ -1119,7 +1132,7 @@
  },
  "Efficiency Elixir": {
   "src": "draft",
-  "name": "Efficiency Эликсир"
+  "name": "Эликсир Efficiency"
  },
  "Moorland Hunter's Ring": {
   "src": "draft",
@@ -1127,19 +1140,19 @@
  },
  "Emyn Arnen Sabre": {
   "src": "draft",
-  "name": "Emyn Arnen Сабля"
+  "name": "Сабля Emyn Arnen"
  },
  "Homely House Trinket": {
   "src": "draft",
-  "name": "Homely House Безделушка"
+  "name": "Безделушка Homely House"
  },
  "Seer´s Talisman": {
   "src": "draft",
-  "name": "Провидец s Талисман"
+  "name": "Талисман (Провидец)"
  },
  "Celebdil Talisman": {
   "src": "draft",
-  "name": "Celebdil Талисман"
+  "name": "Талисман Celebdil"
  },
  "Silver Pipe": {
   "src": "draft",
@@ -1151,11 +1164,11 @@
  },
  "Dried Fish": {
   "src": "draft",
-  "name": "Dried Рыба"
+  "name": "Рыба Dried"
  },
  "Dwarf-Smith's Ring": {
   "src": "draft",
-  "name": "Кольцо (Dwarf-Smith)"
+  "name": "Кольцо (Гном-Кузнец)"
  },
  "Chipped Ruby": {
   "src": "draft",
@@ -1167,11 +1180,11 @@
  },
  "High Pass Shoulders": {
   "src": "draft",
-  "name": "Высокий Pass Наплечники"
+  "name": "Наплечники Высокий Pass"
  },
  "Jeweled Bracelet": {
   "src": "draft",
-  "name": "Самоцветный Браслет"
+  "name": "Браслет Самоцветный"
  },
  "[http://witn.wikia.com/wiki/Wayfarer's Wayfarer's Talisman]": {
   "src": "draft",
@@ -1187,7 +1200,7 @@
  },
  "Silver Bracelet": {
   "src": "draft",
-  "name": "Серебряный Браслет"
+  "name": "Браслет Серебряный"
  },
  "Rough Sapphire": {
   "src": "draft",
@@ -1207,11 +1220,11 @@
  },
  "Dwarf-smith War Bow": {
   "src": "draft",
-  "name": "Гном-Кузнец Военный Лук"
+  "name": "Лук Гном-Кузнец Военный"
  },
  "Battle-master's Crossbow": {
   "src": "draft",
-  "name": "Арбалет (Battle-master)"
+  "name": "Арбалет (Боевой-Мастер)"
  },
  "Potion of Hardiness": {
   "src": "draft",
@@ -1219,11 +1232,11 @@
  },
  "Downlands Pauldrons": {
   "src": "draft",
-  "name": "Downlands Наплечники"
+  "name": "Наплечники Downlands"
  },
  "Dwarfmade trinket": {
   "src": "draft",
-  "name": "Dwarfmade Безделушка"
+  "name": "Безделушка Dwarfmade"
  },
  "Perfect Ruby": {
   "src": "draft",
@@ -1239,11 +1252,11 @@
  },
  "Gold Nugget": {
   "src": "draft",
-  "name": "Золотой Самородок"
+  "name": "Самородок Золотой"
  },
  "North-warden's Amulet": {
   "src": "draft",
-  "name": "Амулет (North-warden)"
+  "name": "Амулет (Север-Надзиратель)"
  },
  "Hero's Ring": {
   "src": "draft",
@@ -1251,11 +1264,11 @@
  },
  "Mirkwood Mace": {
   "src": "draft",
-  "name": "Лихолесье Булава"
+  "name": "Булава Лихолесье"
  },
  "[http://witn.wikia.com/wiki/Stone-breaker Stone-breaker Amulet]": {
   "src": "draft",
-  "name": "http witn wikia com wiki Каменный-breaker Каменный-breaker Амулет"
+  "name": "Амулет http witn wikia com wiki Каменный-breaker Каменный-breaker"
  },
  "Scout's Ring": {
   "src": "draft",
@@ -1263,11 +1276,11 @@
  },
  "Gold Statue": {
   "src": "draft",
-  "name": "Золотой Статуэтка"
+  "name": "Статуэтка Золотой"
  },
  "[http://witn.wikia.com/wiki/Waters Waters of Bruinen Amulet]": {
   "src": "draft",
-  "name": "http witn wikia com wiki Waters Waters Bruinen Амулет"
+  "name": "Амулет http witn wikia com wiki Waters Waters Bruinen"
  },
  "Battle-worn Scout's Vambraces": {
   "src": "draft",
@@ -1275,11 +1288,11 @@
  },
  "Moria Sword": {
   "src": "draft",
-  "name": "Мория Меч"
+  "name": "Меч Мория"
  },
  "Avengers Band": {
   "src": "draft",
-  "name": "Avengers Обруч"
+  "name": "Обруч Avengers"
  },
  "Raven Adorned War-gear": {
   "src": "draft",
@@ -1287,11 +1300,11 @@
  },
  "Lore-keeper's Shield": {
   "src": "draft",
-  "name": "Щит (Lore-keeper)"
+  "name": "Щит (Знание-Хранитель)"
  },
  "Silver Scepter": {
   "src": "draft",
-  "name": "Серебряный Скипетр"
+  "name": "Скипетр Серебряный"
  },
  "POWER CLAIMING": {
   "src": "draft",
@@ -1307,7 +1320,7 @@
  },
  "[http://witn.wikia.com/wiki/Wood-elf Wood-elf Amulet]": {
   "src": "draft",
-  "name": "http witn wikia com wiki Деревянный-elf Деревянный-elf Амулет"
+  "name": "Амулет http witn wikia com wiki Деревянный-elf Деревянный-elf"
  },
  "WILL": {
   "src": "draft",
@@ -1319,11 +1332,11 @@
  },
  "Battle-master's Shield": {
   "src": "draft",
-  "name": "Щит (Battle-master)"
+  "name": "Щит (Боевой-Мастер)"
  },
  "Dunedain Ring": {
   "src": "draft",
-  "name": "Dunedain Кольцо"
+  "name": "Кольцо Dunedain"
  },
  "Silver Chain Belt": {
   "src": "draft",
@@ -1331,7 +1344,7 @@
  },
  "Fornost Band": {
   "src": "draft",
-  "name": "Форност Обруч"
+  "name": "Обруч Форност"
  },
  "Stalker's Sabre": {
   "src": "draft",
@@ -1351,7 +1364,7 @@
  },
  "Angost Great Sword": {
   "src": "draft",
-  "name": "Angost Великий Меч"
+  "name": "Меч Angost Великий"
  },
  "Hold-keeper": {
   "src": "draft",
@@ -1363,7 +1376,7 @@
  },
  "Restoring Cake": {
   "src": "draft",
-  "name": "Restoring Пирог"
+  "name": "Пирог Restoring"
  },
  "Chipped Sapphire": {
   "src": "draft",
@@ -1375,15 +1388,15 @@
  },
  "Gold Plate": {
   "src": "draft",
-  "name": "Золотой Латы"
+  "name": "Латы Золотой"
  },
  "Dwarf-crafted Crossbow": {
   "src": "draft",
-  "name": "Гном-crafted Арбалет"
+  "name": "Арбалет Гном-crafted"
  },
  "Moria Leggings": {
   "src": "draft",
-  "name": "Мория Поножи"
+  "name": "Поножи Мория"
  },
  "Perfect Emerald": {
   "src": "draft",
@@ -1395,11 +1408,11 @@
  },
  "Troll-hunter's Band": {
   "src": "draft",
-  "name": "Обруч (Troll-hunter)"
+  "name": "Обруч (Тролль-Охотник)"
  },
  "Carn Dum Band": {
   "src": "draft",
-  "name": "Карн Дум Обруч"
+  "name": "Обруч Карн Дум"
  },
  "Gold Pitcher": {
   "src": "draft",
@@ -1407,11 +1420,11 @@
  },
  "Steel-forge Talisman": {
   "src": "draft",
-  "name": "Стальной-forge Талисман"
+  "name": "Талисман Стальной-forge"
  },
  "Woody End Gloves": {
   "src": "draft",
-  "name": "Woody End Перчатки"
+  "name": "Перчатки Woody End"
  },
  "Scatha's Horde Shield": {
   "src": "draft",
@@ -1419,7 +1432,7 @@
  },
  "Elf-made Amulet": {
   "src": "draft",
-  "name": "Elf-made Амулет"
+  "name": "Амулет Elf-made"
  },
  "Amulet of Lune": {
   "src": "draft",
@@ -1435,7 +1448,7 @@
  },
  "Golden Wood Sword": {
   "src": "draft",
-  "name": "Золотой Деревянный Меч"
+  "name": "Меч Золотой Деревянный"
  },
  "Ring of Intellect": {
   "src": "draft",
@@ -1447,15 +1460,15 @@
  },
  "Gold Bracelet": {
   "src": "draft",
-  "name": "Золотой Браслет"
+  "name": "Браслет Золотой"
  },
  "Second Age Ring": {
   "src": "draft",
-  "name": "Второй Эпоха Кольцо"
+  "name": "Кольцо Второй Эпоха"
  },
  "Eastfold Leggings": {
   "src": "draft",
-  "name": "Eastfold Поножи"
+  "name": "Поножи Eastfold"
  },
  "Second Age Longsword": {
   "src": "draft",
@@ -1479,11 +1492,11 @@
  },
  "Jewel-smith Bow": {
   "src": "draft",
-  "name": "Драгоценность-Кузнец Лук"
+  "name": "Лук Драгоценность-Кузнец"
  },
  "Sunlight Ring": {
   "src": "draft",
-  "name": "Sunlight Кольцо"
+  "name": "Кольцо Sunlight"
  },
  "Chipped Diamond": {
   "src": "draft",
@@ -1515,7 +1528,7 @@
  },
  "Battlefield Amulet": {
   "src": "draft",
-  "name": "Battlefield Амулет"
+  "name": "Амулет Battlefield"
  },
  "Silver Urn": {
   "src": "draft",
@@ -1523,7 +1536,7 @@
  },
  "Dwarf-smith's Ring": {
   "src": "draft",
-  "name": "Кольцо (Dwarf-smith)"
+  "name": "Кольцо (Гном-Кузнец)"
  },
  "Deep-vein Helm": {
   "src": "draft",
@@ -1531,7 +1544,7 @@
  },
  "Steadfast Talisman": {
   "src": "draft",
-  "name": "Steadfast Талисман"
+  "name": "Талисман Steadfast"
  },
  "ORC": {
   "src": "draft",
@@ -1539,11 +1552,11 @@
  },
  "Gold Scepter": {
   "src": "draft",
-  "name": "Золотой Скипетр"
+  "name": "Скипетр Золотой"
  },
  "Lorien Vambraces": {
   "src": "draft",
-  "name": "Лориэн Наручи"
+  "name": "Наручи Лориэн"
  },
  "Lorien Spaulders": {
   "src": "draft",
@@ -1551,7 +1564,7 @@
  },
  "Jeweled Belt": {
   "src": "draft",
-  "name": "Самоцветный Пояс"
+  "name": "Пояс Самоцветный"
  },
  "Cut Emerald": {
   "src": "draft",
@@ -1559,7 +1572,7 @@
  },
  "Rejuvenation Potion": {
   "src": "draft",
-  "name": "Rejuvenation Зелье"
+  "name": "Зелье Rejuvenation"
  },
  "Iron Shod Shoe": {
   "src": "draft",
