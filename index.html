@@ -49,6 +49,7 @@ main{display:grid;grid-template-columns:1fr 320px;gap:12px;padding:12px;max-widt
 .stone-cell{width:36px;height:36px;border:2px dashed var(--purple);border-radius:7px;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:17px;background:rgba(155,89,182,.10);color:var(--purple)}
 .stone-cell.full{border-style:solid;border-color:var(--purple);color:#d8aef0;background:rgba(155,89,182,.28);box-shadow:0 0 6px rgba(155,89,182,.5)}
 .stone-cell:hover{border-color:#d8aef0;background:rgba(155,89,182,.22)}
+.stone-chip{display:flex;justify-content:space-between;gap:6px;align-items:center;border:1px solid var(--purple);border-radius:6px;padding:4px 8px;font-size:11.5px;color:#d8aef0;background:rgba(155,89,182,.14);margin-top:4px}
 /* === карточка навыка === */
 .tree{border:1px solid var(--brown);border-radius:8px;margin-bottom:10px;overflow:hidden}
 .tree>header{display:flex;justify-content:space-between;padding:7px 10px;background:var(--panel2)}
@@ -141,8 +142,8 @@ footer{padding:10px 16px;color:var(--dim);font-size:11.5px;border-top:1px solid 
 <script>
 /* ================= I18N ================= */
 const I18N={
-en:{skills:"Skills",gear:"Equipment",squad:"Squad",build:"Build",loading:"Loading database…",conn:"connecting…",done:"Done",loadError:"Load error",refresh:" — refresh the page",heroes:"Heroes",items:"Items",skillpts:"Skill points",attrpts:"Attribute points",attrs:"Attributes",level:"Level",hero:"Hero",search:"Search…",weapons:"Weapons",armor:"Armor",sets:"Sets",potions:"Potions",ingredients:"Ingredients",bossloot:"Boss loot",stones:"Elf stones",best:"Best gear",all:"All",anyq:"Any quality",head:"Head",shoulders:"Shoulders",body:"Body",gloves:"Gloves",legs:"Leggings",boots:"Boots",rings:"Rings",amulets:"Amulets",equip:"Equip",unequip:"Unequip",toSlot:"Equip to",slots:"Slots",hp:"Health",power:"Power",armorS:"Armor",melee:"Melee damage",ranged:"Ranged damage",arrows:"Arrows",elems:"Elements",lockedBy2H:"taken by two-handed weapon",tier1:"Tier 1 · opens the branch",tierOpen:"✓ open",tierNeed:"🔒 need",ptsIn:"pts in",active:"Active",passive:"Passive",upToRanks:"up to",ranks:"ranks",points:"pts",treePts:"pts",tiersOpened:"tiers",strength:"Strength",will:"Will",dexterity:"Dexterity",stamina:"Stamina",export:"Export build",imp:"Import",reset:"Reset",badJson:"Invalid JSON",resetQ:"Reset the build?",mainhand:"Main hand",offhand:"Off-hand / shield",rangedSlot:"Ranged",pickStone:"Choose an elf stone",stoneSlot:"Elf stones",grade:"Grade",set:"Set",source:"Source",loot:"Loot",req:"Requirements",bonusPerGrade:"values by grade",noData:"No data.",effects:"EFFECTS",durability:"Durability",value:"Value",lvreq:"Lv req",strreq:"STR req",dexreq:"DEX req",wilreq:"WIL req",stareq:"STA req",piecesShort:"pc",lootSrc:"Loot",groupAttrs:"Primary Character Attributes",groupStats:"Class Statistics",groupCombat:"Combat Effects",groupElem:"Elemental Effects",groupBane:"Creature Bane Effects",groupSec:"Secondary Statistics and Effects",useAll:"All",useMelee:"Melee",useWeapon:"Weapon",stoneInserted:"stones inserted",tiersOf:"tiers",rangedSlotMage:"Magic (staff)",andrielNoRanged:"Andriel has no ranged weapon: she shoots magic bolts spending Power",magicRanged:"magic bolt"},
-ru:{skills:"Навыки",gear:"Снаряжение",squad:"Отряд",build:"Билд",loading:"Загрузка базы данных…",conn:"подключение…",done:"Готово",loadError:"Ошибка загрузки",refresh:" — обновите страницу",heroes:"Навыки героев",items:"Предметы",skillpts:"Очки навыков",attrpts:"Очки атрибутов",attrs:"Атрибуты",level:"Уровень",hero:"Герой",search:"Поиск…",weapons:"Оружие",armor:"Броня",sets:"Сеты",potions:"Зелья",ingredients:"Ингредиенты",bossloot:"Лут боссов",stones:"Камни",best:"Лучшее",all:"Все",anyq:"Любое кач.",head:"Голова",shoulders:"Плечи",body:"Тело",gloves:"Перчатки",legs:"Поножи",boots:"Сапоги",rings:"Кольца",amulets:"Амулеты",equip:"Надеть",unequip:"Снять",toSlot:"Надеть в",slots:"Слоты",hp:"Здоровье",power:"Мощь",armorS:"Броня",melee:"Урон ближний",ranged:"Урон дальний",arrows:"Стрелы",elems:"Стихии",lockedBy2H:"занято двуручным оружием",tier1:"Тир 1 · открывает ветку",tierOpen:"✓ открыт",tierNeed:"🔒 нужно",ptsIn:"очк. в",active:"Активный",passive:"Пассивный",upToRanks:"до",ranks:"ранг.",points:"очк.",treePts:"очк.",tiersOpened:"тиров",strength:"Strength",will:"Will",dexterity:"Dexterity",stamina:"Stamina",export:"Экспорт билда",imp:"Импорт",reset:"Сброс",badJson:"Неверный JSON",resetQ:"Сбросить билд?",mainhand:"Оружие (правая)",offhand:"Вторая рука / щит",rangedSlot:"Дальний бой",pickStone:"Выбор камня-эльфа",stoneSlot:"Камни-эльфы",grade:"Грейд",set:"Набор",source:"Источник",loot:"Лут",req:"Требования",bonusPerGrade:"значения по грейдам",noData:"Нет данных.",effects:"ЭФФЕКТЫ",durability:"Прочность",value:"Цена",lvreq:"Треб. ур.",strreq:"Треб. СИЛ",dexreq:"Треб. ЛОВ",wilreq:"Треб. ВОЛ",stareq:"Треб. ВЫН",piecesShort:"предм.",lootSrc:"Лут",groupAttrs:"Основные атрибуты",groupStats:"Классовые характеристики",groupCombat:"Боевые эффекты",groupElem:"Стихийные эффекты",groupBane:"Урон существам",groupSec:"Вторичные характеристики",useAll:"Все",useMelee:"Ближний бой",useWeapon:"Оружие",stoneInserted:"камней вставлено",tiersOf:"ярусов",rangedSlotMage:"Магия (посох)",andrielNoRanged:"У Андриэль нет оружия дальнего боя: она стреляет магическими сгустками, тратя Мощь",magicRanged:"магический сгусток"}
+en:{skills:"Skills",gear:"Equipment",squad:"Squad",build:"Build",loading:"Loading database…",conn:"connecting…",done:"Done",loadError:"Load error",refresh:" — refresh the page",heroes:"Heroes",items:"Items",skillpts:"Skill points",attrpts:"Attribute points",attrs:"Attributes",level:"Level",hero:"Hero",search:"Search…",weapons:"Weapons",armor:"Armor",sets:"Sets",potions:"Potions",ingredients:"Ingredients",bossloot:"Boss loot",stones:"Elf stones",best:"Best gear",all:"All",anyq:"Any quality",head:"Head",shoulders:"Shoulders",body:"Body",gloves:"Gloves",legs:"Leggings",boots:"Boots",rings:"Rings",amulets:"Amulets",equip:"Equip",unequip:"Unequip",toSlot:"Equip to",slots:"Slots",hp:"Health",power:"Power",armorS:"Armor",melee:"Melee damage",ranged:"Ranged damage",arrows:"Arrows",elems:"Elements",lockedBy2H:"taken by two-handed weapon",tier1:"Tier 1 · opens the branch",tierOpen:"✓ open",tierNeed:"🔒 need",ptsIn:"pts in",active:"Active",passive:"Passive",upToRanks:"up to",ranks:"ranks",points:"pts",treePts:"pts",tiersOpened:"tiers",strength:"Strength",will:"Will",dexterity:"Dexterity",stamina:"Stamina",export:"Export build",imp:"Import",reset:"Reset",badJson:"Invalid JSON",resetQ:"Reset the build?",mainhand:"Right hand",offhand:"Left hand",rangedSlot:"Ranged",pickStone:"Choose an elf stone",stoneSlot:"Elf stones",grade:"Grade",set:"Set",source:"Source",loot:"Loot",req:"Requirements",bonusPerGrade:"values by grade",noData:"No data.",effects:"EFFECTS",durability:"Durability",value:"Value",lvreq:"Lv req",strreq:"STR req",dexreq:"DEX req",wilreq:"WIL req",stareq:"STA req",piecesShort:"pc",lootSrc:"Loot",groupAttrs:"Primary Character Attributes",groupStats:"Class Statistics",groupCombat:"Combat Effects",groupElem:"Elemental Effects",groupBane:"Creature Bane Effects",groupSec:"Secondary Statistics and Effects",useAll:"All",useMelee:"Melee",useWeapon:"Weapon",stoneInserted:"stones inserted",tiersOf:"tiers",rangedSlotMage:"Magic (staff)",andrielNoRanged:"Andriel has no ranged weapon: she shoots magic bolts spending Power",magicRanged:"magic bolt"},
+ru:{skills:"Навыки",gear:"Снаряжение",squad:"Отряд",build:"Билд",loading:"Загрузка базы данных…",conn:"подключение…",done:"Готово",loadError:"Ошибка загрузки",refresh:" — обновите страницу",heroes:"Навыки героев",items:"Предметы",skillpts:"Очки навыков",attrpts:"Очки атрибутов",attrs:"Атрибуты",level:"Уровень",hero:"Герой",search:"Поиск…",weapons:"Оружие",armor:"Броня",sets:"Сеты",potions:"Зелья",ingredients:"Ингредиенты",bossloot:"Лут боссов",stones:"Камни",best:"Лучшее",all:"Все",anyq:"Любое кач.",head:"Голова",shoulders:"Плечи",body:"Тело",gloves:"Перчатки",legs:"Поножи",boots:"Сапоги",rings:"Кольца",amulets:"Амулеты",equip:"Надеть",unequip:"Снять",toSlot:"Надеть в",slots:"Слоты",hp:"Здоровье",power:"Мощь",armorS:"Броня",melee:"Урон ближний",ranged:"Урон дальний",arrows:"Стрелы",elems:"Стихии",lockedBy2H:"занято двуручным оружием",tier1:"Тир 1 · открывает ветку",tierOpen:"✓ открыт",tierNeed:"🔒 нужно",ptsIn:"очк. в",active:"Активный",passive:"Пассивный",upToRanks:"до",ranks:"ранг.",points:"очк.",treePts:"очк.",tiersOpened:"тиров",strength:"Strength",will:"Will",dexterity:"Dexterity",stamina:"Stamina",export:"Экспорт билда",imp:"Импорт",reset:"Сброс",badJson:"Неверный JSON",resetQ:"Сбросить билд?",mainhand:"Правая рука",offhand:"Левая рука",rangedSlot:"Дальний бой",pickStone:"Выбор камня-эльфа",stoneSlot:"Камни-эльфы",grade:"Грейд",set:"Набор",source:"Источник",loot:"Лут",req:"Требования",bonusPerGrade:"значения по грейдам",noData:"Нет данных.",effects:"ЭФФЕКТЫ",durability:"Прочность",value:"Цена",lvreq:"Треб. ур.",strreq:"Треб. СИЛ",dexreq:"Треб. ЛОВ",wilreq:"Треб. ВОЛ",stareq:"Треб. ВЫН",piecesShort:"предм.",lootSrc:"Лут",groupAttrs:"Основные атрибуты",groupStats:"Классовые характеристики",groupCombat:"Боевые эффекты",groupElem:"Стихийные эффекты",groupBane:"Урон существам",groupSec:"Вторичные характеристики",useAll:"Все",useMelee:"Ближний бой",useWeapon:"Оружие",stoneInserted:"камней вставлено",tiersOf:"ярусов",rangedSlotMage:"Магия (посох)",andrielNoRanged:"У Андриэль нет оружия дальнего боя: она стреляет магическими сгустками, тратя Мощь",magicRanged:"магический сгусток"}
 };
 let LANG=localStorage.getItem("witn-lang")||"ru";
 function t(k){return (I18N[LANG]&&I18N[LANG][k])||I18N.en[k]||k;}
@@ -154,7 +155,7 @@ function D(rec){ // описание с учётом языка
 /* ================= МОДЕЛЬ ================= */
 const DB={heroes:{},items:{sets:[],weapons:[],armor:[],potions:[],ingredients:[],boss_loot:[],elf_stones:[],best_gear:[]}};
 RU_DESC={};
-const build={hero:"Eradan",level:20,attrs:{str:0,wil:0,dex:0,sta:0},skills:{},gear:{slots:{mainhand:null,offhand:null,ranged:null,head:null,shoulders:null,body:null,gloves:null,legs:null,boots:null,amulet:null,ring1:null,ring2:null},stones:{}}};
+const build={hero:"Eradan",level:40,attrs:{str:0,wil:0,dex:0,sta:0},skills:{},gear:{slots:{mainhand:null,offhand:null,ranged:null,head:null,shoulders:null,body:null,gloves:null,legs:null,boots:null,amulet:null,ring1:null,ring2:null},stones:{}}};
 const SLOTORDER=["mainhand","offhand","ranged","head","shoulders","body","gloves","legs","boots","amulet","ring1","ring2"];
 const SLOTNAMES={mainhand:"mainhand",offhand:"offhand",ranged:"rangedSlot",head:"head",shoulders:"shoulders",body:"body",gloves:"gloves",legs:"legs",boots:"boots",amulet:"amulets",ring1:"rings",ring2:"rings"};
 const SLOTI18N={mainhand:"mainhand",offhand:"offhand",ranged:"rangedSlot"};
@@ -179,7 +180,7 @@ async function load(){
  try{
   for(let i=0;i<steps.length;i++){
    setStage((steps[i][1]==="hero"?t("heroes"):steps[i][1]==="i18n"?"i18n":t("items"))+": "+steps[i][0].split("/")[1]+"…",Math.round(i/steps.length*100));
-   const url="data/raw/"+steps[i][0]+".json";
+   const url=steps[i][1]==="i18n"?"data/i18n/ru_desc.json":"data/raw/"+steps[i][0]+".json";
    try{
     const d=await(await(fetch(url))).json();
     if(steps[i][1]==="hero")DB.heroes[steps[i][0].split("/")[1][0].toUpperCase()+steps[i][0].split("/")[1].slice(1)]=d;
@@ -390,8 +391,10 @@ function equipWeapon(rec){
  }else{
   const mh=findItem(g.mainhand);
   const dw=((build.skills["Dual Wield"]||{}).rank||0)>0;
-  if(mh&&!(mh.type||"").match(/2-handed|staff/i)&&g.mainhand!==nm&&dw)g.offhand=g.offhand===nm?null:nm;
-  else g.mainhand=g.mainhand===nm?null:nm;
+  if(mh&&!(mh.type||"").match(/2-handed|staff/i)&&dw){
+   if(g.mainhand===nm){if(g.offhand===nm)g.offhand=null;else g.offhand=nm;}
+   else g.offhand=g.offhand===nm?null:nm;
+  }else g.mainhand=g.mainhand===nm?null:nm;
  }
  save();render();
 }
@@ -436,7 +439,7 @@ function renderSide(){
    if(build.gear.slots[sl]==="2H")return `<div class="gear-slot" style="opacity:.55"><b>${t(SLOTI18N[sl]||sl)}:</b> <span style='color:var(--dim)'>${t("lockedBy2H")}</span></div>`;
    const it=findItem(build.gear.slots[sl]);
    const stones=(build.gear.stones[sl]||[]);
-   const stLine=stones.length?`<div class="mini-stones">${t("stoneSlot")}: ${stones.map(s=>esc(s.name)+(s.grade&&s.grade!=="normal"?"("+s.grade+")":"")).join(", ")}</div>`:"";
+   const stLine=stones.length?`<div class="mini-stones">${t("stoneSlot")}: ${stones.map(s=>esc(LANG==="ru"?(RU_DESC[s.name]&&RU_DESC[s.name].name)||s.name:s.name)+(s.grade&&s.grade!=="normal"?"("+esc(trFx(s.grade))+")":"")).join(", ")}</div>`:"";
    const slLabel=sl==="ranged"?rangedSlotName():t(SLOTI18N[sl]||sl);
    const slTitle=sl==="ranged"&&build.hero==="Andriel"?` title="${esc(t("andrielNoRanged"))}"`:"";
    return `<div class="gear-slot" data-un="${sl}"${slTitle}><b>${slLabel}:</b> ${it?esc(LANG==="ru"?N(it):it.name):"<span style='color:var(--dim)'>—</span>"} ${it?'<span style="float:right">×</span>':""}${stLine}</div>`;}).join("");
@@ -511,23 +514,27 @@ function itemCard(r){
  const stones=(build.gear.stones[nm]||[]);
  let stoneHtml="";
  if(nslots>0){
-  stoneHtml=`<div class="stone-row">${t("stoneSlot")}:
-   ${Array.from({length:nslots},(_,i)=>{
+  const cells=Array.from({length:nslots},(_,i)=>{
     const st=stones[i];
-    return st?`<span class="stone-cell full" data-stone-un="${nm}" data-idx="${i}" title="${esc(st.name)}${st.grade&&st.grade!=="normal"?" ("+st.grade+")":""} — click to remove">◆</span>`
-             :`<span class="stone-cell" data-stone="${nm}" data-idx="${i}" title="${t("pickStone")}">+</span>`;}).join("")}
-  </div>`;
+    return st?`<span class="stone-cell full" data-stone-un="${nm}" data-idx="${i}" title="${esc(LANG==="ru"?(RU_DESC[st.name]&&RU_DESC[st.name].name)||st.name:st.name)} — ${LANG==="ru"?"нажмите, чтобы извлечь":"click to remove"}">◆</span>`
+             :`<span class="stone-cell" data-stone="${nm}" data-idx="${i}" title="${t("pickStone")}">+</span>`;}).join("");
+  const chips=stones.map((st,i)=>{
+    const sd=(DB.items.elf_stones||[]).find(x=>x.name===st.name);
+    const nm2=LANG==="ru"?(RU_DESC[st.name]&&RU_DESC[st.name].name)||st.name:st.name;
+    const v=sd&&sd.values?(sd.values[st.grade]??sd.values.normal):"";
+    return `<div class="stone-chip">◆ ${esc(nm2)}${st.grade&&st.grade!=="normal"?" · "+esc(trFx(st.grade)):""}${v!==""?" — "+esc(v):""}${sd&&sd.effect&&sd.effect!==st.name?" "+esc(trFx(sd.effect)):""} <span data-stone-un="${nm}" data-idx="${i}" style="cursor:pointer;color:var(--dim)">✕</span></div>`;}).join("");
+  stoneHtml=`<div class="stone-row">${t("stoneSlot")}: ${cells}</div>${chips}`;
  }
  let btn;
  if(tab.eqType==="weapons"||tab.eqType==="boss_loot"){
   const is2H=(r.type||"").match(/2-handed|staff/i);
   const target=is2H?t("mainhand"):(r.type||"").match(/bow|crossbow/i)?t("rangedSlot"):(r.type||"").match(/shield/i)?t("offhand"):t("mainhand");
-  btn=`<button class="btn" data-eq-w="${esc(nm)}">${isSel?t("unequip"):t("toSlot")+" "+target}</button>`;
+  btn=`<button class="btn" data-eq-w="${esc(nm)}">${isSel?t("unequip"):t("equip")}</button>`;
  }else if(tab.eqType==="armor"||tab.eqType==="best_gear"){
   const s=String(r.slot||"").toLowerCase();
   let slotKey=ARMORSLOTMAP[s];
   if(s==="rings"||s==="ring")slotKey="ring1";
-  btn=slotKey?`<button class="btn" data-eq-a="${esc(nm)}" data-slot="${slotKey}">${isSel?t("unequip"):t("toSlot")+" "+t(SLOTI18N[slotKey]||slotKey)}</button>`:"";
+  btn=slotKey?`<button class="btn" data-eq-a="${esc(nm)}" data-slot="${slotKey}">${isSel?t("unequip"):t("equip")}</button>`:"";
  }
  return `<div class="item-card ${isSel?"selected":""}">
   <div class="item-head">${icon(r,"🛡")}
@@ -618,13 +625,14 @@ function viewBuild(){
 function openStonePicker(itemName,idx){
  const stones=DB.items.elf_stones||[];
  const m=document.createElement("div");m.className="modal";
- m.innerHTML=`<div class="modal-box"><h3>${t("pickStone")} — ${esc(itemName)} [${idx+1}]</h3>`+
+ m.innerHTML=`<div class="modal-box"><h3>${t("pickStone")} — ${esc(LANG==="ru"?(RU_DESC[itemName]&&RU_DESC[itemName].name)||itemName:itemName)} [${idx+1}]</h3>`+
   stones.map(s=>`<div class="stone-pick" data-pick="${esc(s.name)}">
-   <div><b>${esc(s.name)}</b> <span class="gr">${esc(s.group)} · ${esc(s.usability)}</span><br>
-   <span class="gr">${Object.entries(s.values).map(([g,v])=>g+": "+v).join(" · ")}</span></div>
+   <div><b>${esc(LANG==="ru"?(RU_DESC[s.name]&&RU_DESC[s.name].name)||s.name:s.name)}</b> <span class="gr">${esc(trGroup(s.group))} · ${esc(trUse(s.usability))}</span><br>
+   <span class="gr">${Object.entries(s.values).map(([g,v])=>esc(trFx(g))+": "+esc(v)).join(" · ")}</span></div>
   </div>`).join("")+
-  `<button class="btn sm" data-close="1" style="margin-top:8px">✕</button></div>`;
+  `<button class="btn sm" data-close="1" style="margin-top:8px">✕ ${LANG==="ru"?"Закрыть":"Close"}</button></div>`;
  document.body.appendChild(m);
+ m.onclick=e=>{if(e.target===m)document.body.removeChild(m);};
  m.querySelectorAll("[data-pick]").forEach(x=>x.onclick=()=>{
   const name=x.dataset.pick;
   if(!build.gear.stones[itemName])build.gear.stones[itemName]=[];

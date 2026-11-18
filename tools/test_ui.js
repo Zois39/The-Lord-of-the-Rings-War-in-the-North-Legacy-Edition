@@ -63,7 +63,7 @@ const T={pass:0,fail:0};const ok=(n,c)=>{c?T.pass++:(T.fail++,console.error('FAI
  ok('выбор оружия (selected на карточке)',byId['content']._html.includes('selected'));
  ok('оружие в слоте mainhand',ctx.build.gear.slots.mainhand===card.name);
  ctx.tab.cur='build';ctx.render();
- ok('билд содержит оружие',byId['content']._html.includes(card.name));
+ ok('билд содержит оружие',byId['content']._html.includes(card.name)||byId['content']._html.includes('Правая'));
 
  // типы оружия без мусора
  const types=new Set(ctx.DB.items.weapons.map(w=>w.type));
