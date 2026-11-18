@@ -1,24 +1,27 @@
 {
  "Evasion": {
-  "text": "Перекат в выбранном направлении: уклонение от атак и выход из-под удара.",
-  "src": "draft"
+  "text": "По активации Эрадан на несколько секунд становится невидимым для врагов, но любая атака тут же его выдаёт.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Уклонение"
  },
  "Onslaught": {
   "text": "Серия из четырёх ударов с повышенным уроном; ранги усиливают каждый удар.",
   "src": "draft"
  },
  "Critical Wound": {
-  "text": "Критические удары наносят дополнительный урон; растёт с рангами.",
-  "src": "draft"
+  "text": "Повышает частоту критических ударов и урон в режиме героизма.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Смертельные раны"
  },
  "Respite": {
-  "text": "Ускоренное восстановление запаса сил между боями.",
-  "src": "draft"
+  "text": "Повышает скорость регенерации здоровья и мощи в режиме уклонения (незначительно).",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Передышка"
  },
  "Smoke and flame": {
-  "text": "Дымовая завеса: сбивает врагам цель, позволяет уйти в скрытность; поздние ранги добавляют огонь.",
-  "src": "draft",
-  "name": "Smoke Пламенный"
+  "text": "Вход в режим уклонения сопровождается броском фосфорной бомбы, оглушающей врагов в небольшом радиусе; длительность растёт с развитием навыка.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Дым и пламя"
  },
  "Stealth Mastery": {
   "text": "Скорость в скрытности и урон из засады растут с рангами.",
@@ -30,287 +33,323 @@
   "name": "Evasive Враг"
  },
  "Ranger Strike": {
-  "text": "Быстрый двойной удар двумя клинками.",
-  "src": "draft",
-  "name": "Рейнджер Strike"
+  "text": "Рубящий удар сверху вниз, наносящий усиленный урон одному противнику прямо перед Эраданом.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Следопытская хитрость"
  },
  "Dual Wield": {
-  "text": "Позволяет сражаться двумя одноручными оружиями.",
-  "src": "draft"
+  "text": "Позволяет держать в каждой руке по одноручному оружию; следующие ранги увеличивают урон.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Парное оружие"
  },
  "Combat Training": {
-  "text": "Пассивный бонус к урону ближнего боя.",
-  "src": "draft"
+  "text": "Увеличивает урон от «Следопытской хитрости».",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Боевая подготовка"
  },
  "Heavy Weapons": {
-  "text": "Двуручное оружие: +6 к макс. и +140 к мин. урону за ранг (макс 3).",
-  "src": "draft"
+  "text": "Усиливает повреждения двуручным оружием.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Тяжелое оружие"
  },
  "Dual Strike": {
-  "text": "Удар обоими оружиями одновременно.",
-  "src": "draft"
+  "text": "Круговой удар, бьющий всех окружающих; работает только с парными клинками.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Двойной удар"
  },
  "Blood of Westernesse": {
-  "text": "Кровь Дунаданов: усиливает исцеление, частичная устойчивость к проклятиям.",
-  "src": "draft",
-  "name": "Кровь Westernesse"
+  "text": "На каждом уровне вдвое уменьшает время перезарядки активных навыков.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Нуменорская кровь"
  },
  "Cleave": {
-  "text": "Широкий удар по нескольким врагам перед рейнджером.",
-  "src": "draft"
+  "text": "Круговой удар для двуручного оружия.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Рубящий удар"
  },
  "Might of the Dunedain": {
-  "text": "Заметно увеличивает максимальное здоровье.",
-  "src": "draft",
-  "name": "Мощь Dunedain"
+  "text": "Каждый смертельный удар временно увеличивает силу Эрадана; растут прибавка и время эффекта.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Мощь дунэдайн"
  },
  "Assail": {
-  "text": "Стремительная серия ударов, пробивающая блок.",
-  "src": "draft"
+  "text": "Активное умение из блока: перекат вперёд с круговым ударом — позволяет выйти из окружения.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Контратака"
  },
  "Agility": {
-  "text": "Повышает ловкость и скорость перекатов.",
-  "src": "draft"
+  "text": "Броня следопыта усиливается в зависимости от ловкости.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Проворство"
  },
  "Heavy Shot": {
-  "text": "Прицельный выстрел с повышенным уроном.",
-  "src": "draft"
+  "text": "Усиленный выстрел: зажать кнопку до полного сведения прицела; ранний выстрел — обычный, без траты мощи.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Мощный выстрел"
  },
  "Bow Mastery": {
-  "text": "Пассивный бонус урону лука.",
-  "src": "draft",
-  "name": "Лук Mastery"
+  "text": "Усиливает урон луков и увеличивает скорость, с которой Эрадан тянет стрелы из колчана.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Опытный лучник"
  },
  "Broad Quiver": {
-  "text": "+10 стрел за каждый ранг.",
-  "src": "draft",
-  "name": "Broad Колчан"
+  "text": "Каждый уровень увеличивает максимальное количество стрел (по гайду — на 20).",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Большой колчан"
  },
  "Stunning Shot": {
-  "text": "Оглушающий выстрел; длительность растёт с рангами.",
-  "src": "draft"
+  "text": "Стрела, оглушающая противника и открывающая его для критической атаки; длительность растёт с уровнем.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Оглушающий выстрел"
  },
  "Precision Aura": {
-  "text": "Аура меткости для всего отряда.",
-  "src": "draft"
+  "text": "Увеличивает урон выстрелами в голову следопыта и напарников; пассивно.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Взаимная поддержка"
  },
  "Volley": {
-  "text": "Залп по области.",
-  "src": "draft"
+  "text": "Несколько стрел, автоматически наводящихся на случайных врагов в поле зрения; число стрел растёт с уровнем.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Залп"
  },
  "Piercing shot": {
-  "text": "Пробивающий выстрел по линии.",
-  "src": "draft"
+  "text": "Усиливает мощный выстрел, снижает перезарядку и добавляет кровотечение.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Пронзающий выстрел"
  },
  "Sanctuary": {
-  "text": "Защитный купол вокруг отряда, поглощает урон.",
-  "src": "draft"
+  "text": "Энергетический купол: защищает от дистанционных атак, но не от мечей и топоров.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Укрытие"
  },
  "Healing Light": {
-  "text": "Исцеляет союзников в области; сила растёт с рангами.",
-  "src": "draft",
-  "name": "Исцеляющее Светлый"
+  "text": "Наделяет купол исцеляющими свойствами: соратники в зоне действия восстанавливают здоровье.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Исцеляющий свет"
  },
  "Preservation": {
-  "text": "Усиливает все исцеляющие умения Андриэль.",
-  "src": "draft"
+  "text": "Уменьшает расход энергии на способности — у самой Андриэль и союзников.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Сохранение могущества"
  },
  "Focus Mind": {
-  "text": "Ускоряет восстановление мощи.",
-  "src": "draft",
-  "name": "Focus Разум"
+  "text": "Ускоряет восстановление магической энергии.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Сосредоточение"
  },
  "Shielding Light": {
-  "text": "Усиленный купол с периодическим исцелением.",
-  "src": "draft",
-  "name": "Shielding Светлый"
+  "text": "Активируемая способность: при удачном блокировании повышает уровень защиты Андриэль.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Щит света"
  },
  "Sanctuary Mastery": {
-  "text": "Радиус и прочность купола растут.",
-  "src": "draft"
+  "text": "Увеличивает время существования защитного купола.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Надёжное укрытие"
  },
  "Heal": {
-  "text": "Мгновенное мощное исцеление; высокие ранги снимают эффекты.",
-  "src": "draft"
+  "text": "После заблокированного удара восстанавливает здоровье находящихся рядом спутников.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Исцеление"
  },
  "Word of Command": {
-  "text": "Слово силы: урон и прерывание заклинаний врага (15 power).",
-  "src": "draft",
-  "name": "Word Command"
+  "text": "Вызывает магическую волну, наносящую урон всем противникам по кругу.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Слово власти"
  },
  "Clarity": {
-  "text": "−5% к стоимости умений за ранг.",
-  "src": "draft"
+  "text": "Позволяет применить любой следующий навык без затрат энергии, не дожидаясь восстановления.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Неутомимость"
  },
  "Loremaster's Reach": {
-  "text": "Увеличивает дальность умений.",
-  "src": "draft",
-  "name": "Reach (Хранитель знаний)"
+  "text": "Увеличивает радиус действия «слова власти» и «урагана».",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Мудрость ведуньи"
  },
  "Tempest": {
-  "text": "Вихрь стихии по области.",
-  "src": "draft"
+  "text": "После заблокированного удара вызывает на врага гнев природных сил: энергетическая волна наносит урон и отбрасывает.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Ураган"
  },
  "Smite": {
-  "text": "Небесный удар по цели с оглушением.",
-  "src": "draft"
+  "text": "Сокрушительный магический удар по одной цели; с развитием урон получают и враги поблизости.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Молот заклятья"
  },
  "Quick-Minded": {
-  "text": "Сокращает перезарядку активных умений.",
-  "src": "draft"
+  "text": "Уменьшает время восстановления прочих способностей.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Быстрое восстановление"
  },
  "Strength of Will": {
-  "text": "Увеличивает максимальную мощь.",
-  "src": "draft",
-  "name": "Strength Воля"
+  "text": "Дух Андриэль становится дополнительной защитой: броня растёт в зависимости от воли.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Сила воли"
  },
  "Renewed Power": {
-  "text": "Восстанавливает мощь всего отряда.",
-  "src": "draft",
-  "name": "Renewed Сила"
+  "text": "Каждый смертельный удар способностями увеличивает запас энергии эльфийки.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Восстановление могущества"
  },
  "Sundering Command": {
-  "text": "Снижает защиту врагов.",
-  "src": "draft"
+  "text": "После «слова власти» расходится ещё одна волна: дополнительный урон и сбивание с ног.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Власть над толпой"
  },
  "Staff and Steel": {
-  "text": "Боевые удары посохом с магическим уроном.",
-  "src": "draft",
-  "name": "Посох Стальной"
+  "text": "Андриэль использует одноручное оружие вместе с посохом; общий урон увеличивается.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Меч и посох"
  },
  "Empower Staff": {
-  "text": "Вкладывает мощь в посох, усиливая следующее заклинание.",
-  "src": "draft",
-  "name": "Empower Посох"
+  "text": "Усиленный магический выстрел посоха: при зажатой кнопке выстрел внушительнее и поражает соседних врагов.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Посох могущества"
  },
  "Staff Mastery": {
-  "text": "Бонус к урону посоха в ближнем бою.",
-  "src": "draft",
-  "name": "Посох Mastery"
+  "text": "Атаки посохом в ближнем бою наносят гораздо больше повреждений.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Мастер посоха"
  },
  "Magnify Staff": {
-  "text": "Усиливает эффекты Empower Staff.",
-  "src": "draft",
-  "name": "Magnify Посох"
+  "text": "Увеличивает скорость накопления зарядов в посохе и урон.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Посох силы"
  },
  "Elemental Affinity": {
-  "text": "Сопротивление стихиям и усиление стихийного урона.",
-  "src": "draft"
+  "text": "Удлиняет время действия огненных, ледяных и электрических заклинаний.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Связь со стихиями"
  },
  "Wrath of the Eldar": {
-  "text": "Мощная волна урона вокруг.",
-  "src": "draft",
-  "name": "Wrath Eldar"
+  "text": "Андриэль уничтожает свой защитный купол — сопровождается взрывом, повреждающим всех врагов в радиусе.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Гнев эльдар"
  },
  "Forceful Fire": {
-  "text": "Огненный снаряд с поджогом.",
-  "src": "draft",
-  "name": "Forceful Огонь"
+  "text": "Выстрелы союзников из-под купола наносят дополнительный урон.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Зачарованные стрелы"
  },
  "Burst of Light": {
-  "text": "Взрыв света: отбрасывает и ослепляет врагов.",
-  "src": "draft",
-  "name": "Burst Светлый"
+  "text": "Сгусток чистой энергии: движется медленно, но наносит большой урон; можно подорвать досрочно повторным нажатием.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Сгусток света"
  },
  "War-cry": {
-  "text": "Боевой клич отряда: усиление союзников и сбивание врагов (15 power).",
-  "src": "draft",
-  "name": "Военный-cry"
+  "text": "«Барук казад!»: временно увеличивает урон в ближнем бою, усиливает защиту и поднимает здоровье.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Боевой клич"
  },
  "Dwarf Armor": {
-  "text": "Больше защиты в тяжёлой броне.",
-  "src": "draft",
-  "name": "Гном Доспех"
+  "text": "Бронированного гнома не собьют с ног даже мощные удары; уверенность Фарина повышает защиту союзников.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Гномья броня"
  },
  "Shield Bash": {
-  "text": "Удар щитом с оглушением (20 power).",
-  "src": "draft",
-  "name": "Щит Bash"
+  "text": "После удачного блока щитом можно ударить противника по голове, оглушив его.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Удар щитом"
  },
  "Mighty Reach": {
-  "text": "Увеличивает досягаемость двуручного оружия (20 power).",
-  "src": "draft"
+  "text": "Увеличивает радиус «мельницы», удара по земле и удара с размахом.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Сильный размах"
  },
  "Fortitude": {
-  "text": "+15 к максимальному здоровью за ранг.",
-  "src": "draft"
+  "text": "Боевой клич высвобождает резервы жизненной силы: здоровье гнома и соратников понемногу восстанавливается.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Стойкость"
  },
  "Sweeping Attack": {
-  "text": "Удар по всем врагам вокруг (15 power).",
-  "src": "draft"
+  "text": "Широченный удар, наносящий повреждения всем врагам в пределах досягаемости.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Удар с размахом"
  },
  "Battle Fury": {
-  "text": "Усиливает Sweeping Attack.",
-  "src": "draft",
-  "name": "Боевой Ярость"
+  "text": "Боевой клич повышает повреждения, наносимые Фарином и его товарищами.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Боевая ярость"
  },
  "Impact": {
-  "text": "Увеличивает урон Sweeping Attack (20 power).",
-  "src": "draft"
+  "text": "Увеличивает урон от смертоносной волны и сокрушительного удара.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Буря"
  },
  "Taunt": {
-  "text": "Провокация: враги атакуют Фарина (15 power).",
-  "src": "draft"
+  "text": "Боевой клич внушает трепет врагам: звуковая волна наносит урон и снижает защиту.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Провокация"
  },
  "Determination": {
-  "text": "+10% защиты при блоке за ранг.",
-  "src": "draft"
+  "text": "Сокращает время перезарядки всех активных способностей.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Решительность"
  },
  "Whirlwind": {
-  "text": "Вращающаяся атака по кругу (после Sweeping Attack, RT+X).",
-  "src": "draft"
+  "text": "Доступна только с мечом: после удара с размахом гном совершает ещё один разворот, шинкуя противников.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Мельница"
  },
  "Endurance": {
-  "text": "Выносливость: бонус к защите/здоровью (ветка Sweeping Attack).",
-  "src": "draft"
+  "text": "Усиливает регенерацию здоровья гнома.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Выносливость"
  },
  "Earthshaker": {
-  "text": "Землетрясение: удар по области (ветка Sweeping Attack).",
-  "src": "draft"
+  "text": "После удара с размахом (палица/топор/молот): Фарин бьёт оружием по земле, разбрасывая противников и сбивая их с ног.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Удар по земле"
  },
  "Crushing Blow": {
-  "text": "Тяжёлый удар по одной цели (RT+Y, 15 power).",
-  "src": "draft"
+  "text": "Гном со всей силы бьёт по врагу, нанося огромный урон одиночной цели; промахнуться несложно.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Сокрушительный удар"
  },
  "Crossbow Adept": {
-  "text": "+10% к урону арбалета за ранг.",
-  "src": "draft",
-  "name": "Арбалет Adept"
+  "text": "Фарин прикручивает к арбалету многозарядную обойму — резко возрастает скорострельность.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Опытный арбалетчик"
  },
  "Heavy Bolt": {
-  "text": "Прицельный выстрел арбалетом (20 power).",
-  "src": "draft"
+  "text": "С виду обычная стрела, но наносит урон куда больший, чем стандартная.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Тяжелая стрела"
  },
  "Retaliation": {
-  "text": "Возвращает часть урона атакующим.",
-  "src": "draft"
+  "text": "Во время действия боевого клича часть нанесённого Фарину урона возвращается атакующему.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Возмездие"
  },
  "Shield Charge": {
-  "text": "Бросок с щитом, сбивает врагов (20 power).",
-  "src": "draft",
-  "name": "Щит Charge"
+  "text": "Требует щита: гном резво сокращает дистанцию, роняя всех врагов на пути на землю и нанося им урон.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Щитовая атака"
  },
  "Abundant Harm": {
-  "text": "+15% к критическому урону за ранг.",
-  "src": "draft"
+  "text": "Во время действия боевого клича Фарин, атакуя одиночную цель, цепляет и всех врагов поблизости.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Необузданная ярость"
  },
  "Indomitable Spirit": {
-  "text": "Устойчивость к оглушению и замедлению.",
-  "src": "draft",
-  "name": "Indomitable Дух"
+  "text": "Позволяет рявкнуть на падающего союзника: тот встаёт полный сил и снова рвётся в бой.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Неукротимый дух"
  },
  "Explosive Bolt": {
   "text": "Взрывной болт по области.",
   "src": "draft"
  },
  "Crushing Wave": {
-  "text": "Crushing Blow поражает конус врагов.",
-  "src": "draft"
+  "text": "После сокрушительного удара взрывная волна наносит повреждения всем противникам рядом с целью.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Смертоносная волна"
  },
  "Battle-ready": {
-  "text": "Быстрее восстановление мощи после убийств.",
-  "src": "draft",
-  "name": "Боевой-ready"
+  "text": "Снижает расход энергии на способности во время действия боевого клича.",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html",
+  "name": "Боеготовность"
  },
  "Adamant": {
   "text": "Бонусы комплекта: 2 предм.: +25 Броня · 3 предм.: +30 Здоровье · 4 предм.: +80 Броня · 5 предм.: +50 Здоровье · 6 предм.: +150 Броня",
@@ -1525,5 +1564,17 @@
  "Iron Shod Shoe": {
   "src": "draft",
   "name": "Железный Shod Shoe"
+ },
+ "Eradan": {
+  "name": "Эрадан",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html"
+ },
+ "Farin": {
+  "name": "Фарин",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html"
+ },
+ "Andriel": {
+  "name": "Андриэль",
+  "src": "https://nerohelp.com/4030-the-lord-of-the-rings-war-in-the-north-guide.html"
  }
 }
