@@ -52,7 +52,7 @@
      "name": "Evasive Foe",
      "type": "passive",
      "max_rank": null,
-     "description": "Вероятность уклонения растёт при ношении лёгкой брони.",
+     "description": "Chance to evade increases while wearing light armor.",
      "note": "в вики не оформлено, из ручной сверки",
      "tier": 3
     }

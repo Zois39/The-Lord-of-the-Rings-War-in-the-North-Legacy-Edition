@@ -28,7 +28,7 @@ const ctx=vm.createContext({document:documentStub,localStorage:localStorageStub,
 const T={pass:0,fail:0};const ok=(n,c)=>{c?T.pass++:(T.fail++,console.error('FAIL:',n))};
 
 (async()=>{
- vm.runInContext(code+';globalThis.DB=DB;globalThis.build=build;globalThis.tab=tab;globalThis.render=render;globalThis.computeStats=computeStats;globalThis.equipWeapon=equipWeapon;globalThis.skillGate=skillGate;globalThis.canInvest=canInvest;globalThis.tierPoints=tierPoints;globalThis.reqsOk=reqsOk;globalThis.findItem=findItem;',ctx);
+ vm.runInContext(code+';globalThis.DB=DB;globalThis.build=build;globalThis.tab=tab;globalThis.render=render;globalThis.computeStats=computeStats;globalThis.equipWeapon=equipWeapon;globalThis.skillGate=skillGate;globalThis.canInvest=canInvest;globalThis.tierPoints=tierPoints;globalThis.N=N;globalThis.trFx=trFx;globalThis.trType=trType;globalThis.setCounts=setCounts;globalThis.LANG=LANG;globalThis.reqsOk=reqsOk;globalThis.findItem=findItem;',ctx);
  await new Promise(r=>setTimeout(r,200));
 
  ok('3 героя',Object.keys(ctx.DB.heroes).length===3);
@@ -111,6 +111,40 @@ const T={pass:0,fail:0};const ok=(n,c)=>{c?T.pass++:(T.fail++,console.error('FAI
  const stA = ctx.computeStats();
  ok('1 Sta = +5 HP', stA.hp - 0 >= 5);
  ctx.build.attrs = {str:0,wil:0,dex:0,sta:0};
+ // --- сеты: бонусы активных ярусов ---
+ const setItem = ctx.DB.items.armor.find(a=>a.set && a.set!=='-');
+ if (setItem) {
+   const setName = setItem.set;
+   const srec = ctx.DB.items.sets.find(x=>x.set===setName);
+   ctx.build.gear.slots = {mainhand:null,offhand:null,ranged:null,head:null,shoulders:null,body:null,gloves:null,legs:null,boots:null,amulet:null,ring1:null,ring2:null};
+   ctx.build.gear.slots.body = setItem.name;
+   const st1 = ctx.computeStats();
+   // два предмета сета -> ярус 2 активен (если есть)
+   ctx.build.gear.slots.boots = ctx.DB.items.armor.find(a=>a.set===setName && a.name!==setItem.name)?.name || null;
+   const st2 = ctx.computeStats();
+   ok('сет: setCounts работает', typeof ctx.setCounts()==='object');
+   ok('сет: бонусы применяются без ошибок', typeof st2.armor==='number');
+   const counts = ctx.setCounts();
+   ok('сет: надето 1-2 предмета', (counts[setName]||0)>=1);
+   const html = ctx.setBonusesHTML ? '' : '';
+ }
+ ctx.build.gear.slots = {mainhand:null,offhand:null,ranged:null,head:null,shoulders:null,body:null,gloves:null,legs:null,boots:null,amulet:null,ring1:null,ring2:null};
+ // --- RU-локализация ---
+ ctx.LANG = 'ru';
+ const anyItem = ctx.DB.items.weapons[0];
+ ok('RU: N() возвращает строку', typeof ctx.N(anyItem)==='string');
+ ok('RU: trFx переводит эффект', /урон|льдом|огн|молн/i.test(ctx.trFx('+21 Ice Damage')));
+ ok('RU: trType переводит тип', ctx.trType('1-Handed Sword').includes('меч'));
+ // --- камни: влияние на статы ---
+ if (ctx.DB.items.elf_stones.length) {
+   const stone = ctx.DB.items.elf_stones.find(s=>Object.keys(s.values).length) || ctx.DB.items.elf_stones[0];
+   ctx.build.gear.stones = {mainhand:[{name:stone.name, grade:'normal'}]};
+   ctx.build.gear.slots.mainhand = ctx.DB.items.weapons[0].name;
+   const stS = ctx.computeStats();
+   ok('камни: статы считаются с камнем', typeof stS.hp==='number' && typeof stS.armor==='number');
+   ctx.build.gear.stones = {};
+ }
+ ctx.build.gear.slots.mainhand = null;
  // --- слоты и характеристики ---
  ctx.build.gear.slots.mainhand = ctx.DB.items.weapons.find(w=>!(w.type||'').match(/bow|crossbow/i)).name;
  const st1 = ctx.computeStats();

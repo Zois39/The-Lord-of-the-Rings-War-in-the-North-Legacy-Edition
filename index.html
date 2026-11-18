@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>WITN: Legacy Edition — Build Builder</title>
 <style>
-:root{--bg:#1a1410;--bg2:#241c12;--panel:#2a2118;--panel2:#33291d;--panel3:#3a2f1e;--gold:#c9a227;--gold2:#e8c547;--brown:#8b4513;--text:#e8dcc8;--dim:#a89878;--dim2:#7a6a55;--red:#c0392b;--green:#27ae60;--blue:#2980b9;--purple:#8e44ad;--orange:#e67e22;--magic:#7fb0e0}
+:root{--bg:#12161d;--bg2:#161c26;--panel:#1b2330;--panel2:#222c3c;--panel3:#2a3648;--gold:#d4af37;--gold2:#e8c95a;--brown:#3a4a61;--text:#dde3ec;--dim:#93a1b5;--dim2:#6b7a8f;--red:#c0392b;--green:#27ae60;--blue:#2980b9;--purple:#9b59b6;--orange:#e67e22;--magic:#7fb0e0}
 *{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--text);font:14px/1.45 "Segoe UI",system-ui,sans-serif}
 a{color:var(--gold2)}
 header{display:flex;gap:10px;align-items:center;padding:10px 14px;background:var(--panel);border-bottom:2px solid var(--gold);flex-wrap:wrap}
@@ -46,9 +46,9 @@ main{display:grid;grid-template-columns:1fr 320px;gap:12px;padding:12px;max-widt
 .btn.sm:hover{border-color:var(--gold)}
 /* ячейки камней */
 .stone-row{display:flex;gap:6px;align-items:center;font-size:11px;color:var(--dim)}
-.stone-cell{width:22px;height:22px;border:1px dashed var(--dim2);border-radius:5px;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:12px;background:var(--bg)}
-.stone-cell.full{border-style:solid;border-color:var(--green);color:var(--gold2);background:rgba(39,174,96,.12)}
-.stone-cell:hover{border-color:var(--gold)}
+.stone-cell{width:36px;height:36px;border:2px dashed var(--purple);border-radius:7px;display:flex;align-items:center;justify-content:center;cursor:pointer;font-size:17px;background:rgba(155,89,182,.10);color:var(--purple)}
+.stone-cell.full{border-style:solid;border-color:var(--purple);color:#d8aef0;background:rgba(155,89,182,.28);box-shadow:0 0 6px rgba(155,89,182,.5)}
+.stone-cell:hover{border-color:#d8aef0;background:rgba(155,89,182,.22)}
 /* === карточка навыка === */
 .tree{border:1px solid var(--brown);border-radius:8px;margin-bottom:10px;overflow:hidden}
 .tree>header{display:flex;justify-content:space-between;padding:7px 10px;background:var(--panel2)}
@@ -114,6 +114,11 @@ footer{padding:10px 16px;color:var(--dim);font-size:11.5px;border-top:1px solid 
 .stone-pick{display:flex;justify-content:space-between;gap:8px;padding:7px 9px;border:1px solid var(--brown);border-radius:6px;margin-bottom:6px;cursor:pointer;font-size:12.5px}
 .stone-pick:hover{border-color:var(--gold);background:var(--panel2)}
 .stone-pick .gr{color:var(--dim);font-size:11px}
+.set-box{margin-top:2px;padding:7px 9px;background:rgba(212,175,55,.08);border:1px solid rgba(212,175,55,.35);border-radius:6px;font-size:11.5px}
+.set-tier{display:flex;gap:8px;padding:2px 0;align-items:baseline}
+.set-tier .st-n{flex:0 0 62px;color:var(--gold2);font-weight:600;font-size:10.5px}
+.set-tier.active{color:var(--text)}
+.set-tier.dim{opacity:.42}
 </style>
 </head>
 <body>
@@ -160,7 +165,7 @@ const BASE_ATTRS={Eradan:{str:11,dex:12,sta:10,wil:9},Farin:{str:12,dex:9,sta:11
 const POWER_BASE={Eradan:43,Farin:43,Andriel:89};
 const ATTRS=["str","wil","dex","sta"];
 const ATTRKEY={strength:"str",will:"wil",dexterity:"dex",stamina:"sta"};
-const tab={cur:"skills",eqType:"weapons",q:"",qual:"Все",armorSlot:"Все"};
+const tab={cur:"skills",eqType:"weapons",q:"",qual:"Все",armorSlot:"Все",setFilter:""};
 
 /* ================= ДАННЫЕ ================= */
 function setStage(txt,pct){const s=document.getElementById("ldStage"),f=document.getElementById("ldFill");
@@ -201,6 +206,51 @@ function icon(rec,glyph){
 function skillPoints(){return Object.values(build.skills).reduce((a,s)=>a+(s.rank||0),0)}
 function attrPoints(){return ATTRS.reduce((a,k)=>a+build.attrs[k],0)}
 
+
+/* ================= RU-ЛОКАЛИЗАЦИЯ ИМЁН И ЭФФЕКТОВ ================= */
+function N(rec){ // локализованное имя
+ if(!rec)return "";
+ const key=rec.name||rec.set||"";
+ if(LANG==="ru"&&RU_DESC&&RU_DESC[key]&&RU_DESC[key].name)return RU_DESC[key].name;
+ return key;}
+const FX_PHRASES=[
+["Reduced Wear","износ"],["Critical Hit Chance","крит. шанс"],["Critical Chance","крит. шанс"],
+["Move Speed","скорость передвижения"],["Stamina Cost","расход выносливости"],
+["Cold Protection","защита от холода"],["Heat Protection","защита от жары"],
+["Physical Resist","физ. сопротивление"],["Fire Resist","огн. сопротивление"],["Ice Resist","лед. сопротивление"],
+["Shock Resist","сопр. молнии"],["Poison Resist","сопр. яду"],["Light Resist","сопр. свету"],["Shadow Resist","сопр. тьме"],
+["Stun When Struck","оглушение при ударе"],["Chance to Find","шанс найти"],["Elf Stone Slots","слоты камней"],
+["per kill","за убийство"],["Shock Damage","урон молнией"],["Ice Damage","урон льдом"],["Fire Damage","урон огнём"],
+["Poison Damage","урон ядом"],["Light Damage","урон светом"],["Shadow Damage","урон тьмой"],["Physical Damage","физ. урон"],
+["Critical Damage","крит. урон"],["Reduced Damage","уменьшение урона"],["Chance","шанс"],["Damage","урон"],
+["Armor","броня"],["Health","здоровье"],["Power","мощь"],["Will","воля"],["Willpower","воля"],
+["Strength","сила"],["Dexterity","ловкость"],["Stamina","выносливость"],["Protection","защита"],
+["Resistance","сопротивление"],["Resist","сопр."],["XP","опыт"],["Increased","↑"],["Reduced Wear","износ"],
+["Find","найти"],["Stones","камни"],["Stone","камень"],["Speed","скорость"],["Cost","расход"],
+["Healing","исцеление"],["Regen","восстановление"],["Restoration","восстановление"]];
+function trFx(s){
+ if(LANG!=="ru"||!s)return s;
+ let out=String(s);
+ for(const [en,ru2] of FX_PHRASES){out=out.replace(new RegExp("\\b"+en.replace(/ /g,"\\s+")+"\\b","gi"),ru2);}
+ out=out.replace(/\bFire\b/g,"огонь").replace(/\bIce\b/g,"лёд").replace(/\bShock\b/g,"молния")
+  .replace(/\bPoison\b/g,"яд").replace(/\bLight\b/g,"свет").replace(/\bShadow\b/g,"тьма")
+  .replace(/\bPhysical\b/g,"физ.").replace(/\bWhen\s+Struck\b/g,"при ударе").replace(/\bStun\b/g,"оглушение")
+  .replace(/\bPouch\b/g,"кошель").replace(/\bPouches\b/g,"кошели");
+ return out;}
+const TYPE_RU={"1-Handed Sword":"меч · 1 рука","1-Handed Axe":"топор · 1 рука","1-Handed Blunt":"ударное · 1 рука",
+"2-Handed Sword":"меч · 2 руки","2-Handed Axe":"топор · 2 руки","2-Handed Blunt":"ударное · 2 руки",
+"Bow":"лук","Crossbow":"арбалет","Staff":"посох","Shield":"щит",
+"Standard Quality":"обычное кач.","High Quality":"высокое кач.","Masterwork Quality":"мастерское кач.",
+"Common":"обычный","Uncommon":"необычный","Rare":"редкий","Epic":"эпический","Legendary":"легендарный",
+"Headpiece":"голова","Shoulders":"плечи","Body":"тело","Gloves":"перчатки","Leggings":"поножи","Boots":"сапоги",
+"Rings":"кольцо","Amulets":"амулет","Ring":"кольцо","Amulet":"амулет"};
+function trType(s){
+ if(LANG!=="ru"||!s)return s;
+ return String(s).split("|").map(x=>{const k=x.trim();
+  if(TYPE_RU[k])return TYPE_RU[k];
+  for(const en in TYPE_RU){if(new RegExp("\\b"+en+"\\b").test(k))return k.replace(new RegExp("\\b"+en+"\\b"),TYPE_RU[en]);}
+  return trFx(k);}).join(" | ");}
+
 /* ================= ТИРЫ ================= */
 function treePoints(t){return t.skills.reduce((a,x)=>a+((build.skills[x.name]||{}).rank||0),0);}
 function tierPoints(t,n){return t.skills.reduce((a,x)=>a+(((x.tier||1)===n)?((build.skills[x.name]||{}).rank||0):0),0);}
@@ -213,6 +263,23 @@ function skillGate(sk,t){
 function canInvest(sk,t){const g=skillGate(sk,t);return g.has>=g.need;}
 
 /* ================= ХАРАКТЕРИСТИКИ ================= */
+const ITEM_SET_EXTRA={"Stalker´s Gauntlets":"Stalker"};
+function getSetOf(rec){
+ if(!rec)return null;
+ if(rec.set&&rec.set!=="-"&&rec.set!=="")return rec.set;
+ return ITEM_SET_EXTRA[rec.name]||null;}
+function setCounts(){
+ const c={};
+ for(const k of SLOTORDER){const s=getSetOf(findItem(build.gear.slots[k]));if(s)c[s]=(c[s]||0)+1;}
+ return c;}
+function setBonusesHTML(setName,counts){
+ const s=(DB.items.sets||[]).find(x=>x.set===setName);if(!s)return"";
+ const n=counts[setName]||0;
+ return `<div class="set-box"><div class="fx-t" style="font-size:10px;letter-spacing:1px">НАБОР: ${esc(setName)} · надето ${n}</div>`+
+  Object.entries(s.bonuses).map(([tier,bonus])=>{
+   const t=+tier;const active=n>=t;
+   return `<div class="set-tier ${active?"active":"dim"}"><span class="st-n">${t} предм.</span><span>${esc(trFx(bonus))}</span></div>`;}).join("")+`</div>`;}
+
 function findItem(name){
  if(!name)return null;
  for(const f of["weapons","armor","best_gear","boss_loot"])
@@ -261,6 +328,17 @@ function computeStats(){
    if(ss.key==="armor")acc.armor+=+ss.value||0;
    else if(ss.key==="hp")acc.hp+=+ss.value||0;
    else if(ss.key&&eff[ss.key]!==undefined)eff[ss.key]+=+ss.value||0;
+  }
+ }
+ // бонусы сетов (активные ярусы)
+ const sc=setCounts();
+ for(const sn in sc){
+  const s=(DB.items.sets||[]).find(x=>x.set===sn);if(!s)continue;
+  for(const [tier,bonus] of Object.entries(s.bonuses)){
+   if(sc[sn]>=+tier){const e=parseEffects({effect:bonus});
+    for(const a of["str","wil","dex","sta"])eff[a]+=e[a];
+    acc.melee+=e.melee;acc.ranged+=e.ranged;acc.armor+=e.armor;acc.power+=e.power;acc.arrows+=e.arrows;acc.hp+=e.hp;
+    for(const el in e.elem)acc.elem[el]=(acc.elem[el]||0)+e.elem[el];}
   }
  }
  const q=(build.skills["Broad Quiver"]||{}).rank||0;
@@ -349,7 +427,7 @@ function renderSide(){
    const it=findItem(build.gear.slots[sl]);
    const stones=(build.gear.stones[sl]||[]);
    const stLine=stones.length?`<div class="mini-stones">${t("stoneSlot")}: ${stones.map(s=>esc(s.name)+(s.grade&&s.grade!=="normal"?"("+s.grade+")":"")).join(", ")}</div>`:"";
-   return `<div class="gear-slot" data-un="${sl}"><b>${t(SLOTI18N[sl]||sl)}:</b> ${it?esc(it.name):"<span style='color:var(--dim)'>—</span>"} ${it?'<span style="float:right">×</span>':""}${stLine}</div>`;}).join("");
+   return `<div class="gear-slot" data-un="${sl}"><b>${t(SLOTI18N[sl]||sl)}:</b> ${it?esc(LANG==="ru"?N(it):it.name):"<span style='color:var(--dim)'>—</span>"} ${it?'<span style="float:right">×</span>':""}${stLine}</div>`;}).join("");
  }
  el("side").innerHTML=h;
  document.querySelectorAll("[data-un]").forEach(x=>x.onclick=()=>{
@@ -380,7 +458,7 @@ function viewSkills(){
       const tech=`${s.type==="active"?"⚡ "+t("active"):"◈ "+t("passive")}${s.max_rank?" · "+t("upToRanks")+" "+s.max_rank+" "+t("ranks"):""}${s.cost?" · "+esc(s.cost):""}`;
       return `<div class="skill ${s.type==="active"?"act":""} ${cur?"sel":""} ${locked?"locked":""}" data-sk="${esc(s.name)}" data-max="${maxR}" data-tier="${tier}">
        ${icon(s,s.type==="active"?"⚡":"◈")}
-       <div style="flex:1"><div class="nm">${esc(s.name)}</div>
+       <div style="flex:1"><div class="nm">${esc(LANG==="ru"?(RU_DESC[s.name]&&RU_DESC[s.name].name)||s.name:s.name)}</div>
        <div class="meta">${tech}</div>
        <div class="ds">${esc(D(s)||s.description)}</div>
        ${s.note?`<div class="meta" style="color:var(--dim2)">⚠ ${esc(s.note)}</div>`:""}
@@ -404,7 +482,7 @@ function itemCard(r){
  if(r.dex_req)lines.push(["DEX req",r.dex_req]);
  if(r.wil_req)lines.push(["WIL req",r.wil_req]);
  if(r.sta_req)lines.push(["STA req",r.sta_req]);
- if(r.durability&&r.durability!=="-")lines.push(["Durability",esc(r.durability)]);
+ if(r.durability&&r.durability!=="-")lines.push(["Durability",r.durability==="?"?`<span title="уточняется">?</span>`:esc(r.durability)]);
  if(r.value!==undefined&&r.value!=="")lines.push(["Value",esc(r.value)]);
  const req=reqsOk(r);
  const statsHtml=lines.length?`<div class="item-stats">${lines.map(([l,v])=>`<div class="stat-line"><span class="stat-label">${l}</span><span class="stat-value">${v}</span></div>`).join("")}</div>`:"";
@@ -412,11 +490,12 @@ function itemCard(r){
  let fx=[];
  if(r.effect&&r.effect!=="-")fx.push(String(r.effect));
  if(r.bonuses){if(Array.isArray(r.bonuses))fx.push(...r.bonuses.map(String));else fx.push(...Object.entries(r.bonuses).map(([n,b])=>n+"pc: "+b));}
- const fxHtml=fx.length?`<div class="effects-box"><div class="fx-t">${t("effects")}</div>${fx.map(x=>`<div class="fx-line">${esc(x)}</div>`).join("")}</div>`:"";
+ const fxHtml=fx.length?`<div class="effects-box"><div class="fx-t">${t("effects")}</div>${fx.map(x=>`<div class="fx-line">${esc(trFx(x))}</div>`).join("")}</div>`:"";
  const src=r.source?`<div class="source-box">📦 ${t("source")}: ${esc(String(r.source).slice(0,80))}</div>`:"";
- const setLine=r.set?`<div class="item-set">⛓ ${t("set")}: ${esc(r.set)}</div>`:`${r.set&&r.set!==nm?"":""}`;
+ const mySet=getSetOf(r);
+ const setLine=mySet?setBonusesHTML(mySet,setCounts()):"";
  // камни
- const nslots=+r.slots||0;
+ const nslots=(r.slots&&String(r.slots).match(/^\d+$/))?+r.slots:0;
  const stones=(build.gear.stones[nm]||[]);
  let stoneHtml="";
  if(nslots>0){
@@ -440,7 +519,7 @@ function itemCard(r){
  }
  return `<div class="item-card ${isSel?"selected":""}">
   <div class="item-head">${icon(r,"🛡")}
-   <div class="item-title"><div class="item-name">${esc(nm)}</div><div class="item-type">${tyBadges}</div></div>
+   <div class="item-title"><div class="item-name">${esc(LANG==="ru"?N(r):nm)}</div><div class="item-type">${LANG==="ru"?esc(trType(ty)):tyBadges}</div></div>
   </div>
   ${statsHtml}
   ${fxHtml}
@@ -465,6 +544,16 @@ function viewGear(){
  if(tab.eqType==="armor"&&tab.qual!=="Все")rows=rows.filter(r=>r.quality===tab.qual+" Quality"||r.quality===tab.qual);
  if(tab.eqType==="armor"&&tab.armorSlot!=="Все")rows=rows.filter(r=>r.slot===tab.armorSlot);
  if(!rows.length)return h+`<p style='color:var(--dim)'>${t("noData")}</p>`;
+ if(tab.eqType==="sets"){
+  const all=(DB.items.armor||[]).concat(DB.items.best_gear||[]).filter(r=>getSetOf(r));
+  const names=[...new Set(all.map(r=>getSetOf(r)))].sort();
+  h+=`<div class="filters"><select id="setFilter"><option value="">${t("all")} (${all.length})</option>`+
+   names.map(n=>`<option ${tab.setFilter===n?"selected":""}>${esc(n)}</option>`).join("")+`</select></div>`;
+  let rows2=all;
+  if(tab.setFilter)rows2=all.filter(r=>getSetOf(r)===tab.setFilter);
+  if(q)rows2=rows2.filter(r=>JSON.stringify(r).toLowerCase().includes(q));
+  return h+`<div class="grid">`+rows2.map(itemCard).join("")+`</div>`;
+ }
  if(tab.eqType==="elf_stones"){
   return h+`<div class="grid">`+rows.map(r=>`<div class="item-card">
    <div class="item-head">${icon(r,"◆")}
@@ -501,7 +590,7 @@ function viewBuild(){
  const hero=DB.heroes[build.hero];const chosen=[];
  hero.trees.forEach(tr=>tr.skills.forEach(s=>{const r=(build.skills[s.name]||{}).rank||0;if(r)chosen.push({t:t.name,...s,rank:r})}));
  const st=computeStats();
- const gear=SLOTORDER.map(k=>build.gear.slots[k]&&`<span class="badge b">${t(SLOTI18N[k]||k)}: ${esc(build.gear.slots[k])}${(build.gear.stones[k]||[]).length?" ◆"+(build.gear.stones[k]||[]).length:""}</span>`).filter(Boolean).join(" ");
+ const gear=SLOTORDER.map(k=>build.gear.slots[k]&&`<span class="badge b">${t(SLOTI18N[k]||k)}: ${esc(LANG==="ru"?(N(findItem(build.gear.slots[k]))||build.gear.slots[k]):build.gear.slots[k])}${(build.gear.stones[k]||[]).length?" ◆"+(build.gear.stones[k]||[]).length:""}</span>`).filter(Boolean).join(" ");
  return `<h2>${t("build")}: ${build.hero}, ${t("level").toLowerCase()} ${build.level}</h2>
  <p style="color:var(--dim)">${t("skillpts")}: ${skillPoints()}/${build.level} · ${t("attrpts")}: ${attrPoints()}/${build.level*3}</p>
  ${statBlock(st)}
@@ -554,6 +643,7 @@ function bind(){
  document.querySelectorAll("[data-tp]").forEach(x=>x.onclick=()=>{tab.eqType=x.dataset.tp;tab.armorSlot="Все";render()});
  document.querySelectorAll("[data-ql]").forEach(x=>x.onclick=()=>{tab.qual=x.dataset.ql==="Все"?"Все":x.dataset.ql;render()});
  document.querySelectorAll("[data-as]").forEach(x=>x.onclick=()=>{tab.armorSlot=x.dataset.as;render()});
+ const sf=el("setFilter");if(sf)sf.onchange=()=>{tab.setFilter=sf.value;render()};
  const sq=el("search");if(sq){sq.oninput=()=>{tab.q=sq.value;render();const s2=el("search");
   s2.focus();s2.setSelectionRange(s2.value.length,s2.value.length)}}
  // экипировка
