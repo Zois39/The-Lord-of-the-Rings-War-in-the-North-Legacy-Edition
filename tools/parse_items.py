@@ -47,7 +47,7 @@ def tables(text):
     return out
 
 def sections(text):
-    parts = re.split(r"\n==\s*([^=]+?)\s*==\s*\n", text)
+    parts = re.split(r"(?:^|\n)==\s*([^=]+?)\s*==\s*\n", text)
     out = []
     for i in range(1, len(parts) - 1, 2):
         out.append((clean(parts[i]), parts[i + 1]))
