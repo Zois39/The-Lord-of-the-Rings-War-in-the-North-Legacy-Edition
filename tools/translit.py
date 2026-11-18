@@ -11,17 +11,24 @@ def translit(word):
     w = word.lower().replace("'","").replace("’","").replace("´","").replace("-","").replace("_","")
     out = []
     i = 0
+    start = True
     while i < len(w):
-        two = w[i:i+2]
-        matched = None
-        for dig, r in DIGRAPHS:
-            if two == dig:
-                matched = r; i += 2; break
-        if matched is None:
-            ch = w[i]
-            if ch in SINGLE:
-                matched = SINGLE[ch]; i += 1
-            else:
-                i += 1; continue
+        if w[i:i+3] == "sch":
+            matched = "ш"; i += 3
+        else:
+            two = w[i:i+2]
+            matched = None
+            for dig, r in DIGRAPHS:
+                if two == dig:
+                    matched = r; i += 2; break
+            if matched is None:
+                ch = w[i]
+                if ch in SINGLE:
+                    matched = SINGLE[ch]; i += 1
+                else:
+                    i += 1; continue
+                if ch == "e":
+                    matched = "э" if start else "е"
+        start = False
         out.append(matched)
     return ''.join(out).capitalize()
