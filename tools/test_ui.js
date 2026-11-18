@@ -60,7 +60,7 @@ const T={pass:0,fail:0};const ok=(n,c)=>{c?T.pass++:(T.fail++,console.error('FAI
  ctx.tab.cur='gear';ctx.render();
  const card=ctx.DB.items.weapons.find(w=>!(w.type||'').match(/bow|crossbow/i));
  ctx.build.gear.slots.mainhand=card.name;ctx.render();
- ok('выбор оружия (sel на карточке)',byId['content']._html.includes('sel'));
+ ok('выбор оружия (selected на карточке)',byId['content']._html.includes('selected'));
  ok('оружие в слоте mainhand',ctx.build.gear.slots.mainhand===card.name);
  ctx.tab.cur='build';ctx.render();
  ok('билд содержит оружие',byId['content']._html.includes(card.name));
