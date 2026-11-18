@@ -20,7 +20,7 @@ const documentStub={getElementById(id){return byId[id]||(byId[id]=makeEl('div'))
  querySelectorAll(){return[]},createElement(t){return makeEl(t)},execCommand(){},addEventListener(){}};
 const store={};
 const localStorageStub={getItem:k=>(k in store?store[k]:null),setItem:(k,v)=>{store[k]=String(v)},removeItem:k=>{delete store[k]}};
-const fetchStub=async(url)=>{const p=path.join(root,decodeURIComponent(url));
+const fetchStub=async(url)=>{url=url.split('?')[0];const p=path.join(root,decodeURIComponent(url));
  if(!fs.existsSync(p))throw new Error('404 '+url);
  return{json:async()=>JSON.parse(fs.readFileSync(p,'utf8'))}};
 const ctx=vm.createContext({document:documentStub,localStorage:localStorageStub,fetch:fetchStub,
