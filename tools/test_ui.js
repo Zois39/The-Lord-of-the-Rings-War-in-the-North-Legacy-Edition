@@ -28,7 +28,7 @@ const ctx=vm.createContext({document:documentStub,localStorage:localStorageStub,
 const T={pass:0,fail:0};const ok=(n,c)=>{c?T.pass++:(T.fail++,console.error('FAIL:',n))};
 
 (async()=>{
- vm.runInContext(code+';globalThis.DB=DB;globalThis.build=build;globalThis.tab=tab;globalThis.render=render;globalThis.computeStats=computeStats;globalThis.equipWeapon=equipWeapon;globalThis.skillGate=skillGate;globalThis.canInvest=canInvest;globalThis.treeGate=treeGate;globalThis.reqsOk=reqsOk;globalThis.findItem=findItem;',ctx);
+ vm.runInContext(code+';globalThis.DB=DB;globalThis.build=build;globalThis.tab=tab;globalThis.render=render;globalThis.computeStats=computeStats;globalThis.equipWeapon=equipWeapon;globalThis.skillGate=skillGate;globalThis.canInvest=canInvest;globalThis.tierPoints=tierPoints;globalThis.reqsOk=reqsOk;globalThis.findItem=findItem;',ctx);
  await new Promise(r=>setTimeout(r,200));
 
  ok('3 героя',Object.keys(ctx.DB.heroes).length===3);
@@ -73,21 +73,23 @@ const T={pass:0,fail:0};const ok=(n,c)=>{c?T.pass++:(T.fail++,console.error('FAI
  const heroE = ctx.DB.heroes['Eradan'];
  const t1 = heroE.trees[0];
  ok('тиры заданы', t1.skills.every(s=>typeof s.tier==='number'));
- const g1 = ctx.skillGate(t1.skills[4], t1); // ряд 3 -> нужно 6
- ok('гейт ряда 3 = 6', g1.need===6);
- ok('нельзя инвестировать без очков', ctx.canInvest(t1.skills[4], t1)===false);
+ const g2 = ctx.skillGate({tier:2,name:'x'}, t1);
+ ok('тир 2: нужен 1 очк в тире 1', g2.need===1);
+ ok('тир 2 закрыт без вложений', ctx.canInvest({tier:2,name:'x'}, t1)===false);
+ const g3 = ctx.skillGate({tier:3,name:'x'}, t1);
+ ok('тир 3: нужно 3 очка в тире 2', g3.need===3);
+ const g4 = ctx.skillGate({tier:4,name:'x'}, t1);
+ ok('тир 4: нужно 6 очков в тирах 2-3', g4.need===6);
+ // развилка: тир1 вкачан -> тир2 открыт; 3 очка в тире2 -> тир3
  ctx.build.skills[t1.skills[0].name]={rank:1};
- ctx.build.skills[t1.skills[1].name]={rank:2};
- ctx.build.skills[t1.skills[2].name]={rank:2};
- ctx.build.skills[t1.skills[3].name]={rank:1};
- ok('6 очков: ряд 3 открыт', ctx.canInvest(t1.skills[4], t1)===true);
- // Dual Wield снижает гейт Ranger Strike
- const t2 = heroE.trees[1];
- ctx.build.skills['Dual Wield']={rank:1};
- ok('DW: гейт 2', ctx.treeGate(t2)===2);
- ok('DW: ряд 2 нужно 2', ctx.skillGate(t2.skills[1], t2).need===2);
- ctx.build.skills['Dual Wield']={rank:0};
+ ok('тир 1 вкачан: тир 2 открыт', ctx.canInvest({tier:2,name:'x'}, t1)===true);
+ ctx.build.skills[t1.skills[1].name]={rank:3};
+ ok('3 очка в тире 2: тир 3 открыт', ctx.canInvest({tier:3,name:'x'}, t1)===true);
+ ok('без вложений в тир 3 тир 4 закрыт', ctx.canInvest({tier:4,name:'x'}, t1)===false);
+ ctx.build.skills[t1.skills[4].name]={rank:3};
+ ok('6 суммарно: тир 4 открыт', ctx.canInvest({tier:4,name:'x'}, t1)===true);
  ctx.build.skills={};
+ ok('tierPoints считает', ctx.tierPoints(t1,1)===0);
  // --- слоты и характеристики ---
  ctx.build.gear.slots.mainhand = ctx.DB.items.weapons.find(w=>!(w.type||'').match(/bow|crossbow/i)).name;
  const st1 = ctx.computeStats();
