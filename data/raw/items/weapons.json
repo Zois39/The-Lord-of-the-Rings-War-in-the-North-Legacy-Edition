@@ -189,7 +189,8 @@
   "durability": 110,
   "level_req": 40,
   "str_req": 40,
-  "origin": "Elf"
+  "origin": "Elf",
+  "local_image": "assets/images/weapons/Nargothrond_Blade.png"
  },
  {
   "name": "Second Age Longsword",
